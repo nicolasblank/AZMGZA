@@ -1,0 +1,3363 @@
+WEBVTT
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/20-0
+00:00:03.573 --> 00:00:08.021
+<v Nicolas Blank>Recording and transcription. Beautiful.
+Very good. All right.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/20-1
+00:00:08.021 --> 00:00:12.397
+<v Nicolas Blank>So as people trundle in,
+let me kick us off and just talk us</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/20-2
+00:00:12.397 --> 00:00:16.916
+<v Nicolas Blank>through why we are here today.
+First of all, welcome everyone.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/20-3
+00:00:16.916 --> 00:00:20.503
+<v Nicolas Blank>It's lovely,
+lovely to see everyone and I want to</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/20-4
+00:00:20.503 --> 00:00:23.013
+<v Nicolas Blank>celebrate the Shade success of the.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/25-0
+00:00:23.093 --> 00:00:27.683
+<v Nicolas Blank>South African Azure User Group.
+This picture was taken just a few minutes</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/25-1
+00:00:27.683 --> 00:00:31.777
+<v Nicolas Blank>before we started this.
+We have 2209 members in the South African</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/25-2
+00:00:31.777 --> 00:00:35.436
+<v Nicolas Blank>Azure User Group.
+Obviously not everyone's here on today's</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/25-3
+00:00:35.436 --> 00:00:38.413
+<v Nicolas Blank>call,
+otherwise it would be rowdier than it is.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/30-0
+00:00:38.813 --> 00:00:45.265
+<v Nicolas Blank>With Matthew and I talking, however,
+the South African Azure User Group is</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/30-1
+00:00:45.265 --> 00:00:51.544
+<v Nicolas Blank>part of the Azure Tech groups.
+We are one of 152 groups globally sharing</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/30-2
+00:00:51.544 --> 00:00:54.813
+<v Nicolas Blank>user group goodness between all of us.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/35-0
+00:00:55.573 --> 00:00:59.727
+<v Nicolas Blank>So what are we doing today?
+This is week 44 of 2025,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/35-1
+00:00:59.727 --> 00:01:05.527
+<v Nicolas Blank>and that puts into perspective how few
+shopping weeks you have left until</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/35-2
+00:01:05.527 --> 00:01:09.210
+<v Nicolas Blank>Christmas.
+If that didn't give you some panic,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/35-3
+00:01:09.210 --> 00:01:13.364
+<v Nicolas Blank>welcome to the call.
+Today in Azure Lunch and Learn,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/35-4
+00:01:13.364 --> 00:01:14.853
+<v Nicolas Blank>we are going to be.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/41-0
+00:01:15.053 --> 00:01:20.337
+<v Nicolas Blank>Talking about VS Code for IT Admins,
+exploring and managing Azure without</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/41-1
+00:01:20.337 --> 00:01:25.977
+<v Nicolas Blank>being a developer with Matthew Levy.
+In the rest of the week we have a program</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/41-2
+00:01:25.977 --> 00:01:31.403
+<v Nicolas Blank>for Tuesday, Wednesday and Thursday.
+Tuesday is equally delicious Data Deep</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/41-3
+00:01:31.403 --> 00:01:34.045
+<v Nicolas Blank>Dive,
+selecting the right Azure data</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/41-4
+00:01:34.045 --> 00:01:34.973
+<v Nicolas Blank>architecture.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/48-0
+00:01:35.053 --> 00:01:39.232
+<v Nicolas Blank>It is not database architecture,
+but data architecture.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/48-1
+00:01:39.232 --> 00:01:45.425
+<v Nicolas Blank>Little bit of a preview in terms of the
+goodness coming away. On Wednesday, Shaun,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/48-2
+00:01:45.425 --> 00:01:49.976
+<v Nicolas Blank>who is on the call,
+will be presenting Intrasuite, The Good,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/48-3
+00:01:49.976 --> 00:01:54.453
+<v Nicolas Blank>the Bad and the Ugly.
+Shaun Hardnick is also known as that.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/53-0
+00:01:54.653 --> 00:01:57.781
+<v Nicolas Blank>Lazy admin,
+and because he is so exceptionally clever</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/46-0
+00:01:54.733 --> 00:01:54.973
+<v tichman>4.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/53-1
+00:01:57.781 --> 00:02:00.620
+<v Nicolas Blank>and lazy,
+he likes to automate everything in his</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/53-2
+00:02:00.620 --> 00:02:03.400
+<v Nicolas Blank>life.
+Thursday special treat with Warren Dutoy,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/53-3
+00:02:03.400 --> 00:02:06.297
+<v Nicolas Blank>Azure Networking,
+choosing the right connectivity</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/53-4
+00:02:06.297 --> 00:02:10.120
+<v Nicolas Blank>architecture for your cloud.
+I want to call out the meetup group.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/53-5
+00:02:10.120 --> 00:02:13.653
+<v Nicolas Blank>However, if you are in this call,
+you do know where you are.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/55-0
+00:02:13.853 --> 00:02:17.706
+<v Nicolas Blank>Which is meetupcom, Azureusergrou,
+South Africa.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/55-1
+00:02:17.706 --> 00:02:20.773
+<v Nicolas Blank>I want to call out our code of conduct.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/60-0
+00:02:22.293 --> 00:02:25.500
+<v Nicolas Blank>In a nutshell,
+it means everyone is welcome,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/60-1
+00:02:25.500 --> 00:02:29.062
+<v Nicolas Blank>no one is allowed to be picked on,
+and if you do,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/60-2
+00:02:29.062 --> 00:02:32.340
+<v Nicolas Blank>you will no longer be part of the user
+group.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/60-3
+00:02:32.340 --> 00:02:37.043
+<v Nicolas Blank>We choose to include everyone of every
+type, orientation, flavor,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/60-4
+00:02:37.043 --> 00:02:42.173
+<v Nicolas Blank>or anything else that we can use as a
+descriptor because we love every.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/62-0
+00:02:42.253 --> 00:02:46.773
+<v Nicolas Blank>Everybody equally,
+except anyone who's rude to anybody else.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/67-0
+00:02:48.093 --> 00:02:52.358
+<v Nicolas Blank>I'd like to introduce Matthew.
+So Matthew is a solutions architect at</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/67-1
+00:02:52.358 --> 00:02:55.466
+<v Nicolas Blank>Threadscape,
+and I was going to read out the whole</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/67-2
+00:02:55.466 --> 00:03:00.279
+<v Nicolas Blank>with over eight years in IT consulting.
+Let me just say that Matthew is one of</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/67-3
+00:03:00.279 --> 00:03:04.971
+<v Nicolas Blank>the cleverest people that I know.
+He's been an MVP for security for a while.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/67-4
+00:03:04.971 --> 00:03:07.773
+<v Nicolas Blank>He's really,
+really good at solving problems.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/73-0
+00:03:07.853 --> 00:03:13.518
+<v Nicolas Blank>And doing that in a way that's repeatable.
+And since he embraced VS Code,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/73-1
+00:03:13.518 --> 00:03:19.872
+<v Nicolas Blank>I watched what Matthew did over time and
+how he kept on solving problems and again</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/73-2
+00:03:19.872 --> 00:03:25.766
+<v Nicolas Blank>in a repeatable manner. So I'm really,
+really delighted to introduce today's</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/73-3
+00:03:25.766 --> 00:03:27.373
+<v Nicolas Blank>session with Matthew.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/76-0
+00:03:27.693 --> 00:03:35.182
+<v Nicolas Blank>Matthew VS Code for IT admins exploring
+and managing Azure without being a</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/76-1
+00:03:35.182 --> 00:03:40.573
+<v Nicolas Blank>developer. And with that Matthew,
+I hand you the con.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/78-0
+00:03:41.133 --> 00:03:45.520
+<v Matthew Levy>Why, thank you, Nicolas.
+That was a brilliant introduction.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/78-1
+00:03:45.520 --> 00:03:49.542
+<v Matthew Levy>I I couldn't have done any better.
+Actually, that was.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/78-2
+00:03:49.542 --> 00:03:54.148
+<v Matthew Levy>I'm glad it's recorded.
+I'm going to have to go and steal that</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/77-0
+00:03:53.653 --> 00:03:53.973
+<v Nicolas Blank>Asia.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/78-3
+00:03:54.148 --> 00:03:56.853
+<v Matthew Levy>introduction. Thanks. Yeah. Yeah. So.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/79-0
+00:03:57.333 --> 00:04:03.853
+<v Matthew Levy>I I don't know how repeatable all of this
+stuff is going to be because it's a lot</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/79-1
+00:04:03.853 --> 00:04:08.464
+<v Matthew Levy>of it is in my head,
+so I don't have any slides to share.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/79-2
+00:04:08.464 --> 00:04:14.666
+<v Matthew Levy>So what I'm going to do is I'm going to
+kind of go through the basics of what</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/79-3
+00:04:14.666 --> 00:04:16.733
+<v Matthew Levy>I've got from VS Code and.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/81-0
+00:04:17.013 --> 00:04:23.100
+<v Matthew Levy>Then just show you some of the things
+that I use VS Code for in a day-to-day</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/81-1
+00:04:23.100 --> 00:04:27.210
+<v Matthew Levy>Azure kind of assessment.
+But before I get started,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/81-2
+00:04:27.210 --> 00:04:30.846
+<v Matthew Levy>maybe if you can use the show of hands.
+Nick,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/81-3
+00:04:30.846 --> 00:04:36.853
+<v Matthew Levy>you're jumping the gun there and putting
+up your hand. Yes, Nick, go ahead.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/83-0
+00:04:35.773 --> 00:04:39.264
+<v Nicolas Blank>I was going to ask you, Matthew,
+because I didn't in the beginning,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/83-1
+00:04:39.264 --> 00:04:42.652
+<v Nicolas Blank>and I apologize for that.
+How interactive do you want this to be?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/83-2
+00:04:42.652 --> 00:04:45.167
+<v Nicolas Blank>Do you?
+Are you happy for folks to come off mute</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/83-3
+00:04:45.167 --> 00:04:48.093
+<v Nicolas Blank>and scream questions at you?
+How do you want to do that?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/82-0
+00:04:45.773 --> 00:04:45.813
+<v Matthew Levy>Oh.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/84-0
+00:04:48.373 --> 00:04:52.687
+<v Matthew Levy>Yeah, so it's lunch and learn, right?
+So we're going to learn together.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/84-1
+00:04:52.687 --> 00:04:57.601
+<v Matthew Levy>So if anyone has got something that they
+want to say and point out that I'm doing</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/84-2
+00:04:57.601 --> 00:05:00.716
+<v Matthew Levy>something wrong or could be doing
+something better,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/84-3
+00:05:00.716 --> 00:05:03.053
+<v Matthew Levy>I also want to learn from this session.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/85-0
+00:05:05.933 --> 00:05:09.971
+<v Matthew Levy>So please come off mute and if you've got
+questions, come off mute.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/85-1
+00:05:09.971 --> 00:05:12.702
+<v Matthew Levy>I don't know that I'll necessarily.
+Actually,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/85-2
+00:05:12.702 --> 00:05:17.036
+<v Matthew Levy>I should be able to see the chat because
+I'm not sharing a a slide deck.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/85-3
+00:05:17.036 --> 00:05:21.133
+<v Matthew Levy>All I'm going to be sharing is my screen
+with VS Code and that's it.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/86-0
+00:05:21.533 --> 00:05:25.953
+<v Matthew Levy>So yeah, please,
+I'll I probably won't be able to answer</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/86-1
+00:05:25.953 --> 00:05:31.226
+<v Matthew Levy>in chat while I'm talking cause I'm I'm
+pretty bad at multitasking,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/86-2
+00:05:31.226 --> 00:05:36.653
+<v Matthew Levy>but sure we can pause and look at the
+chat and try and answer things.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/87-0
+00:05:36.893 --> 00:05:41.416
+<v Matthew Levy>So what I was,
+I see Nick is ferociously chatting.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/87-1
+00:05:41.416 --> 00:05:46.293
+<v Matthew Levy>Is that just to make sure that it's
+working? OK, cool.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/88-0
+00:05:42.293 --> 00:05:44.915
+<v Nicolas Blank>Indeed,
+and I'll help you with that chat as well.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/88-1
+00:05:44.915 --> 00:05:47.693
+<v Nicolas Blank>If there's a question,
+I'll stop you in your tracks.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/89-0
+00:05:48.293 --> 00:05:53.213
+<v Matthew Levy>OK,
+So what I was going to ask is by show of</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/89-1
+00:05:53.213 --> 00:05:58.571
+<v Matthew Levy>hands,
+how many people here work with Azure on a</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/89-2
+00:05:58.571 --> 00:05:59.773
+<v Matthew Levy>day-to-day?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/90-0
+00:06:04.453 --> 00:06:06.213
+<v Matthew Levy>Yay, I see 4/5.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/91-0
+00:06:08.173 --> 00:06:08.653
+<v Matthew Levy>6.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/92-0
+00:06:10.293 --> 00:06:16.354
+<v Matthew Levy>Thank you. All right,
+so so far I'm seeing a number of people</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/92-1
+00:06:16.354 --> 00:06:23.978
+<v Matthew Levy>and you can put your hands down again.
+How many of you people are slow to put</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/92-2
+00:06:23.978 --> 00:06:25.933
+<v Matthew Levy>your hands up, Jaco?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/93-0
+00:06:26.973 --> 00:06:30.733
+<v Matthew Levy>Very good. Thank you. No.
+How many of you are?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/94-0
+00:06:32.053 --> 00:06:33.253
+<v Matthew Levy>Develoers.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/95-0
+00:06:34.653 --> 00:06:41.860
+<v Matthew Levy>So you write code for a living. Aha. OK,
+so there's three people. So unfortunately,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/95-1
+00:06:41.860 --> 00:06:48.980
+<v Matthew Levy>this session's not for you because you'll
+probably have so many things that you'll</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/95-2
+00:06:48.980 --> 00:06:54.213
+<v Matthew Levy>want to correct me on.
+And how many of you are administered?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/96-0
+00:06:54.533 --> 00:07:00.918
+<v Matthew Levy>Administrators within environment.
+So and I know that develoers are</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/96-1
+00:07:00.918 --> 00:07:03.453
+<v Matthew Levy>administrators but like as.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/97-0
+00:07:04.933 --> 00:07:11.459
+<v Matthew Levy>Your kind of daily describes you have to
+administrate administer Azure</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/97-1
+00:07:11.459 --> 00:07:12.653
+<v Matthew Levy>environments.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/98-0
+00:07:14.173 --> 00:07:16.373
+<v Matthew Levy>Not so many of you.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/99-0
+00:07:18.013 --> 00:07:21.516
+<v Matthew Levy>OK, cool.
+And then I I guess final question is how</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/99-1
+00:07:21.516 --> 00:07:25.773
+<v Matthew Levy>many of you have got some experience with
+Visual Studio code?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/101-0
+00:07:30.453 --> 00:07:35.978
+<v Matthew Levy>Or another IDE. Oh, yay. Wow.
+Look at that. We can stop this now.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/101-1
+00:07:35.978 --> 00:07:41.586
+<v Matthew Levy>Stop this session. Let's go.
+Let's go and have some lunch. No, no,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/101-2
+00:07:41.586 --> 00:07:46.609
+<v Matthew Levy>that's brilliant.
+So there's a lot of people that have that</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/100-0
+00:07:41.933 --> 00:07:43.573
+<v Nicolas Blank>Don't be scared.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/101-3
+00:07:46.609 --> 00:07:47.613
+<v Matthew Levy>use VS code.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/102-0
+00:07:48.333 --> 00:07:53.824
+<v Matthew Levy>No, but that's brilliant.
+That just shows how sort of approachable</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/102-1
+00:07:53.824 --> 00:08:00.872
+<v Matthew Levy>it is, how easy it is to use it. You know,
+you just it's it's open source, it's free,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/102-2
+00:08:00.872 --> 00:08:05.133
+<v Matthew Levy>you download it,
+you install it and off you go and.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/104-0
+00:08:05.613 --> 00:08:11.505
+<v Matthew Levy>One of the things I experienced recently
+because my machine is pretty hardened and</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/104-1
+00:08:11.505 --> 00:08:14.628
+<v Matthew Levy>locked down.
+Even though I don't have admin</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/104-2
+00:08:14.628 --> 00:08:18.390
+<v Matthew Levy>permissions,
+I can still install VS Code and I could</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/104-3
+00:08:18.390 --> 00:08:22.294
+<v Matthew Levy>still install Git and do everything that
+I need to do.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/104-4
+00:08:22.294 --> 00:08:25.133
+<v Matthew Levy>I don't need to be a local admin on the.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/105-0
+00:08:25.253 --> 00:08:28.773
+<v Matthew Levy>Machine. So that's great.
+From a security perspective,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/105-1
+00:08:28.773 --> 00:08:30.693
+<v Matthew Levy>I'm really hay about that, OK?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/106-0
+00:08:31.693 --> 00:08:35.012
+<v Matthew Levy>So I'm going to show you some of the
+things.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/106-1
+00:08:35.012 --> 00:08:39.290
+<v Matthew Levy>I've got five or six things that I just
+want to show you,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/106-2
+00:08:39.290 --> 00:08:43.421
+<v Matthew Levy>and then it's more of a learning session
+for all of us,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/106-3
+00:08:43.421 --> 00:08:46.813
+<v Matthew Levy>so we can explore and try a couple of
+things.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/107-0
+00:08:47.253 --> 00:08:52.100
+<v Matthew Levy>Maybe they'll work,
+maybe they won't work because I'm going</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/107-1
+00:08:52.100 --> 00:08:58.400
+<v Matthew Levy>to lean on some of the GitHub copilot
+functionality and we'll see how what we</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/107-2
+00:08:58.400 --> 00:09:03.973
+<v Matthew Levy>can do. Just before I share my screen,
+I do in my current role I do.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/108-0
+00:09:06.653 --> 00:09:10.358
+<v Matthew Levy>A number of Azure assessments where I'm
+assessing other customers,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/108-1
+00:09:10.358 --> 00:09:12.293
+<v Matthew Levy>Azure environments, assessing them.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/109-0
+00:09:14.213 --> 00:09:19.239
+<v Matthew Levy>According to the Cloud Adoption framework
+or the well architected framework.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/109-1
+00:09:19.239 --> 00:09:22.764
+<v Matthew Levy>So you know,
+making sure that things align with Cloud</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/109-2
+00:09:22.764 --> 00:09:27.398
+<v Matthew Levy>Adoption Framework for Azure.
+And so you'll see a number of the things</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/109-3
+00:09:27.398 --> 00:09:32.293
+<v Matthew Levy>that I'll show on screen that PowerShell,
+that's the other thing I didn't.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/110-0
+00:09:33.893 --> 00:09:39.150
+<v Matthew Levy>Mention on being an IT admin,
+I use PowerShell a lot,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/110-1
+00:09:39.150 --> 00:09:46.355
+<v Matthew Levy>so I don't know any other languages.
+I meant to get skilled up on Python,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/110-2
+00:09:46.355 --> 00:09:52.293
+<v Matthew Levy>but I just haven't gotten around to it.
+So PowerShell is my.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/111-0
+00:09:52.333 --> 00:09:53.573
+<v Matthew Levy>Scripting language of choice.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/112-0
+00:09:58.213 --> 00:10:03.780
+<v Matthew Levy>So you'll see a bunch of PowerShell.
+It's stuff that I actually use and some</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/112-1
+00:10:03.780 --> 00:10:08.117
+<v Matthew Levy>of it I created myself,
+some of it it's borrowed from other</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/112-2
+00:10:08.117 --> 00:10:11.370
+<v Matthew Levy>people,
+and some of it's stuff that I've had</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/112-3
+00:10:11.370 --> 00:10:12.093
+<v Matthew Levy>generated.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/113-0
+00:10:12.173 --> 00:10:12.253
+<v Matthew Levy>Um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/114-0
+00:10:15.773 --> 00:10:17.613
+<v Matthew Levy>OK, so I'm going to share my screen.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/118-0
+00:10:26.093 --> 00:10:26.493
+<v Matthew Levy>OK, so.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/124-0
+00:10:29.573 --> 00:10:37.387
+<v Matthew Levy>The first thing I want to show you,
+this is just a sort of a default VS code</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/124-1
+00:10:37.387 --> 00:10:44.693
+<v Matthew Levy>and you can see that it's it's opened the
+getting started welcome page.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/127-0
+00:10:44.693 --> 00:10:49.640
+<v Matthew Levy>Sometimes I like to go back to this and
+run some of the things,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/127-1
+00:10:49.640 --> 00:10:54.973
+<v Matthew Levy>but you can close it often and say never
+show this thing again, but.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/128-0
+00:10:56.333 --> 00:10:59.013
+<v Matthew Levy>What I've got in this profile.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/133-0
+00:11:00.933 --> 00:11:06.904
+<v Matthew Levy>Is I've got some extensions installed and
+what's useful from an Azure perspective,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/133-1
+00:11:06.904 --> 00:11:12.227
+<v Matthew Levy>especially when it comes to evaluating
+and assessing and seeing what's in</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/133-2
+00:11:12.227 --> 00:11:15.824
+<v Matthew Levy>somebody's tenant,
+is all these Azure extensions.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/133-3
+00:11:15.824 --> 00:11:18.413
+<v Matthew Levy>We know VS Code is quite extendable.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/138-0
+00:11:18.853 --> 00:11:23.890
+<v Matthew Levy>With all extensions,
+I typically go for trusted publishers of</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/138-1
+00:11:23.890 --> 00:11:27.465
+<v Matthew Levy>extensions,
+so Microsoft being one of them.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/138-2
+00:11:27.465 --> 00:11:33.476
+<v Matthew Levy>And there's also something called
+extension packs, which you'll see here,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/138-3
+00:11:33.476 --> 00:11:37.213
+<v Matthew Levy>this Azure Virtual. Sorry,
+not Azure Virtual.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/142-0
+00:11:37.693 --> 00:11:41.776
+<v Matthew Levy>Azure Tools is an extension pack,
+so if I click on it,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/142-1
+00:11:41.776 --> 00:11:45.859
+<v Matthew Levy>it actually has 12 extensions all within
+the one pack,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/142-2
+00:11:45.859 --> 00:11:51.574
+<v Matthew Levy>so I've only had to install the Azure
+Tools extension pack and then it comes</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/142-3
+00:11:51.574 --> 00:11:53.133
+<v Matthew Levy>with all these other.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/144-0
+00:11:53.373 --> 00:11:57.580
+<v Matthew Levy>Extensions. Now,
+I don't use all of these extensions,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/144-1
+00:11:57.580 --> 00:12:00.773
+<v Matthew Levy>but they're useful in various situations.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/149-0
+00:12:02.373 --> 00:12:09.148
+<v Matthew Levy>I go away there's there's or actually
+it's better on the left hand side to show</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/149-1
+00:12:09.148 --> 00:12:13.128
+<v Matthew Levy>you.
+So Azure Resources is quite handy because</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/149-2
+00:12:13.128 --> 00:12:17.870
+<v Matthew Levy>that'll you know,
+be able to show me in a tree view the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/149-3
+00:12:17.870 --> 00:12:19.733
+<v Matthew Levy>resources that I have.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/154-0
+00:12:20.573 --> 00:12:25.037
+<v Matthew Levy>But it's limited to specific types of
+Azure resources.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/154-1
+00:12:25.037 --> 00:12:31.773
+<v Matthew Levy>The Azure Storage extension allows me to
+see Azure Storage accounts and connect to</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/154-2
+00:12:31.773 --> 00:12:37.453
+<v Matthew Levy>them, explore Azure Storage.
+I've got Azure Virtual Machines because.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/158-0
+00:12:37.733 --> 00:12:44.217
+<v Matthew Levy>I often have virtual virtual machines in
+environments and then we've got GitHub</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/158-1
+00:12:44.217 --> 00:12:49.160
+<v Matthew Levy>Copilot for Azure.
+Now that if you go into the Azure portal,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/158-2
+00:12:49.160 --> 00:12:53.293
+<v Matthew Levy>you've probably seen the GitHub Copilot
+for Azure.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/161-0
+00:12:53.973 --> 00:12:59.854
+<v Matthew Levy>Or a copilot for Azure.
+It's the same copilot essentially,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/161-1
+00:12:59.854 --> 00:13:05.933
+<v Matthew Levy>it's just surfaced in VS Code through the
+GitHub connection.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/165-0
+00:13:07.413 --> 00:13:11.874
+<v Matthew Levy>So there's some kind of samples of what's
+going on there,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/165-1
+00:13:11.874 --> 00:13:18.026
+<v Matthew Levy>and then obviously I've got the GitHub
+Copilot extensions so that I can do some</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/165-2
+00:13:18.026 --> 00:13:20.333
+<v Matthew Levy>of the GitHub code generation.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/169-0
+00:13:21.813 --> 00:13:26.611
+<v Matthew Levy>Using GitHub Copilot and incidentally I
+use different models,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/169-1
+00:13:26.611 --> 00:13:30.944
+<v Matthew Levy>don't necessarily use the GPT models that
+are provided.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/169-2
+00:13:30.944 --> 00:13:35.973
+<v Matthew Levy>I sometimes switch to things like Claude,
+so I'll show you that.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/174-0
+00:13:37.373 --> 00:13:42.450
+<v Matthew Levy>And obviously PowerShell.
+I've got the PowerShell extension so it</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/174-1
+00:13:42.450 --> 00:13:48.450
+<v Matthew Levy>knows that I'm I'm writing PowerShell
+commandlets and so the formatting and I</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/174-2
+00:13:48.450 --> 00:13:54.296
+<v Matthew Levy>can run them within the terminal and
+Rainbow CSV is something I came across</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/174-3
+00:13:54.296 --> 00:13:55.373
+<v Matthew Levy>recently that.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/177-0
+00:13:55.453 --> 00:13:59.513
+<v Matthew Levy>If you create CSV files and you open them
+within VS Code,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/177-1
+00:13:59.513 --> 00:14:03.013
+<v Matthew Levy>it actually highlights them with some
+nice color.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/180-0
+00:14:05.053 --> 00:14:09.158
+<v Matthew Levy>Line, you know,
+it lines up the columns with colour and</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/180-1
+00:14:09.158 --> 00:14:14.874
+<v Matthew Levy>so it's easy to identify what goes what.
+So I mean that's useful for any CSV,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/180-2
+00:14:14.874 --> 00:14:16.853
+<v Matthew Levy>it's not just Azure, right?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/185-0
+00:14:18.213 --> 00:14:23.106
+<v Matthew Levy>And then you'll see I've got the
+Microsoft Docs MCP installed.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/185-1
+00:14:23.106 --> 00:14:28.231
+<v Matthew Levy>So that's a an MC model context protocol
+server that's installed,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/185-2
+00:14:28.231 --> 00:14:34.133
+<v Matthew Levy>but it's just for Microsoft Docs,
+so it makes a call to the Microsoft Docs.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/186-0
+00:14:34.413 --> 00:14:35.853
+<v Matthew Levy>MCP API.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/187-0
+00:14:37.333 --> 00:14:38.853
+<v Matthew Levy>So um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/192-0
+00:14:40.573 --> 00:14:44.383
+<v Matthew Levy>It's useful to have these extensions
+installed.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/192-1
+00:14:44.383 --> 00:14:48.827
+<v Matthew Levy>Obviously the other things that I that I
+do and I have,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/192-2
+00:14:48.827 --> 00:14:54.382
+<v Matthew Levy>I've intentionally made my VS code as
+bare bones as possible for this</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/192-3
+00:14:54.382 --> 00:14:55.493
+<v Matthew Levy>demonstration.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/196-0
+00:14:55.773 --> 00:15:00.954
+<v Matthew Levy>On the accounts section,
+so if I click on bottom left accounts,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/196-1
+00:15:00.954 --> 00:15:06.054
+<v Matthew Levy>I can sign into GitHub to use Copilot.
+So I typically do that.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/196-2
+00:15:06.054 --> 00:15:12.773
+<v Matthew Levy>So I'll click on that and that'll bring
+up my on my other window it's bringing up.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/198-0
+00:15:13.213 --> 00:15:19.413
+<v Matthew Levy>A browser with me signed in to GitHub.
+It's useful to have a GitHub account.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/203-0
+00:15:20.733 --> 00:15:26.160
+<v Matthew Levy>You don't. To use GitHub Copilot,
+you need to have a GitHub account,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/203-1
+00:15:26.160 --> 00:15:31.350
+<v Matthew Levy>so you'd have to have that.
+So I sign in and that should bring me</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/203-2
+00:15:31.350 --> 00:15:36.383
+<v Matthew Levy>back to VS Code signed in.
+And now you can see I'm signed in to</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/203-3
+00:15:36.383 --> 00:15:36.933
+<v Matthew Levy>GitHub.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/208-0
+00:15:39.653 --> 00:15:44.499
+<v Matthew Levy>The other thing that you can do,
+and it's not necessary for what I do,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/208-1
+00:15:44.499 --> 00:15:49.276
+<v Matthew Levy>but it's it's useful if you're going to
+use some of these extensions,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/208-2
+00:15:49.276 --> 00:15:52.961
+<v Matthew Levy>is to actually sign in to Azure.
+So if I go to Azure,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/208-3
+00:15:52.961 --> 00:15:56.373
+<v Matthew Levy>I'm not signed in at the moment,
+so I'm going to.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/209-0
+00:15:57.253 --> 00:15:59.973
+<v Matthew Levy>Allow Azure resources to sign in.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/211-0
+00:16:01.213 --> 00:16:06.053
+<v Matthew Levy>That's going to OUA prompt and I'll
+choose another account.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/213-0
+00:16:11.493 --> 00:16:11.853
+<v Matthew Levy>So.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/216-0
+00:16:15.573 --> 00:16:18.573
+<v Matthew Levy>Bear with me while I sign in Tye that
+long assword.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/220-0
+00:16:24.133 --> 00:16:30.376
+<v Matthew Levy>Now I don't want my organization to
+manage my entire machine,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/220-1
+00:16:30.376 --> 00:16:32.893
+<v Matthew Levy>I just want Vscode to be.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/225-0
+00:16:34.253 --> 00:16:38.621
+<v Matthew Levy>Signed in. OK,
+so now it's signing into Azure and so I</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/225-1
+00:16:38.621 --> 00:16:45.132
+<v Matthew Levy>can see subscriptions and I can expand on
+the subscriptions and see the resources</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/225-2
+00:16:45.132 --> 00:16:50.373
+<v Matthew Levy>that this extension supports.
+Azure resources extension supports.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/226-0
+00:16:51.693 --> 00:16:55.893
+<v Matthew Levy>Things like storage accounts and virtual
+machines and.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/228-0
+00:16:57.013 --> 00:16:59.053
+<v Matthew Levy>Whatever kinds of resources you have.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/229-0
+00:17:01.813 --> 00:17:01.893
+<v Matthew Levy>Um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/234-0
+00:17:03.773 --> 00:17:11.575
+<v Matthew Levy>With the GitHub sign in,
+I can also connect to GitHub repos or any</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/234-1
+00:17:11.575 --> 00:17:20.773
+<v Matthew Levy>source control repos for that matter.
+So if I go to the source control button.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/235-0
+00:17:21.253 --> 00:17:23.213
+<v Matthew Levy>I can clone a repo.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/240-0
+00:17:24.653 --> 00:17:30.984
+<v Matthew Levy>And at the top it's allowing me to enter
+a URL or clone from GitHub.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/240-1
+00:17:30.984 --> 00:17:37.590
+<v Matthew Levy>Because I'm signed in to GitHub,
+I can click on this remote sources and</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/240-2
+00:17:37.590 --> 00:17:39.333
+<v Matthew Levy>then it should see.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/241-0
+00:17:40.773 --> 00:17:41.813
+<v Matthew Levy>The Um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/246-0
+00:17:43.213 --> 00:17:50.362
+<v Matthew Levy>The repos that I have in my account so I
+can if I've got some stuff and often I do,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/246-1
+00:17:50.362 --> 00:17:55.298
+<v Matthew Levy>I've got PowerShell scripts and things in
+my GitHub repo.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/246-2
+00:17:55.298 --> 00:17:59.213
+<v Matthew Levy>Then I can go and use those,
+pull those down.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/250-0
+00:17:59.893 --> 00:18:07.967
+<v Matthew Levy>Tink them to my machine and this is where
+I would need the git extension so or the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/250-1
+00:18:07.967 --> 00:18:12.733
+<v Matthew Levy>git interpolation and that's let me just
+do git.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/254-0
+00:18:15.413 --> 00:18:22.673
+<v Matthew Levy>So you just Google git and install the
+latest version 2 point something and if</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/254-1
+00:18:22.673 --> 00:18:29.933
+<v Matthew Levy>you don't have it installed it'll tell
+you. So VS code is very cool like that.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/258-0
+00:18:30.013 --> 00:18:36.027
+<v Matthew Levy>With a lot of this stuff you'll see
+bottom right hand corner a little pop up</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/258-1
+00:18:36.027 --> 00:18:41.806
+<v Matthew Levy>telling you you need to sign in or you
+need this extension or you need to</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/258-2
+00:18:41.806 --> 00:18:46.413
+<v Matthew Levy>install git command line so that you can
+use git commands.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/261-0
+00:18:46.813 --> 00:18:50.013
+<v Matthew Levy>Within VS code,
+so it actually walks you through that</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/261-1
+00:18:50.013 --> 00:18:52.976
+<v Matthew Levy>process.
+I I don't think it's necessary for me to</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/261-2
+00:18:52.976 --> 00:18:56.413
+<v Matthew Levy>go through it because I've already done
+it on my machine.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/263-0
+00:19:00.693 --> 00:19:00.933
+<v Matthew Levy>Um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/267-0
+00:19:03.773 --> 00:19:07.521
+<v Matthew Levy>So it's busy trying to sign me into
+GitHub. I don't know.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/267-1
+00:19:07.521 --> 00:19:10.816
+<v Matthew Levy>That's to show resources. Uh,
+remote repositories.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/267-2
+00:19:10.816 --> 00:19:13.013
+<v Matthew Levy>Let me just move this out the way.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/269-0
+00:19:16.933 --> 00:19:23.213
+<v Matthew Levy>Don't know why it's taking so long. I can,
+like I said, any yes.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/271-0
+00:19:21.733 --> 00:19:24.271
+<v Nicolas Blank>Matt,
+we're only seeing the Rainbow CSV stuff</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/271-1
+00:19:24.271 --> 00:19:27.251
+<v Nicolas Blank>on your screen.
+I'm not sure if there's anything else</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/278-0
+00:19:26.813 --> 00:19:30.463
+<v Matthew Levy>Yeah, no, no, no.
+I'm sharing my entire screen.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/271-2
+00:19:27.251 --> 00:19:28.133
+<v Nicolas Blank>still happening.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/278-1
+00:19:30.463 --> 00:19:36.469
+<v Matthew Levy>So what was happening was it was down the
+bottom right hand corner of VS code.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/274-0
+00:19:36.253 --> 00:19:36.613
+<v Nicolas Blank>Mm.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/278-2
+00:19:36.469 --> 00:19:42.324
+<v Matthew Levy>Hopefully you could see that it was
+trying to authenticate to GitHub, which,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/275-0
+00:19:37.493 --> 00:19:37.973
+<v Nicolas Blank>Yes.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/278-3
+00:19:42.324 --> 00:19:45.973
+<v Matthew Levy>oh, it popped up on another screen,
+that's why.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/281-0
+00:19:46.333 --> 00:19:53.711
+<v Matthew Levy>For me to authorize that not finished.
+Would you like to try a different way?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/281-1
+00:19:53.711 --> 00:19:55.413
+<v Matthew Levy>Let's just say no.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/282-0
+00:19:56.853 --> 00:19:58.613
+<v Matthew Levy>And so um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/284-0
+00:20:00.093 --> 00:20:01.573
+<v Matthew Levy>Try that again. Sorry.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/286-0
+00:20:07.733 --> 00:20:09.253
+<v Matthew Levy>That's why it took so long.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/288-0
+00:20:11.813 --> 00:20:12.573
+<v Matthew Levy>There we go.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/292-0
+00:20:13.973 --> 00:20:18.951
+<v Matthew Levy>There we go.
+So now it's listing my the repos that are</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/292-1
+00:20:18.951 --> 00:20:26.010
+<v Matthew Levy>in my GitHub. OK, so I could choose that.
+Or what I've done many times is use</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/292-2
+00:20:26.010 --> 00:20:28.453
+<v Matthew Levy>somebody else's repos just.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/297-0
+00:20:28.853 --> 00:20:37.106
+<v Matthew Levy>Just because they've got useful content
+in them. One of them that I like to well,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/297-1
+00:20:37.106 --> 00:20:44.453
+<v Matthew Levy>no one that I cloned recently is the
+Maester repo from Merrill Fernando.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/295-0
+00:20:40.493 --> 00:20:40.933
+Yeah.
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/302-0
+00:20:45.413 --> 00:20:51.818
+<v Matthew Levy>So you just basically paste the URL from
+that repo into the clone repo and click</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/302-1
+00:20:51.818 --> 00:20:58.064
+<v Matthew Levy>clone from and then it creates a clone.
+It asks you where you want to store it</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/302-2
+00:20:58.064 --> 00:20:59.013
+<v Matthew Levy>locally, so.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/305-0
+00:21:00.693 --> 00:21:04.123
+<v Matthew Levy>You choose a folder locally,
+locally on the machine,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/305-1
+00:21:04.123 --> 00:21:09.493
+<v Matthew Levy>and then it'll store it wherever you've
+said, and so I've actually got the master.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/311-0
+00:21:11.053 --> 00:21:16.333
+<v Matthew Levy>Repo already cloned on my machine,
+so I'm not going to clone it again.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/311-1
+00:21:16.333 --> 00:21:22.505
+<v Matthew Levy>You can see if you clone something twice
+it'll like this Intune management folder.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/311-2
+00:21:22.505 --> 00:21:28.453
+<v Matthew Levy>I cloned it and then cloned it again.
+That was me being silly actually because.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/315-0
+00:21:28.973 --> 00:21:35.847
+<v Matthew Levy>I wanted to use the dev branch of this
+Intune management repo and I didn't want</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/315-1
+00:21:35.847 --> 00:21:40.144
+<v Matthew Levy>to mess with the branch that I had on my
+machine,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/315-2
+00:21:40.144 --> 00:21:45.213
+<v Matthew Levy>so I created a separate one only to
+realize later on that.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/319-0
+00:21:46.573 --> 00:21:51.514
+<v Matthew Levy>Once you've cloned the repo,
+you can switch to the branch from within</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/319-1
+00:21:51.514 --> 00:21:54.903
+<v Matthew Levy>VS code,
+but that's that's actually something I</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/319-2
+00:21:54.903 --> 00:21:58.573
+<v Matthew Levy>can show you towards the end if we get
+enough time.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/324-0
+00:22:02.573 --> 00:22:08.548
+<v Matthew Levy>So I'm not going to clone that repo at
+this stage. I just want to show.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/324-1
+00:22:08.548 --> 00:22:13.444
+<v Matthew Levy>Let's have a look at these VMS.
+These VMS are deallocated.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/324-2
+00:22:13.444 --> 00:22:19.253
+<v Matthew Levy>I can actually perform actions on these
+VMS from within here, so the.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/377-0
+00:22:31.845 --> 00:22:37.712
+<v Matthew Levy>Perform actions on resources without ever
+having to go to portal. So you know,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/377-1
+00:22:37.712 --> 00:22:43.133
+<v Matthew Levy>I've intentionally got these VMS
+deallocated so I can go ahead and start</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/377-2
+00:22:43.133 --> 00:22:47.960
+<v Matthew Levy>the VM if I wanted to.
+Not that I'm going to do anything with it</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/377-3
+00:22:47.960 --> 00:22:49.445
+<v Matthew Levy>right now, but just.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/383-0
+00:22:49.605 --> 00:22:53.052
+<v Matthew Levy>To show you,
+you can do things with Azure resources</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/383-1
+00:22:53.052 --> 00:22:54.245
+<v Matthew Levy>from within, yeah.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/384-0
+00:22:55.685 --> 00:22:55.845
+<v Matthew Levy>Um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/433-0
+00:23:00.885 --> 00:23:07.125
+<v Matthew Levy>What I'm going to show you now is the and
+and this is a a feature of VS Code.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/433-1
+00:23:07.125 --> 00:23:13.365
+<v Matthew Levy>It's not necessarily an Azure function or
+magic. That is the profiles, right?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/433-2
+00:23:13.365 --> 00:23:18.725
+<v Matthew Levy>And so I've got a number of profiles down
+here on the bottom left.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/476-0
+00:23:19.365 --> 00:23:25.224
+<v Matthew Levy>And I'm actually going to switch to the
+default profile and you'll see now that</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/476-1
+00:23:25.224 --> 00:23:30.644
+<v Matthew Levy>I've got a number of other extensions
+that are part of my default VS code</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/476-2
+00:23:30.644 --> 00:23:34.525
+<v Matthew Levy>installation,
+so there's some additional extensions.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/506-0
+00:23:37.165 --> 00:23:42.134
+<v Matthew Levy>And with profiles you can customize how
+it looks, what extensions show up,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/506-1
+00:23:42.134 --> 00:23:46.110
+<v Matthew Levy>which folders work with that profile,
+et cetera, et cetera.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/506-2
+00:23:46.110 --> 00:23:50.085
+<v Matthew Levy>And so one of the cool things I wanted to
+show you is if I.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/539-0
+00:23:50.525 --> 00:23:57.233
+<v Matthew Levy>I'm in the default profile,
+but I open a folder that I always use for</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/539-1
+00:23:57.233 --> 00:24:02.982
+<v Matthew Levy>Azure assessments.
+It changes automatically to that profile</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/539-2
+00:24:02.982 --> 00:24:07.965
+<v Matthew Levy>because of the folder.
+So if I go file open folder.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/541-0
+00:24:10.765 --> 00:24:11.325
+<v Matthew Levy>And.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/544-0
+00:24:13.205 --> 00:24:14.205
+<v Matthew Levy>Go here.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/546-0
+00:24:16.565 --> 00:24:16.805
+<v Matthew Levy>Oops.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/550-0
+00:24:18.085 --> 00:24:19.885
+<v Matthew Levy>And open this folder.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/582-0
+00:24:20.845 --> 00:24:28.508
+<v Matthew Levy>It automatically changed to that profile,
+so it's now live mode again and it's got</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/582-1
+00:24:28.508 --> 00:24:35.525
+<v Matthew Levy>those extensions that I need for the
+Azure assessment that I'm going to do.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/627-0
+00:24:36.125 --> 00:24:41.620
+<v Matthew Levy>And you can see down the bottom right
+it's kind of prompting me my PowerShell</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/627-1
+00:24:41.620 --> 00:24:46.199
+<v Matthew Levy>version is out of date,
+so I could install the latest version of</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/627-2
+00:24:46.199 --> 00:24:50.144
+<v Matthew Levy>7.5.4. I know 7.5.
+3 is OK and I can carry on using it,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/627-3
+00:24:50.144 --> 00:24:53.525
+<v Matthew Levy>but if I've got some time I could go
+ahead and.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/655-0
+00:24:54.525 --> 00:25:01.263
+<v Matthew Levy>Update the PowerShell version.
+I'm not gonna do that now on this call</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/655-1
+00:25:01.263 --> 00:25:06.943
+<v Matthew Levy>because you know,
+demo gods will probably not favor me and</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/655-2
+00:25:06.943 --> 00:25:09.445
+<v Matthew Levy>something will happen. Oh.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/667-0
+00:25:11.005 --> 00:25:16.520
+<v Matthew Levy>Tashman is asking if I can zoom in.
+I haven't figured out how to do that with</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/667-1
+00:25:16.520 --> 00:25:18.005
+<v Matthew Levy>VS code to be honest.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/674-0
+00:25:19.165 --> 00:25:22.445
+<v Matthew Levy>If anyone knows how to zoom VS code.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/677-0
+00:25:25.445 --> 00:25:26.765
+<v Matthew Levy>That would be useful.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/678-0
+00:25:28.845 --> 00:25:29.085
+<v Matthew Levy>You.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/688-0
+00:25:30.845 --> 00:25:35.965
+<v Matthew Levy>Appearance. Uh, full screen. Uh, zoom.
+There we go.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/689-0
+00:25:38.805 --> 00:25:38.885
+<v Matthew Levy>Huh.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/692-0
+00:25:40.245 --> 00:25:41.365
+<v Matthew Levy>We did it.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/697-0
+00:25:43.965 --> 00:25:45.605
+<v Matthew Levy>I get there now.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/707-0
+00:25:46.325 --> 00:25:49.405
+<v Nicolas Blank>I think on Windows you can also do.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/713-0
+00:25:48.085 --> 00:25:53.725
+<v Matthew Levy>Control control Lus equals control Lus
+minus.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/711-0
+00:25:51.645 --> 00:25:52.685
+<v Nicolas Blank>Yeah, yeah.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/726-0
+00:25:54.965 --> 00:25:58.275
+<v Matthew Levy>Control and equals.
+I was doing control zoom with the mouse,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/726-1
+00:25:58.275 --> 00:25:59.685
+<v Matthew Levy>so maybe that's why I was.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/731-0
+00:26:02.885 --> 00:26:05.805
+<v Matthew Levy>Look at that. Is that better?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/736-0
+00:26:06.965 --> 00:26:09.245
+<v Nicolas Blank>Better for me, it's age appropriate.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/748-0
+00:26:09.245 --> 00:26:13.613
+<v Matthew Levy>Yeah, OK,
+so should I start again now that everyone</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/748-1
+00:26:13.613 --> 00:26:14.285
+<v Matthew Levy>can see?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/751-0
+00:26:13.845 --> 00:26:15.845
+<v Nicolas Blank>Start everything from scratch, please.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/752-0
+00:26:15.445 --> 00:26:19.205
+<v Matthew Levy>Yeah, OK, so.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/790-0
+00:26:21.165 --> 00:26:26.845
+<v Matthew Levy>So what I showed you there was that
+profiles and and just going into the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/790-1
+00:26:26.845 --> 00:26:31.436
+<v Matthew Levy>profiles you can edit what folders open
+with that profile.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/790-2
+00:26:31.436 --> 00:26:36.805
+<v Matthew Levy>So let me just because my terminal is
+taking up a lot of space here.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/826-0
+00:26:37.365 --> 00:26:43.133
+<v Matthew Levy>You'll see that the folder that I'm in is
+part of this Azure assessment profiles,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/826-1
+00:26:43.133 --> 00:26:48.690
+<v Matthew Levy>but I could remove it and then it's not
+going to open this profile when I open</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/826-2
+00:26:48.690 --> 00:26:51.925
+<v Matthew Levy>that folder and then you can see I've got
+it.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/851-0
+00:26:52.365 --> 00:26:57.405
+<v Matthew Levy>A number of other folders that will open
+this type of profile.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/851-1
+00:26:57.405 --> 00:27:03.565
+<v Matthew Levy>Some other cool profiles that I've got
+are Doc Rioter which does a lot of so</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/851-2
+00:27:03.565 --> 00:27:06.845
+<v Matthew Levy>it's it's got markdown editors in it and.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/881-0
+00:27:07.445 --> 00:27:14.901
+<v Matthew Levy>Style checkers and editing tools so you
+can actually use this as a a replacement</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/881-1
+00:27:14.901 --> 00:27:21.344
+<v Matthew Levy>for writing documentation.
+So you don't necessarily need to use Word,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/881-2
+00:27:21.344 --> 00:27:23.645
+<v Matthew Levy>which I often fight with.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/927-0
+00:27:24.045 --> 00:27:31.517
+<v Matthew Levy>Another cool profile is the ISE mode.
+So if you are an admin that's used to</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/927-1
+00:27:31.517 --> 00:27:38.005
+<v Matthew Levy>PowerShell and using ISE,
+the ISE mode just it switches the color</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/927-2
+00:27:38.005 --> 00:27:43.805
+<v Matthew Levy>scheme and makes it look a lot more like
+ISE than VS Code.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/963-0
+00:27:44.005 --> 00:27:51.321
+<v Matthew Levy>Is pretty cool and I'm just I've got some
+other things that I'm playing around with.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/963-1
+00:27:51.321 --> 00:27:57.432
+<v Matthew Levy>So let me just show you some of the
+PowerShell stuff that I do and and</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/963-2
+00:27:57.432 --> 00:28:02.165
+<v Matthew Levy>obviously connecting to Azure to run
+PowerShell needs.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/968-0
+00:28:02.605 --> 00:28:06.805
+<v Matthew Levy>Um, the AZ PowerShell commandlets. Um, so.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/979-0
+00:28:07.965 --> 00:28:13.485
+<v Matthew Levy>I make sure that I've got the the AC
+module installed.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1035-0
+00:28:14.845 --> 00:28:18.311
+<v Matthew Levy>So that's something that if you try and
+run some of the commands,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1035-1
+00:28:18.311 --> 00:28:21.830
+<v Matthew Levy>you'll see that they won't work because
+you don't have the module.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1035-2
+00:28:21.830 --> 00:28:26.137
+<v Matthew Levy>So you just basically install the module.
+I'm going to connect to my tenant here.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1035-3
+00:28:26.137 --> 00:28:29.445
+<v Matthew Levy>It's just so what I'm doing is
+highlighting and then pressing.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1055-0
+00:28:30.725 --> 00:28:40.165
+<v Matthew Levy>F8 and that runs down the bottom in the
+terminal. I'll make it bigger, yes.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1082-0
+00:28:38.165 --> 00:28:41.572
+<v Nicolas Blank>Sorry Matt,
+is that your PowerShell or is the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1082-1
+00:28:41.572 --> 00:28:47.201
+<v Nicolas Blank>assessment PowerShell that you are
+looking at part of an external repo that</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1082-2
+00:28:47.201 --> 00:28:49.645
+<v Nicolas Blank>folks can come follow along with?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1070-0
+00:28:47.205 --> 00:28:47.405
+<v Matthew Levy>Hm.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1115-0
+00:28:49.565 --> 00:28:53.256
+<v Matthew Levy>This is mine.
+So this is something that I've got</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1115-1
+00:28:53.256 --> 00:28:59.356
+<v Matthew Levy>internally in a a repo because it's just
+a number of PowerShell things that I've</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1115-2
+00:28:59.356 --> 00:29:05.005
+<v Matthew Levy>put together in an in a one long file,
+but I'm, you know, there's nothing.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1145-0
+00:29:05.965 --> 00:29:13.850
+<v Matthew Levy>Secret in it, but I can't really share it.
+It's not really useful to anyone,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1126-0
+00:29:10.645 --> 00:29:11.645
+<v Nicolas Blank>Sure, sure.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1145-1
+00:29:13.850 --> 00:29:21.325
+<v Matthew Levy>so let me just authenticate here and
+you'll see now I'm connected to an.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1169-0
+00:29:21.565 --> 00:29:28.374
+<v Matthew Levy>A tenant and there's a subscription.
+This function that I've got here is just</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1169-1
+00:29:28.374 --> 00:29:35.445
+<v Matthew Levy>something that a colleague of mine wrote
+just to convert some things to markdown</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1169-2
+00:29:35.445 --> 00:29:36.405
+<v Matthew Levy>because we.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1181-0
+00:29:36.765 --> 00:29:42.365
+<v Matthew Levy>We provide reports with markdown and so
+I'm just going to run that function.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1194-0
+00:29:45.765 --> 00:29:50.506
+<v Matthew Levy>Because you'll see some of the other
+commands that are run.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1194-1
+00:29:50.506 --> 00:29:52.165
+<v Matthew Levy>Where is it later on?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1228-0
+00:29:55.485 --> 00:30:00.406
+<v Matthew Levy>Convert to Markdown.
+So I call that function and then I can</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1228-1
+00:30:00.406 --> 00:30:05.490
+<v Matthew Levy>paste what's on the clipboard into a
+brand new Markdown file.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1228-2
+00:30:05.490 --> 00:30:11.805
+<v Matthew Levy>It just makes it easier for reading in
+Markdown. So things that I can do is.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1242-0
+00:30:12.925 --> 00:30:19.940
+<v Matthew Levy>Just run a couple of commands to go and
+interrogate the tenant about the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1242-1
+00:30:19.940 --> 00:30:21.285
+<v Matthew Levy>subscriptions.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1275-0
+00:30:24.005 --> 00:30:30.148
+<v Matthew Levy>And what do we get back? Did we get any?
+Let's see subscriptions. Yeah,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1275-1
+00:30:30.148 --> 00:30:34.670
+<v Matthew Levy>there's one subscription and things that.
+So I mean,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1275-2
+00:30:34.670 --> 00:30:40.045
+<v Matthew Levy>I'm not going to go through all of the
+things that I run here.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1316-0
+00:30:41.645 --> 00:30:47.506
+<v Matthew Levy>It's up to you if you've got things in
+Azure that you want to specifically ask</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1316-1
+00:30:47.506 --> 00:30:51.067
+<v Matthew Levy>about. You know,
+there's the Azure commandlets,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1316-2
+00:30:51.067 --> 00:30:56.334
+<v Matthew Levy>the easy commandlets, and then I also,
+because I'm an identity person,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1316-3
+00:30:56.334 --> 00:30:58.485
+<v Matthew Levy>I do a lot of stuff on Entra.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1347-0
+00:30:59.525 --> 00:31:07.474
+<v Matthew Levy>Which means I need to connect to graph.
+So I have the graph PowerShell modules</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1347-1
+00:31:07.474 --> 00:31:15.221
+<v Matthew Levy>and I would do a connect MG graph if I
+need to do any sort of intra types of</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1347-2
+00:31:15.221 --> 00:31:15.925
+<v Matthew Levy>things.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1362-0
+00:31:16.165 --> 00:31:22.010
+<v Matthew Levy>Interrogate,
+ask for users in groups and things like</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1362-1
+00:31:22.010 --> 00:31:24.325
+<v Matthew Levy>that. OI can do that.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1406-0
+00:31:25.805 --> 00:31:31.790
+<v Matthew Levy>Some of this PowerShell script I've
+borrowed or I've written and I've just</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1406-1
+00:31:31.790 --> 00:31:35.301
+<v Matthew Levy>added to it.
+Some of it I used the Copilot,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1406-2
+00:31:35.301 --> 00:31:40.727
+<v Matthew Levy>the GitHub Copilot magic,
+which because I'm now signed into GitHub,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1406-3
+00:31:40.727 --> 00:31:41.285
+<v Matthew Levy>I have.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1422-0
+00:31:41.845 --> 00:31:49.182
+<v Matthew Levy>The copilot and in fact this thing has
+oed out on the right hand side,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1422-1
+00:31:49.182 --> 00:31:51.765
+<v Matthew Levy>so I can use this now to.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1465-0
+00:31:55.365 --> 00:32:00.533
+<v Matthew Levy>Do a number of things,
+and with the GitHub copilot you you've</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1465-1
+00:32:00.533 --> 00:32:06.617
+<v Matthew Levy>got the different modes you can ask,
+and that's very similar to like the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1465-2
+00:32:06.617 --> 00:32:12.285
+<v Matthew Levy>ChatGPT functionality where you're just
+having a conversation with.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1494-0
+00:32:12.885 --> 00:32:19.125
+<v Matthew Levy>Copilot and it's suggesting things and
+then you still need to go and copy the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1494-1
+00:32:19.125 --> 00:32:25.525
+<v Matthew Levy>code and paste it in your your script or
+you know, run sections of it yourself.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1512-0
+00:32:27.005 --> 00:32:31.424
+<v Matthew Levy>The other mode is the ask mode. Sorry,
+the agent mode.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1512-1
+00:32:31.424 --> 00:32:36.485
+<v Matthew Levy>I'm getting confused there the agent mode
+which will actually.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1521-0
+00:32:38.645 --> 00:32:44.365
+<v Matthew Levy>Execute the command so you can say I.
+In fact, let's let's try this.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1528-0
+00:32:45.325 --> 00:32:51.925
+<v Matthew Levy>I don't care about the the context, so.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1538-0
+00:32:54.125 --> 00:32:59.725
+<v Matthew Levy>I need a list of virtual machines in.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1541-0
+00:33:02.245 --> 00:33:03.925
+<v Matthew Levy>This tenant.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1567-0
+00:33:07.245 --> 00:33:16.239
+<v Matthew Levy>Use PowerShell to get the information.
+Let's see what it does.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1567-1
+00:33:16.239 --> 00:33:22.805
+<v Matthew Levy>I'm using Claude because I found that it
+has.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1601-0
+00:33:24.205 --> 00:33:29.652
+<v Matthew Levy>I just find better code comes out of
+Claude than the GitHub,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1601-1
+00:33:29.652 --> 00:33:35.278
+<v Matthew Levy>the the ChatGPT models,
+but it's really it's you're up to your</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1601-2
+00:33:35.278 --> 00:33:40.011
+<v Matthew Levy>preference.
+Try them and I think it's also dependent</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1601-3
+00:33:40.011 --> 00:33:40.725
+<v Matthew Levy>on what.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1610-0
+00:33:41.845 --> 00:33:47.445
+<v Matthew Levy>GitHub license.
+You have the ability to change models.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1619-0
+00:33:48.845 --> 00:33:52.645
+<v Matthew Levy>O I'm going to enable that and let's see.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1648-0
+00:33:54.205 --> 00:33:56.845
+<v Matthew Levy>What?
+I'll help you get a list of virtual</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1648-1
+00:33:56.845 --> 00:34:01.811
+<v Matthew Levy>machines in the tenant using PowerShell
+based on your existing script pattern.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1648-2
+00:34:01.811 --> 00:34:05.645
+<v Matthew Levy>I'll add a section. OK,
+so it's going to add a section to my</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1648-3
+00:34:05.645 --> 00:34:06.085
+<v Matthew Levy>script.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1682-0
+00:34:08.445 --> 00:34:12.066
+<v Matthew Levy>Virtual machines retrieve all virtual
+machines,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1682-1
+00:34:12.066 --> 00:34:18.328
+<v Matthew Levy>loop through all enabled subscriptions,
+get VM details, display the results. Cool.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1682-2
+00:34:18.328 --> 00:34:23.005
+<v Matthew Levy>And it's added it to that PowerShell
+assessment copy dot PS1.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1711-0
+00:34:23.565 --> 00:34:30.123
+<v Matthew Levy>You can see it's highlighted it there and
+now it hasn't actually run it,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1711-1
+00:34:30.123 --> 00:34:35.063
+<v Matthew Levy>but I can keep all of that and let's see
+what it does.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1711-2
+00:34:35.063 --> 00:34:39.285
+<v Matthew Levy>It's very big and zoomy for me,
+so let's just.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1745-0
+00:34:39.485 --> 00:34:47.885
+<v Matthew Levy>Maybe I can zoom out just a tad.
+So VMS for each sub in subs for each VM</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1745-1
+00:34:47.885 --> 00:34:56.285
+<v Matthew Levy>and like as an administrator who knows
+PowerShell, I'm going to kind of.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1769-0
+00:34:56.445 --> 00:35:01.821
+<v Matthew Levy>Cast my eye over it to see if it makes
+sense, but I don't have to.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1769-1
+00:35:01.821 --> 00:35:07.919
+<v Matthew Levy>I could just run it and see what happens.
+Then yeah, let's get up to there.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1769-2
+00:35:07.919 --> 00:35:09.925
+<v Matthew Levy>So format table, so if 8.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1823-0
+00:35:18.485 --> 00:35:23.392
+<v Matthew Levy>So it's looping through the subscriptions
+and then it's giving me the two virtual</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1823-1
+00:35:23.392 --> 00:35:27.701
+<v Matthew Levy>machines that I have listed and it's
+giving me some useful information,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1823-2
+00:35:27.701 --> 00:35:32.129
+<v Matthew Levy>the subscription, the resource.
+Now what I could do because I've got that</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1823-3
+00:35:32.129 --> 00:35:33.685
+<v Matthew Levy>convert to markdown table.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1834-0
+00:35:34.485 --> 00:35:40.808
+<v Matthew Levy>Now I've got a table there that
+PowerShell has outputted for me and</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1834-1
+00:35:40.808 --> 00:35:41.645
+<v Matthew Levy>actually.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1873-0
+00:35:43.645 --> 00:35:48.438
+<v Matthew Levy>GitHub Copilot knew that I used that
+function and added it so you can see it</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1873-1
+00:35:48.438 --> 00:35:52.919
+<v Matthew Levy>to actually put that convert to markdown
+table. I didn't even see that,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1873-2
+00:35:52.919 --> 00:35:56.343
+<v Matthew Levy>so that's brilliant.
+Let's run that and copy it to the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1873-3
+00:35:56.343 --> 00:35:56.965
+<v Matthew Levy>clipboard.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1906-0
+00:35:58.565 --> 00:36:04.039
+<v Matthew Levy>So that's done.
+So what I can do is then go file new file</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1906-1
+00:36:04.039 --> 00:36:08.570
+<v Matthew Levy>and select.
+It's a markdown file and just paste</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1906-2
+00:36:08.570 --> 00:36:14.138
+<v Matthew Levy>what's on my clipboard.
+So now that's a markdown file if I</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1906-3
+00:36:14.138 --> 00:36:15.365
+<v Matthew Levy>preview this.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1925-0
+00:36:16.085 --> 00:36:21.770
+<v Matthew Levy>Open preview. Oh look, it's nice.
+I can put that in a nice and I can add,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1925-1
+00:36:21.770 --> 00:36:27.224
+<v Matthew Levy>you know, different text to it.
+So it's it's a nice little output in a</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1925-2
+00:36:27.224 --> 00:36:27.685
+<v Matthew Levy>table.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1928-0
+00:36:30.045 --> 00:36:32.085
+<v Matthew Levy>Which is pretty cool.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1973-0
+00:36:35.245 --> 00:36:40.628
+<v Matthew Levy>And then if I were connected to,
+I'm not right now. If I go to, yeah,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1973-1
+00:36:40.628 --> 00:36:44.703
+<v Matthew Levy>source control,
+I'm not connected to source control,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/1973-2
+00:36:44.703 --> 00:36:50.085
+<v Matthew Levy>but because I've updated that assessment
+copy file, I could actually.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2009-0
+00:36:50.965 --> 00:36:54.554
+<v Matthew Levy>Oh,
+I like that change where it's gone and</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2009-1
+00:36:54.554 --> 00:37:01.399
+<v Matthew Levy>got the resources or the virtual machines.
+I can now save that and stage it to my</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2009-2
+00:37:01.399 --> 00:37:07.325
+<v Matthew Levy>local repo and then I can sync it which
+will push it up using the git.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2038-0
+00:37:07.725 --> 00:37:13.874
+<v Matthew Levy>Tool to the source, the remote repository,
+so my colleagues can then just pull</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2038-1
+00:37:13.874 --> 00:37:18.623
+<v Matthew Levy>assessment copy and they'll have an
+updated version with oh,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2038-2
+00:37:18.623 --> 00:37:22.125
+<v Matthew Levy>it's got stuff that'll get the VMS in
+there.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2040-0
+00:37:24.125 --> 00:37:26.445
+<v Matthew Levy>Which I think is pretty cool. Um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2062-0
+00:37:29.005 --> 00:37:32.959
+<v Matthew Levy>Yeah,
+so that's the the GitHub copilot stuff.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2062-1
+00:37:32.959 --> 00:37:37.085
+<v Matthew Levy>There's a lot more.
+I've done some things with.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2075-0
+00:37:39.285 --> 00:37:46.365
+<v Matthew Levy>And I suppose I would call this vibe
+coding where I've.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2086-0
+00:37:48.005 --> 00:37:52.725
+<v Matthew Levy>I was given or I was given a Jason file
+with.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2126-0
+00:37:53.765 --> 00:37:59.155
+<v Matthew Levy>Some configuration in it and I I I could
+read the Jason file,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2126-1
+00:37:59.155 --> 00:38:06.109
+<v Matthew Levy>but I didn't quite know how to provision
+something into Azure using those Jason</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2126-2
+00:38:06.109 --> 00:38:09.325
+<v Matthew Levy>Jason files and so I was able to get.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2139-0
+00:38:09.685 --> 00:38:15.645
+<v Matthew Levy>GitHub Copilot to write a script,
+a PowerShell script that would then.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2172-0
+00:38:16.405 --> 00:38:23.024
+<v Matthew Levy>Convert those Jason files into the
+correct formats for an ARM template or a</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2172-1
+00:38:23.024 --> 00:38:30.165
+<v Matthew Levy>bicep template that I could then deploy
+using PowerShell and it did it all using.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2203-0
+00:38:31.965 --> 00:38:36.895
+<v Matthew Levy>PowerShell. So it wrote.
+It converted the the JSON,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2203-1
+00:38:36.895 --> 00:38:44.574
+<v Matthew Levy>converted them to ARM templates or bicep
+templates and then I was able to deploy</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2203-2
+00:38:44.574 --> 00:38:46.565
+<v Matthew Levy>similarly with Entra.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2218-0
+00:38:47.005 --> 00:38:54.311
+<v Matthew Levy>And I might be able to show you that I've
+got things that I wanted to deploy into</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2218-1
+00:38:54.311 --> 00:38:54.845
+<v Matthew Levy>Entra.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2266-0
+00:38:57.405 --> 00:39:01.871
+<v Matthew Levy>Security groups,
+but they needed to be role based security</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2266-1
+00:39:01.871 --> 00:39:05.579
+<v Matthew Levy>groups.
+Now when you're creating security groups</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2266-2
+00:39:05.579 --> 00:39:09.288
+<v Matthew Levy>in Entra,
+if you want them to be role assignable</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2266-3
+00:39:09.288 --> 00:39:13.526
+<v Matthew Levy>groups, sorry,
+not role based role assignable groups in</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2266-4
+00:39:13.526 --> 00:39:15.645
+<v Matthew Levy>Entra, you can only do that.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2303-0
+00:39:15.725 --> 00:39:20.161
+<v Matthew Levy>When you're provisioning the group,
+creating the group,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2303-1
+00:39:20.161 --> 00:39:26.102
+<v Matthew Levy>you can't change that flag once a group
+exists. So I was, I was, you know,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2303-2
+00:39:26.102 --> 00:39:31.805
+<v Matthew Levy>kind of struggling through creating a
+group. Oh, I realized it's not a.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2340-0
+00:39:32.365 --> 00:39:36.333
+<v Matthew Levy>Role assignable group.
+I need to go and set the flag. Oh,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2340-1
+00:39:36.333 --> 00:39:42.011
+<v Matthew Levy>you can't set that because it's already
+provisioned. You have to delete the group.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2340-2
+00:39:42.011 --> 00:39:47.689
+<v Matthew Levy>So deleted the group and then had GitHub
+Copilot write a script for me to identify</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2340-3
+00:39:47.689 --> 00:39:49.125
+<v Matthew Levy>if the group existed.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2362-0
+00:39:49.485 --> 00:39:53.377
+<v Matthew Levy>Or not. And if it did, did I want?
+If it didn't,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2362-1
+00:39:53.377 --> 00:39:57.746
+<v Matthew Levy>did I want it to be role assignable or
+not? Yes or no?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2362-2
+00:39:57.746 --> 00:40:00.685
+<v Matthew Levy>And basically it ran a a nice little.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2380-0
+00:40:01.805 --> 00:40:07.962
+<v Matthew Levy>Interface that asked me questions and
+created these role assignable groups</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2380-1
+00:40:07.962 --> 00:40:11.245
+<v Matthew Levy>based off of some config files. Nicolas.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2382-0
+00:40:12.685 --> 00:40:14.885
+<v Nicolas Blank>Giving you your 10 minute warning.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2406-0
+00:40:14.845 --> 00:40:23.239
+<v Matthew Levy>OK, well, 10 minutes I am.
+There's there's not a lot more than I can</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2406-1
+00:40:23.239 --> 00:40:26.645
+<v Matthew Levy>show. I I I think we've got.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2436-0
+00:40:28.045 --> 00:40:34.041
+<v Matthew Levy>I want to try and show you the the role
+assignable group script that I wrote,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2436-1
+00:40:34.041 --> 00:40:39.191
+<v Matthew Levy>but I'm going to have to shift to or
+change to a different folder.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2436-2
+00:40:39.191 --> 00:40:40.805
+<v Matthew Levy>So let's open folder.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2441-0
+00:40:44.005 --> 00:40:47.045
+<v Matthew Levy>OK,
+let me just stop sharing while I find it.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2462-0
+00:40:54.445 --> 00:41:00.148
+<v Nicolas Blank>And while Matthew is looking for things,
+I'd like to encourage us to have any</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2462-1
+00:41:00.148 --> 00:41:03.365
+<v Nicolas Blank>questions in mind and and and don't be
+shy.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2460-0
+00:41:01.245 --> 00:41:01.645
+<v Matthew Levy>Mm.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2468-0
+00:41:05.005 --> 00:41:07.005
+<v Matthew Levy>Yeah, I'm already tired of talking.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2473-0
+00:41:23.325 --> 00:41:25.205
+<v Matthew Levy>Alrighty.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2476-0
+00:41:39.325 --> 00:41:39.605
+<v Matthew Levy>Alright.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2483-0
+00:41:43.765 --> 00:41:44.805
+<v Matthew Levy>Yeah, let me share my screen.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2484-0
+00:41:44.085 --> 00:41:45.485
+<v Blessing Bowora | Cyberlogic>So what are you looking for?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2526-0
+00:41:46.445 --> 00:41:50.047
+<v Blessing Bowora | Cyberlogic>Matthew,
+I was just gonna ask in terms of getting</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2495-0
+00:41:49.125 --> 00:41:49.365
+<v Matthew Levy>Yeah.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2526-1
+00:41:50.047 --> 00:41:54.442
+<v Blessing Bowora | Cyberlogic>the extensions for Azure,
+do you have to go and individually</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2502-0
+00:41:51.845 --> 00:41:52.285
+<v Matthew Levy>Hmm.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2526-2
+00:41:54.442 --> 00:41:59.845
+<v Blessing Bowora | Cyberlogic>install each and everyone of them or
+there's a pack where you can just OK.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2546-0
+00:41:57.885 --> 00:42:01.830
+<v Matthew Levy>No, there's a pack. Yeah, yeah,
+so absolutely.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2546-1
+00:42:01.830 --> 00:42:08.377
+<v Matthew Levy>So the Azure Tools pack is the the one
+that I use and and and this is similar</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2537-0
+00:42:05.045 --> 00:42:08.245
+<v Blessing Bowora | Cyberlogic>Oh, OK.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2546-2
+00:42:08.377 --> 00:42:12.405
+<v Matthew Levy>for anything really.
+There's even a PowerShell.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2547-0
+00:42:13.405 --> 00:42:13.525
+<v Blessing Bowora | Cyberlogic>So.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2576-0
+00:42:13.405 --> 00:42:18.795
+<v Matthew Levy>Pack. So there's a GitHub pack.
+There's there's all sorts. So yeah,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2576-1
+00:42:18.795 --> 00:42:25.295
+<v Matthew Levy>unless you've got individual extensions
+that you know you want and you want to go</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2576-2
+00:42:25.295 --> 00:42:26.325
+<v Matthew Levy>and get them.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2573-0
+00:42:27.245 --> 00:42:28.245
+<v Blessing Bowora | Cyberlogic>Yeah.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2606-0
+00:42:27.445 --> 00:42:33.626
+<v Matthew Levy>You do that or install packs. So yeah,
+I I I like packs and you can create your</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2606-1
+00:42:33.626 --> 00:42:38.030
+<v Matthew Levy>own packs even.
+So if you know of extensions for VS code</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2606-2
+00:42:38.030 --> 00:42:42.125
+<v Matthew Levy>that you always need,
+you can create your own packs.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2618-0
+00:42:42.165 --> 00:42:46.773
+<v Matthew Levy>I don't know if I can show you how to do
+that now,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2618-1
+00:42:46.773 --> 00:42:49.845
+<v Matthew Levy>but because it's been a long time.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2651-0
+00:42:47.525 --> 00:42:50.968
+<v Blessing Bowora | Cyberlogic>Yeah, I guess. Thanks for confirming that.
+It's just,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2651-1
+00:42:50.968 --> 00:42:56.132
+<v Blessing Bowora | Cyberlogic>I'm just trying to find a way obviously
+to look at what's from a from a use case</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2651-2
+00:42:56.132 --> 00:42:59.510
+<v Blessing Bowora | Cyberlogic>perspective,
+look at what I could actually use in my</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2651-3
+00:42:59.510 --> 00:43:01.805
+<v Blessing Bowora | Cyberlogic>day-to-day and what that looks like.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2642-0
+00:43:01.285 --> 00:43:01.725
+<v Matthew Levy>Mm.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2663-0
+00:43:02.965 --> 00:43:05.435
+<v Matthew Levy>Yeah,
+so let me let me share my screen again</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2655-0
+00:43:03.205 --> 00:43:04.285
+<v Blessing Bowora | Cyberlogic>So, so.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2663-1
+00:43:05.435 --> 00:43:07.685
+<v Matthew Levy>and I'll show you back on the extensions.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2683-0
+00:43:12.325 --> 00:43:21.765
+<v Matthew Levy>Tab I suppose of VS code. Where is it now?
+Azure Tools is 12 extensions in one pack.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2687-0
+00:43:23.445 --> 00:43:25.925
+<v Blessing Bowora | Cyberlogic>Yeah, there you go. Makes sense.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2690-0
+00:43:25.605 --> 00:43:30.285
+<v Matthew Levy>OK, yeah, yeah. And.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2722-0
+00:43:32.645 --> 00:43:39.170
+<v Matthew Levy>How did I? Where? I'm trying to.
+So I've also got other things like GitHub</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2722-1
+00:43:39.170 --> 00:43:45.781
+<v Matthew Levy>repos. That's an extension. Git lens.
+Git lens is nice because it shows you</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2722-2
+00:43:45.781 --> 00:43:48.565
+<v Matthew Levy>what's been happening in a in a.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2770-0
+00:43:48.565 --> 00:43:53.670
+<v Matthew Levy>A repository other than what you've done.
+So if other colleagues that you sync a</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2770-1
+00:43:53.670 --> 00:43:58.838
+<v Matthew Levy>repository from have been working on it,
+you'll see different branches and what's</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2770-2
+00:43:58.838 --> 00:44:02.808
+<v Matthew Levy>been changed and things like that. Again,
+I'm not a developer,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2770-3
+00:44:02.808 --> 00:44:06.968
+<v Matthew Levy>so this stuff is probably like developers
+do this in their sleep.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2770-4
+00:44:06.968 --> 00:44:08.165
+<v Matthew Levy>They know branches.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2787-0
+00:44:08.245 --> 00:44:18.740
+<v Matthew Levy>And forks and knives and spoons.
+And I it's all it's basically cutlery to</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2787-1
+00:44:18.740 --> 00:44:19.165
+<v Matthew Levy>me.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2796-0
+00:44:20.645 --> 00:44:24.525
+<v Matthew Levy>So what was I gonna show? Oh,
+I was gonna show my um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2802-0
+00:44:25.645 --> 00:44:27.725
+<v Matthew Levy>Handy little intergrou script.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2804-0
+00:44:29.165 --> 00:44:31.325
+<v Matthew Levy>So um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2820-0
+00:44:33.725 --> 00:44:40.605
+<v Matthew Levy>O This author you'll see is GitHub
+Copilot. Lovely. Let's zoom in a bit.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2824-0
+00:44:44.485 --> 00:44:46.685
+<v Matthew Levy>So this entire script um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2845-0
+00:44:48.205 --> 00:44:53.578
+<v Matthew Levy>Creates enter ID groups from Jason
+configuration files.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2845-1
+00:44:53.578 --> 00:45:00.485
+<v Matthew Levy>So I've got where would they be now?
+Somewhere in here. Got some Jason.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2870-0
+00:45:02.485 --> 00:45:08.338
+<v Matthew Levy>I think it's these no groups.
+It'll be under groups,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2870-1
+00:45:08.338 --> 00:45:13.748
+<v Matthew Levy>these JSON files that define certain
+groups. OK,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2870-2
+00:45:13.748 --> 00:45:18.165
+<v Matthew Levy>this is for conditional access and then.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2909-0
+00:45:20.005 --> 00:45:28.138
+<v Matthew Levy>In the in the JSON file we've specified
+that it is a role assignable group is</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2909-1
+00:45:28.138 --> 00:45:35.019
+<v Matthew Levy>assignable to role right?
+So it knows that from the the file that</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2909-2
+00:45:35.019 --> 00:45:39.085
+<v Matthew Levy>it must be a role assignable group but.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2922-0
+00:45:39.365 --> 00:45:44.139
+<v Matthew Levy>Running the script, initialize variables,
+created groups, skipped groups,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2922-1
+00:45:44.139 --> 00:45:46.525
+<v Matthew Levy>error groups, et cetera, et cetera O.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2960-0
+00:45:47.445 --> 00:45:51.808
+<v Matthew Levy>Uh, let's see. I don't.
+I don't know if I'm connected to anything,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2960-1
+00:45:51.808 --> 00:45:56.821
+<v Matthew Levy>but let's see if I can just run the
+script without actually creating things.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2960-2
+00:45:56.821 --> 00:46:01.965
+<v Matthew Levy>Just to show you what it looks like.
+I just want to check it MG context. Oops.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2985-0
+00:46:04.325 --> 00:46:14.301
+<v Matthew Levy>Yeah, OK, so I'm not connected to graph,
+which I would need to be for this to work.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2985-1
+00:46:14.301 --> 00:46:19.645
+<v Matthew Levy>Scripts, CD scripts, scripts, scripts,
+Nope.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2987-0
+00:46:25.085 --> 00:46:25.125
+<v Matthew Levy>Uh.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2994-0
+00:46:27.405 --> 00:46:30.725
+<v Matthew Levy>Oh, I'm in a completely different folder.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/2999-0
+00:46:35.285 --> 00:46:37.205
+<v Matthew Levy>How about copy path?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3037-0
+00:46:46.365 --> 00:46:49.056
+<v Matthew Levy>OK,
+and now what's the name of this</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3037-1
+00:46:49.056 --> 00:46:53.316
+<v Matthew Levy>PowerShell script?
+If I'd written this PowerShell script</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3037-2
+00:46:53.316 --> 00:46:56.979
+<v Matthew Levy>myself,
+I probably would have known exactly what</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3037-3
+00:46:56.979 --> 00:47:01.015
+<v Matthew Levy>it was called,
+but because I've used the power of OK,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3037-4
+00:47:01.015 --> 00:47:02.285
+<v Matthew Levy>you can see I've.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3040-0
+00:47:02.765 --> 00:47:04.925
+<v Matthew Levy>Run it before and.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3065-0
+00:47:07.605 --> 00:47:12.085
+<v Nicolas Blank>That's the trouble with vibe coding is I
+also vibe code things and then I go it</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3052-0
+00:47:09.605 --> 00:47:10.085
+<v Matthew Levy>Yeah.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3065-1
+00:47:12.085 --> 00:47:14.325
+<v Nicolas Blank>works so I won't actually go look at it.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3092-0
+00:47:14.805 --> 00:47:20.067
+<v Matthew Levy>Yeah, and and you kind of like, I'll,
+I'll come back and use this again,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3092-1
+00:47:20.067 --> 00:47:25.473
+<v Matthew Levy>but then the next time you're like,
+how did I do that again? So let's see,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3078-0
+00:47:22.005 --> 00:47:22.285
+<v Nicolas Blank>Yeah.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3092-2
+00:47:25.473 --> 00:47:29.365
+<v Matthew Levy>create better things.
+There's the source for the the.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3099-0
+00:47:29.845 --> 00:47:34.805
+<v Matthew Levy>I don't know if that's the right place,
+but let's see what happens.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3142-0
+00:47:36.205 --> 00:47:39.596
+<v Matthew Levy>Yeah, not connected. OK,
+I need to connect.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3142-1
+00:47:39.596 --> 00:47:44.836
+<v Matthew Levy>But the the whole point is the script has
+got error handling in it.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3142-2
+00:47:44.836 --> 00:47:49.074
+<v Matthew Levy>It's got colours,
+it it's beautiful and it it asks me,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3142-3
+00:47:49.074 --> 00:47:54.005
+<v Matthew Levy>it's got parameters settings.
+So you know commandlet binding I.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3190-0
+00:47:54.205 --> 00:47:59.913
+<v Matthew Levy>Have it asks me if I want to overwrite or
+what was it here update existing.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3190-1
+00:47:59.913 --> 00:48:05.995
+<v Matthew Levy>So if they exist I can just update the
+existing ones but not for role assignable</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3190-2
+00:48:05.995 --> 00:48:11.928
+<v Matthew Levy>groups you have to delete and recreate.
+So it will do that for me if I've said</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3190-3
+00:48:11.928 --> 00:48:13.805
+<v Matthew Levy>update existing which is.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3193-0
+00:48:14.125 --> 00:48:15.765
+<v Matthew Levy>A little bit dangerous, but.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3198-0
+00:48:16.485 --> 00:48:20.725
+<v Matthew Levy>Now there's what is this script?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3234-0
+00:48:22.325 --> 00:48:27.947
+<v Matthew Levy>381 lines of code that I didn't write a
+single line of.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3234-1
+00:48:27.947 --> 00:48:33.669
+<v Matthew Levy>I I prompted and my prompt was probably
+about 200 lines,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3219-0
+00:48:28.885 --> 00:48:29.525
+<v Nicolas Blank>It's pretty cool.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3223-0
+00:48:32.525 --> 00:48:32.565
+<v Nicolas Blank>Oh.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3234-2
+00:48:33.669 --> 00:48:37.885
+<v Matthew Levy>but I I got what I wanted just from using.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3243-0
+00:48:39.645 --> 00:48:44.468
+<v Matthew Levy>Using the GitHub copilot,
+I wonder if my prompts are still there</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3243-1
+00:48:44.468 --> 00:48:44.765
+<v Matthew Levy>now.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3246-0
+00:48:47.285 --> 00:48:48.285
+<v Matthew Levy>One month ago.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3282-0
+00:48:52.685 --> 00:48:56.250
+<v Matthew Levy>Oh, no. OK,
+there is a way you can get back to the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3282-1
+00:48:56.250 --> 00:48:59.886
+<v Matthew Levy>the prompts.
+But anyway that's that was some of the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3282-2
+00:48:59.886 --> 00:49:03.940
+<v Matthew Levy>cool stuff that I wanted to show and and
+I think Nicolas,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3282-3
+00:49:03.940 --> 00:49:07.645
+<v Matthew Levy>I'm I'm at the 5 minute 2 mark so for
+questions and.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3283-0
+00:49:09.165 --> 00:49:09.285
+<v Matthew Levy>Chat.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3336-0
+00:49:11.245 --> 00:49:16.773
+<v Nicolas Blank>I think from a rewinding point of view,
+the installing extensions,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3336-1
+00:49:16.773 --> 00:49:22.878
+<v Nicolas Blank>that's a great place to start because we
+don't often know where to start.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3300-0
+00:49:16.885 --> 00:49:17.485
+<v Matthew Levy>Hmm.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3310-0
+00:49:18.805 --> 00:49:19.245
+<v Matthew Levy>Yeah.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3336-2
+00:49:22.878 --> 00:49:29.725
+<v Nicolas Blank>And if you the easiest thing in the world
+is to create a new file and tell GitHub.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3362-0
+00:49:30.645 --> 00:49:35.164
+<v Nicolas Blank>What it is and then paste something into
+it and then you can create context like</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3362-1
+00:49:35.164 --> 00:49:37.619
+<v Nicolas Blank>that.
+Also on the left hand side I think if</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3362-2
+00:49:37.619 --> 00:49:41.636
+<v Nicolas Blank>you're an infrastructure person,
+this thing about file open new folder,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3362-3
+00:49:41.636 --> 00:49:45.039
+<v Nicolas Blank>that doesn't make sense.
+So do you mind just explaining that</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3361-0
+00:49:42.285 --> 00:49:45.045
+<v Matthew Levy>Mm mm.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3362-4
+00:49:45.039 --> 00:49:45.485
+<v Nicolas Blank>quickly?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3372-0
+00:49:46.005 --> 00:49:49.965
+<v Matthew Levy>I'll open folder this bit, yeah.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3373-0
+00:49:47.925 --> 00:49:51.165
+<v Nicolas Blank>Open folder from yeah yeah.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3409-0
+00:49:51.605 --> 00:49:58.025
+<v Matthew Levy>Yeah, So what? Within VS Code,
+I'm in a workspace and a workspace can</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3409-1
+00:49:58.025 --> 00:50:03.252
+<v Matthew Levy>contain folders.
+I suppose from a developer perspective,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3409-2
+00:50:03.252 --> 00:50:06.645
+<v Matthew Levy>it's a project that you're busy with.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3429-0
+00:50:08.205 --> 00:50:13.179
+<v Matthew Levy>Different languages, different instances,
+I don't know,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3429-1
+00:50:13.179 --> 00:50:18.685
+<v Matthew Levy>but for me it's just the the workspace
+that I'm busy in I'll.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3447-0
+00:50:19.805 --> 00:50:26.514
+<v Matthew Levy>Keep the folders together.
+You can't have multiple folders,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3447-1
+00:50:26.514 --> 00:50:29.085
+<v Matthew Levy>so the folder that I'm.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3469-0
+00:50:30.245 --> 00:50:33.469
+<v Matthew Levy>You know,
+if I go and open Maester for example,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3469-1
+00:50:33.469 --> 00:50:37.835
+<v Matthew Levy>it will now switch to a completely
+different view. Look at that,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3469-2
+00:50:37.835 --> 00:50:40.925
+<v Matthew Levy>this stuff on the right hand side.
+Brilliant.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3475-0
+00:50:42.045 --> 00:50:44.965
+<v Matthew Levy>But it's only that folder I don't have.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3487-0
+00:50:46.205 --> 00:50:51.125
+<v Matthew Levy>Additional folders so you can't have
+multiple folders in a workspace.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3537-0
+00:50:53.765 --> 00:50:59.118
+<v Matthew Levy>But it's useful to be able to open an
+entire folder with a number of files</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3537-1
+00:50:59.118 --> 00:51:02.616
+<v Matthew Levy>within it.
+So you you can absolutely just open a</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3537-2
+00:51:02.616 --> 00:51:07.041
+<v Matthew Levy>file, a single file.
+But it's useful to open an entire folder</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3537-3
+00:51:07.041 --> 00:51:12.965
+<v Matthew Levy>like what I did just now with my interest
+stuff. There's a folder I know I've got.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3559-0
+00:51:13.605 --> 00:51:18.670
+<v Matthew Levy>Jason files in that folder.
+I've got the PowerShell script in the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3559-1
+00:51:18.670 --> 00:51:22.738
+<v Matthew Levy>folder and other things,
+so I would open the folder.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3559-2
+00:51:22.738 --> 00:51:26.805
+<v Matthew Levy>Does that answer your question on the
+folders thing?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3560-0
+00:51:27.925 --> 00:51:28.005
+<v Matthew Levy>Um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3592-0
+00:51:30.405 --> 00:51:38.597
+<v Matthew Levy>The the extensions and Blessing you,
+you know you raised a good question which</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3592-1
+00:51:38.597 --> 00:51:46.685
+<v Matthew Levy>extensions to install for Azure and the
+packs are really useful that you can.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3620-0
+00:51:47.045 --> 00:51:53.010
+<v Matthew Levy>Search for extensions,
+but then I also see that the why is it</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3620-1
+00:51:53.010 --> 00:52:00.996
+<v Matthew Levy>not showing? Oh, recommended is hidden.
+VS code will recommend extensions as well,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3620-2
+00:52:00.996 --> 00:52:01.765
+<v Matthew Levy>so like.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3655-0
+00:52:02.445 --> 00:52:08.264
+<v Matthew Levy>Notepad keymap. I don't know what that is,
+but maybe I want to take a look at it.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3655-1
+00:52:08.264 --> 00:52:13.301
+<v Matthew Levy>Get our ull requests Kubernetes.
+I'm doing maybe some container stuff.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3655-2
+00:52:13.301 --> 00:52:16.565
+<v Matthew Levy>Maybe I want to get the Kubernetes
+extension.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3661-0
+00:52:17.525 --> 00:52:22.045
+<v Matthew Levy>Although that's another scary asect for
+me. Um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3689-0
+00:52:23.765 --> 00:52:28.936
+<v Matthew Levy>But if you are working with containers,
+you probably would want that. So yeah,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3689-1
+00:52:28.936 --> 00:52:32.013
+<v Matthew Levy>it's it.
+VS Code is quite intuitive in kind of</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3689-2
+00:52:32.013 --> 00:52:34.565
+<v Matthew Levy>showing you where to go and how to get.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3719-0
+00:52:35.525 --> 00:52:40.427
+<v Matthew Levy>A little bit more and every time I open
+VS Code I learn something new. Oh,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3719-1
+00:52:40.427 --> 00:52:44.806
+<v Matthew Levy>what does that do? Oh look,
+do you want to install the recommended</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3719-2
+00:52:44.806 --> 00:52:49.054
+<v Matthew Levy>dev containers extension for Microsoft
+from this repository? No,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3719-3
+00:52:49.054 --> 00:52:50.165
+<v Matthew Levy>I don't think so.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3721-0
+00:52:52.245 --> 00:52:52.605
+<v Matthew Levy>So yeah.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3722-0
+00:52:54.485 --> 00:52:54.765
+<v Blessing Bowora | Cyberlogic>Yes.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3774-0
+00:52:58.245 --> 00:53:01.567
+<v Matthew Levy>So just to recap,
+what I did was I showed you the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3735-0
+00:52:58.525 --> 00:53:00.925
+<v Nicolas Blank>A lot. Go on.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3774-1
+00:53:01.567 --> 00:53:06.483
+<v Matthew Levy>extensions, I showed you accounts.
+So don't forget if you want to use the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3774-2
+00:53:06.483 --> 00:53:09.539
+<v Matthew Levy>GitHub copilot,
+you need to sign into GitHub.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3774-3
+00:53:09.539 --> 00:53:13.325
+<v Matthew Levy>So the little monarchy there,
+click on that and sign in.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3834-0
+00:53:13.685 --> 00:53:19.358
+<v Matthew Levy>I've also got my Azure tenant signed in.
+Oh, I didn't talk about backup and sync.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3834-1
+00:53:19.358 --> 00:53:24.547
+<v Matthew Levy>So if you have a GitHub account,
+you can sync your settings for VS Code to</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3834-2
+00:53:24.547 --> 00:53:30.359
+<v Matthew Levy>GitHub so that you can then go to another
+machine and just install VS Code and sync</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3834-3
+00:53:30.359 --> 00:53:32.365
+<v Matthew Levy>your settings and it'll sync.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3861-0
+00:53:32.445 --> 00:53:36.164
+<v Matthew Levy>Sync all the extensions, how it looks,
+your rofiles,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3861-1
+00:53:36.164 --> 00:53:41.285
+<v Matthew Levy>all of that to your new machine so you
+don't have to start from scratch.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3871-0
+00:53:43.205 --> 00:53:48.056
+<v Matthew Levy>You can using the Azure Resources
+extension.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3871-1
+00:53:48.056 --> 00:53:52.045
+<v Matthew Levy>You can work with resources in Azure.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3906-0
+00:53:54.245 --> 00:53:59.057
+<v Matthew Levy>You've got profiles that you can set how
+you want things to look.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3906-1
+00:53:59.057 --> 00:54:04.524
+<v Matthew Levy>I'll just switch to the doc writer
+profile just to show you how it changes</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3906-2
+00:54:04.524 --> 00:54:08.607
+<v Matthew Levy>colors and things.
+It's a little bit easier on my eyes,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3906-3
+00:54:08.607 --> 00:54:11.085
+<v Matthew Levy>but it's not great for presenting.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3907-0
+00:54:12.765 --> 00:54:12.885
+<v Matthew Levy>Um.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3937-0
+00:54:15.925 --> 00:54:19.486
+<v Matthew Levy>Yeah,
+and then some of the GitHub niceness that</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3937-1
+00:54:19.486 --> 00:54:25.345
+<v Matthew Levy>I played with using the different the
+agent mode and the different models that</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3937-2
+00:54:25.345 --> 00:54:29.425
+<v Matthew Levy>you can use.
+Configure models and you custom chat. No,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3937-3
+00:54:29.425 --> 00:54:31.205
+<v Matthew Levy>I don't want to do that.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3989-0
+00:54:31.685 --> 00:54:34.427
+<v Nicolas Blank>We're coming up to the the top of the
+hour,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3946-0
+00:54:33.965 --> 00:54:34.925
+<v Matthew Levy>See.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3989-1
+00:54:34.427 --> 00:54:39.225
+<v Nicolas Blank>so sadly I do need to interrupt you
+because we're coming to the end of lunch</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3954-0
+00:54:37.605 --> 00:54:38.685
+<v Matthew Levy>No, I'm.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3989-2
+00:54:39.225 --> 00:54:42.216
+<v Nicolas Blank>and learn.
+And do you want to drop your contact</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3989-3
+00:54:42.216 --> 00:54:46.827
+<v Nicolas Blank>details in in any way if people want to
+find you either LinkedIn profile,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3970-0
+00:54:44.605 --> 00:54:45.085
+<v Matthew Levy>Mhm.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/3989-4
+00:54:46.827 --> 00:54:50.565
+<v Nicolas Blank>a Twitter, an e-mail,
+anything that works for you, Matthew?</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4039-0
+00:54:51.285 --> 00:54:54.497
+<v Matthew Levy>Yeah,
+so I'm just putting my Twitter in the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4039-1
+00:54:54.497 --> 00:54:58.001
+<v Matthew Levy>chat.
+My I think my LinkedIn profile was on the</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4039-2
+00:54:58.001 --> 00:55:03.330
+<v Matthew Levy>slide. I don't know what it is,
+but it's Matt chat. Yeah. And then yeah,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4012-0
+00:55:00.925 --> 00:55:02.445
+<v Nicolas Blank>It was, yeah.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4039-3
+00:55:03.330 --> 00:55:08.804
+<v Matthew Levy>just reach me on probably Twitter.
+LinkedIn is probably the easiest way to</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4039-4
+00:55:08.804 --> 00:55:10.045
+<v Matthew Levy>get a hold of me.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4043-0
+00:55:10.605 --> 00:55:12.525
+<v Matthew Levy>Um, I do follow both socials.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4060-0
+00:55:15.045 --> 00:55:20.645
+<v Matthew Levy>And thanks very much for having me for
+lunch and learn. It was fun to learn.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4094-0
+00:55:19.845 --> 00:55:24.167
+<v Nicolas Blank>Matthew, thank you.
+Thank you so much for making the time</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4094-1
+00:55:24.167 --> 00:55:30.426
+<v Nicolas Blank>available. Thank you everyone who joined.
+I have recorded the session and I will be</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4094-2
+00:55:30.426 --> 00:55:35.045
+<v Nicolas Blank>sharing it via a GitHub repo so anyone
+can grab that and get.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4131-0
+00:55:35.325 --> 00:55:39.244
+<v Nicolas Blank>The slides as well as everything that was
+presented today. So with that,</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4131-1
+00:55:39.244 --> 00:55:43.001
+<v Nicolas Blank>thank you everybody who stayed.
+We appreciate your time and if we are</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4131-2
+00:55:43.001 --> 00:55:46.919
+<v Nicolas Blank>going to see you tomorrow for the data
+session, then we'll see you then.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4131-3
+00:55:46.919 --> 00:55:47.885
+<v Nicolas Blank>Thank you so much.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4129-0
+00:55:48.365 --> 00:55:50.445
+<v Matthew Levy>Mm-hmm. Thanks. Thanks all.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4136-0
+00:55:50.885 --> 00:55:52.085
+<v Nicolas Blank>Thank you, Matthew.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4140-0
+00:55:51.085 --> 00:55:53.365
+<v Blessing Bowora | Cyberlogic>So that's all right. Cheers.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4146-0
+00:55:52.045 --> 00:55:52.885
+Thank you.
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4144-0
+00:55:52.845 --> 00:55:53.205
+<v Matthew Levy>Bye, bye.</v>
+
+fe3dedfb-cd6b-4f04-b2f4-55a6fe8e79e6/4147-0
+00:55:53.925 --> 00:55:54.205
+<v Nicolas Blank>Bye, bye.</v>
