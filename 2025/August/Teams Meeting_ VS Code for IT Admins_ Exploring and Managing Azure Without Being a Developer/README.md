@@ -1,6 +1,6 @@
 # VS Code for IT Admins: Exploring and Managing Azure Without Being a Developer
 
-[![Status](https://img.shields.io/badge/Status-Upcoming-orange)](#)
+[![Status](https://img.shields.io/badge/Status-Completed-green)](#)
 [![Format](https://img.shields.io/badge/Format-Teams_Meeting-blue)](#)
 [![Date](https://img.shields.io/badge/Date-August_28,_2025-green)](#)
 
