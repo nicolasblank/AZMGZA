@@ -6,7 +6,7 @@
 
 ## 📅 Event Details
 
-**Date:** Thursday, August 28, 2025  
+**Date:** Thursday, October 27, 2025  
 **Time:** 12:00 PM - 1:00 PM SAST  
 **Format:** Virtual (Microsoft Teams)  
 **Organizer:** Azure User Group South Africa

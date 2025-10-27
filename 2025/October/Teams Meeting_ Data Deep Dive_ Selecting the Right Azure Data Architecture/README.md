@@ -2,11 +2,11 @@
 
 [![Status](https://img.shields.io/badge/Status-Upcoming-orange)](#)
 [![Format](https://img.shields.io/badge/Format-Teams_Meeting-blue)](#)
-[![Date](https://img.shields.io/badge/Date-August_14,_2025-green)](#)
+[![Date](https://img.shields.io/badge/Date-October_29,_2025-green)](#)
 
 ## 📅 Event Details
 
-**Date:** Thursday, August 14, 2025  
+**Date:** Thursday, October 29, 2025  
 **Time:** 12:00 PM - 1:00 PM SAST  
 **Format:** Virtual (Microsoft Teams)  
 **Organizer:** Azure User Group South Africa
