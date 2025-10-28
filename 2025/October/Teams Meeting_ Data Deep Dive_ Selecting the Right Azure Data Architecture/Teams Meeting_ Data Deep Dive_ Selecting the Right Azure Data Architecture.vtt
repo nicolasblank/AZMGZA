@@ -1,0 +1,3472 @@
+WEBVTT
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/13-0
+00:00:04.489 --> 00:00:10.769
+<v Nicolas Blank>Hi everyone and welcome to Tuesday and
+today we are doing a lunch and learn part</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/13-1
+00:00:10.769 --> 00:00:16.585
+<v Nicolas Blank>of the South African Azure User Group.
+Yesterday I quoted this interesting</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/13-2
+00:00:16.585 --> 00:00:22.556
+<v Nicolas Blank>statistic that we were 2209 members.
+We have grown overnight to 2213 members</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/13-3
+00:00:22.556 --> 00:00:23.409
+<v Nicolas Blank>I'm hoping.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/16-0
+00:00:23.449 --> 00:00:29.412
+<v Nicolas Blank>I'm hoping that one of them at least is
+on the call today and just for the sake</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/16-1
+00:00:29.412 --> 00:00:30.009
+<v Nicolas Blank>of time.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/23-0
+00:00:32.169 --> 00:00:35.452
+<v Nicolas Blank>Going to talk around that today we are
+doing Tuesday.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/23-1
+00:00:35.452 --> 00:00:40.499
+<v Nicolas Blank>I should have indented that, I apologize.
+Today is Tuesday the 28th of October and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/23-2
+00:00:40.499 --> 00:00:44.573
+<v Nicolas Blank>we're doing the data deep drive,
+so selecting the right Azure data</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/23-3
+00:00:44.573 --> 00:00:47.856
+<v Nicolas Blank>architecture.
+Ian was quite particularly with me when</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/23-4
+00:00:47.856 --> 00:00:51.809
+<v Nicolas Blank>he says not a database architecture,
+it's the data architecture.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/21-0
+00:00:50.969 --> 00:00:51.689
+<v Ian van Niekerk>Thanks.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/28-0
+00:00:52.089 --> 00:00:56.952
+<v Nicolas Blank>He's going to talk about that.
+As of yesterday, we've had some changes,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/28-1
+00:00:56.952 --> 00:01:02.492
+<v Nicolas Blank>so we've created a GitHub so that all of
+the content is available after the fact,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/28-2
+00:01:02.492 --> 00:01:06.815
+<v Nicolas Blank>and you'll notice that you can stalk the
+speaker over LinkedIn,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/28-3
+00:01:06.815 --> 00:01:11.409
+<v Nicolas Blank>that you can see the folder with the
+recording and the transcripts.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/32-0
+00:01:11.609 --> 00:01:16.353
+<v Nicolas Blank>As well as the meetup URL in case it
+helps with your admin in some way.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/32-1
+00:01:16.353 --> 00:01:21.296
+<v Nicolas Blank>We have tried to make this as pretty as
+we can and we'd love any feedback.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/32-2
+00:01:21.296 --> 00:01:24.657
+<v Nicolas Blank>So moving on from a code of conduct point
+of view,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/32-3
+00:01:24.657 --> 00:01:28.809
+<v Nicolas Blank>this is mandatory because we are a subset
+of the global Azure.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/37-0
+00:01:30.009 --> 00:01:33.663
+<v Nicolas Blank>Community. And with that,
+in the nicest possible way,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/37-1
+00:01:33.663 --> 00:01:38.400
+<v Nicolas Blank>we ask you to include everyone,
+no matter their orientation or views.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/37-2
+00:01:38.400 --> 00:01:43.678
+<v Nicolas Blank>And if there's any abuse of anyone,
+we will just politely evict you. However,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/37-3
+00:01:43.678 --> 00:01:48.415
+<v Nicolas Blank>talking about people who are polite and
+who don't need to be evicted,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/37-4
+00:01:48.415 --> 00:01:49.769
+<v Nicolas Blank>I want to introduce.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/44-0
+00:01:49.889 --> 00:01:55.492
+<v Nicolas Blank>Introduce Ian Van Niekek and Ian will
+talk about himself. I did tell you, Ian,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/39-0
+00:01:53.609 --> 00:01:54.009
+<v Ian van Niekerk>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/44-1
+00:01:55.492 --> 00:02:00.600
+<v Nicolas Blank>that I've got you because you said you
+had that wave, but I've got you.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/41-0
+00:02:00.409 --> 00:02:00.529
+<v Ian van Niekerk>Um.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/44-2
+00:02:00.600 --> 00:02:05.565
+<v Nicolas Blank>So Ian will introduce himself.
+He is one of the cleverest people that</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/44-3
+00:02:05.565 --> 00:02:09.609
+<v Nicolas Blank>you'll meet in a hurry who knows how to
+talk about data.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/48-0
+00:02:09.609 --> 00:02:14.015
+<v Nicolas Blank>And he's got a really,
+really interesting history that I'm not</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/48-1
+00:02:14.015 --> 00:02:18.910
+<v Nicolas Blank>going to spoil. And with that,
+today Ian is going to be talking about</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/48-2
+00:02:18.910 --> 00:02:21.009
+<v Nicolas Blank>how to select the right Azure.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/49-0
+00:02:24.529 --> 00:02:27.771
+<v Nicolas Blank>Data architecture because he does like to
+talk about Azure.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/49-1
+00:02:27.771 --> 00:02:29.609
+<v Nicolas Blank>Do you like what I did there, Ian?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/52-0
+00:02:29.569 --> 00:02:35.609
+<v Ian van Niekerk>Yeah, I see. Um, you used all of that. Uh,
+that clever AI stuff, yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/56-0
+00:02:33.609 --> 00:02:38.305
+<v Nicolas Blank>Yes, used all of the clever AI stuff, yes,
+and I've reserved your likeness.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/56-1
+00:02:38.305 --> 00:02:41.395
+<v Nicolas Blank>So with that,
+I'm going to hand over to you, Ian,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/54-0
+00:02:40.249 --> 00:02:40.409
+<v Ian van Niekerk>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/56-2
+00:02:41.395 --> 00:02:45.289
+<v Nicolas Blank>for you to please introduce yourself and
+introduce your topic.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/57-0
+00:02:45.809 --> 00:02:51.889
+<v Ian van Niekerk>Yeah, good. Good afternoon everyone.
+Like I I briefly briefly said to you</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/57-1
+00:02:51.889 --> 00:02:55.916
+<v Ian van Niekerk>earlier,
+I've been in the data realm for quite a</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/57-2
+00:02:55.916 --> 00:03:00.682
+<v Ian van Niekerk>bit bit of years.
+I started off with some a little bit of</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/57-3
+00:03:00.682 --> 00:03:03.969
+<v Ian van Niekerk>data visualizations way back in the day.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/58-0
+00:03:04.049 --> 00:03:09.562
+<v Ian van Niekerk>And then I progressively worked with
+pipelines, data modelling,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/58-1
+00:03:09.562 --> 00:03:16.541
+<v Ian van Niekerk>eventually ended up as a data architect,
+one of the big banks and I got tired of</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/58-2
+00:03:16.541 --> 00:03:23.089
+<v Ian van Niekerk>doing it for big banks and started doing
+it for myself and yeah, currently.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/59-0
+00:03:23.689 --> 00:03:30.460
+<v Ian van Niekerk>A consultant on creating up the data,
+the data capability at Cyberlogic.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/59-1
+00:03:30.460 --> 00:03:36.026
+<v Ian van Niekerk>So today and let me quickly start sharing
+this side, right.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/59-2
+00:03:36.026 --> 00:03:43.169
+<v Ian van Niekerk>So I wanted to give a little bit of
+context before I just go into what type.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/60-0
+00:03:43.169 --> 00:03:43.849
+<v Ian van Niekerk>Of.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/61-0
+00:03:45.529 --> 00:03:53.654
+<v Ian van Niekerk>What type of services that we can use for
+data architecture in the Azure Express,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/61-1
+00:03:53.654 --> 00:03:54.249
+<v Ian van Niekerk>right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/65-0
+00:03:55.409 --> 00:04:01.295
+<v Ian van Niekerk>And please, this is a interactive session.
+Please ask questions while I'm going.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/65-1
+00:04:01.295 --> 00:04:05.365
+<v Ian van Niekerk>It might just spoke some additional stuff,
+right? Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/65-2
+00:04:05.365 --> 00:04:09.726
+<v Ian van Niekerk>So we're going to look at what is data
+architecture, right,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/65-3
+00:04:09.726 --> 00:04:11.689
+<v Ian van Niekerk>and just define it briefly.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/70-0
+00:04:12.289 --> 00:04:16.540
+<v Ian van Niekerk>And then why does it matter?
+Why do we want to look after our data</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/70-1
+00:04:16.540 --> 00:04:20.093
+<v Ian van Niekerk>architecture?
+Why don't we just store everything in the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/70-2
+00:04:20.093 --> 00:04:25.360
+<v Ian van Niekerk>database and go and look for it in there?
+Then we're going to go into a little bit</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/70-3
+00:04:25.360 --> 00:04:29.929
+<v Ian van Niekerk>of the data blueprint or data blueprint,
+the typical data architecture.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/74-0
+00:04:31.289 --> 00:04:36.084
+<v Ian van Niekerk>And then I'll go into a bit of a deep
+dive around some of the typical patterns</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/74-1
+00:04:36.084 --> 00:04:40.152
+<v Ian van Niekerk>that we find there and some of the Azure
+services that we can use.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/74-2
+00:04:40.152 --> 00:04:44.462
+<v Ian van Niekerk>And then I'm going to give you a little
+bit of an idea where to start,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/74-3
+00:04:44.462 --> 00:04:46.769
+<v Ian van Niekerk>what questions to ask just in general.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/76-0
+00:04:46.849 --> 00:04:52.569
+<v Ian van Niekerk>um around some of the data architecture,
+right? Okay, cool.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/81-0
+00:04:54.769 --> 00:05:00.317
+<v Ian van Niekerk>OK. So, So what,
+what is data architecture, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/81-1
+00:05:00.317 --> 00:05:08.258
+<v Ian van Niekerk>So with the data architecture,
+you can think about it as a a plan or a a</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/81-2
+00:05:08.258 --> 00:05:11.849
+<v Ian van Niekerk>a blueprint of how do we consume?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/82-0
+00:05:12.049 --> 00:05:13.929
+<v Ian van Niekerk>And expose data in.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/87-0
+00:05:15.729 --> 00:05:19.589
+<v Ian van Niekerk>A company, right.
+So that's consumption of data,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/87-1
+00:05:19.589 --> 00:05:24.947
+<v Ian van Niekerk>moving of data, storage of data,
+as well as the governance of data.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/87-2
+00:05:24.947 --> 00:05:29.517
+<v Ian van Niekerk>And we then have the analytics here at
+the bottom, right.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/87-3
+00:05:29.517 --> 00:05:34.009
+<v Ian van Niekerk>So you can think about the data store,
+the data sources.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/91-0
+00:05:35.009 --> 00:05:40.631
+<v Ian van Niekerk>As the individual people, right,
+collecting the data across across the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/91-1
+00:05:40.631 --> 00:05:44.433
+<v Ian van Niekerk>city,
+then the pipelines would be the roads and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/91-2
+00:05:44.433 --> 00:05:50.769
+<v Ian van Niekerk>then the network moving the data from the
+people into the varying destinations.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/95-0
+00:05:51.169 --> 00:05:56.485
+<v Ian van Niekerk>Storages is where where the people live,
+like the neighborhoods and like</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/95-1
+00:05:56.485 --> 00:06:01.802
+<v Ian van Niekerk>neighborhoods have got different
+densities and people move in and out in</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/95-2
+00:06:01.802 --> 00:06:06.026
+<v Ian van Niekerk>different places.
+Then we've got some governance and this</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/95-3
+00:06:06.026 --> 00:06:06.609
+<v Ian van Niekerk>this is.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/97-0
+00:06:06.609 --> 00:06:08.289
+<v Ian van Niekerk>The law, right? So um.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/102-0
+00:06:11.209 --> 00:06:15.187
+<v Ian van Niekerk>What do we need to keep in mind around
+security?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/102-1
+00:06:15.187 --> 00:06:21.439
+<v Ian van Niekerk>How do we store in the the information?
+And this in a city metaphor context,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/102-2
+00:06:21.439 --> 00:06:27.610
+<v Ian van Niekerk>that's that's the policing, right?
+And then lastly we've got the analytics,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/102-3
+00:06:27.610 --> 00:06:30.209
+<v Ian van Niekerk>right? So all of these are more.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/107-0
+00:06:30.929 --> 00:06:36.488
+<v Ian van Niekerk>Digital enablement, right?
+So technical enablement for us to get to</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/107-1
+00:06:36.488 --> 00:06:43.275
+<v Ian van Niekerk>the analytics and to get to the analytics,
+we need to have all of these components</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/107-2
+00:06:43.275 --> 00:06:49.489
+<v Ian van Niekerk>in there and we eventually want to answer
+the business question, right? So.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/109-0
+00:06:49.729 --> 00:06:55.254
+<v Ian van Niekerk>It's it's putting a blueprint together to
+answer this type of business question. Uh,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/109-1
+00:06:55.254 --> 00:06:55.449
+<v Ian van Niekerk>OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/111-0
+00:06:56.889 --> 00:07:00.169
+<v Ian van Niekerk>OK, So what does it matter, right? Um.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/116-0
+00:07:02.129 --> 00:07:08.323
+<v Ian van Niekerk>We don't want to start putting data on
+storing data and at the end of the day we</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/116-1
+00:07:08.323 --> 00:07:12.529
+<v Ian van Niekerk>realize, well,
+no one's using it and it's costing us a</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/116-2
+00:07:12.529 --> 00:07:16.889
+<v Ian van Niekerk>lot of lot of money and we can't use it
+in other facets.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/122-0
+00:07:17.249 --> 00:07:22.014
+<v Ian van Niekerk>Of the business, all right.
+So when we start building out the data</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/122-1
+00:07:22.014 --> 00:07:25.926
+<v Ian van Niekerk>architecture,
+these are some of the principles that we</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/122-2
+00:07:25.926 --> 00:07:30.123
+<v Ian van Niekerk>and depending on who we chat to you,
+it's going to differ.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/122-3
+00:07:30.123 --> 00:07:33.537
+<v Ian van Niekerk>But in our capability we focus on these,
+right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/122-4
+00:07:33.537 --> 00:07:36.809
+<v Ian van Niekerk>So you want the first one is for you want
+to.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/125-0
+00:07:37.169 --> 00:07:41.420
+<v Ian van Niekerk>To build trust and reliability on the
+data.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/125-1
+00:07:41.420 --> 00:07:49.440
+<v Ian van Niekerk>So it means that needs to be accurate and
+it needs to be where you're expecting it</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/125-2
+00:07:49.440 --> 00:07:52.049
+<v Ian van Niekerk>to be by the expected time.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/130-0
+00:07:52.289 --> 00:07:58.256
+<v Ian van Niekerk>To make some business decisions from that,
+then also we want to make it scalable and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/130-1
+00:07:58.256 --> 00:08:01.976
+<v Ian van Niekerk>that's where the the cloud platforms are
+quite good.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/130-2
+00:08:01.976 --> 00:08:06.961
+<v Ian van Niekerk>We want to make sure that the
+architecture and the tech grows with the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/130-3
+00:08:06.961 --> 00:08:09.769
+<v Ian van Niekerk>amount of data that you start consuming.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/132-0
+00:08:10.249 --> 00:08:14.584
+<v Ian van Niekerk>It's not and that links into the cost
+effectiveness as well, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/132-1
+00:08:14.584 --> 00:08:16.689
+<v Ian van Niekerk>So you will want to start with a.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/137-0
+00:08:17.329 --> 00:08:22.609
+<v Ian van Niekerk>A 15 cluster server if you really just
+need a PC under your desk,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/137-1
+00:08:22.609 --> 00:08:27.569
+<v Ian van Niekerk>I mean cost efficiency.
+So just linking into the scalability,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/137-2
+00:08:27.569 --> 00:08:33.009
+<v Ian van Niekerk>you don't want to start big,
+but we also want to make sure that the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/137-3
+00:08:33.009 --> 00:08:36.689
+<v Ian van Niekerk>storage and the processes that we use is
+fit.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/141-0
+00:08:36.849 --> 00:08:42.669
+<v Ian van Niekerk>Purpose. If it's not,
+it's gonna rack up a lot of costs and and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/141-1
+00:08:42.669 --> 00:08:49.855
+<v Ian van Niekerk>your typical like the the veracity of the
+the data or the how quickly the data</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/141-2
+00:08:49.855 --> 00:08:52.129
+<v Ian van Niekerk>comes in and gets stored.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/146-0
+00:08:53.969 --> 00:08:59.629
+<v Ian van Niekerk>That also affects that cost cost
+effectiveness and that's specific.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/146-1
+00:08:59.629 --> 00:09:05.790
+<v Ian van Niekerk>That's exactly why we want to look at the
+business question first, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/146-2
+00:09:05.790 --> 00:09:12.366
+<v Ian van Niekerk>What business value do we wanna add?
+Otherwise we're gonna start ingesting all</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/146-3
+00:09:12.366 --> 00:09:13.449
+<v Ian van Niekerk>of this data.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/151-0
+00:09:13.809 --> 00:09:18.393
+<v Ian van Niekerk>A real time basis and you're gonna play
+quite a big ball,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/151-1
+00:09:18.393 --> 00:09:24.004
+<v Ian van Niekerk>but you're not actually answering a
+specific business question, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/151-2
+00:09:24.004 --> 00:09:28.193
+<v Ian van Niekerk>Point #4 that we've got on here is
+interoperability.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/151-3
+00:09:28.193 --> 00:09:33.489
+<v Ian van Niekerk>So I think these two go hand in hand
+together. We wanna make sure.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/155-0
+00:09:33.489 --> 00:09:41.364
+<v Ian van Niekerk>We can start having views and use data
+sets across the enterprises and break</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/155-1
+00:09:41.364 --> 00:09:48.729
+<v Ian van Niekerk>down some of those silos and then
+collaborate effectively across teams.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/161-0
+00:09:49.249 --> 00:09:55.919
+<v Ian van Niekerk>And then make sure that once we can do
+that, we want to use analytics and AI.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/161-1
+00:09:55.919 --> 00:10:02.418
+<v Ian van Niekerk>In my opinion, AI is a little bit.
+They need to be a very good use case for</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/161-2
+00:10:02.418 --> 00:10:06.181
+<v Ian van Niekerk>AI,
+but in general we use analytics quite a</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/161-3
+00:10:06.181 --> 00:10:09.089
+<v Ian van Niekerk>lot in our environment and as the.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/165-0
+00:10:09.129 --> 00:10:14.977
+<v Ian van Niekerk>Or it goes garbage in, garbage out, right?
+So we want to save it in a central</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/165-1
+00:10:14.977 --> 00:10:18.426
+<v Ian van Niekerk>repository that can get accessed by
+everyone,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/165-2
+00:10:18.426 --> 00:10:24.424
+<v Ian van Niekerk>but it needs to be of good quality, right?
+And that's why the data architecture</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/165-3
+00:10:24.424 --> 00:10:26.449
+<v Ian van Niekerk>really matters in our case.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/167-0
+00:10:27.889 --> 00:10:32.649
+<v Ian van Niekerk>OK, cool. Any questions as far, um,
+before we go on? Um.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/170-0
+00:10:33.609 --> 00:10:39.009
+<v Ian van Niekerk>No, none. Cool. So I just, I've got to.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/175-0
+00:10:40.249 --> 00:10:46.833
+<v Ian van Niekerk>Two little pictures over here, right?
+It all speaks to the previous ones.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/175-1
+00:10:46.833 --> 00:10:54.040
+<v Ian van Niekerk>This is a conceptual design just to to to
+give over some of the the concepts and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/175-2
+00:10:54.040 --> 00:10:57.689
+<v Ian van Niekerk>then we'll go into some of the technical.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/179-0
+00:10:57.889 --> 00:11:03.223
+<v Ian van Niekerk>Design in the bottom of right.
+So a typical blueprint for a data</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/179-1
+00:11:03.223 --> 00:11:08.394
+<v Ian van Niekerk>architecture is this.
+It's gonna change a little bit depending</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/179-2
+00:11:08.394 --> 00:11:15.289
+<v Ian van Niekerk>on where you implement it and who uses it,
+but essentially you've got data sources.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/184-0
+00:11:15.689 --> 00:11:21.738
+<v Ian van Niekerk>You want to store the data that comes in
+via pipelines in some shape or form.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/184-1
+00:11:21.738 --> 00:11:26.235
+<v Ian van Niekerk>So these sources can be structured,
+semi structured data.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/184-2
+00:11:26.235 --> 00:11:30.889
+<v Ian van Niekerk>This is typically Jason.
+Unstructured data is typically PDF</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/184-3
+00:11:30.889 --> 00:11:34.689
+<v Ian van Niekerk>documents or just free text fields that
+someone.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/189-0
+00:11:35.609 --> 00:11:40.191
+<v Ian van Niekerk>Captured somewhere.
+We could also see I've got semi</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/189-1
+00:11:40.191 --> 00:11:45.126
+<v Ian van Niekerk>structured twice,
+so we're gonna slow it twice and then</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/189-2
+00:11:45.126 --> 00:11:52.088
+<v Ian van Niekerk>we've got some rational databases and
+some additional data Azure data services</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/189-3
+00:11:52.088 --> 00:11:52.529
+<v Ian van Niekerk>like.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/193-0
+00:11:53.569 --> 00:11:57.794
+<v Ian van Niekerk>A I, for example,
+the Foundry and then Internet of Things</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/193-1
+00:11:57.794 --> 00:12:03.403
+<v Ian van Niekerk>is all of the connected stuff, right?
+So that's some of the typical types of</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/193-2
+00:12:03.403 --> 00:12:08.649
+<v Ian van Niekerk>data sources that we can that we can
+consume and then we use pipelines.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/197-0
+00:12:08.649 --> 00:12:15.534
+<v Ian van Niekerk>To ingest it right into the storage layer.
+This storage layer is because you you've</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/197-1
+00:12:15.534 --> 00:12:22.338
+<v Ian van Niekerk>got the ingestion, but you want of events.
+So they they could be some of these IoT</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/197-2
+00:12:22.338 --> 00:12:26.929
+<v Ian van Niekerk>devices feeds real-time events through
+these pipelines.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/202-0
+00:12:27.369 --> 00:12:32.552
+<v Ian van Niekerk>Don't want to store it for historical
+purposes or some use cases,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/202-1
+00:12:32.552 --> 00:12:38.756
+<v Ian van Niekerk>but you also have batch processing from
+databases like the real time databases</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/202-2
+00:12:38.756 --> 00:12:44.254
+<v Ian van Niekerk>going into the storage layer.
+We I'll get you to some of the the data</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/202-3
+00:12:44.254 --> 00:12:46.689
+<v Ian van Niekerk>governance in a minute, but we.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/207-0
+00:12:47.209 --> 00:12:53.617
+<v Ian van Niekerk>We would like to to apply governance as a
+or governance by design.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/207-1
+00:12:53.617 --> 00:12:59.260
+<v Ian van Niekerk>So stuff like security that gets mainly
+applied over here.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/207-2
+00:12:59.260 --> 00:13:06.529
+<v Ian van Niekerk>Once we we've got the data stored,
+we'll start processing and enriching it.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/211-0
+00:13:07.129 --> 00:13:16.270
+<v Ian van Niekerk>So typical from typical example would be
+on a process data across data silos.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/211-1
+00:13:16.270 --> 00:13:23.889
+<v Ian van Niekerk>The the one domains got customer
+transactions in the one domain.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/215-0
+00:13:24.249 --> 00:13:31.591
+<v Ian van Niekerk>Mine some of the customer information and
+you want to typically join those together</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/215-1
+00:13:31.591 --> 00:13:37.534
+<v Ian van Niekerk>to get some real time scoring or
+something like that once it's been</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/215-2
+00:13:37.534 --> 00:13:38.409
+<v Ian van Niekerk>processed.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/220-0
+00:13:40.129 --> 00:13:45.648
+<v Ian van Niekerk>We expose it in analytical reports.
+It's a little bit outdated because</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/220-1
+00:13:45.648 --> 00:13:50.313
+<v Ian van Niekerk>there's multiple ways and you'll see it
+here at the bottom,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/220-2
+00:13:50.313 --> 00:13:55.289
+<v Ian van Niekerk>but the typical use case is dashboards
+and data visualizations.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/224-0
+00:13:55.769 --> 00:14:00.536
+<v Ian van Niekerk>These days it's API endpoints that can be
+consumed real time.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/224-1
+00:14:00.536 --> 00:14:04.765
+<v Ian van Niekerk>There's a multitude of words that we can
+get data out,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/224-2
+00:14:04.765 --> 00:14:10.609
+<v Ian van Niekerk>but what we're really after is how do we
+answer a business question, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/228-0
+00:14:11.049 --> 00:14:15.998
+<v Ian van Niekerk>So like I said in the beginning,
+we have to have all of this in place in</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/228-1
+00:14:15.998 --> 00:14:19.185
+<v Ian van Niekerk>this to make sure we can actually answer
+this,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/228-2
+00:14:19.185 --> 00:14:24.474
+<v Ian van Niekerk>these questions in real time or not real
+time as effectively as possible. OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/228-3
+00:14:24.474 --> 00:14:27.729
+<v Ian van Niekerk>And then there's a little block here over
+here.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/233-0
+00:14:28.329 --> 00:14:33.007
+<v Ian van Niekerk>It is where security data management and
+orchestration comes in.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/233-1
+00:14:33.007 --> 00:14:36.605
+<v Ian van Niekerk>So the security is is basically
+self-expandatory.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/233-2
+00:14:36.605 --> 00:14:41.139
+<v Ian van Niekerk>So to make sure that the data that's
+being moved is encrypted.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/233-3
+00:14:41.139 --> 00:14:46.753
+<v Ian van Niekerk>It's encrypted to address only people
+that should be able to see the data can</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/233-4
+00:14:46.753 --> 00:14:47.689
+<v Ian van Niekerk>see the data.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/238-0
+00:14:47.929 --> 00:14:51.639
+<v Ian van Niekerk>Right.
+Not exposing sensitive data like HR data</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/238-1
+00:14:51.639 --> 00:14:55.427
+<v Ian van Niekerk>to the whole company, that type of stuff,
+right.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/238-2
+00:14:55.427 --> 00:15:01.611
+<v Ian van Niekerk>Data management is just making sure that
+all of this information gets to it and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/238-3
+00:15:01.611 --> 00:15:06.249
+<v Ian van Niekerk>that goes hand in hand with the
+orchestration it just gets.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/242-0
+00:15:06.809 --> 00:15:12.928
+<v Ian van Niekerk>To where it needs to be, right?
+Making sure if it doesn't get to where it</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/242-1
+00:15:12.928 --> 00:15:18.965
+<v Ian van Niekerk>needs to be, it we get alerts,
+notifications proactively so we can start</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/242-2
+00:15:18.965 --> 00:15:20.289
+<v Ian van Niekerk>looking at that.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/243-0
+00:15:22.009 --> 00:15:24.609
+<v Ian van Niekerk>Yeah, message. I'll see who ends up.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/248-0
+00:15:25.849 --> 00:15:31.216
+<v Matthew Levy>Thanks Ian.
+I just so maybe this is a silly question,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/248-1
+00:15:31.216 --> 00:15:37.875
+<v Matthew Levy>but would you do same sort of
+architecture or have a blueprint for</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/248-2
+00:15:37.875 --> 00:15:45.529
+<v Matthew Levy>archive data or data that needs to be
+retained but is not part of the whole?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/251-0
+00:15:46.369 --> 00:15:48.929
+<v Matthew Levy>Business use cases anymore. It's old data.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/249-0
+00:15:47.689 --> 00:15:47.889
+<v Ian van Niekerk>Yes.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/256-0
+00:15:49.649 --> 00:15:52.921
+<v Ian van Niekerk>So,
+so typically how we we handle that is in</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/256-1
+00:15:52.921 --> 00:15:58.376
+<v Ian van Niekerk>the the data storage layer, right.
+So we'll we'll set up retention periods</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/256-2
+00:15:58.376 --> 00:16:03.467
+<v Ian van Niekerk>based on some of the use cases.
+So it goes through a whole life cycle</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/256-3
+00:16:03.467 --> 00:16:08.049
+<v Ian van Niekerk>where it gets used actively once it's not
+actively being used.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/261-0
+00:16:08.529 --> 00:16:14.038
+<v Ian van Niekerk>It's quite easy with services like Azure
+at the moment where you set a specific</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/261-1
+00:16:14.038 --> 00:16:19.685
+<v Ian van Niekerk>time range. If it passes that time range,
+it actually moves it from hot data tier</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/261-2
+00:16:19.685 --> 00:16:25.125
+<v Ian van Niekerk>into a cold data tier and eventually I
+can't remember the tiers, but it's hot,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/261-3
+00:16:25.125 --> 00:16:27.329
+<v Ian van Niekerk>cold and in frigid basically so.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/265-0
+00:16:28.049 --> 00:16:33.193
+<v Ian van Niekerk>Depending the cost goes down,
+but the manager know how you retrieve it</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/262-0
+00:16:31.169 --> 00:16:31.329
+<v Matthew Levy>Mm.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/265-1
+00:16:33.193 --> 00:16:38.264
+<v Ian van Niekerk>takes longer as well, right?
+So it typically gets the funding in this</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/265-2
+00:16:38.264 --> 00:16:39.569
+<v Ian van Niekerk>section over here.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/266-0
+00:16:41.009 --> 00:16:41.089
+<v Matthew Levy>Oh.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/268-0
+00:16:43.009 --> 00:16:44.649
+<v Ian van Niekerk>Oh, Mr. Blank.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/276-0
+00:16:47.209 --> 00:16:50.434
+<v Nicolas Blank>I wanted to know in this I might be
+running ahead,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/276-1
+00:16:50.434 --> 00:16:55.113
+<v Nicolas Blank>so if I am just just pull me back.
+What is the manifestation of this look</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/270-0
+00:16:50.929 --> 00:16:51.129
+<v Ian van Niekerk>Hey.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/276-2
+00:16:55.113 --> 00:16:59.540
+<v Nicolas Blank>like in terms of a blueprint?
+Because on the bottom I can see what it</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/276-3
+00:16:59.540 --> 00:17:04.599
+<v Nicolas Blank>would look like in terms of a landing
+zone design and we can infer that landing</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/273-0
+00:17:04.449 --> 00:17:04.729
+<v Ian van Niekerk>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/276-4
+00:17:04.599 --> 00:17:07.129
+<v Nicolas Blank>zone design into a when there's lots of.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/281-0
+00:17:07.209 --> 00:17:11.194
+<v Nicolas Blank>Ways of expressing that from an
+infrastructure's code point of view.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/281-1
+00:17:11.194 --> 00:17:15.699
+<v Nicolas Blank>But if we look at the logical stuff,
+like if you were working and Jaco in the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/277-0
+00:17:13.009 --> 00:17:13.449
+<v Ian van Niekerk>Yes.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/281-2
+00:17:15.699 --> 00:17:18.934
+<v Nicolas Blank>beginning of the call said that he's a
+DevOps engineer,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/281-3
+00:17:18.934 --> 00:17:22.689
+<v Nicolas Blank>what would you give to Jaco and what
+would you give to business?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/279-0
+00:17:19.369 --> 00:17:19.729
+<v Ian van Niekerk>Yes.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/286-0
+00:17:23.449 --> 00:17:29.940
+<v Ian van Niekerk>Yeah. So what we typically give, OK,
+so from a typically the short answer from</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/286-1
+00:17:29.940 --> 00:17:35.938
+<v Ian van Niekerk>the business point is this layer gets
+exposed to to the business, right.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/284-0
+00:17:34.009 --> 00:17:34.609
+<v Nicolas Blank>Mhm.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/286-2
+00:17:35.938 --> 00:17:37.089
+<v Ian van Niekerk>So dashboards.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/291-0
+00:17:39.369 --> 00:17:43.985
+<v Ian van Niekerk>From a DevOps perspective,
+this is where the data management and the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/291-1
+00:17:43.985 --> 00:17:47.732
+<v Ian van Niekerk>orchestration comes in, right?
+So stuff like key vault.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/291-2
+00:17:47.732 --> 00:17:51.010
+<v Ian van Niekerk>I don't think I stole this earlier this
+morning,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/291-3
+00:17:51.010 --> 00:17:54.289
+<v Ian van Niekerk>but it's not on yet this bottom layer
+over here.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/295-0
+00:17:55.089 --> 00:18:00.127
+<v Ian van Niekerk>Would be.
+This is not being depicted over here,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/295-1
+00:18:00.127 --> 00:18:04.746
+<v Ian van Niekerk>right?
+But stuff in here would be keyboard,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/295-2
+00:18:04.746 --> 00:18:12.409
+<v Ian van Niekerk>so secret management, password management,
+dev OPS. So are we typically?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/303-0
+00:18:12.729 --> 00:18:20.060
+<v Ian van Niekerk>The DevOps engineer would sit here and he
+would help us deploy our pipelines right</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/297-0
+00:18:19.729 --> 00:18:20.129
+<v Nicolas Blank>OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/303-1
+00:18:20.060 --> 00:18:27.126
+<v Ian van Niekerk>into a production environment, setting up,
+setting up DevOps pipelines for data</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/303-2
+00:18:27.126 --> 00:18:32.249
+<v Ian van Niekerk>pipelines, right?
+So pipelines for pipelines, so there's.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/300-0
+00:18:27.169 --> 00:18:27.969
+<v Nicolas Blank>Oh, wow.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/301-0
+00:18:30.489 --> 00:18:30.689
+<v Nicolas Blank>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/310-0
+00:18:32.409 --> 00:18:35.668
+<v Ian van Niekerk>There's a lot of DevOps in this this
+space,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/310-1
+00:18:35.668 --> 00:18:41.151
+<v Ian van Niekerk>particularly setting up the environment,
+setting up the DevOps pipelines.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/305-0
+00:18:38.969 --> 00:18:39.689
+<v Nicolas Blank>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/306-0
+00:18:40.329 --> 00:18:40.529
+<v Nicolas Blank>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/310-2
+00:18:41.151 --> 00:18:46.633
+<v Ian van Niekerk>How do you migrate the productionized
+stuff from a a dev environment into</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/310-3
+00:18:46.633 --> 00:18:51.449
+<v Ian van Niekerk>production environment, right?
+And this is this layer over here.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/314-0
+00:18:52.009 --> 00:18:57.381
+<v Ian van Niekerk>Typical stuff would be the orchestration
+like Airflow, DevOps,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/314-1
+00:18:57.381 --> 00:19:02.582
+<v Ian van Niekerk>key vault management,
+all of that type of information around</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/314-2
+00:19:02.582 --> 00:19:03.009
+<v Ian van Niekerk>here.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/313-0
+00:19:03.849 --> 00:19:04.889
+<v Nicolas Blank>Wonderful.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/315-0
+00:19:05.569 --> 00:19:05.729
+<v Ian van Niekerk>Cool.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/317-0
+00:19:07.529 --> 00:19:09.889
+<v Ian van Niekerk>Any other questions? Um.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/322-0
+00:19:11.049 --> 00:19:15.821
+<v Ian van Niekerk>Oh, I'm gonna,
+I'm gonna just jump into an actual real</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/322-1
+00:19:15.821 --> 00:19:22.763
+<v Ian van Niekerk>like naming the the some of the some of
+the the stack and just bringing it back</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/322-2
+00:19:22.763 --> 00:19:26.929
+<v Ian van Niekerk>to some of the logical architecture,
+right? So.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/323-0
+00:19:28.049 --> 00:19:28.129
+<v Ian van Niekerk>Um.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/328-0
+00:19:29.849 --> 00:19:35.144
+<v Ian van Niekerk>We we used to have a,
+let me start at the beginning, right.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/328-1
+00:19:35.144 --> 00:19:39.821
+<v Ian van Niekerk>So we've got in this example we've got
+Dynamics 365.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/328-2
+00:19:39.821 --> 00:19:46.528
+<v Ian van Niekerk>There's a lot of non unstructured,
+semi structured and rational data coming</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/328-3
+00:19:46.528 --> 00:19:49.529
+<v Ian van Niekerk>on. So rational data typically is.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/332-0
+00:19:49.609 --> 00:19:56.741
+<v Ian van Niekerk>Databases semi structured information
+like I said previously as Jason and we we</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/332-1
+00:19:56.741 --> 00:20:03.249
+<v Ian van Niekerk>we tend to get some XML files as well,
+right? But that then gets pushed.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/336-0
+00:20:04.649 --> 00:20:10.349
+<v Ian van Niekerk>Into this this pipeline.
+So we connect to this this environment</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/336-1
+00:20:10.349 --> 00:20:15.248
+<v Ian van Niekerk>via pipelines.
+These pipelines are typically Event Hub</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/336-2
+00:20:15.248 --> 00:20:19.969
+<v Ian van Niekerk>or Data Factory or Synapse pipelines.
+All right, so.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/341-0
+00:20:20.609 --> 00:20:27.154
+<v Ian van Niekerk>So Data Factory is more for the more
+batch processing type of environment</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/341-1
+00:20:27.154 --> 00:20:32.372
+<v Ian van Niekerk>where you say bring back a lot of
+information all at once.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/341-2
+00:20:32.372 --> 00:20:39.449
+<v Ian van Niekerk>The Event Hub is more for streaming real
+time data from IoT devices, a typical.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/343-0
+00:20:39.529 --> 00:20:44.569
+<v Ian van Niekerk>Um, use case that we currently have is uh.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/348-0
+00:20:45.449 --> 00:20:50.030
+<v Ian van Niekerk>Vehicle assets,
+so of course or that's got IoT devices in</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/348-1
+00:20:50.030 --> 00:20:54.216
+<v Ian van Niekerk>there, right?
+So they send all of the information in</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/348-2
+00:20:54.216 --> 00:20:57.850
+<v Ian van Niekerk>here.
+We combine it with some of the the look</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/348-3
+00:20:57.850 --> 00:21:03.932
+<v Ian van Niekerk>up information that we get from the
+source systems and we store both of them</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/348-4
+00:21:03.932 --> 00:21:04.169
+<v Ian van Niekerk>in.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/353-0
+00:21:05.889 --> 00:21:12.373
+<v Ian van Niekerk>Are the SQL databases or IDLS which is
+storage accounts right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/353-1
+00:21:12.373 --> 00:21:19.887
+<v Ian van Niekerk>So this is what we typically refer to
+landing zone or in this diagram is</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/353-2
+00:21:19.887 --> 00:21:21.329
+<v Ian van Niekerk>storage right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/354-0
+00:21:21.969 --> 00:21:22.049
+<v Ian van Niekerk>Um.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/360-0
+00:21:24.889 --> 00:21:30.331
+<v Ian van Niekerk>There's a lot of theory around how you
+store it into the ADLS environment as</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/360-1
+00:21:30.331 --> 00:21:33.441
+<v Ian van Niekerk>well,
+but that's probably a whole different</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/360-2
+00:21:33.441 --> 00:21:38.954
+<v Ian van Niekerk>chat and lunch and learn on its own.
+It moves through various levels in here.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/360-3
+00:21:38.954 --> 00:21:43.760
+<v Ian van Niekerk>We think to keep away from using SQL
+databases as a typical storage</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/360-4
+00:21:43.760 --> 00:21:44.609
+<v Ian van Niekerk>environment.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/364-0
+00:21:44.809 --> 00:21:49.072
+<v Ian van Niekerk>Just because it gets too expensive too
+quickly. So we use the IDLS,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/364-1
+00:21:49.072 --> 00:21:53.774
+<v Ian van Niekerk>it's relatively cheap and we can we can
+store a lot of information, right,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/364-2
+00:21:53.774 --> 00:21:56.847
+<v Ian van Niekerk>which helps with the archiving as well.
+Matthew,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/364-3
+00:21:56.847 --> 00:22:00.609
+<v Ian van Niekerk>it's a little bit different if you want
+to start archiving.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/366-0
+00:22:00.889 --> 00:22:06.329
+<v Ian van Niekerk>In the the SQL database environment, um,
+we do have.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/370-0
+00:22:07.849 --> 00:22:13.797
+<v Ian van Niekerk>SQL databases in in the storage
+environment as well,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/370-1
+00:22:13.797 --> 00:22:22.326
+<v Ian van Niekerk>but we do use that as a configuration
+database, not as a storage container,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/370-2
+00:22:22.326 --> 00:22:23.449
+<v Ian van Niekerk>right? OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/375-0
+00:22:23.529 --> 00:22:32.351
+<v Ian van Niekerk>So once all of that information then
+lands in the the IDLS environment,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/375-1
+00:22:32.351 --> 00:22:40.805
+<v Ian van Niekerk>you can then link it up into Fabric.
+So Fabric is a interesting one.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/375-2
+00:22:40.805 --> 00:22:42.889
+<v Ian van Niekerk>So Microsoft has.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/378-0
+00:22:43.009 --> 00:22:50.449
+<v Ian van Niekerk>Has consolidated and tried to make our
+lives a little bit easier with some.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/383-0
+00:22:51.489 --> 00:22:58.090
+<v Ian van Niekerk>Fabric where it consolidates all of a
+bunch of a bunch of the services into a</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/383-1
+00:22:58.090 --> 00:23:02.660
+<v Ian van Niekerk>one offering.
+So you have one like and then on top of</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/383-2
+00:23:02.660 --> 00:23:09.769
+<v Ian van Niekerk>one like where you'll do the processing,
+you'll then have a SQL analytics endpoint.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/384-0
+00:23:10.249 --> 00:23:15.289
+<v Ian van Niekerk>For all intents and purposes,
+SQL Analytics endpoint is really just a.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/389-0
+00:23:16.009 --> 00:23:20.117
+<v Ian van Niekerk>SQL, you can create it as SQL, etcetera,
+right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/389-1
+00:23:20.117 --> 00:23:27.136
+<v Ian van Niekerk>So this is just a a SQL-esque environment
+where you can then get your information</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/389-2
+00:23:27.136 --> 00:23:31.673
+<v Ian van Niekerk>from here.
+So it's basically a pass through one like</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/389-3
+00:23:31.673 --> 00:23:32.529
+<v Ian van Niekerk>into here.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/393-0
+00:23:33.049 --> 00:23:42.534
+<v Ian van Niekerk>Something to note about one lake is you
+don't only need to to link in ADLS.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/393-1
+00:23:42.534 --> 00:23:49.649
+<v Ian van Niekerk>Relatively recent they have added
+shortcuts to external.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/398-0
+00:23:50.089 --> 00:23:55.291
+<v Ian van Niekerk>To external vendors as well.
+I think you can put AWSS in here.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/398-1
+00:23:55.291 --> 00:24:02.227
+<v Ian van Niekerk>I do not recall, I can't recall GCP also,
+but essentially what they're trying to do</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/398-2
+00:24:02.227 --> 00:24:08.916
+<v Ian van Niekerk>with One Lake is make it one place that
+you can get all of your information real</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/398-3
+00:24:08.916 --> 00:24:09.329
+<v Ian van Niekerk>time.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/403-0
+00:24:09.729 --> 00:24:14.494
+<v Ian van Niekerk>Or batched or archived, right?
+On top of this you can then start</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/403-1
+00:24:14.494 --> 00:24:18.379
+<v Ian van Niekerk>collaborating and consuming your
+information. Again,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/403-2
+00:24:18.379 --> 00:24:23.584
+<v Ian van Niekerk>this they use pipelines in here.
+So pipelines is basically pulling the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/403-3
+00:24:23.584 --> 00:24:27.689
+<v Ian van Niekerk>data out of the the storage and
+processing environment,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/403-4
+00:24:27.689 --> 00:24:29.449
+<v Ian van Niekerk>doing something with it.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/408-0
+00:24:29.569 --> 00:24:35.460
+<v Ian van Niekerk>And then pushing it back into the one
+like same with the spark balls and then</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/408-1
+00:24:35.460 --> 00:24:41.579
+<v Ian van Niekerk>the analytical endpoint is where all of
+these like services can then start using</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/408-2
+00:24:41.579 --> 00:24:46.489
+<v Ian van Niekerk>it right. So in a real time,
+a bit more of a real time use case.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/413-0
+00:24:46.889 --> 00:24:50.910
+<v Ian van Niekerk>You'd get a client credit score,
+for example,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/413-1
+00:24:50.910 --> 00:24:56.419
+<v Ian van Niekerk>that's being fed by a bunch of telematics
+from a client. Yeah,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/413-2
+00:24:56.419 --> 00:25:03.413
+<v Ian van Niekerk>it goes through the one leg and then it
+serves it by the API into a function so</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/413-3
+00:25:03.413 --> 00:25:06.649
+<v Ian van Niekerk>that you can get that more real time.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/417-0
+00:25:06.649 --> 00:25:14.384
+<v Ian van Niekerk>It's broad use cases work similar to that.
+We want to have more management and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/417-1
+00:25:14.384 --> 00:25:19.182
+<v Ian van Niekerk>reporting use cases and flow differently,
+right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/417-2
+00:25:19.182 --> 00:25:25.449
+<v Ian van Niekerk>So data factory and server in a Power BI
+or Power BI dashboard.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/418-0
+00:25:26.449 --> 00:25:26.929
+<v Ian van Niekerk>Yahoo.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/426-0
+00:25:28.969 --> 00:25:34.528
+<v Jaco>So just out of curiosity,
+we what we basically do is we also use</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/420-0
+00:25:32.129 --> 00:25:32.369
+<v Ian van Niekerk>Yes.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/426-1
+00:25:34.528 --> 00:25:41.371
+<v Jaco>event harvest and then we use the stream
+analytics jobs to to get the data into</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/426-2
+00:25:41.371 --> 00:25:48.129
+<v Jaco>the storages and then from there we use
+Databricks and Medallion architecture.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/425-0
+00:25:48.329 --> 00:25:49.249
+<v Ian van Niekerk>Yes, yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/430-0
+00:25:49.409 --> 00:25:55.207
+<v Jaco>To just refine the data basically with
+the SQL analytics endpoint,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/430-1
+00:25:55.207 --> 00:26:02.304
+<v Jaco>would you suggest that would be the best
+way to make the basically the gold layer</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/430-2
+00:26:02.304 --> 00:26:04.209
+<v Jaco>available to business?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/434-0
+00:26:03.369 --> 00:26:10.169
+<v Ian van Niekerk>Available. It depends on the text,
+the text, the tick stack, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/434-1
+00:26:10.169 --> 00:26:16.369
+<v Ian van Niekerk>The later bricks is.
+I'm not that well versed in data bricks,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/434-2
+00:26:16.369 --> 00:26:18.969
+<v Ian van Niekerk>but fabric is basically a.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/441-0
+00:26:18.969 --> 00:26:24.632
+<v Ian van Niekerk>A a Microsoft version of the Databricks,
+right? So they they.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/441-1
+00:26:24.632 --> 00:26:31.392
+<v Ian van Niekerk>So you can you can even expose it via
+Databricks or you can write do your</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/436-0
+00:26:25.089 --> 00:26:25.489
+<v Jaco>OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/441-2
+00:26:31.392 --> 00:26:35.594
+<v Ian van Niekerk>computation,
+the box box bools in Databricks,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/441-3
+00:26:35.594 --> 00:26:37.969
+<v Ian van Niekerk>write it back to ideal AS.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/447-0
+00:26:38.609 --> 00:26:43.861
+<v Ian van Niekerk>And serve the data as a with a serverless
+endpoint as well.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/447-1
+00:26:43.861 --> 00:26:48.237
+<v Ian van Niekerk>So there's there's a few ways you can
+skin a cat.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/447-2
+00:26:48.237 --> 00:26:53.227
+<v Ian van Niekerk>There's also stuff like Synapse that you
+can use, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/447-3
+00:26:53.227 --> 00:26:58.129
+<v Ian van Niekerk>So you can do your computations in in
+Databricks there.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/445-0
+00:26:55.369 --> 00:26:55.569
+<v Jaco>Yes.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/451-0
+00:26:58.689 --> 00:27:05.330
+<v Ian van Niekerk>Send it back into the IDLS world and then
+put a SQL Serverless on top of IDLS,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/451-1
+00:27:05.330 --> 00:27:11.887
+<v Ian van Niekerk>which is a Synapse function, right?
+And that's also pretty similar to the the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/451-2
+00:27:11.887 --> 00:27:13.569
+<v Ian van Niekerk>analytical endpoint.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/452-0
+00:27:13.689 --> 00:27:15.529
+<v Jaco>Okay, cool.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/453-0
+00:27:14.889 --> 00:27:15.729
+<v Ian van Niekerk>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/454-0
+00:27:16.689 --> 00:27:17.049
+<v Jaco>Thanks.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/456-0
+00:27:18.129 --> 00:27:20.249
+<v Ian van Niekerk>Awesome. Any other questions?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/461-0
+00:27:22.249 --> 00:27:25.958
+<v Ian van Niekerk>Happiness then. OK, so way to start,
+right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/461-1
+00:27:25.958 --> 00:27:30.258
+<v Ian van Niekerk>So there's there's been a lot of ticky
+ticky talk,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/461-2
+00:27:30.258 --> 00:27:34.389
+<v Ian van Niekerk>but if the window with the rubber hits
+the road,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/461-3
+00:27:34.389 --> 00:27:38.689
+<v Ian van Niekerk>there's a few questions we need to ask,
+right? So.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/465-0
+00:27:38.969 --> 00:27:43.449
+<v Ian van Niekerk>1st is know what business problem you're
+trying to solve, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/465-1
+00:27:43.449 --> 00:27:48.481
+<v Ian van Niekerk>It's very cool for the techies,
+especially to start fiddling around with</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/465-2
+00:27:48.481 --> 00:27:54.134
+<v Ian van Niekerk>tech, right? But at the end of the day,
+there's some value proposition that we're</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/465-3
+00:27:54.134 --> 00:27:56.409
+<v Ian van Niekerk>trying to solve for for business.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/470-0
+00:27:56.409 --> 00:28:02.067
+<v Ian van Niekerk>And that's that's very important that we
+we first define what that business</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/470-1
+00:28:02.067 --> 00:28:08.097
+<v Ian van Niekerk>problem is right that we want to solve
+and it doesn't need to be you can have to</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/470-2
+00:28:08.097 --> 00:28:12.117
+<v Ian van Niekerk>take in place.
+I think we what I mean more about know</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/470-3
+00:28:12.117 --> 00:28:14.649
+<v Ian van Niekerk>the business problem is how do we.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/475-0
+00:28:15.409 --> 00:28:19.520
+<v Ian van Niekerk>What is the shortest route to get to
+value first? All right,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/475-1
+00:28:19.520 --> 00:28:23.565
+<v Ian van Niekerk>it doesn't need to be a big problem
+you're trying to solve,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/475-2
+00:28:23.565 --> 00:28:28.013
+<v Ian van Niekerk>but it needs to be a business problem
+that we're trying to solve.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/475-3
+00:28:28.013 --> 00:28:33.069
+<v Ian van Niekerk>Some of us are fortunate enough that
+there is no deck currently available,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/475-4
+00:28:33.069 --> 00:28:34.889
+<v Ian van Niekerk>so we've green fields, but.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/480-0
+00:28:34.969 --> 00:28:39.589
+<v Ian van Niekerk>More likely than not,
+there is a a current state in in there.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/480-1
+00:28:39.589 --> 00:28:45.327
+<v Ian van Niekerk>So it's either on Prem that we need to
+replicate into the cloud or we've got</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/480-2
+00:28:45.327 --> 00:28:49.501
+<v Ian van Niekerk>some of the the the previous components
+in but not all.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/480-3
+00:28:49.501 --> 00:28:54.569
+<v Ian van Niekerk>So I think it's very important that we we
+define our current state.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/484-0
+00:28:54.929 --> 00:29:00.450
+<v Ian van Niekerk>And then make sure we we do like some
+steps or we define the future state,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/484-1
+00:29:00.450 --> 00:29:06.339
+<v Ian van Niekerk>the current state and then define the
+intermediate steps and how we want to get</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/484-2
+00:29:06.339 --> 00:29:10.387
+<v Ian van Niekerk>there, right.
+But we first need to understand where we</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/484-3
+00:29:10.387 --> 00:29:12.449
+<v Ian van Niekerk>are at at the moment, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/485-0
+00:29:13.609 --> 00:29:15.809
+<v Ian van Niekerk>And then instead of.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/491-0
+00:29:17.089 --> 00:29:22.264
+<v Ian van Niekerk>This architecture right this I'm using
+Microsoft as a example,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/491-1
+00:29:22.264 --> 00:29:28.755
+<v Ian van Niekerk>but this could be the architecture you
+can you can duplicate this architecture</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/491-2
+00:29:28.755 --> 00:29:33.849
+<v Ian van Niekerk>in AWS in GCP right?
+So this is instead of defining the tools</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/491-3
+00:29:33.849 --> 00:29:36.889
+<v Ian van Niekerk>that you want to use with a specific.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/494-0
+00:29:36.969 --> 00:29:42.425
+<v Ian van Niekerk>Architecture set some clear principles,
+right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/494-1
+00:29:42.425 --> 00:29:47.649
+<v Ian van Niekerk>Say as a principle we don't want to
+consume.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/499-0
+00:29:48.729 --> 00:29:52.696
+<v Ian van Niekerk>We want to do incremental loads of data,
+right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/499-1
+00:29:52.696 --> 00:29:57.820
+<v Ian van Niekerk>We don't want to consume the whole data
+set every day, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/499-2
+00:29:57.820 --> 00:30:02.118
+<v Ian van Niekerk>That's a silly example, right?
+Or as a a principle,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/499-3
+00:30:02.118 --> 00:30:06.169
+<v Ian van Niekerk>naming standards is a very basic
+principle that.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/503-0
+00:30:06.289 --> 00:30:11.784
+<v Ian van Niekerk>Doesn't get applied constantly and
+becomes a big, big headache later on,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/503-1
+00:30:11.784 --> 00:30:15.322
+<v Ian van Niekerk>right?
+So define the principles that you would</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/503-2
+00:30:15.322 --> 00:30:21.420
+<v Ian van Niekerk>like to implement in the data architects
+as part of the data architecture rather</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/503-3
+00:30:21.420 --> 00:30:22.249
+<v Ian van Niekerk>than tools.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/506-0
+00:30:22.289 --> 00:30:28.569
+<v Ian van Niekerk>Tools, right? Then start small.
+Get a small business case, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/506-1
+00:30:28.569 --> 00:30:34.849
+<v Ian van Niekerk>Don't try to solve a fraud in the whole
+company. Maybe try and I.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/511-0
+00:30:36.049 --> 00:30:42.198
+<v Ian van Niekerk>The way clients are doing specific
+fraudulent transactions, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/511-1
+00:30:42.198 --> 00:30:49.264
+<v Ian van Niekerk>Small data sets put the the architecture
+through its paces and incrementally</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/511-2
+00:30:49.264 --> 00:30:53.578
+<v Ian van Niekerk>improve, right?
+Which is my next point is bold</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/511-3
+00:30:53.578 --> 00:30:55.689
+<v Ian van Niekerk>iteratively, right? So.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/515-0
+00:30:56.049 --> 00:31:04.854
+<v Ian van Niekerk>Keep in mind where you want to go, right?
+But build iteratively if if your use case</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/515-1
+00:31:04.854 --> 00:31:05.169
+<v Ian van Niekerk>is.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/520-0
+00:31:06.609 --> 00:31:13.399
+<v Ian van Niekerk>Sufficient just to store data for the
+time being in a ADLS. That's fine,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/520-1
+00:31:13.399 --> 00:31:20.934
+<v Ian van Niekerk>but don't know you at least need to use a
+ADLS account rather than starting with</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/520-2
+00:31:20.934 --> 00:31:22.609
+<v Ian van Niekerk>SQL as a base and.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/525-0
+00:31:22.689 --> 00:31:28.068
+<v Ian van Niekerk>Another one of the core principles we
+love by in our team is design for</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/525-1
+00:31:28.068 --> 00:31:32.176
+<v Ian van Niekerk>maintenance.
+We can build it quite quickly with all of</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/525-2
+00:31:32.176 --> 00:31:38.228
+<v Ian van Niekerk>the AI tools and the the drag and drops,
+but it it's not necessarily sustainable</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/525-3
+00:31:38.228 --> 00:31:41.889
+<v Ian van Niekerk>over the long run, right?
+So I think one of the.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/527-0
+00:31:42.449 --> 00:31:49.056
+<v Ian van Niekerk>The principles that you need to think
+about is how can we design A pipeline for</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/527-1
+00:31:49.056 --> 00:31:51.369
+<v Ian van Niekerk>all a architecture to be as?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/532-0
+00:31:52.849 --> 00:31:58.369
+<v Ian van Niekerk>As efficient and maintenance friendly as
+possible over the long run.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/532-1
+00:31:58.369 --> 00:32:04.929
+<v Ian van Niekerk>You know that's that's where I would say
+let's you know to start I think start by</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/532-2
+00:32:04.929 --> 00:32:10.689
+<v Ian van Niekerk>answering all of these questions that
+will give you good principles and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/532-3
+00:32:10.689 --> 00:32:12.289
+<v Ian van Niekerk>guidelines on where.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/535-0
+00:32:12.449 --> 00:32:16.162
+<v Ian van Niekerk>In the architecture design,
+you need to stop, right? Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/535-1
+00:32:16.162 --> 00:32:21.259
+<v Ian van Niekerk>So I think we've answered a few questions
+throughout the whole thing. It's Kolk.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/535-2
+00:32:21.259 --> 00:32:21.889
+<v Ian van Niekerk>What's up?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/540-0
+00:32:23.209 --> 00:32:28.723
+<v Schalk van Wyk>OK, I've got a I'm not a data expert,
+but got a few questions.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/540-1
+00:32:28.723 --> 00:32:35.289
+<v Schalk van Wyk>So where would master data sort of that
+concept fit into the architecture?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/538-0
+00:32:29.529 --> 00:32:29.769
+<v Ian van Niekerk>Sure.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/541-0
+00:32:34.969 --> 00:32:37.489
+<v Ian van Niekerk>Yeah, so you know, just go.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/542-0
+00:32:36.449 --> 00:32:39.649
+<v Schalk van Wyk>And they the cleansing.
+They the cleansing as well.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/547-0
+00:32:39.049 --> 00:32:42.624
+<v Ian van Niekerk>Sure.
+So the data cleansing is is usually part</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/547-1
+00:32:42.624 --> 00:32:46.961
+<v Ian van Niekerk>of this data,
+data management orchestration part, right.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/547-2
+00:32:46.961 --> 00:32:53.047
+<v Ian van Niekerk>So that happens throughout the process
+and the medallion architecture that Jaco</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/547-3
+00:32:53.047 --> 00:32:54.569
+<v Ian van Niekerk>referred to earlier.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/552-0
+00:32:54.849 --> 00:32:59.602
+<v Ian van Niekerk>That's also part of it,
+but the short answer is it happens in</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/552-1
+00:32:59.602 --> 00:33:03.512
+<v Ian van Niekerk>multiple stages throughout.
+So cleaning your data,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/552-2
+00:33:03.512 --> 00:33:09.492
+<v Ian van Niekerk>you'll do the technique what we call
+technical data cleansing before we store</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/552-3
+00:33:09.492 --> 00:33:13.172
+<v Ian van Niekerk>it, right?
+So removing some of the null the the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/552-4
+00:33:13.172 --> 00:33:14.169
+<v Ian van Niekerk>empty values.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/558-0
+00:33:14.529 --> 00:33:20.640
+<v Ian van Niekerk>Making sure it's costed as the correct
+data types. We'll do this in this step,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/553-0
+00:33:20.369 --> 00:33:20.889
+<v Schalk van Wyk>OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/558-1
+00:33:20.640 --> 00:33:24.430
+<v Ian van Niekerk>right?
+Business rules and business cleaning will</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/558-2
+00:33:24.430 --> 00:33:28.917
+<v Ian van Niekerk>happen in the the processing and
+enrichment phase, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/558-3
+00:33:28.917 --> 00:33:33.249
+<v Ian van Niekerk>Master data management depends on who you
+talk to, but.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/557-0
+00:33:31.769 --> 00:33:33.209
+<v Schalk van Wyk>Exactly.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/559-0
+00:33:33.249 --> 00:33:35.049
+<v Ian van Niekerk>My, my.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/565-0
+00:33:36.609 --> 00:33:41.749
+<v Ian van Niekerk>My opinion is it needs to be part of the
+source systems, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/565-1
+00:33:41.749 --> 00:33:47.934
+<v Ian van Niekerk>This the the master data management
+basically sits over this and and this is</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/565-2
+00:33:47.934 --> 00:33:52.272
+<v Ian van Niekerk>one of the feedbacks into the master data
+management.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/565-3
+00:33:52.272 --> 00:33:56.449
+<v Ian van Niekerk>Master data management is then fixed at
+source and.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/570-0
+00:33:56.449 --> 00:34:02.625
+<v Ian van Niekerk>Then it comes in here again, right.
+So it's a little bit of a a feedback loop</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/570-1
+00:34:02.625 --> 00:34:08.326
+<v Ian van Niekerk>in here. I'm just making some notes.
+I I like the questions. I'm gonna,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/567-0
+00:34:02.969 --> 00:34:03.209
+<v Schalk van Wyk>Yep.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/574-0
+00:34:08.289 --> 00:34:15.880
+<v Schalk van Wyk>So and then obviously that fits in with
+your data from operational systems coming</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/570-2
+00:34:08.326 --> 00:34:11.969
+<v Ian van Niekerk>you know, answer my pranky with it,
+you know?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/574-1
+00:34:15.880 --> 00:34:23.009
+<v Schalk van Wyk>to your master data and managing it
+through that. Yeah, OK. And then I mean.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/572-0
+00:34:19.489 --> 00:34:19.769
+<v Ian van Niekerk>Yes.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/578-0
+00:34:23.969 --> 00:34:30.213
+<v Schalk van Wyk>It's quite difficult to have that most
+data management is a whole story by</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/578-1
+00:34:30.213 --> 00:34:32.129
+<v Schalk van Wyk>itself, I would assume.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/585-0
+00:34:31.129 --> 00:34:34.691
+<v Ian van Niekerk>Yes, so, so,
+so that's why I say it depends.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/585-1
+00:34:34.691 --> 00:34:39.203
+<v Ian van Niekerk>That's an ideal world, right?
+We it's a separate system.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/585-2
+00:34:39.203 --> 00:34:45.377
+<v Ian van Niekerk>Practically what happens in the field is
+they've got some type of master data</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/585-3
+00:34:45.377 --> 00:34:49.969
+<v Ian van Niekerk>management running inside of the the data
+storage, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/582-0
+00:34:49.969 --> 00:34:50.289
+<v Schalk van Wyk>Mm.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/583-0
+00:34:51.649 --> 00:34:52.169
+<v Schalk van Wyk>OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/590-0
+00:34:52.129 --> 00:34:56.875
+<v Ian van Niekerk>So it comes in here, it looks at this.
+I'm gonna say look up for lack of a</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/590-1
+00:34:56.875 --> 00:35:01.116
+<v Ian van Niekerk>better word and then cleans it as it goes
+into the storage, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/587-0
+00:35:00.289 --> 00:35:00.929
+<v Schalk van Wyk>Hmm.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/590-2
+00:35:01.116 --> 00:35:06.369
+<v Ian van Niekerk>But that still means the data in the the
+source environment is still dirty, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/591-0
+00:35:06.369 --> 00:35:09.729
+<v Schalk van Wyk>Yes, exactly now.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/595-0
+00:35:06.849 --> 00:35:11.705
+<v Ian van Niekerk>So that's why I say it's a little bit
+more practical to take it through here</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/595-1
+00:35:11.705 --> 00:35:16.562
+<v Ian van Niekerk>and then store it as a clean version.
+But to solve the problem holistically,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/593-0
+00:35:14.809 --> 00:35:14.969
+<v Schalk van Wyk>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/595-2
+00:35:16.562 --> 00:35:19.969
+<v Ian van Niekerk>you need to fix it at source,
+and that's why it says.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/602-0
+00:35:18.969 --> 00:35:22.892
+<v Schalk van Wyk>Because one system might affect another
+system,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/596-0
+00:35:21.769 --> 00:35:22.129
+<v Ian van Niekerk>Correct.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/602-1
+00:35:22.892 --> 00:35:28.860
+<v Schalk van Wyk>so you have data flowing so it becomes a
+bit of a chicken egg situation.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/598-0
+00:35:23.209 --> 00:35:26.089
+<v Ian van Niekerk>Yeah, exactly. Exactly.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/602-2
+00:35:28.860 --> 00:35:34.337
+<v Schalk van Wyk>And then transactional data.
+I mean if if you ingest transactional</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/600-0
+00:35:32.569 --> 00:35:32.649
+<v Ian van Niekerk>Um.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/602-3
+00:35:34.337 --> 00:35:35.809
+<v Schalk van Wyk>data, would it be?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/605-0
+00:35:35.889 --> 00:35:43.449
+<v Schalk van Wyk>Be best to store it sort of raw and then
+only process parts out of that, yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/610-0
+00:35:40.449 --> 00:35:44.840
+<v Ian van Niekerk>Yes. So that, yeah.
+So that's exactly where the the the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/610-1
+00:35:44.840 --> 00:35:51.349
+<v Ian van Niekerk>medallion architecture comes in, right.
+So it might be worth while touching on it,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/607-0
+00:35:50.209 --> 00:35:50.329
+<v Schalk van Wyk>OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/610-2
+00:35:51.349 --> 00:35:56.211
+<v Ian van Niekerk>just maybe briefly.
+So we've got 33 levels right of medallion</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/610-3
+00:35:56.211 --> 00:36:00.289
+<v Ian van Niekerk>architecture. It's the bronze,
+silver and the gold.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/614-0
+00:36:00.369 --> 00:36:04.475
+<v Ian van Niekerk>That all sits in this data storage layer,
+right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/614-1
+00:36:04.475 --> 00:36:10.089
+<v Ian van Niekerk>So bronze is a one to one replication of
+our source system, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/614-2
+00:36:10.089 --> 00:36:13.860
+<v Ian van Niekerk>Going from bronze to our silver
+environment,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/614-3
+00:36:13.860 --> 00:36:17.129
+<v Ian van Niekerk>we start doing some technical cleanups.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/620-0
+00:36:17.409 --> 00:36:22.075
+<v Ian van Niekerk>And then start aligning it a little bit
+more to the what the business,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/620-1
+00:36:22.075 --> 00:36:25.690
+<v Ian van Niekerk>the business use case is at the end of
+the day, right.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/620-2
+00:36:25.690 --> 00:36:30.553
+<v Ian van Niekerk>And then when we move it into gold,
+we do a lot of the transformation and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/620-3
+00:36:30.553 --> 00:36:34.694
+<v Ian van Niekerk>enrichments and that then looks almost
+exactly like to answer.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/620-4
+00:36:34.694 --> 00:36:36.929
+<v Ian van Niekerk>So we move it from an OLTP system.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/625-0
+00:36:36.929 --> 00:36:43.736
+<v Ian van Niekerk>In the OLAP system from bronze to to gold,
+right and that then aligns with the.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/621-0
+00:36:42.729 --> 00:36:43.129
+<v Schalk van Wyk>Thank you.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/625-1
+00:36:43.736 --> 00:36:50.288
+<v Ian van Niekerk>So on the bronze layer it's a lot more
+system or source aligned where on the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/625-2
+00:36:50.288 --> 00:36:55.649
+<v Ian van Niekerk>gold side it's a lot more business,
+business use case aligned.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/630-0
+00:36:56.689 --> 00:37:00.855
+<v Schalk van Wyk>The last question,
+so different you you can't replicate this</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/630-1
+00:37:00.855 --> 00:37:04.954
+<v Schalk van Wyk>over environment obviously.
+So this will be your production</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/630-2
+00:37:04.954 --> 00:37:10.351
+<v Schalk van Wyk>environment unless you have some big,
+some big company like the old mutuals or</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/628-0
+00:37:07.609 --> 00:37:07.809
+<v Ian van Niekerk>So.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/630-3
+00:37:10.351 --> 00:37:11.649
+<v Schalk van Wyk>something probably.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/636-0
+00:37:10.529 --> 00:37:15.065
+<v Ian van Niekerk>Yeah, yeah, yeah. So, but so,
+so it depends, right.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/636-1
+00:37:15.065 --> 00:37:21.956
+<v Ian van Niekerk>So we've got small companies that run the
+same thing, but multiples of things,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/633-0
+00:37:21.769 --> 00:37:22.249
+<v Schalk van Wyk>Mhm.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/636-2
+00:37:21.956 --> 00:37:25.795
+<v Ian van Niekerk>right.
+We you can have multiples of things.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/636-3
+00:37:25.795 --> 00:37:27.889
+<v Ian van Niekerk>What we found though is.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/641-0
+00:37:29.729 --> 00:37:34.489
+<v Ian van Niekerk>Typically the users want to test on
+production environment, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/641-1
+00:37:34.489 --> 00:37:39.889
+<v Ian van Niekerk>So what typically happens is the storage
+and the the pipeline environments.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/641-2
+00:37:39.889 --> 00:37:43.015
+<v Ian van Niekerk>We have a dev and a production
+environment,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/641-3
+00:37:43.015 --> 00:37:45.289
+<v Ian van Niekerk>so pipelines and data data sets.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/639-0
+00:37:43.689 --> 00:37:44.249
+<v Schalk van Wyk>Mhm.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/646-0
+00:37:45.569 --> 00:37:49.626
+<v Ian van Niekerk>Where we actually process the data,
+you have one big pool,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/646-1
+00:37:49.626 --> 00:37:54.784
+<v Ian van Niekerk>but it writes back either to the product
+production or dev environment and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/646-2
+00:37:54.784 --> 00:38:00.148
+<v Ian van Niekerk>sometimes the the company split up the
+analytical and reporting sites, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/646-3
+00:38:00.148 --> 00:38:03.449
+<v Ian van Niekerk>But because it's based on production in
+source.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/644-0
+00:38:00.249 --> 00:38:00.409
+<v Schalk van Wyk>Mm.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/648-0
+00:38:03.729 --> 00:38:07.961
+<v Ian van Niekerk>Uh, data.
+They they tend to use the environment,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/648-1
+00:38:07.961 --> 00:38:09.689
+<v Ian van Niekerk>right? Um, you know?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/650-0
+00:38:10.369 --> 00:38:10.729
+<v Schalk van Wyk>Cool. Thanks.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/652-0
+00:38:12.849 --> 00:38:15.800
+<v Ian van Niekerk>Oh, Jaco,
+I saw your hand was up briefly as well.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/652-1
+00:38:15.800 --> 00:38:17.689
+<v Ian van Niekerk>Do you still have a question or?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/657-0
+00:38:18.489 --> 00:38:21.241
+<v Jaco>No,
+my comment was just towards the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/657-1
+00:38:21.241 --> 00:38:26.210
+<v Jaco>validation of the data.
+That is what we use our stream analytics</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/657-2
+00:38:26.210 --> 00:38:29.880
+<v Jaco>job for.
+So as we pick up the events from Event</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/655-0
+00:38:28.089 --> 00:38:28.329
+<v Ian van Niekerk>OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/657-3
+00:38:29.880 --> 00:38:33.397
+<v Jaco>Hub,
+we first validate it and then it goes to</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/657-4
+00:38:33.397 --> 00:38:34.009
+<v Jaco>storage.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/660-0
+00:38:34.089 --> 00:38:37.033
+<v Ian van Niekerk>OK,
+what what type of validations do you</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/660-1
+00:38:37.033 --> 00:38:41.270
+<v Ian van Niekerk>apply on on that?
+Is it like technical validations to make</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/660-2
+00:38:41.270 --> 00:38:43.209
+<v Ian van Niekerk>sure it's in or would like?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/664-0
+00:38:41.729 --> 00:38:47.214
+<v Jaco>Yeah, it's it's basic, sorry, yeah,
+it's it's basically like contracts just</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/664-1
+00:38:47.214 --> 00:38:51.329
+<v Jaco>to ensure that everything that is needed
+is is provided.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/662-0
+00:38:47.369 --> 00:38:47.849
+<v Ian van Niekerk>Mhm.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/668-0
+00:38:52.449 --> 00:38:57.137
+<v Ian van Niekerk>OK, that's pretty cool.
+I think that's a good a good use case for</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/668-1
+00:38:57.137 --> 00:39:00.619
+<v Ian van Niekerk>for that.
+And do you guys use that data that you</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/668-2
+00:39:00.619 --> 00:39:06.444
+<v Ian van Niekerk>pump through the Event Hub in real time
+as well or is the the Event Hub just used</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/668-3
+00:39:06.444 --> 00:39:06.729
+<v Ian van Niekerk>for?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/669-0
+00:39:08.449 --> 00:39:10.489
+<v Ian van Niekerk>Uh, the ingestion port.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/672-0
+00:39:11.289 --> 00:39:14.408
+<v Jaco>No,
+it's basically just for for for analytics,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/672-1
+00:39:14.408 --> 00:39:17.129
+<v Jaco>so it's after the fact and not real time.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/673-0
+00:39:17.289 --> 00:39:18.449
+<v Ian van Niekerk>OK, cool.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/675-0
+00:39:20.849 --> 00:39:23.369
+<v Ian van Niekerk>Any other questions? Oh, sorry, last call.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/681-0
+00:39:21.089 --> 00:39:27.478
+<v Schalk van Wyk>So so that's also that's also we so
+getting data from external systems that</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/681-1
+00:39:27.478 --> 00:39:34.539
+<v Schalk van Wyk>data factory doesn't fit because it's too
+expensive and it's for running continuous</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/681-2
+00:39:34.539 --> 00:39:40.929
+<v Schalk van Wyk>like if you have instead of and also
+event hubs won't necessarily work for.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/678-0
+00:39:34.689 --> 00:39:35.089
+<v Ian van Niekerk>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/684-0
+00:39:40.929 --> 00:39:46.532
+<v Schalk van Wyk>We have to feed data from external
+systems or ingest it to actually feed it</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/687-0
+00:39:44.969 --> 00:39:52.113
+<v Ian van Niekerk>Yeah. So do you? Yeah, yes. So, so,
+so they this, there's a few stuff here,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/684-1
+00:39:46.532 --> 00:39:49.407
+<v Schalk van Wyk>in.
+So we're using Azure Functions and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/684-2
+00:39:49.407 --> 00:39:52.209
+<v Schalk van Wyk>whatever to try and pull that data in.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/687-1
+00:39:52.113 --> 00:39:55.968
+<v Ian van Niekerk>right.
+So we initially started with data</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/687-2
+00:39:55.968 --> 00:40:03.489
+<v Ian van Niekerk>factories running the pipelines and to
+your point, it was too expensive, right.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/691-0
+00:40:03.729 --> 00:40:08.748
+<v Ian van Niekerk>Then we said OK,
+well we need to use something different.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/691-1
+00:40:08.748 --> 00:40:12.816
+<v Ian van Niekerk>So we actually was in the the ingestion
+phase.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/691-2
+00:40:12.816 --> 00:40:18.529
+<v Ian van Niekerk>We're using sparkles to pull in data.
+So we we technically using.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/695-0
+00:40:19.449 --> 00:40:24.913
+<v Ian van Niekerk>We're still using Data Factory,
+but it's more for orchestration of the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/695-1
+00:40:24.913 --> 00:40:29.685
+<v Ian van Niekerk>spark pools, right?
+Then actually using the pipelines and the</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/695-2
+00:40:29.685 --> 00:40:35.689
+<v Ian van Niekerk>data flows for the computation, right?
+That that brought down the cost a lot.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/700-0
+00:40:35.729 --> 00:40:39.736
+<v Ian van Niekerk>Then we said, well,
+we could possibly take down the cost even</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/700-1
+00:40:39.736 --> 00:40:43.226
+<v Ian van Niekerk>further and that's where we started using
+logic apps.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/700-2
+00:40:43.226 --> 00:40:47.492
+<v Ian van Niekerk>We still use pipelines as an
+orchestration method and we've got a</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/700-3
+00:40:47.492 --> 00:40:52.081
+<v Ian van Niekerk>database that that sits over here which
+is configuration based, right.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/700-4
+00:40:52.081 --> 00:40:55.249
+<v Ian van Niekerk>So you say I want to bring in AB and C
+and that.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/704-0
+00:40:55.409 --> 00:41:00.834
+<v Ian van Niekerk>Then goes the Data Factory loads the the
+config information from here and it</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/704-1
+00:41:00.834 --> 00:41:05.696
+<v Ian van Niekerk>executes the other logic apps,
+spark pools or pipelines depending on</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/704-2
+00:41:05.696 --> 00:41:10.769
+<v Ian van Niekerk>where we're getting the information from
+and that that we've seen like.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/707-0
+00:41:11.409 --> 00:41:18.569
+<v Ian van Niekerk>That that's the cheapest that we can get
+away with a a serverless environment.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/712-0
+00:41:16.289 --> 00:41:20.118
+<v Schalk van Wyk>OK, so it's a viable.
+If someone says why are you doing it like</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/712-1
+00:41:20.118 --> 00:41:22.811
+<v Schalk van Wyk>this?
+It is actually a viable option because</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/708-0
+00:41:22.329 --> 00:41:22.569
+<v Ian van Niekerk>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/712-2
+00:41:22.811 --> 00:41:26.461
+<v Schalk van Wyk>I've done logic apps,
+Azure functions and then Azure durable</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/710-0
+00:41:23.569 --> 00:41:24.009
+<v Ian van Niekerk>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/712-3
+00:41:26.461 --> 00:41:30.889
+<v Schalk van Wyk>functions because that does orchestration
+instead of having data factory.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/718-0
+00:41:31.169 --> 00:41:34.631
+<v Ian van Niekerk>Yes.
+So and and the other thing is the other</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/718-1
+00:41:34.631 --> 00:41:40.633
+<v Ian van Niekerk>reason why we're using functions and
+Spark pools is or Pi Spark is it's a lot</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/718-2
+00:41:40.633 --> 00:41:46.481
+<v Ian van Niekerk>more flexible than the the pipelines that
+they that that's in there, right.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/718-3
+00:41:46.481 --> 00:41:50.329
+<v Ian van Niekerk>So especially when it comes to pulling
+data from.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/716-0
+00:41:48.049 --> 00:41:48.129
+<v Schalk van Wyk>Um.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/728-0
+00:41:51.329 --> 00:41:55.640
+<v Ian van Niekerk>We found that that's very difficult to.
+It's possible,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/728-1
+00:41:55.640 --> 00:42:01.206
+<v Ian van Niekerk>but because API's authentications is so
+varied, we use a function app.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/722-0
+00:41:58.409 --> 00:42:00.769
+<v Schalk van Wyk>Pentication. Mm-hmm.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/728-2
+00:42:01.206 --> 00:42:06.067
+<v Ian van Niekerk>It just makes it a lot easier to bring in
+the data with that,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/724-0
+00:42:05.569 --> 00:42:06.209
+<v Schalk van Wyk>Yep.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/728-3
+00:42:06.067 --> 00:42:10.849
+<v Ian van Niekerk>but we still use the Data Factory as an
+orchestration layer.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/725-0
+00:42:07.729 --> 00:42:08.169
+<v Schalk van Wyk>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/734-0
+00:42:10.529 --> 00:42:13.792
+<v Schalk van Wyk>Yeah,
+you have one generic process that goes</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/729-0
+00:42:13.569 --> 00:42:14.089
+<v Ian van Niekerk>Yep.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/734-1
+00:42:13.792 --> 00:42:16.982
+<v Schalk van Wyk>and says this is what I extract,
+transform,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/734-2
+00:42:16.982 --> 00:42:22.856
+<v Schalk van Wyk>load and then it'll call another function
+to go do authentication or whatever it</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/732-0
+00:42:22.089 --> 00:42:24.409
+<v Ian van Niekerk>Exactly. Um, you know.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/734-3
+00:42:22.856 --> 00:42:24.089
+<v Schalk van Wyk>might be. OK, OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/735-0
+00:42:25.529 --> 00:42:25.929
+<v Schalk van Wyk>Um.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/738-0
+00:42:27.729 --> 00:42:34.423
+<v Schalk van Wyk>And what about using Python? Sort of.
+Where would that if you had a Python,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/742-0
+00:42:34.089 --> 00:42:39.284
+<v Ian van Niekerk>Yeah, so, so,
+so Python was is in the spark pools,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/738-1
+00:42:34.423 --> 00:42:36.449
+<v Schalk van Wyk>your own custom Python?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/739-0
+00:42:38.449 --> 00:42:39.209
+<v Schalk van Wyk>Smock pools, OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/742-1
+00:42:39.284 --> 00:42:45.600
+<v Ian van Niekerk>so you so the the the spark pools can sit
+in architecturally.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/742-2
+00:42:45.600 --> 00:42:48.249
+<v Ian van Niekerk>It's not really a part of.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/748-0
+00:42:48.769 --> 00:42:54.586
+<v Ian van Niekerk>Either fabric or data factory, right?
+It technically sits over here.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/748-1
+00:42:54.586 --> 00:43:01.331
+<v Ian van Niekerk>So you can refer to the spark pools.
+You spin up a cluster that sits over here.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/748-2
+00:43:01.331 --> 00:43:07.991
+<v Ian van Niekerk>I think the minimum is 3 nodes in by
+about $2.00 an hour of processing, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/748-3
+00:43:07.991 --> 00:43:08.329
+<v Ian van Niekerk>But.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/752-0
+00:43:08.609 --> 00:43:13.913
+<v Ian van Niekerk>You then in the Spark pools you use Spark.
+You refer to the data sets,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/752-1
+00:43:13.913 --> 00:43:18.621
+<v Ian van Niekerk>you bring the data sets in from ADLS.
+You do your computation,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/752-2
+00:43:18.621 --> 00:43:24.673
+<v Ian van Niekerk>you read it either you write it back in
+here or you store it in the one lake and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/752-3
+00:43:24.673 --> 00:43:28.409
+<v Ian van Niekerk>we still use the data fabric or synapse
+pipeline.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/755-0
+00:43:28.529 --> 00:43:33.439
+<v Ian van Niekerk>To do the orchestration,
+decide which which Python notebooks we</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/755-1
+00:43:33.439 --> 00:43:36.969
+<v Ian van Niekerk>need to execute and when it needs to
+execute.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/758-0
+00:43:36.449 --> 00:43:42.700
+<v Schalk van Wyk>OK,
+I see there's a new data wrangler for</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/758-1
+00:43:42.700 --> 00:43:45.529
+<v Schalk van Wyk>Visual Studio code.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/760-0
+00:43:48.329 --> 00:43:51.529
+<v Ian van Niekerk>Oh, I haven't seen that yet. Yeah, no.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/761-0
+00:43:48.449 --> 00:43:50.583
+<v Schalk van Wyk>Yeah.
+So I just that's that's a question sort</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/761-1
+00:43:50.583 --> 00:43:53.089
+<v Schalk van Wyk>of that. That's why I was wondering. OK,
+don't worry.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/765-0
+00:43:53.889 --> 00:43:58.988
+<v Ian van Niekerk>Yeah, you can ask a question,
+but I I don't promise I'm going to have</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/764-0
+00:43:58.689 --> 00:44:01.729
+<v Schalk van Wyk>I just saw it recently,
+so that's why I'm asking.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/765-1
+00:43:58.988 --> 00:44:02.849
+<v Ian van Niekerk>an answer. Yeah, yeah,
+I haven't seen it yet though.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/767-0
+00:44:05.329 --> 00:44:06.769
+<v Ian van Niekerk>Oh, any other questions?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/772-0
+00:44:09.689 --> 00:44:17.045
+<v Ian van Niekerk>Oh, if you want to, guys want to.
+I'm just going to use my little mouse and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/772-1
+00:44:17.045 --> 00:44:21.885
+<v Ian van Niekerk>Mr. Blank,
+do you have some some closing comment?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/771-0
+00:44:19.649 --> 00:44:23.289
+<v Nicolas Blank>I just want to let you know that your 10
+minute warning is here.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/772-2
+00:44:21.885 --> 00:44:22.369
+<v Ian van Niekerk>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/775-0
+00:44:23.249 --> 00:44:29.133
+<v Ian van Niekerk>OK, I'm finished.
+So if there's no other questions,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/781-0
+00:44:28.849 --> 00:44:36.583
+<v Schalk van Wyk>But there is the data, the data,
+what's it now? The fabric. Yeah, fabric.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/775-1
+00:44:29.133 --> 00:44:31.849
+<v Ian van Niekerk>there's a QR code, yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/781-1
+00:44:36.583 --> 00:44:42.122
+<v Schalk van Wyk>So I mean,
+I went to the presentations the other day</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/777-0
+00:44:38.849 --> 00:44:40.049
+<v Ian van Niekerk>Yes, this.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/781-2
+00:44:42.122 --> 00:44:46.930
+<v Schalk van Wyk>about it,
+but there's very vague really where</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/781-3
+00:44:46.930 --> 00:44:48.289
+<v Schalk van Wyk>that's going.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/780-0
+00:44:48.169 --> 00:44:48.889
+<v Ian van Niekerk>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/785-0
+00:44:48.369 --> 00:44:51.713
+<v Schalk van Wyk>I'm not sure.
+Does one sell it to your business?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/785-1
+00:44:51.713 --> 00:44:56.491
+<v Schalk van Wyk>This is like down a line stores.
+It seems to me it's like version one</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/783-0
+00:44:54.649 --> 00:44:55.369
+<v Ian van Niekerk>So.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/785-2
+00:44:56.491 --> 00:44:56.969
+<v Schalk van Wyk>almost.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/791-0
+00:44:56.689 --> 00:45:00.253
+<v Ian van Niekerk>Yes.
+So what Microsoft did with Fabric is they</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/791-1
+00:45:00.253 --> 00:45:03.589
+<v Ian van Niekerk>did a very,
+I don't want to say very quick,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/791-2
+00:45:03.589 --> 00:45:08.291
+<v Ian van Niekerk>but they did a MVP, right.
+So they they have a minimal viable</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/787-0
+00:45:06.009 --> 00:45:06.489
+<v Schalk van Wyk>Mm.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/791-3
+00:45:08.291 --> 00:45:13.220
+<v Ian van Niekerk>product and they released it.
+They're working with the community</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/791-4
+00:45:13.220 --> 00:45:16.329
+<v Ian van Niekerk>basically to improve it as they go along.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/795-0
+00:45:16.449 --> 00:45:19.913
+<v Ian van Niekerk>Right.
+So the the downside with that is you</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/795-1
+00:45:19.913 --> 00:45:25.975
+<v Ian van Niekerk>don't have all of the functions that you
+would have had with Data Factory or</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/795-2
+00:45:25.975 --> 00:45:31.171
+<v Ian van Niekerk>Synapse from day one, right?
+So but the the other side is you can</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/795-3
+00:45:31.171 --> 00:45:33.769
+<v Ian van Niekerk>start using fabric a lot quicker.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/797-0
+00:45:34.129 --> 00:45:38.169
+<v Ian van Niekerk>And have input in in getting a day, right?
+Um.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/802-0
+00:45:39.969 --> 00:45:43.683
+<v Ian van Niekerk>That being said,
+is public is definitely the way Microsoft</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/802-1
+00:45:43.683 --> 00:45:47.145
+<v Ian van Niekerk>will be going.
+The the advice that we give our clients</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/802-2
+00:45:47.145 --> 00:45:52.370
+<v Ian van Niekerk>at the moment and it's changing a little
+bit is stick to what you stick to Synapse</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/802-3
+00:45:52.370 --> 00:45:56.839
+<v Ian van Niekerk>because we usually go with Synapse,
+but stick to Synapse and literally</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/802-4
+00:45:56.839 --> 00:45:59.169
+<v Ian van Niekerk>reevaluate it in three months, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/806-0
+00:45:59.489 --> 00:46:04.202
+<v Ian van Niekerk>Some of the clients is in some like if
+you asked me this question six months</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/806-1
+00:46:04.202 --> 00:46:08.242
+<v Ian van Niekerk>back, I would have said listen,
+let's stick with Synapse for now.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/806-2
+00:46:08.242 --> 00:46:11.914
+<v Ian van Niekerk>If you ask it to me,
+I'm going to say it depends if you use</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/806-3
+00:46:11.914 --> 00:46:15.709
+<v Ian van Niekerk>some of the the more,
+the more technical or the more advanced</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/806-4
+00:46:15.709 --> 00:46:16.689
+<v Ian van Niekerk>functionalities.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/811-0
+00:46:16.689 --> 00:46:22.123
+<v Ian van Niekerk>Fabric is a little bit lacking on some of
+the stuff, but it's getting there.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/811-1
+00:46:22.123 --> 00:46:25.370
+<v Ian van Niekerk>It's a lot better than six months ago,
+right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/811-2
+00:46:25.370 --> 00:46:30.310
+<v Ian van Niekerk>So we are moving some of our clients over
+from Synapse into the data,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/811-3
+00:46:30.310 --> 00:46:33.769
+<v Ian van Niekerk>not the data factory,
+the the fabric capacities.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/812-0
+00:46:34.009 --> 00:46:35.889
+<v Schalk van Wyk>So put it on the technology radar.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/813-0
+00:46:36.489 --> 00:46:37.609
+<v Ian van Niekerk>Yes, exactly.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/815-0
+00:46:37.569 --> 00:46:39.929
+<v Schalk van Wyk>Oh, thank you.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/816-0
+00:46:41.449 --> 00:46:42.289
+<v Ian van Niekerk>Oh, Bing.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/819-0
+00:46:43.249 --> 00:46:46.329
+<v Dean Sardinus>How's it guys? Sorry, can you hear me?
+I just want to check.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/820-0
+00:46:44.769 --> 00:46:47.329
+<v Ian van Niekerk>Hey, yeah, yeah, can we hear you?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/818-0
+00:46:45.609 --> 00:46:46.369
+Sure.
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/822-0
+00:46:47.969 --> 00:46:51.089
+<v Dean Sardinus>Um, so just on the on the fabric topic,
+um.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/827-0
+00:46:53.089 --> 00:47:01.419
+<v Dean Sardinus>What what are the your you know ingestion
+options that you have with in fabric you</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/827-1
+00:47:01.419 --> 00:47:04.129
+<v Dean Sardinus>know so is it data gateway?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/833-0
+00:47:07.249 --> 00:47:11.803
+<v Dean Sardinus>That is the main tool that you use and
+and what about if you know you have</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/829-0
+00:47:08.689 --> 00:47:09.529
+<v Schalk van Wyk>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/833-1
+00:47:11.803 --> 00:47:15.750
+<v Dean Sardinus>customers where they don't want stuff to
+flow over the Internet,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/833-2
+00:47:15.750 --> 00:47:19.029
+<v Dean Sardinus>maybe they've got express route or large,
+large data.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/831-0
+00:47:19.009 --> 00:47:19.129
+<v Ian van Niekerk>Yes.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/833-3
+00:47:19.029 --> 00:47:22.369
+<v Dean Sardinus>Now how do you how do you get the traffic
+or the data?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/834-0
+00:47:22.449 --> 00:47:22.689
+<v Dean Sardinus>Cross.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/839-0
+00:47:22.929 --> 00:47:29.856
+<v Ian van Niekerk>So so so fabric is you can it's basically
+they they took data factory and migrated</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/839-1
+00:47:29.856 --> 00:47:34.613
+<v Ian van Niekerk>into data fabric.
+So the way you get data into fabric is</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/839-2
+00:47:34.613 --> 00:47:40.289
+<v Ian van Niekerk>basically the same ways that you you get
+the data into factory IDF.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/840-0
+00:47:40.529 --> 00:47:45.289
+<v Ian van Niekerk>Right. But that being said,
+is it depends on the way.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/847-0
+00:47:47.009 --> 00:47:53.370
+<v Ian van Niekerk>That the client prefers, right?
+You can have a very secure VPN gated</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/847-1
+00:47:53.370 --> 00:47:57.887
+<v Ian van Niekerk>gateway or tunnel and still connected to
+fabric.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/847-2
+00:47:57.887 --> 00:48:02.773
+<v Ian van Niekerk>It's a lot of effort and it's very
+technical, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/847-3
+00:48:02.773 --> 00:48:06.369
+<v Ian van Niekerk>So it's a lot of effort to get that up.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/845-0
+00:48:05.289 --> 00:48:05.529
+<v Dean Sardinus>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/851-0
+00:48:06.529 --> 00:48:12.694
+<v Ian van Niekerk>It's VPN gateways,
+but essentially fabric can just see that</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/851-1
+00:48:12.694 --> 00:48:19.064
+<v Ian van Niekerk>one database with a tunnel via the VPN,
+right? Alternatively,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/849-0
+00:48:16.689 --> 00:48:16.809
+<v Dean Sardinus>OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/851-2
+00:48:19.064 --> 00:48:22.969
+<v Ian van Niekerk>what you can have is a gateway server.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/858-0
+00:48:23.409 --> 00:48:29.185
+<v Ian van Niekerk>In the client environment,
+they call it a SHIR runtime integration</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/858-1
+00:48:29.185 --> 00:48:33.582
+<v Ian van Niekerk>runtime.
+Can't remember what there is an SHIR host</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/855-0
+00:48:32.929 --> 00:48:35.529
+<v Dean Sardinus>Self self hosted drunken.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/858-2
+00:48:33.582 --> 00:48:40.479
+<v Ian van Niekerk>integration server hosted, self hosted,
+self hosted integration run so that you</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/856-0
+00:48:37.369 --> 00:48:37.849
+<v Dean Sardinus>Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/858-3
+00:48:40.479 --> 00:48:41.169
+<v Ian van Niekerk>use the.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/864-0
+00:48:41.169 --> 00:48:45.919
+<v Ian van Niekerk>SHIR on a server.
+That server is essentially the gateway</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/864-1
+00:48:45.919 --> 00:48:51.919
+<v Ian van Niekerk>into the whole network, right?
+The other thing is what we usually do is</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/860-0
+00:48:48.409 --> 00:48:48.569
+<v Dean Sardinus>OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/864-2
+00:48:51.919 --> 00:48:58.502
+<v Ian van Niekerk>we use SHIR because all of the traffic
+between the factory and the SHIR server</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/864-3
+00:48:58.502 --> 00:49:00.169
+<v Ian van Niekerk>is encrypted, right?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/871-0
+00:49:00.369 --> 00:49:05.333
+<v Ian van Niekerk>And then we just give the SHIR server
+visibility to the data that we want to</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/871-1
+00:49:05.333 --> 00:49:08.363
+<v Ian van Niekerk>see, right?
+So we don't expose it to the whole</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/871-2
+00:49:08.363 --> 00:49:11.651
+<v Ian van Niekerk>network,
+we just expose it to parts of the network</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/867-0
+00:49:08.729 --> 00:49:09.249
+<v Dean Sardinus>Yes.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/871-3
+00:49:11.651 --> 00:49:15.649
+<v Ian van Niekerk>that we want to see.
+And we haven't had any problems thus far</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/871-4
+00:49:15.649 --> 00:49:18.808
+<v Ian van Niekerk>with it,
+but it also depends on how security you</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/869-0
+00:49:17.129 --> 00:49:17.249
+<v Dean Sardinus>OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/871-5
+00:49:18.808 --> 00:49:19.969
+<v Ian van Niekerk>really want to go.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/872-0
+00:49:20.409 --> 00:49:24.289
+<v Ian van Niekerk>So you can make it very,
+very complex or you can keep it simple.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/878-0
+00:49:24.529 --> 00:49:29.550
+<v Dean Sardinus>All right, so the integration runtime,
+obviously it's sort of a VM sitting</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/878-1
+00:49:29.550 --> 00:49:32.964
+<v Dean Sardinus>privately.
+So as long as favorite solution can see</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/878-2
+00:49:32.964 --> 00:49:37.049
+<v Dean Sardinus>the public IP address,
+then it should be able to connect OK.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/876-0
+00:49:35.329 --> 00:49:35.449
+<v Ian van Niekerk>Yes.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/877-0
+00:49:37.449 --> 00:49:38.929
+<v Ian van Niekerk>Correct. Yeah.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/879-0
+00:49:40.329 --> 00:49:40.569
+<v Dean Sardinus>Thanks.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/881-0
+00:49:44.329 --> 00:49:44.409
+<v Ian van Niekerk>Oh.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/883-0
+00:49:48.929 --> 00:49:49.689
+<v Ian van Niekerk>Any other questions?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/890-0
+00:49:53.249 --> 00:49:58.805
+<v Ian van Niekerk>So there's a QR code for you guys if you
+want to connect on LinkedIn or just reach</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/890-1
+00:49:58.805 --> 00:50:01.952
+<v Ian van Niekerk>out.
+But I do think Nick also put my my e-mail</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/890-2
+00:50:01.952 --> 00:50:05.165
+<v Ian van Niekerk>address on on his side as well.
+So if you guys,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/887-0
+00:50:05.009 --> 00:50:05.609
+<v Nicolas Blank>I did.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/890-3
+00:50:05.165 --> 00:50:10.052
+<v Ian van Niekerk>if you have any other questions,
+please feel free to give me a shout and</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/890-4
+00:50:10.052 --> 00:50:12.329
+<v Ian van Niekerk>we can correspond accordingly, OK?</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/893-0
+00:50:13.569 --> 00:50:17.059
+<v Nicolas Blank>That's amazing, Ian.
+Thank you so much and thank you so much</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/893-1
+00:50:17.059 --> 00:50:20.893
+<v Nicolas Blank>for for being willing to share and to to
+give your knowledge away.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/892-0
+00:50:19.569 --> 00:50:19.849
+<v Ian van Niekerk>Sure.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/893-2
+00:50:20.893 --> 00:50:22.209
+<v Nicolas Blank>So thank you very much.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/894-0
+00:50:22.369 --> 00:50:24.729
+<v Ian van Niekerk>Yeah, big, big pleasure.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/897-0
+00:50:26.729 --> 00:50:30.921
+<v Nicolas Blank>All right. So with that,
+we're going to give everybody back 3</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/895-0
+00:50:27.569 --> 00:50:27.769
+<v Ian van Niekerk>I see.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/897-1
+00:50:30.921 --> 00:50:36.262
+<v Nicolas Blank>minutes of the day and we thank you for
+joining us on today's lunch and learn.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/897-2
+00:50:36.262 --> 00:50:40.454
+<v Nicolas Blank>And as I said earlier,
+the session is being recorded and Ian,</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/897-3
+00:50:40.454 --> 00:50:42.889
+<v Nicolas Blank>I expect there to be a long tale of.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/898-0
+00:50:43.049 --> 00:50:47.107
+<v Nicolas Blank>Folks watching the recording,
+so watch out for that and you may even</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/898-1
+00:50:47.107 --> 00:50:49.049
+<v Nicolas Blank>get questions over the next year.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/899-0
+00:50:49.409 --> 00:50:53.769
+<v Ian van Niekerk>Oh, happiness. Happy to help. Thanks guys.
+Have a good one.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/905-0
+00:50:53.569 --> 00:50:56.569
+<v Nicolas Blank>Thank you everyone and bye bye. Cheers,
+bye.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/902-0
+00:50:53.809 --> 00:50:54.049
+<v Dean Sardinus>Thanks.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/907-0
+00:50:53.809 --> 00:50:54.649
+<v Jaco>Thank you. Great. Cheers.</v>
+
+5fd7f1de-6442-4b37-a79a-7f43656096ca/904-0
+00:50:54.729 --> 00:50:56.689
+<v Jaco>Thanks guys. Bye bye.</v>
