@@ -1,0 +1,4087 @@
+WEBVTT
+
+46b412bb-b417-448b-9401-e05862f844d3/14-0
+00:00:03.372 --> 00:00:09.726
+<v Nicolas Blank>And we have started. So with that,
+let me say welcome to everyone to today's</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/14-1
+00:00:09.726 --> 00:00:14.099
+<v Nicolas Blank>lunch and learn.
+And the picture that you can see is</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/14-2
+00:00:14.099 --> 00:00:20.784
+<v Nicolas Blank>actually where we're at since Monday on
+the South African Azure User Group where</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/14-3
+00:00:20.784 --> 00:00:23.012
+<v Nicolas Blank>we have grown from 2009 to.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/20-0
+00:00:24.892 --> 00:00:29.514
+<v Nicolas Blank>Actually that that picture is wrong.
+It's I pasted the wrong one. Anyway,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/20-1
+00:00:29.514 --> 00:00:32.325
+<v Nicolas Blank>there's more and I'll fix that for
+tomorrow.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/20-2
+00:00:32.325 --> 00:00:37.134
+<v Nicolas Blank>But we are growing every day and this
+week in leaps and bounds and this is a</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/20-3
+00:00:37.134 --> 00:00:41.132
+<v Nicolas Blank>lunch and learn session for the South
+African Azure User Group.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/24-0
+00:00:41.452 --> 00:00:46.294
+<v Nicolas Blank>We are in week 44 of 2025 and if you
+don't know what that means,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/24-1
+00:00:46.294 --> 00:00:51.659
+<v Nicolas Blank>it means that there are less than 10
+shopping weeks left for Christmas.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/24-2
+00:00:51.659 --> 00:00:56.129
+<v Nicolas Blank>You are here because you are finding the
+session on meetup.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/24-3
+00:00:56.129 --> 00:01:00.972
+<v Nicolas Blank>com on the Azure User Group South Africa
+and today we are doing.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/28-0
+00:01:01.212 --> 00:01:05.027
+<v Nicolas Blank>The third of this week,
+which is Entra Suite, The Good, the Bad,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/28-1
+00:01:05.027 --> 00:01:09.253
+<v Nicolas Blank>and the Ugly, presented by Shaun Hardneck.
+If you are with us tomorrow,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/28-2
+00:01:09.253 --> 00:01:11.953
+<v Nicolas Blank>you'll see that we're doing Azure
+Networking,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/28-3
+00:01:11.953 --> 00:01:16.179
+<v Nicolas Blank>choosing the right connectivity
+architecture for your cloud with Warren</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/28-4
+00:01:16.179 --> 00:01:16.532
+<v Nicolas Blank>Detoy.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/34-0
+00:01:18.092 --> 00:01:22.721
+<v Nicolas Blank>If you missed today's session or if
+there's something that you want to go</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/34-1
+00:01:22.721 --> 00:01:25.537
+<v Nicolas Blank>back to,
+have no fear because the session is</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/34-2
+00:01:25.537 --> 00:01:30.479
+<v Nicolas Blank>recorded and it is available for free
+like beer and fresh air on the following</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/34-3
+00:01:30.479 --> 00:01:35.234
+<v Nicolas Blank>GitHub and I will communicate this to
+everyone via mail after this session.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/34-4
+00:01:35.234 --> 00:01:37.612
+<v Nicolas Blank>We do have a code of conduct and it's.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/39-0
+00:01:37.612 --> 00:01:43.775
+<v Nicolas Blank>That we talk about the code of conduct as
+a user group that is subordinated to the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/39-1
+00:01:43.775 --> 00:01:49.196
+<v Nicolas Blank>global set of Azure user groups.
+The code of conduct says that we accept</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/39-2
+00:01:49.196 --> 00:01:54.692
+<v Nicolas Blank>everyone and we will not tolerate any
+form of discrimination of any sort.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/40-0
+00:01:55.172 --> 00:02:00.412
+<v Nicolas Blank>And if any of that is reported to us,
+we will evict you from the group.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/46-0
+00:02:01.372 --> 00:02:05.698
+<v Nicolas Blank>With that, with no discrimination,
+we talk about Shaun,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/46-1
+00:02:05.698 --> 00:02:09.407
+<v Nicolas Blank>and Shaun has a lot of history in the
+industry.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/46-2
+00:02:09.407 --> 00:02:14.892
+<v Nicolas Blank>I've known Shaun in several guises,
+and in his current role as a cloud</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/46-3
+00:02:14.892 --> 00:02:18.291
+<v Nicolas Blank>architect,
+he actually is a little bit of a</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/46-4
+00:02:18.291 --> 00:02:20.532
+<v Nicolas Blank>generalist in the M365 space.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/50-0
+00:02:20.892 --> 00:02:24.587
+<v Nicolas Blank>So with that,
+there's not a lot of things he hasn't</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/50-1
+00:02:24.587 --> 00:02:27.786
+<v Nicolas Blank>done,
+but he does spend a lot of time in the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/50-2
+00:02:27.786 --> 00:02:32.334
+<v Nicolas Blank>M365 and intra space,
+which is why he is doing today's session.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/50-3
+00:02:32.334 --> 00:02:36.812
+<v Nicolas Blank>And today's session, as I mentioned,
+is intra suite, the good.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/51-0
+00:02:36.812 --> 00:02:40.452
+<v Nicolas Blank>The bad and the ugly. And with that,
+I'm going to hand over to you, Shaun.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/54-0
+00:02:42.652 --> 00:02:46.311
+<v Shaun Hardneck>First things first,
+I I like the animation.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/54-1
+00:02:46.311 --> 00:02:47.892
+<v Shaun Hardneck>That was brilliant.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/55-0
+00:02:48.012 --> 00:02:51.812
+<v Nicolas Blank>You are annoyingly good looking in a suit.
+That's all I'll say.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/56-0
+00:02:53.852 --> 00:02:55.412
+<v Shaun Hardneck>I've picked up weights since then.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/58-0
+00:02:56.332 --> 00:02:59.332
+<v Nicolas Blank>We all have.
+I have a suit I don't fit to anymore.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/62-0
+00:02:59.532 --> 00:03:07.492
+<v Shaun Hardneck>And thanks for the introduction, Nick.
+So I'm gonna dive in. I'm not gonna.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/69-0
+00:03:10.172 --> 00:03:15.107
+<v Shaun Hardneck>Around too much on myself,
+but I from time to time I do blog on blog</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/69-1
+00:03:15.107 --> 00:03:18.684
+<v Shaun Hardneck>is called thatlazyadmin.
+com like Nick mentioned,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/69-2
+00:03:18.684 --> 00:03:24.121
+<v Shaun Hardneck>bit of a generalist and I share a bit of
+everything that is Microsoft cloud</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/69-3
+00:03:24.121 --> 00:03:29.772
+<v Shaun Hardneck>related or issues that I pick up or
+challenges that we face from time to time.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/73-0
+00:03:30.092 --> 00:03:36.747
+<v Shaun Hardneck>Good. Let me minimize Skype. All right.
+So the presentation for today or topic</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/73-1
+00:03:36.747 --> 00:03:42.643
+<v Shaun Hardneck>for today, enter the good, the bad,
+the ugly. It's not a sales pitch.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/73-2
+00:03:42.643 --> 00:03:48.372
+<v Shaun Hardneck>So we will dive in some of the real world
+scenarios or things that.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/78-0
+00:03:48.572 --> 00:03:53.833
+<v Shaun Hardneck>I've seen from time to time things that
+customers have picked up from time to</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/78-1
+00:03:53.833 --> 00:03:58.891
+<v Shaun Hardneck>time and we will just have a chat about
+it. And like the sessions suggest,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/78-2
+00:03:58.891 --> 00:04:03.073
+<v Shaun Hardneck>it's a lunchtime learn session.
+So if you have any questions,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/78-3
+00:04:03.073 --> 00:04:04.692
+<v Shaun Hardneck>please feel free to ask.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/77-0
+00:04:03.972 --> 00:04:04.452
+<v Michael Engelbrecht>Mhm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/82-0
+00:04:07.212 --> 00:04:12.732
+<v Shaun Hardneck>So the first slide that we've got why
+identity matches.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/80-0
+00:04:10.292 --> 00:04:10.532
+<v Michael Engelbrecht>2.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/88-0
+00:04:14.892 --> 00:04:19.886
+<v Shaun Hardneck>And one of them is traditionally identity
+has changed quite a lot.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/88-1
+00:04:19.886 --> 00:04:25.104
+<v Shaun Hardneck>So we used to rely on our firewall,
+our network parameters to control</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/88-2
+00:04:25.104 --> 00:04:28.683
+<v Shaun Hardneck>everything.
+But because in nowadays traditional</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/88-3
+00:04:28.683 --> 00:04:32.932
+<v Shaun Hardneck>network parameters have gone,
+people are working from a.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/92-0
+00:04:33.812 --> 00:04:38.076
+<v Shaun Hardneck>From coffee shops,
+they're working from some hotels and that</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/92-1
+00:04:38.076 --> 00:04:43.599
+<v Shaun Hardneck>makes it difficult for the perimeter or
+the traditional perimeters to kick in.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/92-2
+00:04:43.599 --> 00:04:49.332
+<v Shaun Hardneck>We are now flooded with SAS applications.
+People have AWS, they've got Azure and.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/98-0
+00:04:49.892 --> 00:04:55.617
+<v Shaun Hardneck>Incorporating our traditional approach
+for perimeter security has become a bit</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/98-1
+00:04:55.617 --> 00:04:59.458
+<v Shaun Hardneck>of a challenge.
+So that's why we start looking at or</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/98-2
+00:04:59.458 --> 00:05:02.719
+<v Shaun Hardneck>hence Microsoft started looking at Intra
+ID.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/98-3
+00:05:02.719 --> 00:05:08.300
+<v Shaun Hardneck>How can we secure our identity or how
+does identity become the center of our</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/98-4
+00:05:08.300 --> 00:05:09.532
+<v Shaun Hardneck>zero trust as we.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/101-0
+00:05:09.692 --> 00:05:13.379
+<v Shaun Hardneck>As we call it,
+so Microsoft Entra ID sits at the center</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/101-1
+00:05:13.379 --> 00:05:16.803
+<v Shaun Hardneck>of the model,
+controlling anything from conditional</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/101-2
+00:05:16.803 --> 00:05:19.832
+<v Shaun Hardneck>access,
+enforcing MFA and monitoring our sign</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/101-3
+00:05:19.832 --> 00:05:22.532
+<v Shaun Hardneck>insurance for our users across the board.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/105-0
+00:05:25.772 --> 00:05:30.091
+<v Shaun Hardneck>So what is Intra Suite?
+So Intra Suite as it as the name suggests,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/105-1
+00:05:30.091 --> 00:05:35.377
+<v Shaun Hardneck>Microsoft has moved away or has enhanced
+Azure Active Directory as Nick gave us a</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/105-2
+00:05:35.377 --> 00:05:39.052
+<v Shaun Hardneck>nice introduction of the name Intra where
+it comes from.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/110-0
+00:05:41.532 --> 00:05:47.835
+<v Shaun Hardneck>So Microsoft has continuously evolved
+Microsoft Entra into a suite of products</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/110-1
+00:05:47.835 --> 00:05:53.021
+<v Shaun Hardneck>as what we know it as today.
+So it started off with Azure Active</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/110-2
+00:05:53.021 --> 00:05:56.612
+<v Shaun Hardneck>Directory,
+now evolved into Microsoft Entra.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/115-0
+00:05:56.892 --> 00:06:01.785
+<v Shaun Hardneck>And if we think of it,
+think of Microsoft's end to end identity</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/115-1
+00:06:01.785 --> 00:06:07.519
+<v Shaun Hardneck>ecosystem covering anything from users,
+devices to workload management and</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/115-2
+00:06:07.519 --> 00:06:12.412
+<v Shaun Hardneck>controlling permissions for other third
+party products as well.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/113-0
+00:06:10.932 --> 00:06:12.292
+<v Michael Engelbrecht>Hello.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/122-0
+00:06:13.532 --> 00:06:19.834
+<v Shaun Hardneck>It also brings in identity governance.
+So identity governance brings us user</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/117-0
+00:06:14.132 --> 00:06:17.732
+<v Michael Engelbrecht>OK, why don't you meet?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/122-1
+00:06:19.834 --> 00:06:25.891
+<v Shaun Hardneck>automation, lever, joiner, mover.
+We think of users moving from different</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/122-2
+00:06:25.891 --> 00:06:30.311
+<v Shaun Hardneck>departments.
+Users HR creates a new user in a payroll</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/122-3
+00:06:30.311 --> 00:06:33.012
+<v Shaun Hardneck>system or HR system that filters.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/127-0
+00:06:33.132 --> 00:06:36.971
+<v Shaun Hardneck>Through Entra ID creates the user objects,
+et cetera.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/127-1
+00:06:36.971 --> 00:06:42.801
+<v Shaun Hardneck>Entra Identity Governance ID governance
+allows us now to have all of that control</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/127-2
+00:06:42.801 --> 00:06:47.137
+<v Shaun Hardneck>within Entra suite,
+so we don't have to have all these a lot</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/127-3
+00:06:47.137 --> 00:06:52.612
+<v Shaun Hardneck>of third party products orchestrating and
+creating workflows and automation.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/132-0
+00:06:52.732 --> 00:06:57.939
+<v Shaun Hardneck>Some of those functionalities now we can
+get directly from intra ID identity</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/132-1
+00:06:57.939 --> 00:07:01.523
+<v Shaun Hardneck>governance.
+Then one of the big products and I think</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/132-2
+00:07:01.523 --> 00:07:06.325
+<v Shaun Hardneck>there isn't enough talk about it,
+which is permission management which</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/132-3
+00:07:06.325 --> 00:07:11.194
+<v Shaun Hardneck>extends the principle into cloud applying
+least privilege across Azure,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/132-4
+00:07:11.194 --> 00:07:12.412
+<v Shaun Hardneck>AWS and GCP cloud.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/137-0
+00:07:12.652 --> 00:07:17.405
+<v Shaun Hardneck>So instead of having split identities
+across these different clouds,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/137-1
+00:07:17.405 --> 00:07:22.434
+<v Shaun Hardneck>now we can have permission management
+where we can control those sets of</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/137-2
+00:07:22.434 --> 00:07:25.878
+<v Shaun Hardneck>permissions across the different cloud
+providers.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/137-3
+00:07:25.878 --> 00:07:31.252
+<v Shaun Hardneck>So we have enterer ID as our source of
+truth for our identity and we leverage</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/137-4
+00:07:31.252 --> 00:07:32.492
+<v Shaun Hardneck>that to sign into.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/138-0
+00:07:32.572 --> 00:07:37.052
+<v Shaun Hardneck>AWS and GCP so we can still maintain
+control over that.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/143-0
+00:07:38.332 --> 00:07:44.045
+<v Shaun Hardneck>And then we also have what is called
+verified and workload ID.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/143-1
+00:07:44.045 --> 00:07:51.208
+<v Shaun Hardneck>Workload ID ensures that not only people,
+but apps and services themselves can</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/143-2
+00:07:51.208 --> 00:07:54.292
+<v Shaun Hardneck>become trusted identities as well.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/148-0
+00:07:54.652 --> 00:07:58.358
+<v Shaun Hardneck>Although the suites form the backbone
+altogether,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/148-1
+00:07:58.358 --> 00:08:02.881
+<v Shaun Hardneck>this is the suite forms the backbone of
+zero trust strategy.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/148-2
+00:08:02.881 --> 00:08:08.886
+<v Shaun Hardneck>How we implement the products just helps
+us to make sure that our it enhance the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/148-3
+00:08:08.886 --> 00:08:14.372
+<v Shaun Hardneck>way that we implement and control and
+govern that zero trust environment.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/152-0
+00:08:17.092 --> 00:08:23.188
+<v Shaun Hardneck>So now let's look at the first part,
+the good of entra ID,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/152-1
+00:08:23.188 --> 00:08:30.732
+<v Shaun Hardneck>and that is the unified governance.
+So I was telling Nick earlier it is.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/156-0
+00:08:31.732 --> 00:08:38.092
+<v Shaun Hardneck>Such an amazing product that Microsoft
+has created. So with lifecycle workflows,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/156-1
+00:08:38.092 --> 00:08:42.724
+<v Shaun Hardneck>as I've mentioned earlier,
+you've got users starting in an</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/156-2
+00:08:42.724 --> 00:08:46.729
+<v Shaun Hardneck>organization.
+No more do we have to wait for it to</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/156-3
+00:08:46.729 --> 00:08:48.692
+<v Shaun Hardneck>create a user account or.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/161-0
+00:08:48.972 --> 00:08:52.538
+<v Shaun Hardneck>Enable that user object when the user
+joins the environment.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/161-1
+00:08:52.538 --> 00:08:56.924
+<v Shaun Hardneck>Now with workflows we can have that user
+on the day the user starts send a</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/161-2
+00:08:56.924 --> 00:08:59.731
+<v Shaun Hardneck>notification.
+These are your login credentials.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/161-3
+00:08:59.731 --> 00:09:03.765
+<v Shaun Hardneck>Send the information to the hiring
+manager or the reporting manager.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/161-4
+00:09:03.765 --> 00:09:05.812
+<v Shaun Hardneck>This is the new user's information.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/166-0
+00:09:06.252 --> 00:09:12.581
+<v Shaun Hardneck>So workflows have become an amazing piece
+of technology in Entra where we can</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/166-1
+00:09:12.581 --> 00:09:18.099
+<v Shaun Hardneck>automate a lot of the tedious tasks that
+used to sit with helpdesk.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/166-2
+00:09:18.099 --> 00:09:22.157
+<v Shaun Hardneck>And then additionally we look at access
+packages.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/166-3
+00:09:22.157 --> 00:09:26.052
+<v Shaun Hardneck>How do we bundle easy access management
+across?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/170-0
+00:09:26.172 --> 00:09:31.147
+<v Shaun Hardneck>The M365, the Azure space,
+we sit in large organizations where we've</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/170-1
+00:09:31.147 --> 00:09:34.391
+<v Shaun Hardneck>got hundreds or even thousands of
+employees,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/170-2
+00:09:34.391 --> 00:09:38.861
+<v Shaun Hardneck>but they all need access to either some
+form of applications.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/170-3
+00:09:38.861 --> 00:09:43.332
+<v Shaun Hardneck>Department has got a structure where they
+need to access SAP.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/175-0
+00:09:43.892 --> 00:09:49.357
+<v Shaun Hardneck>SAP access or they need HR access or they
+need a development tool access.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/175-1
+00:09:49.357 --> 00:09:55.118
+<v Shaun Hardneck>With Entra ID and Entra governance,
+we can now leverage those access packages</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/175-2
+00:09:55.118 --> 00:10:01.174
+<v Shaun Hardneck>to predefine the access that a specific
+department requires and then let the user</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/175-3
+00:10:01.174 --> 00:10:03.612
+<v Shaun Hardneck>request access to those packages.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/180-0
+00:10:03.652 --> 00:10:07.004
+<v Shaun Hardneck>Via an approval process.
+So if we look at it,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/180-1
+00:10:07.004 --> 00:10:12.906
+<v Shaun Hardneck>most breaches start with forgotten access.
+So we need to now be able to control.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/180-2
+00:10:12.906 --> 00:10:18.663
+<v Shaun Hardneck>What do we do with access that has been
+forgotten? User left the organization.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/180-3
+00:10:18.663 --> 00:10:20.412
+<v Shaun Hardneck>IT forgot to do cleanup.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/186-0
+00:10:20.892 --> 00:10:24.791
+<v Shaun Hardneck>So that is where ID governance fixes by
+automating,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/186-1
+00:10:24.791 --> 00:10:30.489
+<v Shaun Hardneck>provisioning and forcing reviews.
+We have HR triggers review and confirm if</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/186-2
+00:10:30.489 --> 00:10:35.438
+<v Shaun Hardneck>the user is still there.
+One of the biggest risk organizations is</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/186-3
+00:10:35.438 --> 00:10:39.862
+<v Shaun Hardneck>still facing today.
+It's just simply objects that have got</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/186-4
+00:10:39.862 --> 00:10:40.612
+<v Shaun Hardneck>access to.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/191-0
+00:10:40.612 --> 00:10:43.570
+<v Shaun Hardneck>Environments,
+but the user is no longer there or the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/191-1
+00:10:43.570 --> 00:10:46.193
+<v Shaun Hardneck>user has been moved to a different
+department,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/191-2
+00:10:46.193 --> 00:10:50.435
+<v Shaun Hardneck>but that user still has access to either
+a development system or a critical</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/191-3
+00:10:50.435 --> 00:10:52.891
+<v Shaun Hardneck>business system with access rights into
+it.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/191-4
+00:10:52.891 --> 00:10:57.189
+<v Shaun Hardneck>So we need to be able to make sure that
+we can control those permissions and</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/191-5
+00:10:57.189 --> 00:11:00.092
+<v Shaun Hardneck>that's where access rights and identity
+governance.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/195-0
+00:11:00.212 --> 00:11:06.718
+<v Shaun Hardneck>Solves those problems with automation.
+As much as we can automate the access</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/195-1
+00:11:06.718 --> 00:11:13.056
+<v Shaun Hardneck>reviews, the granting of accesses,
+then we have more control of when users</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/195-2
+00:11:13.056 --> 00:11:18.802
+<v Shaun Hardneck>are starting to shift different
+departments or organization or user</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/195-3
+00:11:18.802 --> 00:11:19.732
+<v Shaun Hardneck>leaves the.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/197-0
+00:11:19.812 --> 00:11:22.998
+<v Shaun Hardneck>Organization.
+So we don't want to sit with the risk of</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/197-1
+00:11:22.998 --> 00:11:26.532
+<v Shaun Hardneck>forgotten identities or forgotten access
+in the environment.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/203-0
+00:11:30.212 --> 00:11:35.443
+<v Shaun Hardneck>One of the additional good is the
+Microsoft Permission Management.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/203-1
+00:11:35.443 --> 00:11:38.956
+<v Shaun Hardneck>It's a proper SIM across three major
+clouds.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/203-2
+00:11:38.956 --> 00:11:44.811
+<v Shaun Hardneck>The permission creep index is brilliant.
+It will show you where you've got</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/203-3
+00:11:44.811 --> 00:11:49.652
+<v Shaun Hardneck>permissions that is either too high or
+there's a gap between.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/207-0
+00:11:49.732 --> 00:11:53.316
+<v Shaun Hardneck>How much permissions that this user has
+been assigned to?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/207-1
+00:11:53.316 --> 00:11:56.097
+<v Shaun Hardneck>Do they actually leverage those
+permissions?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/207-2
+00:11:56.097 --> 00:12:01.042
+<v Shaun Hardneck>Do they still require that permissions?
+So it's quite a brilliant and intuitive</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/207-3
+00:12:01.042 --> 00:12:04.194
+<v Shaun Hardneck>product.
+It shows you exactly how much damage each</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/207-4
+00:12:04.194 --> 00:12:05.492
+<v Shaun Hardneck>identity could cause.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/212-0
+00:12:05.892 --> 00:12:10.240
+<v Shaun Hardneck>Across unused across the clouds based on
+unused permissions.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/212-1
+00:12:10.240 --> 00:12:15.444
+<v Shaun Hardneck>So if you've got user X setting with
+let's say global admin permissions,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/212-2
+00:12:15.444 --> 00:12:20.648
+<v Shaun Hardneck>but that same user has the same
+equivalent permission sitting on GCP but</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/212-3
+00:12:20.648 --> 00:12:21.932
+<v Shaun Hardneck>they don't log in.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/216-0
+00:12:22.492 --> 00:12:26.871
+<v Shaun Hardneck>So permission management will then be
+able to show you those critical gaps that</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/216-1
+00:12:26.871 --> 00:12:29.663
+<v Shaun Hardneck>you have.
+So we can reduce that user's permissions</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/216-2
+00:12:29.663 --> 00:12:34.042
+<v Shaun Hardneck>or we take away it completely because the
+user hasn't signed in for X number of</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/216-3
+00:12:34.042 --> 00:12:38.203
+<v Shaun Hardneck>months or hasn't managed anything.
+So we need to take control back into our</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/216-4
+00:12:38.203 --> 00:12:40.612
+<v Shaun Hardneck>identities or permissions that we have
+set.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/220-0
+00:12:40.732 --> 00:12:46.264
+<v Shaun Hardneck>So this is where Interoper Mission
+Management really shines as a product</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/220-1
+00:12:46.264 --> 00:12:51.416
+<v Shaun Hardneck>because it caters across or it covers
+across Azure and AWS and GCP.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/220-2
+00:12:51.416 --> 00:12:55.812
+<v Shaun Hardneck>The challenges isn't granting access,
+it's that we grant.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/225-0
+00:12:55.892 --> 00:13:02.628
+<v Shaun Hardneck>Too much access and that's where we rally
+and we really need to start taking back.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/225-1
+00:13:02.628 --> 00:13:06.199
+<v Shaun Hardneck>It's the same as when we started with
+M365,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/225-2
+00:13:06.199 --> 00:13:12.692
+<v Shaun Hardneck>everyone was in IT started having global
+admin permissions and we started over.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/229-0
+00:13:12.772 --> 00:13:17.484
+<v Shaun Hardneck>Provisioning people with access that
+didn't really need to have access.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/229-1
+00:13:17.484 --> 00:13:21.150
+<v Shaun Hardneck>So what was discovered,
+it gives a complete visibility.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/229-2
+00:13:21.150 --> 00:13:26.386
+<v Shaun Hardneck>Permission management gives us a complete
+visibility into who has access across</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/229-3
+00:13:26.386 --> 00:13:27.172
+<v Shaun Hardneck>which cloud.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/234-0
+00:13:28.772 --> 00:13:34.338
+<v Shaun Hardneck>And it gives us the ability to help right
+size the permissions automatically by</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/234-1
+00:13:34.338 --> 00:13:38.721
+<v Shaun Hardneck>auto removing users.
+After a set number of days, like 90 days,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/234-2
+00:13:38.721 --> 00:13:44.218
+<v Shaun Hardneck>we start remediating those permissions
+and it gives us the ability to monitor.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/234-3
+00:13:44.218 --> 00:13:48.532
+<v Shaun Hardneck>It continuously watches for anomalies
+leveraging the machine.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/239-0
+00:13:48.532 --> 00:13:53.409
+<v Shaun Hardneck>Machine learning capabilities in it
+detect if there's over privileged</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/239-1
+00:13:53.409 --> 00:13:58.705
+<v Shaun Hardneck>identities because before they become a
+breach, the insight is eye opening.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/239-2
+00:13:58.705 --> 00:14:04.280
+<v Shaun Hardneck>Most organizations find they can safely
+remove up to 80% of permissions without</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/239-3
+00:14:04.280 --> 00:14:08.252
+<v Shaun Hardneck>breaking anything,
+and that is purely because we assume.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/243-0
+00:14:08.452 --> 00:14:11.708
+<v Shaun Hardneck>That our service account needs to be
+global admin.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/243-1
+00:14:11.708 --> 00:14:14.773
+<v Shaun Hardneck>Our service account needs to be Exchange
+admin,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/243-2
+00:14:14.773 --> 00:14:19.881
+<v Shaun Hardneck>where in fact a service account is pretty
+much just happy with having read only</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/243-3
+00:14:19.881 --> 00:14:24.287
+<v Shaun Hardneck>permissions and that's it.
+And that is why we need to have a look at</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/243-4
+00:14:24.287 --> 00:14:25.692
+<v Shaun Hardneck>permission management.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/245-0
+00:14:26.132 --> 00:14:31.062
+<v Shaun Hardneck>The tools that forms part of the
+intrasuite and leveraging those</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/245-1
+00:14:31.062 --> 00:14:31.972
+<v Shaun Hardneck>caabilities.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/251-0
+00:14:36.772 --> 00:14:42.579
+<v Shaun Hardneck>Then as we continue on on the good,
+so we look at zero trust in action.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/251-1
+00:14:42.579 --> 00:14:49.031
+<v Shaun Hardneck>So we all have heard what zero trust is
+trust, trust, no one verify everything.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/251-2
+00:14:49.031 --> 00:14:53.306
+<v Shaun Hardneck>So this is if we look at zero trust trust
+in action,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/251-3
+00:14:53.306 --> 00:14:56.532
+<v Shaun Hardneck>this is where everything comes together.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/256-0
+00:14:56.612 --> 00:15:00.862
+<v Shaun Hardneck>Together zero trust in motion in
+Microsoft Entra we start looking at</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/256-1
+00:15:00.862 --> 00:15:04.928
+<v Shaun Hardneck>conditional access policies,
+the brain behind policy enforcement.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/256-2
+00:15:04.928 --> 00:15:09.733
+<v Shaun Hardneck>It makes decisions dynamically based on
+factors like what is the user's risk?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/256-3
+00:15:09.733 --> 00:15:14.292
+<v Shaun Hardneck>Where is the location the user is coming
+from? What is the device health?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/260-0
+00:15:14.772 --> 00:15:21.285
+<v Shaun Hardneck>So conditional access is one of the great
+features of Inter that keeps evolving.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/260-1
+00:15:21.285 --> 00:15:27.476
+<v Shaun Hardneck>We continuously see features being
+involved like the sign in sign in factors</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/260-2
+00:15:27.476 --> 00:15:30.612
+<v Shaun Hardneck>where users are signing from so we can.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/264-0
+00:15:31.252 --> 00:15:36.600
+<v Shaun Hardneck>Set quite strict controls based on what
+is required in the environment.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/264-1
+00:15:36.600 --> 00:15:41.800
+<v Shaun Hardneck>Then we're looking at Progress Identity
+Management, or PIM for short.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/264-2
+00:15:41.800 --> 00:15:46.332
+<v Shaun Hardneck>This limits exposure by giving admins
+just the right access.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/268-0
+00:15:46.612 --> 00:15:50.855
+<v Shaun Hardneck>At the time that they required nothing
+longer, nothing less.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/268-1
+00:15:50.855 --> 00:15:56.281
+<v Shaun Hardneck>So with EM we can control global admins
+to only have access for four hours to</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/268-2
+00:15:56.281 --> 00:16:01.012
+<v Shaun Hardneck>erform the function that they need to
+erform. With that we include.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/272-0
+00:16:02.532 --> 00:16:07.755
+<v Shaun Hardneck>We'll include a completional controls
+before the user gets elevated to a global</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/272-1
+00:16:07.755 --> 00:16:12.914
+<v Shaun Hardneck>admin or specific admin role that they
+have to get approval from line manager.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/272-2
+00:16:12.914 --> 00:16:17.223
+<v Shaun Hardneck>So get a e-mail notification.
+Line manager proves so and so needs</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/272-3
+00:16:17.223 --> 00:16:19.052
+<v Shaun Hardneck>access to global admin role.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/278-0
+00:16:19.332 --> 00:16:25.392
+<v Shaun Hardneck>Elevate the user and the user starts
+getting gets added to the role based role</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/278-1
+00:16:25.392 --> 00:16:31.759
+<v Shaun Hardneck>based group to perform at their function
+and then we look at last but not least we</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/278-2
+00:16:31.759 --> 00:16:37.052
+<v Shaun Hardneck>look at the defender signals feed real
+time intelligence into Entra.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/282-0
+00:16:37.572 --> 00:16:44.555
+<v Shaun Hardneck>If defender detects risky activity,
+conditional access response instantly,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/282-1
+00:16:44.555 --> 00:16:51.724
+<v Shaun Hardneck>forcing MLO or even block access.
+So when we look at those defender signals,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/282-2
+00:16:51.724 --> 00:16:54.052
+<v Shaun Hardneck>we will see signals like.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/287-0
+00:16:54.452 --> 00:17:01.296
+<v Shaun Hardneck>User signing in from abnormal sign in
+identified where user is coming from sign</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/287-1
+00:17:01.296 --> 00:17:07.884
+<v Shaun Hardneck>in detected out of South Africa but the
+users based in South Africa Defender</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/287-2
+00:17:07.884 --> 00:17:12.932
+<v Shaun Hardneck>signals will will pick those up.
+Enter ID will flag those.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/292-0
+00:17:13.652 --> 00:17:18.382
+<v Shaun Hardneck>As abnormal traveling or signing activity
+being detected.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/292-1
+00:17:18.382 --> 00:17:22.542
+<v Shaun Hardneck>So with even with those few controls put
+in place,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/292-2
+00:17:22.542 --> 00:17:28.660
+<v Shaun Hardneck>we already we can already see major
+differences in in identity security by</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/292-3
+00:17:28.660 --> 00:17:32.412
+<v Shaun Hardneck>just making small changes in the
+environment.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/295-0
+00:17:32.972 --> 00:17:38.036
+<v Shaun Hardneck>Together these these create loving,
+breathing zero trust systems,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/295-1
+00:17:38.036 --> 00:17:42.717
+<v Shaun Hardneck>one that continuously verifies every
+logging, every session,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/295-2
+00:17:42.717 --> 00:17:44.252
+<v Shaun Hardneck>and every privilege.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/297-0
+00:17:45.252 --> 00:17:49.092
+<v Shaun Hardneck>It's not about trusting ones,
+it's about verifying always.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/302-0
+00:17:52.332 --> 00:17:56.943
+<v Shaun Hardneck>Then we look at the bad in enterprise
+complexity.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/302-1
+00:17:56.943 --> 00:18:03.951
+<v Shaun Hardneck>So one of the the ones that is a real
+challenge is if we look at from a bad</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/302-2
+00:18:03.951 --> 00:18:11.052
+<v Shaun Hardneck>point of view is Microsoft always has
+this carrot dangled in front of us of.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/308-0
+00:18:11.412 --> 00:18:15.455
+<v Shaun Hardneck>What is, what is possible in Entra?
+What is the nice to haves,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/308-1
+00:18:15.455 --> 00:18:19.435
+<v Shaun Hardneck>what you can can do,
+what you can block and what enhancements</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/308-2
+00:18:19.435 --> 00:18:22.708
+<v Shaun Hardneck>you can do.
+But then we come to the licensing part</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/308-3
+00:18:22.708 --> 00:18:26.174
+<v Shaun Hardneck>and we start seeing the complexities
+across the P1P2,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/308-4
+00:18:26.174 --> 00:18:31.052
+<v Shaun Hardneck>the skews that's been broken up between
+governance and then the same tiers.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/310-0
+00:18:31.372 --> 00:18:36.971
+<v Shaun Hardneck>It just becomes a nightmare for IT
+departments to start and manage what</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/310-1
+00:18:36.971 --> 00:18:42.181
+<v Shaun Hardneck>works for me, where do I,
+what SKUs do I add and what SKUs don't I</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/310-2
+00:18:42.181 --> 00:18:42.492
+<v Shaun Hardneck>add.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/315-0
+00:18:43.452 --> 00:18:48.697
+<v Shaun Hardneck>And then we also have the challenge of
+the portal fragmentation where we see</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/315-1
+00:18:48.697 --> 00:18:52.103
+<v Shaun Hardneck>admins have to navigate between the Azure
+portal,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/315-2
+00:18:52.103 --> 00:18:57.824
+<v Shaun Hardneck>the Entra portal and the Defender portal.
+So we need to start doing investigations,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/315-3
+00:18:57.824 --> 00:18:59.732
+<v Shaun Hardneck>compromised user account or.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/320-0
+00:19:00.292 --> 00:19:05.773
+<v Shaun Hardneck>We need to make settings changes,
+then we get redirected to a defender</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/320-1
+00:19:05.773 --> 00:19:12.103
+<v Shaun Hardneck>portal or Entra redirects us to a portal
+in Azure for related to PUM that we need</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/320-2
+00:19:12.103 --> 00:19:16.272
+<v Shaun Hardneck>to configure.
+So there is these little fragmentations</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/320-3
+00:19:16.272 --> 00:19:20.132
+<v Shaun Hardneck>that we need to be aware of or that can
+become a.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/325-0
+00:19:20.332 --> 00:19:24.544
+<v Shaun Hardneck>A daily frustration,
+depending on how often we live and</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/325-1
+00:19:24.544 --> 00:19:29.284
+<v Shaun Hardneck>breathe in that portal,
+and then visibility becomes a bit of a</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/325-2
+00:19:29.284 --> 00:19:32.669
+<v Shaun Hardneck>challenge if we need to,
+because the portal,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/325-3
+00:19:32.669 --> 00:19:38.612
+<v Shaun Hardneck>the information that we always see within
+the portal might not necessarily be.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/330-0
+00:19:38.612 --> 00:19:43.071
+<v Shaun Hardneck>All of the information.
+So that's where we start relying on</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/330-1
+00:19:43.071 --> 00:19:48.869
+<v Shaun Hardneck>reporting tools like Microsoft Graph API.
+Now we need to start harnessing and</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/330-2
+00:19:48.869 --> 00:19:53.180
+<v Shaun Hardneck>updating our skills related to Microsoft
+Graph scripting.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/330-3
+00:19:53.180 --> 00:19:58.532
+<v Shaun Hardneck>How do we use Graph API and then script
+the information that I require?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/334-0
+00:19:58.612 --> 00:20:01.844
+<v Shaun Hardneck>Require pull out that necessary
+information.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/334-1
+00:20:01.844 --> 00:20:07.160
+<v Shaun Hardneck>So then those are the part of the
+complexities that we have to realize is</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/334-2
+00:20:07.160 --> 00:20:11.326
+<v Shaun Hardneck>the real world.
+Not all departments or organizations will</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/334-3
+00:20:11.326 --> 00:20:15.852
+<v Shaun Hardneck>have the budget to say I'll purchase this
+tool out-of-the-box.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/339-0
+00:20:15.932 --> 00:20:19.152
+<v Shaun Hardneck>It can give me this report or it can do
+that.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/339-1
+00:20:19.152 --> 00:20:25.032
+<v Shaun Hardneck>We have to be mindful of the departmental
+financial challenges and constraints that</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/339-2
+00:20:25.032 --> 00:20:28.952
+<v Shaun Hardneck>we are facing.
+Hence the Microsoft Graph API and how we</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/339-3
+00:20:28.952 --> 00:20:33.222
+<v Shaun Hardneck>can query the results that we pick up
+from it. It's amazing.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/339-4
+00:20:33.222 --> 00:20:35.532
+<v Shaun Hardneck>We just need to think what it is.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/344-0
+00:20:35.732 --> 00:20:42.985
+<v Shaun Hardneck>That I want to see and then use the Graph
+API to try and pull out that information</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/344-1
+00:20:42.985 --> 00:20:46.917
+<v Shaun Hardneck>that's not natively visible into the
+portal.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/344-2
+00:20:46.917 --> 00:20:52.772
+<v Shaun Hardneck>So one scenario I can think of we in
+order for you to have longer.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/349-0
+00:20:52.892 --> 00:20:57.293
+<v Shaun Hardneck>Logs in of intro logs.
+So by natively that we see 90 days worth</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/349-1
+00:20:57.293 --> 00:21:00.801
+<v Shaun Hardneck>of logs.
+So if you have not incorporated Microsoft</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/349-2
+00:21:00.801 --> 00:21:04.996
+<v Shaun Hardneck>Sentinel and shipped off those logs to a
+Sentinel workspace,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/349-3
+00:21:04.996 --> 00:21:09.192
+<v Shaun Hardneck>you need to find other mechanisms of
+pulling out those logs,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/349-4
+00:21:09.192 --> 00:21:12.012
+<v Shaun Hardneck>storing it somewhere for your own use or.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/354-0
+00:21:12.452 --> 00:21:16.330
+<v Shaun Hardneck>Do a regular month end report extracting
+that information.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/354-1
+00:21:16.330 --> 00:21:21.589
+<v Shaun Hardneck>The graph becomes your perfect tool of
+choice to perform that kind of functions</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/354-2
+00:21:21.589 --> 00:21:24.547
+<v Shaun Hardneck>and just saving those information
+somewhere.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/354-3
+00:21:24.547 --> 00:21:27.636
+<v Shaun Hardneck>And for enterprises managing multiple
+tenants,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/354-4
+00:21:27.636 --> 00:21:32.172
+<v Shaun Hardneck>there's a real operational overhead
+coordinating different policies.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/358-0
+00:21:32.292 --> 00:21:36.212
+<v Shaun Hardneck>Reviews identity governance across
+environments.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/358-1
+00:21:36.212 --> 00:21:42.292
+<v Shaun Hardneck>That doesn't become easy because now I
+need to control what access packages</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/358-2
+00:21:42.292 --> 00:21:48.212
+<v Shaun Hardneck>we've configured for tenant A,
+what is happening in tenant B, so keeping.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/360-0
+00:21:48.252 --> 00:21:54.572
+<v Shaun Hardneck>Keeping all of that In Sync does become a
+challenge and as we look on later on.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/363-0
+00:21:55.732 --> 00:21:59.947
+<v Shaun Hardneck>How do we what?
+What ways can we put in place to manage</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/363-1
+00:21:59.947 --> 00:22:02.732
+<v Shaun Hardneck>the these multi tenant organizations?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/368-0
+00:22:04.292 --> 00:22:10.617
+<v Shaun Hardneck>The key is to centralize and streamline,
+consolidate logging into Sentinel,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/368-1
+00:22:10.617 --> 00:22:15.694
+<v Shaun Hardneck>define clear admin workflows and invest
+in graph automation.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/368-2
+00:22:15.694 --> 00:22:20.772
+<v Shaun Hardneck>So Microsoft still pushes us with all the
+greatness and the.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/371-0
+00:22:20.852 --> 00:22:23.948
+<v Shaun Hardneck>And the beautiful things that we see in
+Entra,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/371-1
+00:22:23.948 --> 00:22:29.217
+<v Shaun Hardneck>a lot of the information we still pull
+out and we still use the Graph API on an</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/371-2
+00:22:29.217 --> 00:22:34.092
+<v Shaun Hardneck>almost daily basis to surface the
+information that we really want to see.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/375-0
+00:22:36.292 --> 00:22:40.519
+<v Shaun Hardneck>So while Intra provides incredible
+capabilities,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/375-1
+00:22:40.519 --> 00:22:46.989
+<v Shaun Hardneck>it still requires careful design and
+governance to keep things manageable.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/375-2
+00:22:46.989 --> 00:22:50.612
+<v Shaun Hardneck>So adding more tenants because we want to.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/379-0
+00:22:50.652 --> 00:22:54.941
+<v Shaun Hardneck>Separate a business unit or we we want to
+add another business,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/379-1
+00:22:54.941 --> 00:23:00.438
+<v Shaun Hardneck>but it's going to be there for six months
+only and then we need to tear it apart.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/379-2
+00:23:00.438 --> 00:23:05.532
+<v Shaun Hardneck>So those are where we have to carefully
+design different type of scenarios.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/381-0
+00:23:06.052 --> 00:23:10.608
+<v Shaun Hardneck>The organization goes through because
+managing all of this does become a bit of</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/381-1
+00:23:10.608 --> 00:23:11.292
+<v Shaun Hardneck>a challenge.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/386-0
+00:23:13.172 --> 00:23:19.403
+<v Shaun Hardneck>And then the ugly that we have to look at
+and and talk about is service principles.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/386-1
+00:23:19.403 --> 00:23:25.114
+<v Shaun Hardneck>So often we get a vendor requesting, look,
+just spin up a service principle,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/386-2
+00:23:25.114 --> 00:23:28.972
+<v Shaun Hardneck>give it owner rights for now,
+we'll get back to it.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/390-0
+00:23:29.372 --> 00:23:34.039
+<v Shaun Hardneck>But the problem with that is that those
+service principles sometimes have more</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/390-1
+00:23:34.039 --> 00:23:36.993
+<v Shaun Hardneck>access than what the administrator
+accounts have.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/390-2
+00:23:36.993 --> 00:23:41.069
+<v Shaun Hardneck>So we forget about them totally because
+they're running at the back.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/390-3
+00:23:41.069 --> 00:23:44.732
+<v Shaun Hardneck>Service principles are configured with
+never expired secrets.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/391-0
+00:23:45.052 --> 00:23:46.852
+<v Shaun Hardneck>So they are a.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/398-0
+00:23:47.812 --> 00:23:53.131
+<v Shaun Hardneck>They are a compromise entity waiting to
+happen if they are that aggressively</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/398-1
+00:23:53.131 --> 00:23:58.450
+<v Shaun Hardneck>assigned permissions and secrets that
+doesn't rotate or that doesn't expire.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/398-2
+00:23:58.450 --> 00:24:03.631
+<v Shaun Hardneck>And then we've got legacy authentication
+which bypasses conditional access</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/398-3
+00:24:03.631 --> 00:24:06.670
+<v Shaun Hardneck>policies.
+It still hangs around through old</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/398-4
+00:24:06.670 --> 00:24:07.292
+<v Shaun Hardneck>exchange.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/401-0
+00:24:07.412 --> 00:24:11.185
+<v Shaun Hardneck>Connectors,
+SMTP relays and the Power BI connector.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/401-1
+00:24:11.185 --> 00:24:14.668
+<v Shaun Hardneck>All of these bypass conditional access
+and MFA,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/401-2
+00:24:14.668 --> 00:24:18.949
+<v Shaun Hardneck>making them an easy entry point for
+attackers to get into.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/401-3
+00:24:18.949 --> 00:24:21.852
+<v Shaun Hardneck>And then we've got the audit blind spot.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/406-0
+00:24:22.452 --> 00:24:27.404
+<v Shaun Hardneck>Another concern,
+workload identities often don't show up</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/406-1
+00:24:27.404 --> 00:24:33.312
+<v Shaun Hardneck>properly in sign in logs,
+meaning you could have activity happening</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/406-2
+00:24:33.312 --> 00:24:38.612
+<v Shaun Hardneck>without visibility or alerts,
+so we need to be careful with.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/411-0
+00:24:39.172 --> 00:24:43.625
+<v Shaun Hardneck>What we have and that is where if we look
+at the ordered blind spots,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/411-1
+00:24:43.625 --> 00:24:48.777
+<v Shaun Hardneck>that's where we have our day-to-day of
+Microsoft Graph API comes into place. OK,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/411-2
+00:24:48.777 --> 00:24:53.230
+<v Shaun Hardneck>what application do we have that is?
+What workload do we have that is</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/411-3
+00:24:53.230 --> 00:24:57.683
+<v Shaun Hardneck>configured for in intra ID as a signing?
+Do we have those logs? Nope,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/411-4
+00:24:57.683 --> 00:24:58.892
+<v Shaun Hardneck>we don't have them.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/415-0
+00:24:59.172 --> 00:25:02.576
+<v Shaun Hardneck>OK, how can we get those logs?
+Let's use Graph API.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/415-1
+00:25:02.576 --> 00:25:06.963
+<v Shaun Hardneck>Let's pull out those logging information
+to see what is happening.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/415-2
+00:25:06.963 --> 00:25:11.676
+<v Shaun Hardneck>Or just make it a conscious habit to say
+we need to start reviewing the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/415-3
+00:25:11.676 --> 00:25:15.212
+<v Shaun Hardneck>applications that we've got integrated
+into Entra ID.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/419-0
+00:25:15.492 --> 00:25:20.848
+<v Shaun Hardneck>And start going through those logs and
+the alerts that being or the failed</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/419-1
+00:25:20.848 --> 00:25:26.418
+<v Shaun Hardneck>logins that's been triggered within Intra
+ID for those specific applications.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/419-2
+00:25:26.418 --> 00:25:31.132
+<v Shaun Hardneck>And then finally we're looking at
+privileged access workstations.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/423-0
+00:25:31.652 --> 00:25:36.758
+<v Shaun Hardneck>Or the lack of them.
+Too often we've got we still have admins</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/423-1
+00:25:36.758 --> 00:25:41.947
+<v Shaun Hardneck>performing domain admin,
+enterprise admin level functions from</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/423-2
+00:25:41.947 --> 00:25:46.972
+<v Shaun Hardneck>their laptop where they are the local
+admin on their laptop.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/428-0
+00:25:47.412 --> 00:25:51.293
+<v Shaun Hardneck>Organizations is not having the
+conversation enough about privilege</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/428-1
+00:25:51.293 --> 00:25:54.661
+<v Shaun Hardneck>access workstations.
+Why do we need to have that privilege</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/428-2
+00:25:54.661 --> 00:25:57.915
+<v Shaun Hardneck>access workstation?
+Why does the workstation needs to be</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/428-3
+00:25:57.915 --> 00:26:02.595
+<v Shaun Hardneck>isolated and separated and only perform
+certain functions from that laptop if I'm</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/428-4
+00:26:02.595 --> 00:26:03.452
+<v Shaun Hardneck>a global admin?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/433-0
+00:26:03.732 --> 00:26:07.081
+<v Shaun Hardneck>I shouldn't be able to just go into a
+coffee shop.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/433-1
+00:26:07.081 --> 00:26:11.349
+<v Shaun Hardneck>I take my laptop and I access the my
+organization's environment.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/433-2
+00:26:11.349 --> 00:26:16.405
+<v Shaun Hardneck>That's a that's a major security risk.
+So what happens if someone managed to</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/433-3
+00:26:16.405 --> 00:26:21.593
+<v Shaun Hardneck>steal my laptop and there is keys and
+stuff stored on onto my laptop or access</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/433-4
+00:26:21.593 --> 00:26:22.972
+<v Shaun Hardneck>tokens? So those are.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/437-0
+00:26:23.092 --> 00:26:27.896
+<v Shaun Hardneck>Critical things that organizations are
+not having enough conversations about,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/437-1
+00:26:27.896 --> 00:26:31.653
+<v Shaun Hardneck>which should be talked about more and
+should be implemented.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/437-2
+00:26:31.653 --> 00:26:34.732
+<v Shaun Hardneck>So these are the gaps that attackers can
+exploit.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/437-3
+00:26:34.732 --> 00:26:38.982
+<v Shaun Hardneck>But the good news is they're all flexible
+through strong governance,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/437-4
+00:26:38.982 --> 00:26:41.692
+<v Shaun Hardneck>monitoring and proper lifestyle
+management.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/442-0
+00:26:42.052 --> 00:26:46.396
+<v Shaun Hardneck>So if we're looking at our Privileged
+Access workstation, yes,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/442-1
+00:26:46.396 --> 00:26:50.946
+<v Shaun Hardneck>we've got a workstations,
+we've got the CIS package deployed to a</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/442-2
+00:26:50.946 --> 00:26:56.256
+<v Shaun Hardneck>AVD machine or Windows 365 machine locked
+down completely with CIS controls,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/442-3
+00:26:56.256 --> 00:27:01.772
+<v Shaun Hardneck>and only from that machine I'm allowed to
+use conditional access to access the.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/446-0
+00:27:01.932 --> 00:27:05.643
+<v Shaun Hardneck>M365 or the Azure portals to perform my
+admin functions.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/446-1
+00:27:05.643 --> 00:27:11.048
+<v Shaun Hardneck>So those are the type of scenarios or the
+thinking that organizations should start</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/446-2
+00:27:11.048 --> 00:27:15.346
+<v Shaun Hardneck>having to make sure that they safeguard
+the most critical assets,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/446-3
+00:27:15.346 --> 00:27:18.732
+<v Shaun Hardneck>which is data that they have that they've
+built up.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/449-0
+00:27:19.172 --> 00:27:25.052
+<v Shaun Hardneck>The access to the critical systems,
+finance and the SEP systems so.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/451-0
+00:27:26.932 --> 00:27:30.292
+<v Shaun Hardneck>Yeah,
+so the ugly of the is real world pitfalls</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/451-1
+00:27:30.292 --> 00:27:33.652
+<v Shaun Hardneck>that can damage an organization pretty
+quickly.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/453-0
+00:27:36.372 --> 00:27:39.172
+<v Shaun Hardneck>And then we look at designing for control.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/455-0
+00:27:41.172 --> 00:27:44.652
+<v Shaun Hardneck>So one of the one of the things that we
+look at is.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/460-0
+00:27:45.972 --> 00:27:51.449
+<v Shaun Hardneck>I think we all are fairly familiar with
+the tiered admin model based on when</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/460-1
+00:27:51.449 --> 00:27:56.855
+<v Shaun Hardneck>Active Directory started rolling out.
+All organizations start having AD and</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/460-2
+00:27:56.855 --> 00:28:01.052
+<v Shaun Hardneck>then we had this tiering model, Tier 0,
+tier one accounts.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/465-0
+00:28:01.492 --> 00:28:06.506
+<v Shaun Hardneck>And those are the same thinking that we
+should start applying in intra ID.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/465-1
+00:28:06.506 --> 00:28:10.785
+<v Shaun Hardneck>Let's not take it away.
+How do we incorporate that some type of</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/465-2
+00:28:10.785 --> 00:28:14.396
+<v Shaun Hardneck>tearing structure into our environment at
+the moment?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/465-3
+00:28:14.396 --> 00:28:19.477
+<v Shaun Hardneck>Because we need to say not everyone
+should be able to see to have access to</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/465-4
+00:28:19.477 --> 00:28:19.812
+<v Shaun Hardneck>tear.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/470-0
+00:28:20.372 --> 00:28:25.364
+<v Shaun Hardneck>Tier 0 role based groups that should be
+strictly locked away with with privileged</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/470-1
+00:28:25.364 --> 00:28:30.113
+<v Shaun Hardneck>identity management hidden behind an
+access package where only certain people</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/470-2
+00:28:30.113 --> 00:28:33.036
+<v Shaun Hardneck>in the organization can approve access to
+that.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/470-3
+00:28:33.036 --> 00:28:38.029
+<v Shaun Hardneck>Then we're looking at DevOps integration.
+How do we make sure that the changes we</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/470-4
+00:28:38.029 --> 00:28:39.612
+<v Shaun Hardneck>apply in our organization?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/475-0
+00:28:40.332 --> 00:28:45.944
+<v Shaun Hardneck>Has is approved changes the code that we
+are kicking off against our environment</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/475-1
+00:28:45.944 --> 00:28:51.625
+<v Shaun Hardneck>that we are not executing malicious code
+because we cloned A GitHub repo from the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/475-2
+00:28:51.625 --> 00:28:55.505
+<v Shaun Hardneck>Internet and it says you can automate
+your environment,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/475-3
+00:28:55.505 --> 00:28:59.732
+<v Shaun Hardneck>just clone this GitHub repo.
+So by integrating that in that.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/479-0
+00:29:00.012 --> 00:29:05.622
+<v Shaun Hardneck>Security checks with Defender for
+Defender for Cloud scanning the code that</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/479-1
+00:29:05.622 --> 00:29:10.273
+<v Shaun Hardneck>is being being pushed inside our
+environment via Azure DevOps.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/479-2
+00:29:10.273 --> 00:29:15.441
+<v Shaun Hardneck>We get to scan those codes.
+Defender for for Cloud be able to give us</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/479-3
+00:29:15.441 --> 00:29:19.132
+<v Shaun Hardneck>and tell us look,
+this code is got secrets in it.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/483-0
+00:29:19.252 --> 00:29:24.046
+<v Shaun Hardneck>Are you sure you want to publish it or
+you block that code from being published</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/483-1
+00:29:24.046 --> 00:29:28.660
+<v Shaun Hardneck>because you're sharing a secret over
+plain text that should be hidden either</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/483-2
+00:29:28.660 --> 00:29:33.215
+<v Shaun Hardneck>in a key vault and then reference the key
+vault and then do the deployment.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/483-3
+00:29:33.215 --> 00:29:35.732
+<v Shaun Hardneck>So those DevOps integration is becoming a.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/488-0
+00:29:35.812 --> 00:29:40.828
+<v Shaun Hardneck>Massive critical function of our of how
+we move forward because we want to make</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/488-1
+00:29:40.828 --> 00:29:44.778
+<v Shaun Hardneck>sure that we've got controls implemented
+that is standardized.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/488-2
+00:29:44.778 --> 00:29:49.104
+<v Shaun Hardneck>Business has signed off and agreed on it.
+We've got security checks.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/488-3
+00:29:49.104 --> 00:29:53.618
+<v Shaun Hardneck>Every time we push a new script,
+we push a new deployment of a piece of</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/488-4
+00:29:53.618 --> 00:29:53.932
+<v Shaun Hardneck>code.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/493-0
+00:29:54.132 --> 00:29:57.651
+<v Shaun Hardneck>It gets controlled.
+It's validated by at least two members</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/493-1
+00:29:57.651 --> 00:30:01.050
+<v Shaun Hardneck>for approval, so everyone.
+So there's views on the code,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/493-2
+00:30:01.050 --> 00:30:05.166
+<v Shaun Hardneck>not just Defender for Cloud saying
+where's the security flaws in it,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/493-3
+00:30:05.166 --> 00:30:10.176
+<v Shaun Hardneck>but there's actual people validating what
+we are deploying into production into our</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/493-4
+00:30:10.176 --> 00:30:10.892
+<v Shaun Hardneck>environment.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/498-0
+00:30:11.852 --> 00:30:16.243
+<v Shaun Hardneck>So and then we've got automated reviews
+and reporting.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/498-1
+00:30:16.243 --> 00:30:19.755
+<v Shaun Hardneck>So we need to start automating our
+reviews.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/498-2
+00:30:19.755 --> 00:30:24.865
+<v Shaun Hardneck>So if there is controls that we need to
+pull out on a database,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/498-3
+00:30:24.865 --> 00:30:29.415
+<v Shaun Hardneck>if we look at intra ID,
+the reports that we are getting,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/498-4
+00:30:29.415 --> 00:30:31.172
+<v Shaun Hardneck>we get set up reports.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/501-0
+00:30:31.252 --> 00:30:35.739
+<v Shaun Hardneck>For risky users on a weekly basis,
+send the e-mail notification,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/501-1
+00:30:35.739 --> 00:30:40.158
+<v Shaun Hardneck>say these are the users that has been
+found. Let's review them.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/501-2
+00:30:40.158 --> 00:30:45.750
+<v Shaun Hardneck>We organizations or InfoSec should start
+taking ownership of those notifications</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/501-3
+00:30:45.750 --> 00:30:46.372
+<v Shaun Hardneck>or those.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/507-0
+00:30:46.732 --> 00:30:52.362
+<v Shaun Hardneck>Those reportings that comes in and then
+actively work through them to make</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/507-1
+00:30:52.362 --> 00:30:57.393
+<v Shaun Hardneck>changes in the environment.
+And then finally brilliant tool that I</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/507-2
+00:30:57.393 --> 00:31:01.822
+<v Shaun Hardneck>think most all of us have seen,
+which is the Meister tool.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/507-3
+00:31:01.822 --> 00:31:06.252
+<v Shaun Hardneck>So Meister with Azure DevOps allows us to
+monitor control.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/512-0
+00:31:06.332 --> 00:31:11.869
+<v Shaun Hardneck>Drift and compliance in the real time.
+So with DevOps integration and Maesto</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/512-1
+00:31:11.869 --> 00:31:17.550
+<v Shaun Hardneck>running continuously, we can say OK,
+conditional access policies have changed.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/512-2
+00:31:17.550 --> 00:31:22.656
+<v Shaun Hardneck>There is change that happened on our
+global admin groups that has been</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/512-3
+00:31:22.656 --> 00:31:26.252
+<v Shaun Hardneck>modified.
+Our critical groups have been modified.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/517-0
+00:31:26.252 --> 00:31:31.328
+<v Shaun Hardneck>Like fire or for e-mail notification to
+this department say why do we have drift?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/517-1
+00:31:31.328 --> 00:31:36.219
+<v Shaun Hardneck>But we need to start making conscious
+decisions that we need to actively start</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/517-2
+00:31:36.219 --> 00:31:41.172
+<v Shaun Hardneck>assessing our environment on a monthly or
+regular basis so that we know what is</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/517-3
+00:31:41.172 --> 00:31:45.692
+<v Shaun Hardneck>happening in our environment and if we
+take ownership and control of it.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/519-0
+00:31:46.212 --> 00:31:46.292
+<v Shaun Hardneck>O.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/523-0
+00:31:50.932 --> 00:31:55.089
+<v Shaun Hardneck>On the next session,
+I just want to quickly show you guys a</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/523-1
+00:31:55.089 --> 00:32:00.355
+<v Shaun Hardneck>functionality in inter ID part of
+conditional access that we all should use</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/523-2
+00:32:00.355 --> 00:32:04.373
+<v Shaun Hardneck>quite actively and I hope everyone else
+is also using it,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/523-3
+00:32:04.373 --> 00:32:06.452
+<v Shaun Hardneck>which is the what if function.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/525-0
+00:32:09.172 --> 00:32:12.211
+<v Shaun Hardneck>So I'm just going to quickly while I
+switch screens,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/525-1
+00:32:12.211 --> 00:32:13.932
+<v Shaun Hardneck>do you have any questions yet?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/527-0
+00:32:17.052 --> 00:32:17.172
+<v Shaun Hardneck>Yep.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/528-0
+00:32:19.012 --> 00:32:19.332
+<v Shaun Hardneck>OK.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/532-0
+00:32:21.172 --> 00:32:24.558
+<v Nicolas Blank>No one's coming of meat,
+so I'm going to assume there's no</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/532-1
+00:32:24.558 --> 00:32:25.132
+<v Nicolas Blank>questions.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/533-0
+00:32:25.572 --> 00:32:27.972
+<v Schalk van Wyk>I'll ask questions later. Too many.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/535-0
+00:32:30.892 --> 00:32:31.252
+<v Shaun Hardneck>Good.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/538-0
+00:32:30.972 --> 00:32:33.422
+<v Nicolas Blank>Actually,
+if if we were on in the same room,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/538-1
+00:32:33.422 --> 00:32:35.872
+<v Nicolas Blank>we would,
+we would just stop the bus and ask</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/538-2
+00:32:35.872 --> 00:32:38.812
+<v Nicolas Blank>questions.
+So you're welcome to ask questions, Skulk.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/541-0
+00:32:41.532 --> 00:32:48.132
+<v Schalk van Wyk>So my question is more related to to um
+Microsoft Intra external ID, so.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/547-0
+00:32:49.012 --> 00:32:56.021
+<v Schalk van Wyk>And using it together with Entra.
+So there's a scenario that I'm thinking</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/547-1
+00:32:56.021 --> 00:33:03.600
+<v Schalk van Wyk>about that I needed for a client where
+we're building applications that's going</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/547-2
+00:33:03.600 --> 00:33:08.052
+<v Schalk van Wyk>to be available external to your
+organization.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/549-0
+00:33:09.172 --> 00:33:12.612
+<v Schalk van Wyk>So hence the use of Microsoft intro
+external ID.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/550-0
+00:33:13.412 --> 00:33:13.772
+<v Shaun Hardneck>Mm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/553-0
+00:33:14.092 --> 00:33:21.652
+<v Schalk van Wyk>But those applications will need to allow
+people within the organization also to</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/553-1
+00:33:21.652 --> 00:33:23.612
+<v Schalk van Wyk>authenticate on them.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/556-0
+00:33:24.972 --> 00:33:30.994
+<v Schalk van Wyk>So would one use the entitlements and
+stuff like that in the main tenant to</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/556-1
+00:33:30.994 --> 00:33:33.292
+<v Schalk van Wyk>sort of keep them In Sync or?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/559-0
+00:33:35.212 --> 00:33:42.444
+<v Schalk van Wyk>I don't know if it entitlements really
+fit in with external ID or or is more</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/559-1
+00:33:42.444 --> 00:33:43.572
+<v Schalk van Wyk>specific to.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/562-0
+00:33:43.612 --> 00:33:47.126
+<v Nicolas Blank>I see Matthew swooping in on that one.
+So Shaun, if you want to,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/561-0
+00:33:46.972 --> 00:33:47.652
+<v Shaun Hardneck>Yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/562-1
+00:33:47.126 --> 00:33:48.532
+<v Nicolas Blank>you can hand the one over.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/563-0
+00:33:49.052 --> 00:33:50.732
+<v Shaun Hardneck>Yeah, Matthew, you can go.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/568-0
+00:33:52.172 --> 00:33:56.970
+<v Matthew Levy>Thanks, Nick. It's sorry, Shaun.
+It's so in that scenario, Skulk,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/568-1
+00:33:56.970 --> 00:34:03.005
+<v Matthew Levy>you're going to have two separate tenants.
+You're going to have a workforce tenant</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/568-2
+00:34:03.005 --> 00:34:06.932
+<v Matthew Levy>and an external ID tenant where the app
+is published.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/574-0
+00:34:07.612 --> 00:34:13.141
+<v Matthew Levy>And they're they're they might be
+associated with the same company,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/574-1
+00:34:13.141 --> 00:34:18.833
+<v Matthew Levy>but they're separate tenants.
+So your workforce identities, you know,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/574-2
+00:34:18.833 --> 00:34:23.305
+<v Matthew Levy>bob@contoso.
+com is gonna need to be granted access to</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/574-3
+00:34:23.305 --> 00:34:24.932
+<v Matthew Levy>the applications in.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/575-0
+00:34:25.372 --> 00:34:28.972
+<v Matthew Levy>Uh, you know, whatever app. Um.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/581-0
+00:34:29.932 --> 00:34:35.239
+<v Matthew Levy>Woodgrovewoodgrovebank.
+com external ID tenant as a guest.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/581-1
+00:34:35.239 --> 00:34:42.345
+<v Matthew Levy>So you'd have to add that identity as a
+guest and there's ways you can do that</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/581-2
+00:34:42.345 --> 00:34:49.812
+<v Matthew Levy>through cross tenant sync so you can do
+synchronize identities from the workforce.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/585-0
+00:34:49.972 --> 00:34:55.745
+<v Matthew Levy>Tenant into the external ID tenant so
+that they can then be granted access or</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/585-1
+00:34:55.745 --> 00:35:01.665
+<v Matthew Levy>you just let them sign up and sign in
+like the users of Woodgrove Bank would do</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/585-2
+00:35:01.665 --> 00:35:03.812
+<v Matthew Levy>anyway and grant them access.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/586-0
+00:35:05.012 --> 00:35:06.852
+<v Matthew Levy>Does that answer your question, Skog?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/592-0
+00:35:07.132 --> 00:35:10.632
+<v Schalk van Wyk>So I mean, so yes,
+you have your main tenants.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/592-1
+00:35:10.632 --> 00:35:16.665
+<v Schalk van Wyk>Are you gonna have another one which is
+your workforce tenant or is that part of</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/589-0
+00:35:15.772 --> 00:35:16.132
+<v Matthew Levy>Hmm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/592-2
+00:35:16.665 --> 00:35:17.932
+<v Schalk van Wyk>your main tenant?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/595-0
+00:35:17.332 --> 00:35:20.548
+<v Nicolas Blank>Sorry, Scout,
+something that Matthew didn't mention is</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/591-0
+00:35:18.612 --> 00:35:18.932
+<v Matthew Levy>Mm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/595-1
+00:35:20.548 --> 00:35:24.292
+<v Nicolas Blank>that B to C is also depreciated in favour
+of another mechanism.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/596-0
+00:35:23.372 --> 00:35:25.332
+<v Schalk van Wyk>Yeah, yeah, I know. I know that one.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/594-0
+00:35:24.532 --> 00:35:24.812
+<v Matthew Levy>Hmm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/604-0
+00:35:27.372 --> 00:35:33.228
+<v Matthew Levy>It's called you and I have. We've spoken.
+We before we spoke about some of the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/597-0
+00:35:27.652 --> 00:35:27.892
+<v Schalk van Wyk>Um.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/604-1
+00:35:33.228 --> 00:35:37.825
+<v Matthew Levy>customization that wasn't there in the
+the external ID stuff.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/600-0
+00:35:34.692 --> 00:35:34.932
+<v Schalk van Wyk>Yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/601-0
+00:35:36.612 --> 00:35:36.772
+<v Shaun Hardneck>Mm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/607-0
+00:35:37.212 --> 00:35:41.342
+<v Schalk van Wyk>So this scenario is a bit different to
+the previous one.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/604-2
+00:35:37.825 --> 00:35:41.532
+<v Matthew Levy>I actually asked about that.
+I think I owe you a.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/607-1
+00:35:41.342 --> 00:35:45.979
+<v Schalk van Wyk>So there's there's a third scenario which
+is for customers. OK,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/607-2
+00:35:45.979 --> 00:35:51.775
+<v Schalk van Wyk>so this scenario is like there's branches
+or whatever that might need access as</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/607-3
+00:35:51.775 --> 00:35:53.732
+<v Schalk van Wyk>well to these applications.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/616-0
+00:35:55.052 --> 00:35:57.876
+<v Nicolas Blank>Scott,
+just for the the sake of the where where</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/608-0
+00:35:55.452 --> 00:35:57.892
+<v Schalk van Wyk>So I need to be able to sign in.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/616-1
+00:35:57.876 --> 00:36:02.113
+<v Nicolas Blank>Shaun is in his current flow,
+I'm going to ask if if we just to respect</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/610-0
+00:36:01.172 --> 00:36:01.492
+<v Matthew Levy>Mm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/616-2
+00:36:02.113 --> 00:36:05.468
+<v Nicolas Blank>where where Shaun is,
+if we're not on on the the current</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/612-0
+00:36:05.332 --> 00:36:06.932
+<v Schalk van Wyk>Sure, mhm, yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/616-3
+00:36:05.468 --> 00:36:08.234
+<v Nicolas Blank>feature,
+let's take this one to the end of the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/616-4
+00:36:08.234 --> 00:36:12.000
+<v Nicolas Blank>session from a Q&amp;
+A point of view and then we'll pick it up</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/616-5
+00:36:12.000 --> 00:36:12.412
+<v Nicolas Blank>gladly.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/614-0
+00:36:12.732 --> 00:36:13.092
+<v Schalk van Wyk>Cool.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/617-0
+00:36:15.532 --> 00:36:16.692
+<v Shaun Hardneck>So happy.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/619-0
+00:36:19.372 --> 00:36:20.852
+<v Shaun Hardneck>Good. So one of the.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/624-0
+00:36:22.412 --> 00:36:28.573
+<v Shaun Hardneck>Great features of conditional access
+policy of how we restrict access into our</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/624-1
+00:36:28.573 --> 00:36:32.940
+<v Shaun Hardneck>environment or intra ID.
+So I've just created two basic</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/624-2
+00:36:32.940 --> 00:36:37.932
+<v Shaun Hardneck>conditional access policies.
+One of them is restricting access.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/628-0
+00:36:39.292 --> 00:36:47.229
+<v Shaun Hardneck>To everyone else apart from a location
+that I have defined and that is South</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/628-1
+00:36:47.229 --> 00:36:54.239
+<v Shaun Hardneck>Africa as a as a country,
+everything else we have blocked access so</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/628-2
+00:36:54.239 --> 00:36:54.652
+<v Shaun Hardneck>now.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/632-0
+00:36:54.732 --> 00:37:00.568
+<v Shaun Hardneck>And the second one is just risk based
+sign in. So we define conditions,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/632-1
+00:37:00.568 --> 00:37:04.783
+<v Shaun Hardneck>sign in risk.
+Any user with medium or high end risk</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/632-2
+00:37:04.783 --> 00:37:10.052
+<v Shaun Hardneck>will be prompted for MFA sign in.
+So note that this is an empty.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/634-0
+00:37:10.292 --> 00:37:17.772
+<v Shaun Hardneck>Empty tenant and no other policies
+configured, but what I wanted to show was.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/637-0
+00:37:16.332 --> 00:37:19.610
+<v Matthew Levy>Shaun,
+could you could you maybe zoom in a bit?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/636-0
+00:37:19.452 --> 00:37:20.772
+<v Shaun Hardneck>Yeah, yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/637-1
+00:37:19.610 --> 00:37:23.572
+<v Matthew Levy>It's small for me and I'm sure it's small
+for others too.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/639-0
+00:37:25.412 --> 00:37:27.412
+<v Shaun Hardneck>Hang up. How's that better?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/640-0
+00:37:26.172 --> 00:37:28.532
+<v Nicolas Blank>And you still have young eyes.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/641-0
+00:37:28.492 --> 00:37:28.852
+<v Matthew Levy>Yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/646-0
+00:37:28.572 --> 00:37:32.177
+<v Shaun Hardneck>OK,
+so we're going to use the what if</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/646-1
+00:37:32.177 --> 00:37:36.447
+<v Shaun Hardneck>function.
+So every time that we deploy a new</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/646-2
+00:37:36.447 --> 00:37:40.811
+<v Shaun Hardneck>conditional access policy in the
+environment,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/646-3
+00:37:40.811 --> 00:37:44.132
+<v Shaun Hardneck>we always have the risk of what if.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/650-0
+00:37:44.492 --> 00:37:48.381
+<v Shaun Hardneck>If I deploy this policy,
+am I going to break access to my</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/650-1
+00:37:48.381 --> 00:37:51.667
+<v Shaun Hardneck>application?
+Am I going to prevent my users from</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/650-2
+00:37:51.667 --> 00:37:56.428
+<v Shaun Hardneck>signing into specific applications?
+So that way we can define and test</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/650-3
+00:37:56.428 --> 00:38:00.452
+<v Shaun Hardneck>workload identities.
+We can check guest and external users.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/653-0
+00:38:00.812 --> 00:38:05.584
+<v Shaun Hardneck>Test what the flow or the experience will
+be for those users.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/653-1
+00:38:05.584 --> 00:38:09.972
+<v Shaun Hardneck>O if I just select a user,
+I'm going to use a demo user.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/657-0
+00:38:12.852 --> 00:38:15.378
+<v Shaun Hardneck>And I'm going to select the the target
+type.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/657-1
+00:38:15.378 --> 00:38:19.309
+<v Shaun Hardneck>What are we going to authenticate again
+or what are we going to test?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/657-2
+00:38:19.309 --> 00:38:23.408
+<v Shaun Hardneck>I'm going to test the cloud app.
+I'm going to select the cloud app which</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/657-3
+00:38:23.408 --> 00:38:27.732
+<v Shaun Hardneck>is visible within the MTRA within
+conditional access. So we're going to say.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/658-0
+00:38:28.412 --> 00:38:29.812
+<v Shaun Hardneck>M365.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/663-0
+00:38:33.212 --> 00:38:38.399
+<v Shaun Hardneck>And then here we can start defining the
+specific countries where we want to come</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/663-1
+00:38:38.399 --> 00:38:41.473
+<v Shaun Hardneck>from.
+So I'm going to say let's do a test flow.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/663-2
+00:38:41.473 --> 00:38:44.932
+<v Shaun Hardneck>Let's validate if we are allowing people
+from Brazil.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/665-0
+00:38:51.012 --> 00:38:54.932
+<v Shaun Hardneck>And I should have an IP for Brazil.
+Sorry about that.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/682-0
+00:39:33.412 --> 00:39:36.452
+<v Shaun Hardneck>So because I set the policy.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/687-0
+00:39:37.932 --> 00:39:43.349
+<v Shaun Hardneck>The changes that I've made in the policy,
+so location state which is on and I've</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/687-1
+00:39:43.349 --> 00:39:48.031
+<v Shaun Hardneck>not configured anything for it.
+We can see that the reason the policy</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/687-2
+00:39:48.031 --> 00:39:53.381
+<v Shaun Hardneck>will not apply is because of the location,
+which is interesting because they're</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/687-3
+00:39:53.381 --> 00:39:54.652
+<v Shaun Hardneck>coming from Brazil.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/692-0
+00:39:55.052 --> 00:39:58.304
+<v Shaun Hardneck>So this is how we can validate what our
+policy will do.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/692-1
+00:39:58.304 --> 00:40:00.860
+<v Shaun Hardneck>If we look at the policies that will
+apply,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/692-2
+00:40:00.860 --> 00:40:05.565
+<v Shaun Hardneck>all the policies that will apply will be
+listed here and we can exactly see what</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/692-3
+00:40:05.565 --> 00:40:09.167
+<v Shaun Hardneck>the impact on the user will be.
+So will the user receive MFA?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/692-4
+00:40:09.167 --> 00:40:12.652
+<v Shaun Hardneck>Will the user be blocked out or locked
+out from the tenant?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/697-0
+00:40:14.172 --> 00:40:17.776
+<v Shaun Hardneck>If so,
+this policy will show you here what the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/697-1
+00:40:17.776 --> 00:40:22.376
+<v Shaun Hardneck>configuration is.
+Then we can also continuously filter with</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/697-2
+00:40:22.376 --> 00:40:27.131
+<v Shaun Hardneck>what you want to do.
+What is the authentication flow going to</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/697-3
+00:40:27.131 --> 00:40:30.351
+<v Shaun Hardneck>be?
+So the what if tool has grown so much</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/697-4
+00:40:30.351 --> 00:40:32.652
+<v Shaun Hardneck>that Microsoft started adding.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/698-0
+00:40:32.732 --> 00:40:33.132
+<v Shaun Hardneck>Adding.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/704-0
+00:40:35.452 --> 00:40:38.843
+<v Shaun Hardneck>Adding all the additional conditions,
+sign in conditions.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/704-1
+00:40:38.843 --> 00:40:41.767
+<v Shaun Hardneck>Previously we could just specify the
+application,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/704-2
+00:40:41.767 --> 00:40:46.386
+<v Shaun Hardneck>your source IP address or the country
+that you're coming from and it will tell</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/704-3
+00:40:46.386 --> 00:40:49.602
+<v Shaun Hardneck>you which policies will apply and what
+will not apply.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/704-4
+00:40:49.602 --> 00:40:53.636
+<v Shaun Hardneck>Now we have a sign in risk.
+We can define the risk level that we are</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/704-5
+00:40:53.636 --> 00:40:54.572
+<v Shaun Hardneck>signing in from.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/709-0
+00:40:55.292 --> 00:41:00.923
+<v Shaun Hardneck>User risk level, what does that look like?
+And we can specify more and more type of</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/709-1
+00:41:00.923 --> 00:41:06.218
+<v Shaun Hardneck>platforms where we are logging in from to
+start understanding what conditional</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/709-2
+00:41:06.218 --> 00:41:10.375
+<v Shaun Hardneck>access policy will do.
+How would it have an effect on our end</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/709-3
+00:41:10.375 --> 00:41:12.252
+<v Shaun Hardneck>users at the end of the day?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/713-0
+00:41:12.612 --> 00:41:18.882
+<v Shaun Hardneck>Then we one of the things I want to
+showcase is sign in events.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/713-1
+00:41:18.882 --> 00:41:26.231
+<v Shaun Hardneck>So we in order for us to do start with
+troubleshooting within intra of why</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/713-2
+00:41:26.231 --> 00:41:30.052
+<v Shaun Hardneck>specific users are not able to sign in.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/718-0
+00:41:30.132 --> 00:41:35.554
+<v Shaun Hardneck>Or why is the conditional access blocking
+them? What is what specific control?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/718-1
+00:41:35.554 --> 00:41:38.436
+<v Shaun Hardneck>So yeah,
+we've got a user that has got an</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/718-2
+00:41:38.436 --> 00:41:42.417
+<v Shaun Hardneck>interrupted session.
+So if we look at this and we expand,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/718-3
+00:41:42.417 --> 00:41:47.496
+<v Shaun Hardneck>then we can see the user's password is
+expired and therefore the login or</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/718-4
+00:41:47.496 --> 00:41:48.732
+<v Shaun Hardneck>session was ended.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/723-0
+00:41:49.092 --> 00:41:54.073
+<v Shaun Hardneck>So now we can with enter a sign in logs.
+Now we've got all of this information</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/723-1
+00:41:54.073 --> 00:41:59.181
+<v Shaun Hardneck>that's readily available to us that we
+can start understanding what is happening</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/723-2
+00:41:59.181 --> 00:42:03.280
+<v Shaun Hardneck>with our user sign insurance.
+What will the effect be of certain</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/723-3
+00:42:03.280 --> 00:42:08.072
+<v Shaun Hardneck>policies if we are rolling it out?
+Is there any conditional policies that's</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/723-4
+00:42:08.072 --> 00:42:08.892
+<v Shaun Hardneck>been applied?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/727-0
+00:42:09.012 --> 00:42:13.184
+<v Shaun Hardneck>To the users.
+So here we can see conditional access</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/727-1
+00:42:13.184 --> 00:42:20.005
+<v Shaun Hardneck>policy applied for unrestricted countries.
+Success policy not applied for risky sign</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/727-2
+00:42:20.005 --> 00:42:22.332
+<v Shaun Hardneck>insurance for the risk score.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/731-0
+00:42:23.772 --> 00:42:27.773
+<v Shaun Hardneck>And then we can look at additional
+information.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/731-1
+00:42:27.773 --> 00:42:32.024
+<v Shaun Hardneck>Was the user prompted for MFA?
+Was that completed?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/731-2
+00:42:32.024 --> 00:42:38.025
+<v Shaun Hardneck>MFA was completed within Azure AD.
+So we have all this information that</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/731-3
+00:42:38.025 --> 00:42:38.692
+<v Shaun Hardneck>becomes.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/733-0
+00:42:39.012 --> 00:42:44.052
+<v Shaun Hardneck>More and more available,
+the more Microsoft enhance the the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/733-1
+00:42:44.052 --> 00:42:46.572
+<v Shaun Hardneck>product and the functionality.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/735-0
+00:42:50.332 --> 00:42:50.412
+<v Shaun Hardneck>Hey.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/738-0
+00:42:53.292 --> 00:42:58.652
+<v Shaun Hardneck>And then I'm going to just quickly switch
+back. Almost time to Q&amp;A.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/739-0
+00:43:02.652 --> 00:43:03.292
+<v Shaun Hardneck>So.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/745-0
+00:43:04.772 --> 00:43:09.667
+<v Shaun Hardneck>Just to wrap up the quick quick demo,
+I didn't want to steal too much time,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/745-1
+00:43:09.667 --> 00:43:13.596
+<v Shaun Hardneck>too much of everyone's time,
+but it's to utilize design with</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/745-2
+00:43:13.596 --> 00:43:16.881
+<v Shaun Hardneck>visibility.
+That's where the what if tool comes in</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/745-3
+00:43:16.881 --> 00:43:20.811
+<v Shaun Hardneck>when we design the security measures
+around our environment,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/745-4
+00:43:20.811 --> 00:43:23.452
+<v Shaun Hardneck>how we allow access into our environment.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/750-0
+00:43:23.652 --> 00:43:29.185
+<v Shaun Hardneck>We need to leverage tools like the what
+if tool to simulate what the policy</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/750-1
+00:43:29.185 --> 00:43:33.408
+<v Shaun Hardneck>effects going to be.
+We need to use runtime protection to</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/750-2
+00:43:33.408 --> 00:43:38.359
+<v Shaun Hardneck>implement the risk based policies,
+the user risk, the sign in risk.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/750-3
+00:43:38.359 --> 00:43:43.092
+<v Shaun Hardneck>Do they have any risk applied to them?
+What do we apply if user?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/754-0
+00:43:43.172 --> 00:43:48.385
+<v Shaun Hardneck>Is medium. Do we just request MFA?
+Do we sign the lock the account and get</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/754-1
+00:43:48.385 --> 00:43:52.765
+<v Shaun Hardneck>them to contact help desk?
+What is that flow and what does our</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/754-2
+00:43:52.765 --> 00:43:56.797
+<v Shaun Hardneck>organization require us to do in those
+type of scenarios?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/754-3
+00:43:56.797 --> 00:44:00.412
+<v Shaun Hardneck>So we need to always make sure that when
+we design.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/759-0
+00:44:00.452 --> 00:44:04.874
+<v Shaun Hardneck>In our intra ID solution or the intra ID
+environment that we take these type of</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/759-1
+00:44:04.874 --> 00:44:09.352
+<v Shaun Hardneck>measures into account because a lot of
+the time we just go to conditional access</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/759-2
+00:44:09.352 --> 00:44:13.388
+<v Shaun Hardneck>policy and you're like you know there's a
+template, click, click, click.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/759-3
+00:44:13.388 --> 00:44:17.479
+<v Shaun Hardneck>Not sure if that template is fit for
+purpose or fit for the organization,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/759-4
+00:44:17.479 --> 00:44:18.972
+<v Shaun Hardneck>we just go ahead and apply.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/762-0
+00:44:19.332 --> 00:44:24.435
+<v Shaun Hardneck>But we should apply some thinking process
+as to why specific conditional access</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/762-1
+00:44:24.435 --> 00:44:29.666
+<v Shaun Hardneck>policies have been implemented and what
+the consequence of that policy will be if</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/762-2
+00:44:29.666 --> 00:44:31.772
+<v Shaun Hardneck>we implement it in a certain way.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/767-0
+00:44:34.292 --> 00:44:40.064
+<v Shaun Hardneck>Then as we as we wrap up,
+just to build your identity playbook,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/767-1
+00:44:40.064 --> 00:44:45.927
+<v Shaun Hardneck>conduct tenant audits.
+So the Meister tool brilliant on allowing</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/767-2
+00:44:45.927 --> 00:44:52.692
+<v Shaun Hardneck>us to do regular assessments with the use
+of a DevOps integration perform.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/771-0
+00:44:53.372 --> 00:44:57.246
+<v Shaun Hardneck>Monthly or quarterly assessments across
+the tenant,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/771-1
+00:44:57.246 --> 00:45:02.760
+<v Shaun Hardneck>see what the the control drift was like
+from the from the quarter before,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/771-2
+00:45:02.760 --> 00:45:08.572
+<v Shaun Hardneck>what is our changes in in our admin roles
+etcetera. So we need to be able to.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/775-0
+00:45:08.932 --> 00:45:14.286
+<v Shaun Hardneck>To audit our own environment instead of
+waiting for third parties to do that for</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/775-1
+00:45:14.286 --> 00:45:18.253
+<v Shaun Hardneck>us at a hefty fee.
+And then we need to transition our admin</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/775-2
+00:45:18.253 --> 00:45:23.608
+<v Shaun Hardneck>roles to a PIM solution or PIM equivalent
+Private Identity Management equivalent</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/775-3
+00:45:23.608 --> 00:45:24.732
+<v Shaun Hardneck>type of solution.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/780-0
+00:45:25.932 --> 00:45:31.377
+<v Shaun Hardneck>To make sure that we have control over
+critical roles that not everyone can just</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/780-1
+00:45:31.377 --> 00:45:34.537
+<v Shaun Hardneck>jump on and leverage that that critical
+roles,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/780-2
+00:45:34.537 --> 00:45:39.377
+<v Shaun Hardneck>then we need to automate tedious task
+users being new users joining the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/780-3
+00:45:39.377 --> 00:45:41.932
+<v Shaun Hardneck>environment, users moving departments.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/785-0
+00:45:42.852 --> 00:45:47.071
+<v Shaun Hardneck>What is required?
+I am moving now from IT and I'm moving</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/785-1
+00:45:47.071 --> 00:45:51.957
+<v Shaun Hardneck>into HR, new set of groups,
+new set of access that I require into</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/785-2
+00:45:51.957 --> 00:45:57.658
+<v Shaun Hardneck>applications and that is where we have
+workflows, automations that kicks in.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/785-3
+00:45:57.658 --> 00:46:02.692
+<v Shaun Hardneck>HR changes me in the SAP system to from
+IT to HR based on that job.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/789-0
+00:46:02.772 --> 00:46:09.341
+<v Shaun Hardneck>Or the department change my access on my
+user identity starts changing because now</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/789-1
+00:46:09.341 --> 00:46:15.672
+<v Shaun Hardneck>I am in a completely different department.
+So we need to automate those things.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/789-2
+00:46:15.672 --> 00:46:17.572
+<v Shaun Hardneck>It's not. These are not.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/793-0
+00:46:18.172 --> 00:46:23.334
+<v Shaun Hardneck>Functionality that is of the future.
+Those are functionalities that we can</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/793-1
+00:46:23.334 --> 00:46:28.772
+<v Shaun Hardneck>leverage right now and we should be able
+to use them if we especially if we're</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/793-2
+00:46:28.772 --> 00:46:32.764
+<v Shaun Hardneck>sitting with the licenses,
+we can automate joiner, mover,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/793-3
+00:46:32.764 --> 00:46:34.692
+<v Shaun Hardneck>lever with logic apps those.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/798-0
+00:46:34.852 --> 00:46:38.444
+<v Shaun Hardneck>So we don't have excuses why we shouldn't
+be able to do it.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/798-1
+00:46:38.444 --> 00:46:41.737
+<v Shaun Hardneck>If we've got an Azure environment,
+Azure subscription,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/798-2
+00:46:41.737 --> 00:46:46.466
+<v Shaun Hardneck>we can create logic apps and we start
+automating some of those basic functions</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/798-3
+00:46:46.466 --> 00:46:50.956
+<v Shaun Hardneck>to make sure that every approach still
+stays the same and we don't rely on</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/798-4
+00:46:50.956 --> 00:46:53.052
+<v Shaun Hardneck>helpdesk to do those things for us.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/803-0
+00:46:53.452 --> 00:46:56.467
+<v Shaun Hardneck>And then we need to monitor service
+principles in Sentinel.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/803-1
+00:46:56.467 --> 00:46:59.280
+<v Shaun Hardneck>One of the things that many organizations
+forget to do.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/803-2
+00:46:59.280 --> 00:47:02.195
+<v Shaun Hardneck>I start a new application or I'm building
+an application,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/803-3
+00:47:02.195 --> 00:47:05.561
+<v Shaun Hardneck>but I need a service principle.
+So I'm going to start off with the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/803-4
+00:47:05.561 --> 00:47:08.727
+<v Shaun Hardneck>highest permissions.
+Instead of starting with least privilege,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/803-5
+00:47:08.727 --> 00:47:11.692
+<v Shaun Hardneck>I'm starting the highest because I don't
+want to struggle.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/807-0
+00:47:12.052 --> 00:47:15.127
+<v Shaun Hardneck>So I'm going to give it all the
+ermissions it needs.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/807-1
+00:47:15.127 --> 00:47:19.942
+<v Shaun Hardneck>We need to set U monitoring alerts within
+Sentinel for those service principles so</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/807-2
+00:47:19.942 --> 00:47:24.177
+<v Shaun Hardneck>that we can get alerted if anything
+happens to those service principles.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/807-3
+00:47:24.177 --> 00:47:26.092
+<v Shaun Hardneck>Are signins being conducted from?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/812-0
+00:47:27.172 --> 00:47:30.620
+<v Shaun Hardneck>From different countries where we don't
+operate,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/812-1
+00:47:30.620 --> 00:47:34.912
+<v Shaun Hardneck>why is that service principle allowing a
+sign in connection?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/812-2
+00:47:34.912 --> 00:47:40.683
+<v Shaun Hardneck>With Sentinel we can monitor those type
+of events and then act upon them and then</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/812-3
+00:47:40.683 --> 00:47:43.779
+<v Shaun Hardneck>regularly test conditional access
+policies.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/812-4
+00:47:43.779 --> 00:47:46.172
+<v Shaun Hardneck>Use the what if tool we dive into.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/817-0
+00:47:46.692 --> 00:47:50.748
+<v Shaun Hardneck>The different policies, OK,
+I'm a user coming in from so and so</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/817-1
+00:47:50.748 --> 00:47:55.122
+<v Shaun Hardneck>country. What will apply?
+What will happen to me if I leverage this,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/817-2
+00:47:55.122 --> 00:47:58.355
+<v Shaun Hardneck>if this conditional access policy gets
+rolled out?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/817-3
+00:47:58.355 --> 00:48:03.553
+<v Shaun Hardneck>So we need to be able to make sure that
+what we rolled out, that we've tested it,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/817-4
+00:48:03.553 --> 00:48:06.532
+<v Shaun Hardneck>we've validated it before we start
+putting it.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/818-0
+00:48:06.652 --> 00:48:07.652
+<v Shaun Hardneck>Into production.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/820-0
+00:48:09.132 --> 00:48:15.772
+<v Shaun Hardneck>And then some takeaways the good intra
+the.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/826-0
+00:48:17.372 --> 00:48:23.579
+<v Shaun Hardneck>Provides us a unified identity and access
+governance, access governance, delivery,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/826-1
+00:48:23.579 --> 00:48:29.861
+<v Shaun Hardneck>comprehensive zero trust capabilities in
+our environment. One of the bad licensing,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/826-2
+00:48:29.861 --> 00:48:35.620
+<v Shaun Hardneck>it's starting to feel like Microsoft's
+one of the best things that they ever</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/826-3
+00:48:35.620 --> 00:48:36.892
+<v Shaun Hardneck>invent is how to.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/830-0
+00:48:37.172 --> 00:48:43.281
+<v Shaun Hardneck>Make licensing complicated for things
+that we do need to make enhancements into</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/830-1
+00:48:43.281 --> 00:48:48.779
+<v Shaun Hardneck>our environment and then the ugly.
+We've got uncontrolled configuration</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/830-2
+00:48:48.779 --> 00:48:54.353
+<v Shaun Hardneck>drift. How can we manage that?
+We can leverage tools like Meister or put</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/830-3
+00:48:54.353 --> 00:48:55.652
+<v Shaun Hardneck>it in place with.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/834-0
+00:48:55.652 --> 00:49:00.042
+<v Shaun Hardneck>With a DevOps process,
+monitor what our service principles look</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/834-1
+00:49:00.042 --> 00:49:04.844
+<v Shaun Hardneck>like with Microsoft Sentinel,
+and then not just to have monitoring or</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/834-2
+00:49:04.844 --> 00:49:10.057
+<v Shaun Hardneck>viewing or know that we've got a problem,
+but we need to actually fix those</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/834-3
+00:49:10.057 --> 00:49:11.772
+<v Shaun Hardneck>problems that we do have.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/839-0
+00:49:12.252 --> 00:49:16.549
+<v Shaun Hardneck>So as much as we organizations conduct
+pen test, now I need to tick a box.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/839-1
+00:49:16.549 --> 00:49:20.159
+<v Shaun Hardneck>I'm going to do a pen test.
+A pen test say I've got 50 issues,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/839-2
+00:49:20.159 --> 00:49:24.571
+<v Shaun Hardneck>but I'm going to pick the first two
+because that's going to make the auditor</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/839-3
+00:49:24.571 --> 00:49:28.812
+<v Shaun Hardneck>happy. So I'm going to do only those.
+We should fix the issues that gets.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/843-0
+00:49:28.932 --> 00:49:32.040
+<v Shaun Hardneck>Picked up.
+If there is configuration drift,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/843-1
+00:49:32.040 --> 00:49:37.127
+<v Shaun Hardneck>resolve the configuration drift.
+If there's a conditional access policy</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/843-2
+00:49:37.127 --> 00:49:42.143
+<v Shaun Hardneck>that is allowing or that's been
+configured incorrectly and now it is a</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/843-3
+00:49:42.143 --> 00:49:45.252
+<v Shaun Hardneck>set of users is excluded from MFA
+policies.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/847-0
+00:49:45.412 --> 00:49:51.863
+<v Shaun Hardneck>That should be fixed and resolved and
+either have a a separate controlled group</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/847-1
+00:49:51.863 --> 00:49:56.782
+<v Shaun Hardneck>that is excluded,
+but for known reasons or specific reasons.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/847-2
+00:49:56.782 --> 00:50:00.492
+<v Shaun Hardneck>So yeah,
+those are some of the key takeaways.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/848-0
+00:50:01.212 --> 00:50:01.532
+<v Shaun Hardneck>Um.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/850-0
+00:50:03.932 --> 00:50:06.052
+<v Shaun Hardneck>Do we have any questions?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/852-0
+00:50:07.332 --> 00:50:11.386
+<v Shaun Hardneck>I know,
+I know Matthew is probably eager to</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/852-1
+00:50:11.386 --> 00:50:12.492
+<v Shaun Hardneck>feedback to.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/858-0
+00:50:13.452 --> 00:50:16.664
+<v Schalk van Wyk>Oh,
+before you go for the the external ID</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/854-0
+00:50:13.612 --> 00:50:17.172
+<v Shaun Hardneck>To Schalk.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/858-1
+00:50:16.664 --> 00:50:22.552
+<v Schalk van Wyk>like you mentioned that them is that
+specific with just in time admin rights</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/858-2
+00:50:22.552 --> 00:50:28.212
+<v Schalk van Wyk>is specific to intro when admin uses what
+you're talking about. OK, cool.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/857-0
+00:50:25.932 --> 00:50:27.572
+<v Shaun Hardneck>Correct, correct, yes.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/863-0
+00:50:28.612 --> 00:50:33.904
+<v Schalk van Wyk>I mean like you mentioned the the
+licenses, so like governance,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/863-1
+00:50:33.904 --> 00:50:40.851
+<v Schalk van Wyk>you need to separate governance licensing
+for the lifecycle work flows and stuff it</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/863-2
+00:50:40.851 --> 00:50:42.092
+<v Schalk van Wyk>seems. Oh edit.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/868-0
+00:50:42.252 --> 00:50:47.172
+<v Shaun Hardneck>You can achieve with by using logic apps
+and integrate into whatever your HR</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/868-1
+00:50:47.172 --> 00:50:50.558
+<v Shaun Hardneck>system is, right?
+But if we're gonna want to use the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/868-2
+00:50:50.558 --> 00:50:55.542
+<v Shaun Hardneck>lifecycle management from Android itself,
+there's a license attached to that.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/866-0
+00:50:50.852 --> 00:50:51.972
+<v Schalk van Wyk>Yes.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/868-3
+00:50:55.542 --> 00:50:57.012
+<v Shaun Hardneck>So we can if we've got.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/875-0
+00:50:57.332 --> 00:51:02.086
+<v Shaun Hardneck>E5 might be right,
+but I'm going to lean to Matthew for that.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/869-0
+00:51:00.332 --> 00:51:01.132
+<v Schalk van Wyk>OK, OK.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/875-1
+00:51:02.086 --> 00:51:07.453
+<v Shaun Hardneck>But if we have a E5 license,
+you can still have your access packages,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/871-0
+00:51:06.652 --> 00:51:07.012
+<v Schalk van Wyk>M.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/875-2
+00:51:07.453 --> 00:51:13.664
+<v Shaun Hardneck>your access reviews, review your your,
+your critical groups that's associated to</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/875-3
+00:51:13.664 --> 00:51:16.732
+<v Shaun Hardneck>PUM for global access. Set set up those.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/880-0
+00:51:17.012 --> 00:51:19.816
+<v Shaun Hardneck>Reviews,
+access reviews on a weekly basis or</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/880-1
+00:51:19.816 --> 00:51:24.740
+<v Shaun Hardneck>monthly to say Matthew and Shaun and Matt
+is still part of this global admins.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/880-2
+00:51:24.740 --> 00:51:27.544
+<v Shaun Hardneck>Do they need to be in that group?
+Yes or no?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/880-3
+00:51:27.544 --> 00:51:31.657
+<v Shaun Hardneck>That owner of the environment will then
+reject or either approve.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/880-4
+00:51:31.657 --> 00:51:33.652
+<v Shaun Hardneck>So we need to start thinking of.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/882-0
+00:51:34.052 --> 00:51:38.612
+<v Shaun Hardneck>How we can automate a lot of those things
+to safeguard ourselves going forward?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/884-0
+00:51:38.772 --> 00:51:44.230
+<v Schalk van Wyk>So that sort of ties in what I was
+wanting to ask about the the additional</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/884-1
+00:51:44.230 --> 00:51:44.812
+<v Schalk van Wyk>tenants.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/889-0
+00:51:46.292 --> 00:51:49.152
+<v Schalk van Wyk>If they if a user is linked in that
+tenant,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/889-1
+00:51:49.152 --> 00:51:53.832
+<v Schalk van Wyk>it'll also sort of give a lifecycle
+management in that tenant or is it?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/889-2
+00:51:53.832 --> 00:51:57.212
+<v Schalk van Wyk>I don't know,
+that's what I'm trying to figure out.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/892-0
+00:52:07.092 --> 00:52:07.612
+<v Schalk van Wyk>Mm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/895-0
+00:52:07.852 --> 00:52:11.778
+<v Shaun Hardneck>Environment in in Microsoft that you have
+to manage,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/895-1
+00:52:11.778 --> 00:52:17.629
+<v Shaun Hardneck>but you do have the you can integrate
+some of those accounts to synchronize or</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/895-2
+00:52:17.629 --> 00:52:17.852
+<v Shaun Hardneck>be.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/901-0
+00:52:19.652 --> 00:52:25.323
+<v Schalk van Wyk>Specifically like the admin accounts,
+I mean on the tenants. Yeah, yes, yes,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/909-0
+00:52:21.492 --> 00:52:24.275
+<v Shaun Hardneck>That you can synchronize between the two
+environments,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/898-0
+00:52:22.012 --> 00:52:23.052
+<v Matthew Levy>Hmm. Yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/896-0
+00:52:22.652 --> 00:52:22.892
+<v Nicolas Blank>Yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/909-1
+00:52:24.275 --> 00:52:28.121
+<v Shaun Hardneck>but you don't want to do that for
+everyone because then you're going to sit</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/901-1
+00:52:25.323 --> 00:52:25.692
+<v Schalk van Wyk>yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/900-0
+00:52:26.332 --> 00:52:26.572
+<v Matthew Levy>So.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/909-2
+00:52:28.121 --> 00:52:30.500
+<v Shaun Hardneck>with junk that you don't want in your
+tenants.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/905-0
+00:52:28.612 --> 00:52:29.612
+<v Schalk van Wyk>No, exactly.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/904-0
+00:52:29.572 --> 00:52:29.852
+<v Nicolas Blank>Hmm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/903-0
+00:52:29.932 --> 00:52:30.172
+<v Matthew Levy>U.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/909-3
+00:52:30.500 --> 00:52:33.132
+<v Shaun Hardneck>So you have to be careful with that type
+of design.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/916-0
+00:52:33.332 --> 00:52:37.645
+<v Matthew Levy>By default,
+the person that creates the external ID</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/908-0
+00:52:33.452 --> 00:52:33.492
+<v Nicolas Blank>Oh.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/907-0
+00:52:33.732 --> 00:52:33.932
+<v Schalk van Wyk>Yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/916-1
+00:52:37.645 --> 00:52:43.286
+<v Matthew Levy>tenant that was started off in the the
+workforce tenant becomes the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/911-0
+00:52:38.612 --> 00:52:38.732
+<v Schalk van Wyk>But.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/916-2
+00:52:43.286 --> 00:52:49.259
+<v Matthew Levy>administrator of the external ID tenant
+by default and then you can add</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/915-0
+00:52:47.292 --> 00:52:49.372
+<v Schalk van Wyk>Yes, yes.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/913-0
+00:52:47.492 --> 00:52:47.852
+<v Shaun Hardneck>Yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/916-3
+00:52:49.259 --> 00:52:50.172
+<v Matthew Levy>additional.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/924-0
+00:52:50.732 --> 00:52:56.409
+<v Matthew Levy>Admins. So there is that kind of link,
+but there's also cross-tenant sync</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/918-0
+00:52:53.292 --> 00:52:53.372
+<v Schalk van Wyk>Oh.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/924-1
+00:52:56.409 --> 00:53:01.012
+<v Matthew Levy>capabilities where you can, you know,
+create users in both.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/920-0
+00:52:57.612 --> 00:52:58.892
+<v Schalk van Wyk>Yes, yes, yes.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/921-0
+00:53:00.012 --> 00:53:00.172
+<v Shaun Hardneck>Mm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/922-0
+00:53:01.212 --> 00:53:01.372
+<v Nicolas Blank>Um.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/931-0
+00:53:01.732 --> 00:53:06.908
+<v Schalk van Wyk>It gets a bit tricky with XMID.
+So I think it's like federated,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/926-0
+00:53:04.972 --> 00:53:05.372
+<v Matthew Levy>Yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/927-0
+00:53:04.972 --> 00:53:05.012
+<v Nicolas Blank>Oh.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/931-1
+00:53:06.908 --> 00:53:12.975
+<v Schalk van Wyk>but it's not federated. So like,
+I mean you can also do federated identity</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/931-2
+00:53:12.975 --> 00:53:16.372
+<v Schalk van Wyk>then, which is not quite the same I think.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/930-0
+00:53:13.172 --> 00:53:16.492
+<v Matthew Levy>Yeah, yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/941-0
+00:53:18.092 --> 00:53:21.733
+<v Matthew Levy>Just with regards to the licensing the
+the,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/932-0
+00:53:18.252 --> 00:53:18.332
+<v Schalk van Wyk>Um.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/941-1
+00:53:21.733 --> 00:53:28.270
+<v Matthew Levy>so the PIM stuff that you asked about,
+you can do PIM stuff on an external IDE</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/941-2
+00:53:28.270 --> 00:53:32.241
+<v Matthew Levy>tenant,
+but you have to purchase into a premium</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/941-3
+00:53:32.241 --> 00:53:37.372
+<v Matthew Levy>P2 for that tenant.
+So you can buy the premium P2 capability.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/938-0
+00:53:33.412 --> 00:53:34.572
+<v Schalk van Wyk>Yes, OK.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/940-0
+00:53:36.652 --> 00:53:39.772
+<v Schalk van Wyk>And then licensing changed completely.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/942-0
+00:53:37.852 --> 00:53:37.972
+<v Matthew Levy>Is.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/950-0
+00:53:39.172 --> 00:53:43.157
+<v Matthew Levy>Yeah,
+so the the whole point of external ID is</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/943-0
+00:53:40.852 --> 00:53:41.332
+<v Schalk van Wyk>Mhm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/950-1
+00:53:43.157 --> 00:53:48.330
+<v Matthew Levy>it's the same code base as external ID as
+intro ID. So yeah,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/945-0
+00:53:46.732 --> 00:53:47.172
+<v Nicolas Blank>And.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/950-2
+00:53:48.330 --> 00:53:54.012
+<v Matthew Levy>so you can do a lot of the stuff that you
+can do in intro already.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/947-0
+00:53:48.492 --> 00:53:50.212
+<v Schalk van Wyk>That's intro, yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/951-0
+00:53:54.412 --> 00:53:55.972
+<v Matthew Levy>On external ID.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/949-0
+00:53:54.532 --> 00:53:54.892
+<v Shaun Hardneck>Yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/952-0
+00:53:55.932 --> 00:53:56.012
+<v Nicolas Blank>Oh.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/957-0
+00:53:56.452 --> 00:54:00.562
+<v Schalk van Wyk>And then you also, sorry Shaun,
+you you didn't mention entitlements.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/957-1
+00:54:00.562 --> 00:54:05.625
+<v Schalk van Wyk>I don't know if you actually work with or
+if you've done anything with entitlements.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/961-0
+00:54:05.492 --> 00:54:12.401
+<v Shaun Hardneck>I I I skipped entitlements for a reason
+because it becomes a big topic on its own</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/957-2
+00:54:05.625 --> 00:54:07.532
+<v Schalk van Wyk>I don't actually know, you know.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/955-0
+00:54:07.372 --> 00:54:07.612
+<v Matthew Levy>Hmm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/961-1
+00:54:12.401 --> 00:54:19.394
+<v Shaun Hardneck>and especially when you start configuring
+entitlements and within entitlements you</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/959-0
+00:54:12.492 --> 00:54:13.212
+<v Schalk van Wyk>OK.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/961-2
+00:54:19.394 --> 00:54:21.332
+<v Shaun Hardneck>can have a a a form of.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/967-0
+00:54:22.372 --> 00:54:27.222
+<v Shaun Hardneck>External identities in your entitlement,
+but I would I would think for your</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/967-1
+00:54:27.222 --> 00:54:31.881
+<v Shaun Hardneck>scenario we would have to kind of
+whiteboard exactly what it is that you</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/967-2
+00:54:31.881 --> 00:54:36.412
+<v Shaun Hardneck>want to achieve to see which
+functionality fits and tick that box off.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/964-0
+00:54:33.252 --> 00:54:33.772
+<v Schalk van Wyk>Yes.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/972-0
+00:54:36.452 --> 00:54:43.449
+<v Schalk van Wyk>Yeah, see, I'm not an expert in this area,
+so I'm asking these questions because</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/966-0
+00:54:36.732 --> 00:54:37.252
+<v Nicolas Blank>Hmm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/970-0
+00:54:43.172 --> 00:54:46.580
+<v Shaun Hardneck>No,
+but it seems like a fun project you're</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/972-1
+00:54:43.449 --> 00:54:48.374
+<v Schalk van Wyk>your questions are sort of it's floating
+me. Yeah, yeah,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/970-1
+00:54:46.580 --> 00:54:47.452
+<v Shaun Hardneck>working on.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/972-2
+00:54:48.374 --> 00:54:53.212
+<v Schalk van Wyk>I would like to have an expert in the
+knows this stuff.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/975-0
+00:54:53.332 --> 00:54:58.632
+<v Schalk van Wyk>Um, secret rotation?
+Is it any recommendation that you have</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/975-1
+00:54:58.632 --> 00:54:59.692
+<v Schalk van Wyk>for like um?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/976-0
+00:55:01.892 --> 00:55:02.212
+<v Shaun Hardneck>Secret.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/979-0
+00:55:01.972 --> 00:55:09.521
+<v Schalk van Wyk>How to manage the like dependence on that?
+Or is it a way to find what apps or</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/979-1
+00:55:09.521 --> 00:55:12.292
+<v Schalk van Wyk>something that uses a secret?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/986-0
+00:55:14.772 --> 00:55:20.560
+<v Nicolas Blank>So remember that secrets are basically
+like a password and that when the secret</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/981-0
+00:55:15.172 --> 00:55:15.492
+<v Schalk van Wyk>Yeah, like.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/986-1
+00:55:20.560 --> 00:55:26.276
+<v Nicolas Blank>expires effectively you've got an expired
+non valid password on that and there</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/986-2
+00:55:26.276 --> 00:55:31.051
+<v Nicolas Blank>actually is both intra as well as graph
+instrumentation for that.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/986-3
+00:55:31.051 --> 00:55:34.452
+<v Nicolas Blank>So in intra in the app blade you can see
+that.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/990-0
+00:55:34.812 --> 00:55:38.597
+<v Nicolas Blank>Password is expired,
+but the most scalable method of doing</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/990-1
+00:55:38.597 --> 00:55:41.676
+<v Nicolas Blank>that,
+and I'm going to suggest to you since you</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/990-2
+00:55:41.676 --> 00:55:45.077
+<v Nicolas Blank>know how to code,
+is to either use PowerShell or the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/990-3
+00:55:45.077 --> 00:55:50.081
+<v Nicolas Blank>language of your choice to interrogate
+graph for all the apps in your tenant,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/990-4
+00:55:50.081 --> 00:55:51.172
+<v Nicolas Blank>then dum all the.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/996-0
+00:55:51.572 --> 00:55:58.260
+<v Nicolas Blank>The dates for your secrets and then
+you'll see which which is expired and</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/996-1
+00:55:58.260 --> 00:56:02.327
+<v Nicolas Blank>unexpired. And to be yeah, yeah, yeah,
+yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/993-0
+00:55:58.532 --> 00:56:01.412
+<v Schalk van Wyk>What do you event? Wait for the event.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/996-2
+00:56:02.327 --> 00:56:07.026
+<v Nicolas Blank>So and I think Matt's actually got a term
+for that,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/996-3
+00:56:07.026 --> 00:56:10.732
+<v Nicolas Blank>which is when something crashes into you.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/997-0
+00:56:12.092 --> 00:56:12.492
+<v Nicolas Blank>Yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/998-0
+00:56:12.732 --> 00:56:12.932
+<v Matthew Levy>What?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1000-0
+00:56:14.892 --> 00:56:18.646
+<v Nicolas Blank>Crash management,
+you know if you if you wait for the user</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1000-1
+00:56:18.646 --> 00:56:20.492
+<v Nicolas Blank>to tell you that it's broken.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1006-0
+00:56:20.252 --> 00:56:26.065
+<v Matthew Levy>Oh, oh, scream. Scream theory. Screen.
+Not the screen theory. Yeah, that one.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1006-1
+00:56:26.065 --> 00:56:29.866
+<v Matthew Levy>I can't remember.
+You wait for the user to scream,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1003-0
+00:56:26.772 --> 00:56:28.252
+<v Nicolas Blank>Yeah, yeah.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1006-2
+00:56:29.866 --> 00:56:30.612
+<v Matthew Levy>basically.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1008-0
+00:56:30.092 --> 00:56:33.583
+<v Nicolas Blank>Yeah,
+Rhino's got his hand up and then we need</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1004-0
+00:56:31.052 --> 00:56:31.212
+<v Schalk van Wyk>Sure.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1008-1
+00:56:33.583 --> 00:56:37.892
+<v Nicolas Blank>to to end the call.
+So let's just give Rhino to a the the</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1008-2
+00:56:37.892 --> 00:56:38.932
+<v Nicolas Blank>talking stick.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1014-0
+00:56:41.732 --> 00:56:45.691
+<v Nicolas Blank>And he left. All right.
+I I do want to respect everybody's time.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1014-1
+00:56:45.691 --> 00:56:50.747
+<v Nicolas Blank>I'm sorry, folks, that we are out of time.
+However, thank you so much for joining.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1014-2
+00:56:50.747 --> 00:56:54.037
+<v Nicolas Blank>It's lovely to to get the interactivity
+that we have.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1014-3
+00:56:54.037 --> 00:56:57.997
+<v Nicolas Blank>Thank you everyone for asking the
+questions that you did. Shaun,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1014-4
+00:56:57.997 --> 00:57:01.652
+<v Nicolas Blank>you did a magnificent job taking
+something that's so broad.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1015-0
+00:57:01.692 --> 00:57:05.252
+<v Nicolas Blank>And so complicated in making it so
+accessible. So thank you very much.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1017-0
+00:57:05.172 --> 00:57:06.332
+<v Schalk van Wyk>Pleasure. Thanks everyone.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1021-0
+00:57:08.372 --> 00:57:11.855
+<v Nicolas Blank>And with that, have a wonderful day. Oh,
+Rinot, if you're there,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1020-0
+00:57:11.052 --> 00:57:13.332
+<v Shaun Hardneck>Have a good afternoon. Oh.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1021-1
+00:57:11.855 --> 00:57:13.892
+<v Nicolas Blank>do you want to ask the question quick?</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1023-0
+00:57:20.732 --> 00:57:21.092
+<v Shaun Hardneck>Mm.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1026-0
+00:57:23.252 --> 00:57:26.332
+<v Matthew Levy>Struggling with the mute button,
+I arrogant.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1029-0
+00:57:27.572 --> 00:57:32.092
+<v Nicolas Blank>Yes, it is. It's all right.
+We'll give you a moment to try that.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1039-0
+00:57:51.212 --> 00:57:55.303
+<v Nicolas Blank>If you maybe want to put into text if
+it's if it's not too long to put into</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1039-1
+00:57:55.303 --> 00:57:55.572
+<v Nicolas Blank>text.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1041-0
+00:57:56.532 --> 00:57:57.892
+<v Nicolas Blank>Oh, there we go.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1046-0
+00:58:02.292 --> 00:58:06.654
+<v Nicolas Blank>I wanted to ask if anyone has been able
+to authenticate other Microsoft tenants</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1046-1
+00:58:06.654 --> 00:58:10.962
+<v Nicolas Blank>through external ID and I'm going to ask
+for a quick yes or no from you Shaun,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1046-2
+00:58:10.962 --> 00:58:13.852
+<v Nicolas Blank>just because of the the amount of time
+that we have.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1047-0
+00:58:14.052 --> 00:58:16.292
+<v Shaun Hardneck>Uh, no, but.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1050-0
+00:58:15.012 --> 00:58:18.932
+<v Nicolas Blank>Or if you like,
+you could also continue the chat via I am</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1050-1
+00:58:18.932 --> 00:58:22.852
+<v Nicolas Blank>and then that way we can end the call for
+everybody else.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1052-0
+00:58:23.732 --> 00:58:28.172
+<v Shaun Hardneck>I I haven't, but interesting one and.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1054-0
+00:58:30.052 --> 00:58:35.308
+<v Shaun Hardneck>But I suppose you can. It's possible,
+so it's not not impossible through</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1054-1
+00:58:35.308 --> 00:58:36.172
+<v Shaun Hardneck>external ID.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1058-0
+00:58:37.172 --> 00:58:41.523
+<v Shaun Hardneck>You can just federate,
+allow certain users to access your tenant</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1058-1
+00:58:41.523 --> 00:58:46.009
+<v Shaun Hardneck>file, not external. Yeah,
+synchronized identities. Use that. Yeah,</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1058-2
+00:58:46.009 --> 00:58:49.892
+<v Shaun Hardneck>there's option.
+There's options to achieve that rate end.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1060-0
+00:58:51.292 --> 00:58:53.692
+<v Schalk van Wyk>That was a bad question. Good question.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1062-0
+00:58:55.012 --> 00:58:57.774
+<v Nicolas Blank>Shaun,
+are you happy for folks to reach out to</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1062-1
+00:58:57.774 --> 00:59:01.478
+<v Nicolas Blank>you via via LinkedIn?
+Your your your details are on the meetup</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1065-0
+00:59:00.852 --> 00:59:05.492
+<v Shaun Hardneck>Yes, perfectly fine.
+Happy to chat if anyone has got questions.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1062-2
+00:59:01.478 --> 00:59:01.772
+<v Nicolas Blank>site.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1064-0
+00:59:03.212 --> 00:59:03.452
+<v Nicolas Blank>All right.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1068-0
+00:59:06.292 --> 00:59:09.017
+<v Nicolas Blank>All right.
+So I'm going to direct everyone to do</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1068-1
+00:59:09.017 --> 00:59:13.134
+<v Nicolas Blank>that just for the sake of time.
+So I'm going to end the call and Shaun is</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1068-2
+00:59:13.134 --> 00:59:13.412
+<v Nicolas Blank>very.</v>
+
+46b412bb-b417-448b-9401-e05862f844d3/1069-0
+00:59:14.532 --> 00:59:19.012
+<v Nicolas Blank>Happy to be contacted on this,
+so thank you again Shaun. Cheers all.</v>
