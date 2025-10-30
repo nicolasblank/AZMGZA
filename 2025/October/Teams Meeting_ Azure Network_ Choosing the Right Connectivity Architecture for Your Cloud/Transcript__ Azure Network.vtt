@@ -1,0 +1,4382 @@
+WEBVTT
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/14-0
+00:00:04.994 --> 00:00:09.869
+<v Nicolas Blank>Recording has started and with that
+welcome everyone to the last of the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/14-1
+00:00:09.869 --> 00:00:14.812
+<v Nicolas Blank>October Lunch and Learn sessions for the
+South African Azure User Group.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/14-2
+00:00:14.812 --> 00:00:20.026
+<v Nicolas Blank>This week alone we have grown from 2209
+members because I built the slide on</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/14-3
+00:00:20.026 --> 00:00:23.954
+<v Nicolas Blank>Monday and every day I had to go and
+update it and today.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/18-0
+00:00:24.074 --> 00:00:29.179
+<v Nicolas Blank>Today, as of this morning,
+we were sitting at 2223 members and I</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/18-1
+00:00:29.179 --> 00:00:35.147
+<v Nicolas Blank>think most of that happened because they
+knew the Warren was going to come.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/18-2
+00:00:35.147 --> 00:00:36.954
+<v Nicolas Blank>So kudos to the Warren.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/19-0
+00:00:37.234 --> 00:00:39.954
+<v Warren du Toit>No, they didn't.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/26-0
+00:00:40.954 --> 00:00:44.305
+<v Nicolas Blank>If you are here,
+it's because you've probably joined</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/26-1
+00:00:44.305 --> 00:00:47.783
+<v Nicolas Blank>through meetup.
+com and you are part of the Azure User</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/26-2
+00:00:47.783 --> 00:00:52.210
+<v Nicolas Blank>Group South Africa this week.
+We've had a rather full week and we are</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/26-3
+00:00:52.210 --> 00:00:56.131
+<v Nicolas Blank>ending today, Thursday,
+with Azure Network choosing the right</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/26-4
+00:00:56.131 --> 00:01:00.874
+<v Nicolas Blank>connectivity architecture for your cloud
+with Warren Dutoy and there is a.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/32-0
+00:01:00.954 --> 00:01:04.953
+<v Nicolas Blank>Lot to go through today.
+If you miss a session and you are part of</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/32-1
+00:01:04.953 --> 00:01:08.355
+<v Nicolas Blank>the user group,
+don't fear because you can also navigate</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/27-0
+00:01:05.354 --> 00:01:05.474
+<v Warren du Toit>OK.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/32-2
+00:01:08.355 --> 00:01:13.250
+<v Nicolas Blank>to the GitHub that we have built for you
+and you can get an idea of what has been</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/32-3
+00:01:13.250 --> 00:01:17.488
+<v Nicolas Blank>committed this week already.
+Warren's session will be up by the end of</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/32-4
+00:01:17.488 --> 00:01:20.234
+<v Nicolas Blank>today as soon as the recording has
+processed.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/35-0
+00:01:20.554 --> 00:01:24.983
+<v Nicolas Blank>And as an example,
+you can see that we give you whatever the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/35-1
+00:01:24.983 --> 00:01:28.177
+<v Nicolas Blank>speaker gives us if there is a PDF.
+If not,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/35-2
+00:01:28.177 --> 00:01:33.913
+<v Nicolas Blank>I still provide the transcripts in two
+formats as well as the video recording,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/35-3
+00:01:33.913 --> 00:01:35.874
+<v Nicolas Blank>which is a Teams recording.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/42-0
+00:01:36.314 --> 00:01:41.815
+<v Nicolas Blank>I have to emphasize our code of conduct
+because we are part of the global Azure</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/42-1
+00:01:41.815 --> 00:01:45.392
+<v Nicolas Blank>user groups,
+and with that we do have a very strict</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/42-2
+00:01:45.392 --> 00:01:50.618
+<v Nicolas Blank>inclusion policy in that we respect
+everyone, irrespective of their gender,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/38-0
+00:01:46.474 --> 00:01:46.674
+<v Warren du Toit>Sure.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/42-3
+00:01:50.618 --> 00:01:55.914
+<v Nicolas Blank>sexual orientation, physical appearance,
+disability, age, race, or religion.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/46-0
+00:01:56.234 --> 00:02:02.200
+<v Nicolas Blank>And we will not tolerate any behavior
+that is harassing or degrading in any</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/46-1
+00:02:02.200 --> 00:02:08.009
+<v Nicolas Blank>form. If any of that is reported to us,
+we will evict you from the group.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/46-2
+00:02:08.009 --> 00:02:10.914
+<v Nicolas Blank>And with that, I'd like to introduce.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/56-0
+00:02:11.274 --> 00:02:15.903
+<v Nicolas Blank>The amazing Warren du Toit.
+And this description does not do him</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/56-1
+00:02:15.903 --> 00:02:20.676
+<v Nicolas Blank>justice. It really doesn't.
+It was what I scraped off his LinkedIn</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/56-2
+00:02:20.676 --> 00:02:26.231
+<v Nicolas Blank>profile and I chided him that it wasn't
+reflection of of how amazing he is at</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/49-0
+00:02:23.474 --> 00:02:23.514
+<v Warren du Toit>Oh.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/56-3
+00:02:26.231 --> 00:02:29.223
+<v Nicolas Blank>minimum,
+besides the stuff he does in the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/51-0
+00:02:27.914 --> 00:02:28.194
+<v Warren du Toit>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/56-4
+00:02:29.223 --> 00:02:30.434
+<v Nicolas Blank>community during.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/53-0
+00:02:29.594 --> 00:02:29.634
+<v Warren du Toit>Oh.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/59-0
+00:02:30.794 --> 00:02:33.914
+<v Nicolas Blank>Day job.
+He is the Cross Solutions Lead Architect</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/54-0
+00:02:33.674 --> 00:02:33.714
+<v Warren du Toit>A.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/59-1
+00:02:33.914 --> 00:02:38.157
+<v Nicolas Blank>for Middle East and Africa and is a Cross
+Solutions Lead Architect.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/59-2
+00:02:38.157 --> 00:02:41.839
+<v Nicolas Blank>He is multidiscipline,
+which means he has to be amazing at</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/59-3
+00:02:41.839 --> 00:02:46.394
+<v Nicolas Blank>everything in multiple disciplines and
+craft solutions across all of us.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/63-0
+00:02:47.434 --> 00:02:52.677
+<v Nicolas Blank>And as Warren starts,
+I'm going to hand off to him for this</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/63-1
+00:02:52.677 --> 00:02:58.357
+<v Nicolas Blank>Azure Lunch and Learn,
+which is today Azure Network choosing the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/63-2
+00:02:58.357 --> 00:03:01.154
+<v Nicolas Blank>right connectivity architecture.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/69-0
+00:03:02.634 --> 00:03:05.174
+<v Nicolas Blank>Let me start that again.
+Choosing the right.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/69-1
+00:03:05.174 --> 00:03:09.861
+<v Nicolas Blank>I was doing so well up until that point.
+Connectivity architecture for your cloud.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/65-0
+00:03:06.754 --> 00:03:07.434
+<v Warren du Toit>You are.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/69-2
+00:03:09.861 --> 00:03:14.434
+<v Nicolas Blank>I'm going to stop sharing and fumbling of
+my words and hand over to you, Warren.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/67-0
+00:03:11.034 --> 00:03:11.394
+<v Warren du Toit>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/71-0
+00:03:14.474 --> 00:03:18.691
+<v Warren du Toit>Thank you, Nick. That was really cool.
+I really like that first animation.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/71-1
+00:03:18.691 --> 00:03:22.234
+<v Warren du Toit>That's super funny.
+It actually really looks like me laughing.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/70-0
+00:03:22.394 --> 00:03:22.434
+<v Nicolas Blank>Oh.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/72-0
+00:03:24.674 --> 00:03:29.402
+<v Warren du Toit>I'd love to know how it does that. Really,
+really cool. Thank you.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/72-1
+00:03:29.402 --> 00:03:34.413
+<v Warren du Toit>I think Nick's pretty much said exactly
+what he needs to say about me,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/72-2
+00:03:34.413 --> 00:03:39.354
+<v Warren du Toit>so I'm not going to say anymore,
+except I guess I love what I do and.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/73-0
+00:03:39.354 --> 00:03:44.434
+<v Warren du Toit>I like to live in Azure.
+Every now and then we cross over to AWS</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/73-1
+00:03:44.434 --> 00:03:49.279
+<v Warren du Toit>because we have to,
+but I don't love it as much. I'm kidding.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/73-2
+00:03:49.279 --> 00:03:52.484
+<v Warren du Toit>Yes,
+I enjoy playing around in Azure and</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/73-3
+00:03:52.484 --> 00:03:54.594
+<v Warren du Toit>taking people to Azure, so.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/74-0
+00:03:55.514 --> 00:04:00.935
+<v Warren du Toit>With that, I'm going to share some stuff,
+and please do stop me if there's anything</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/74-1
+00:04:00.935 --> 00:04:04.872
+<v Warren du Toit>that you wanna ask.
+There's a lot of content to get through.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/74-2
+00:04:04.872 --> 00:04:07.841
+<v Warren du Toit>We don't have to get through all of it
+today.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/74-3
+00:04:07.841 --> 00:04:11.714
+<v Warren du Toit>Nick has graciously invited me back for
+another one, so if.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/75-0
+00:04:11.834 --> 00:04:15.465
+<v Warren du Toit>If we don't finish,
+or if things are taking too long or</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/75-1
+00:04:15.465 --> 00:04:19.681
+<v Warren du Toit>whatever the case may be,
+we'll make plans to do something else.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/75-2
+00:04:19.681 --> 00:04:25.128
+<v Warren du Toit>And I'm also going to leave you with some
+goodies. There's a wonderful human being,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/75-3
+00:04:25.128 --> 00:04:27.074
+<v Warren du Toit>and his name is Vince Resente.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/76-0
+00:04:27.514 --> 00:04:32.659
+<v Warren du Toit>That works along with me at Microsoft,
+and he was gracious enough to provide</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/76-1
+00:04:32.659 --> 00:04:37.805
+<v Warren du Toit>pretty much most of the PowerPoint
+presentation today because it's just it's</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/76-2
+00:04:37.805 --> 00:04:42.683
+<v Warren du Toit>so expansive, it's just beautiful.
+And also he provided me with a GitHub</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/76-3
+00:04:42.683 --> 00:04:44.354
+<v Warren du Toit>link. It's his repo, but.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/77-0
+00:04:44.634 --> 00:04:52.196
+<v Warren du Toit>He built it with helping people how to
+troubleshoot and learn how Azure</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/77-1
+00:04:52.196 --> 00:04:59.234
+<v Warren du Toit>networking actually works.
+So things from VPN connections, how to.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/78-0
+00:05:00.394 --> 00:05:06.038
+<v Warren du Toit>Monitor information flowing in and out of
+Vnets through gateways, doing PCAP dumps,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/78-1
+00:05:06.038 --> 00:05:11.413
+<v Warren du Toit>those sorts of things so that you can
+understand how to troubleshoot networking</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/78-2
+00:05:11.413 --> 00:05:15.175
+<v Warren du Toit>inside of Azure.
+Are your UDRS your user defined routes</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/78-3
+00:05:15.175 --> 00:05:18.266
+<v Warren du Toit>working?
+Have they been applied to the Vnets?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/78-4
+00:05:18.266 --> 00:05:19.274
+<v Warren du Toit>Have they been?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/79-0
+00:05:19.594 --> 00:05:23.008
+<v Warren du Toit>Allocated correctly?
+Are the routes actually working the way</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/79-1
+00:05:23.008 --> 00:05:25.471
+<v Warren du Toit>they're supposed to?
+IP addressing correct?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/79-2
+00:05:25.471 --> 00:05:29.893
+<v Warren du Toit>Have you done your subnetting correctly?
+All those lovely things and it's just</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/79-3
+00:05:29.893 --> 00:05:32.916
+<v Warren du Toit>it's beautiful.
+It's got some diagrams in it and I'll</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/79-4
+00:05:32.916 --> 00:05:35.827
+<v Warren du Toit>send that to you a little bit later.
+And with that,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/79-5
+00:05:35.827 --> 00:05:37.954
+<v Warren du Toit>let's hit the PowerPoint presentation.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/81-0
+00:05:39.474 --> 00:05:44.794
+<v Warren du Toit>And I'll do that and let's start O.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/83-0
+00:05:46.634 --> 00:05:48.754
+<v Warren du Toit>We're gonna go through.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/87-0
+00:05:49.954 --> 00:05:53.242
+<v Warren du Toit>What our backbone looks like as Microsoft
+and Azure,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/87-1
+00:05:53.242 --> 00:05:57.646
+<v Warren du Toit>what it looks like around the world.
+We're going to do some networking</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/87-2
+00:05:57.646 --> 00:06:02.236
+<v Warren du Toit>resources, how our routing works,
+some of the network topologies that you</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/87-3
+00:06:02.236 --> 00:06:04.594
+<v Warren du Toit>can have inside of Azure Expressroute.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/92-0
+00:06:05.034 --> 00:06:08.495
+<v Warren du Toit>I have learned over the years,
+instead of saying express route,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/92-1
+00:06:08.495 --> 00:06:11.848
+<v Warren du Toit>to say express route.
+It's not because I want to be American,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/92-2
+00:06:11.848 --> 00:06:15.634
+<v Warren du Toit>it's just because that's how everybody
+else around the world says it.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/92-3
+00:06:15.634 --> 00:06:19.960
+<v Warren du Toit>So express route is actually a thing.
+Route means many different things to many</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/92-4
+00:06:19.960 --> 00:06:22.394
+<v Warren du Toit>different cultures,
+especially in Australia.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/95-0
+00:06:22.474 --> 00:06:29.360
+<v Warren du Toit>We express route, VWAN,
+some resiliency stuff and then what Azure</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/95-1
+00:06:29.360 --> 00:06:34.472
+<v Warren du Toit>Maps is.
+So let's hope we get through all of it.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/95-2
+00:06:34.472 --> 00:06:34.994
+<v Warren du Toit>Oops.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/100-0
+00:06:36.234 --> 00:06:39.887
+<v Warren du Toit>OK,
+what does our global network look like?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/100-1
+00:06:39.887 --> 00:06:46.280
+<v Warren du Toit>Like that? It's a bit of spaghetti,
+but what's cool about it is if you go to</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/100-2
+00:06:46.280 --> 00:06:51.594
+<v Warren du Toit>submarincablemap.com,
+you'll be able to see all of the Internet</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/100-3
+00:06:51.594 --> 00:06:52.674
+<v Warren du Toit>connectivity.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/104-0
+00:06:52.954 --> 00:06:58.492
+<v Warren du Toit>And all of the connectivity that
+Microsoft has access to when we deliver</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/104-1
+00:06:58.492 --> 00:07:04.410
+<v Warren du Toit>our services to you. So it's a very,
+very busy slide and you'll see that when</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/104-2
+00:07:04.410 --> 00:07:06.914
+<v Warren du Toit>it comes to some of these things.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/108-0
+00:07:07.914 --> 00:07:14.500
+<v Warren du Toit>That's pretty much what ours looks like
+out of that previous picture.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/108-1
+00:07:14.500 --> 00:07:20.333
+<v Warren du Toit>We have more than 65 regions and at any
+given moment in time,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/108-2
+00:07:20.333 --> 00:07:22.874
+<v Warren du Toit>I mean currently right now.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/112-0
+00:07:23.914 --> 00:07:30.160
+<v Warren du Toit>We probably have around 500 data center
+projects around the world active and it</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/112-1
+00:07:30.160 --> 00:07:35.938
+<v Warren du Toit>generally takes anywhere between three
+and five years for one of those to</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/112-2
+00:07:35.938 --> 00:07:40.154
+<v Warren du Toit>complete. So it's actually it's,
+it's a big business.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/117-0
+00:07:40.234 --> 00:07:44.194
+<v Warren du Toit>And in each one of those regions,
+as you can imagine,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/117-1
+00:07:44.194 --> 00:07:49.107
+<v Warren du Toit>we have to deal with everything.
+So from workers, unions, strikes,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/117-2
+00:07:49.107 --> 00:07:53.507
+<v Warren du Toit>delivery of concrete,
+making sure that whatever we build is</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/117-3
+00:07:53.507 --> 00:07:57.394
+<v Warren du Toit>green, all that lovely stuff,
+but we get through it.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/121-0
+00:07:57.794 --> 00:08:02.278
+<v Warren du Toit>There's over 320 data centers.
+We have over 225 edge pops and we'll</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/121-1
+00:08:02.278 --> 00:08:07.158
+<v Warren du Toit>discuss what that means a little bit
+later. Over 500,000 network devices.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/121-2
+00:08:07.158 --> 00:08:10.851
+<v Warren du Toit>Can you imagine managing over 500,
+000 network devices?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/121-3
+00:08:10.851 --> 00:08:12.434
+<v Warren du Toit>It's it's pretty insane.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/126-0
+00:08:12.794 --> 00:08:21.263
+<v Warren du Toit>And over 2 petabytes per second of WAN
+capacity around the planet. We have 360,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/126-1
+00:08:21.263 --> 00:08:28.250
+<v Warren du Toit>000 kilometres of WAN fibre and we we
+pretty much own that fibre,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/126-2
+00:08:28.250 --> 00:08:30.474
+<v Warren du Toit>which is pretty cool.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/127-0
+00:08:30.474 --> 00:08:33.658
+<v Warren du Toit>Um,
+if you look at how our data center design</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/127-1
+00:08:33.658 --> 00:08:34.074
+<v Warren du Toit>works.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/133-0
+00:08:35.754 --> 00:08:42.857
+<v Warren du Toit>You've got Earth, you've got regions,
+and inside of those regions you'll have</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/133-1
+00:08:42.857 --> 00:08:50.051
+<v Warren du Toit>zones, and generally inside of a Geo,
+which you could call a country inside of</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/133-2
+00:08:50.051 --> 00:08:54.514
+<v Warren du Toit>a Geo, we'll try to have two regions,
+so you'll.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/137-0
+00:08:55.594 --> 00:08:59.051
+<v Warren du Toit>You'll see, like in South Africa,
+we've got South Africa North,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/137-1
+00:08:59.051 --> 00:09:02.833
+<v Warren du Toit>we have South Africa West,
+and as part of our new data center design,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/137-2
+00:09:02.833 --> 00:09:07.263
+<v Warren du Toit>we generally don't want to launch a data
+center unless that data center has three</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/137-3
+00:09:07.263 --> 00:09:09.802
+<v Warren du Toit>zones.
+South Africa W was launched before this</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/137-4
+00:09:09.802 --> 00:09:12.557
+<v Warren du Toit>happened,
+so South Africa N is still considered as</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/137-5
+00:09:12.557 --> 00:09:13.314
+<v Warren du Toit>a single zone.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/139-0
+00:09:13.674 --> 00:09:17.425
+<v Warren du Toit>Even though there's actually more than
+one data center and it's still considered</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/139-1
+00:09:17.425 --> 00:09:18.074
+<v Warren du Toit>a single zone.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/144-0
+00:09:18.794 --> 00:09:24.249
+<v Warren du Toit>You've got Azure zones,
+and those zones will always be more than</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/144-1
+00:09:24.249 --> 00:09:30.208
+<v Warren du Toit>10 physical kilometers apart.
+We don't specify how far apart they are,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/144-2
+00:09:30.208 --> 00:09:36.839
+<v Warren du Toit>but we generally do provide an SLA of
+around two to three milliseconds between</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/144-3
+00:09:36.839 --> 00:09:38.434
+<v Warren du Toit>those zones, right?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/148-0
+00:09:38.714 --> 00:09:42.844
+<v Warren du Toit>You how far apart they are,
+security reasons, but you'll have AZ one,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/148-1
+00:09:42.844 --> 00:09:45.735
+<v Warren du Toit>AZ two,
+AZ three and how we do load balancing of</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/148-2
+00:09:45.735 --> 00:09:49.452
+<v Warren du Toit>resources between that.
+So you'll see we've got subscriptions,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/148-3
+00:09:49.452 --> 00:09:54.114
+<v Warren du Toit>the concept of a subscription inside of
+Azure where you deploy your resources.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/152-0
+00:09:54.314 --> 00:09:57.406
+<v Warren du Toit>You'll find that when you're using a
+subscription,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/152-1
+00:09:57.406 --> 00:10:02.318
+<v Warren du Toit>you'll have AZ1AZ2AZ3 physical locations,
+and then another subscription might be</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/152-2
+00:10:02.318 --> 00:10:06.320
+<v Warren du Toit>AZ3AZ2AZ1 physical locations.
+We'll actually mix and match those.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/152-3
+00:10:06.320 --> 00:10:09.474
+<v Warren du Toit>They won't actually be the same,
+so subscription A.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/157-0
+00:10:09.514 --> 00:10:13.249
+<v Warren du Toit>AAZ one will not be the same as
+subscription B's AZ one.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/157-1
+00:10:13.249 --> 00:10:18.164
+<v Warren du Toit>They could be different as far as
+physical locations are concerned because</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/157-2
+00:10:18.164 --> 00:10:21.310
+<v Warren du Toit>we'll load balance the capacity as we go
+along.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/157-3
+00:10:21.310 --> 00:10:26.684
+<v Warren du Toit>Then each inside those Azure zones we can
+have more than one physical data center</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/157-4
+00:10:26.684 --> 00:10:27.274
+<v Warren du Toit>per zone.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/162-0
+00:10:28.154 --> 00:10:31.099
+<v Warren du Toit>So in places like West Europe,
+North Europe,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/162-1
+00:10:31.099 --> 00:10:34.894
+<v Warren du Toit>I mean some of those zones have like 6 or
+7 data centers.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/162-2
+00:10:34.894 --> 00:10:40.260
+<v Warren du Toit>Inside the data centers we have stamps,
+we have many stamps and each one of those</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/162-3
+00:10:40.260 --> 00:10:45.496
+<v Warren du Toit>stamps will be custom built before we
+deliver them to the data center and those</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/162-4
+00:10:45.496 --> 00:10:45.954
+<v Warren du Toit>stamps.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/167-0
+00:10:46.074 --> 00:10:49.889
+<v Warren du Toit>Will either be storage stamps or memory
+optimized stamps,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/167-1
+00:10:49.889 --> 00:10:55.019
+<v Warren du Toit>compute optimized stamps, AI stamps,
+and these change based on generation and</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/167-2
+00:10:55.019 --> 00:11:00.018
+<v Warren du Toit>they get more and more efficient every
+time we deploy these and then inside</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/167-3
+00:11:00.018 --> 00:11:01.794
+<v Warren du Toit>those stamps we have racks.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/170-0
+00:11:02.154 --> 00:11:06.946
+<v Warren du Toit>And then those racks will then consist of
+fault domains. And if you know your Azure,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/170-1
+00:11:06.946 --> 00:11:10.048
+<v Warren du Toit>you'll know that fault domains,
+so that fault domains,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/170-2
+00:11:10.048 --> 00:11:14.559
+<v Warren du Toit>update domains will give you a certain
+level of redundancy so that for instance</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/170-3
+00:11:14.559 --> 00:11:16.194
+<v Warren du Toit>if you've got update domains.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/175-0
+00:11:17.274 --> 00:11:21.400
+<v Warren du Toit>And we decide to patch hosts if you've
+got your update domains configured</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/175-1
+00:11:21.400 --> 00:11:25.805
+<v Warren du Toit>correctly. When we update those hosts,
+your virtual machines won't be affected</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/175-2
+00:11:25.805 --> 00:11:30.098
+<v Warren du Toit>based on how you've configured that.
+And this is one of the availability set</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/175-3
+00:11:30.098 --> 00:11:33.332
+<v Warren du Toit>concepts concepts,
+but you can dig into that when we do a</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/175-4
+00:11:33.332 --> 00:11:35.674
+<v Warren du Toit>session on resiliency. Hint hint 99, Nick.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/176-0
+00:11:36.274 --> 00:11:36.354
+<v Warren du Toit>Um.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/181-0
+00:11:38.314 --> 00:11:42.992
+<v Warren du Toit>When we connect them. So you've got a,
+we've got what we call RNGS,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/181-1
+00:11:42.992 --> 00:11:48.015
+<v Warren du Toit>which are regional network gateways and
+those regional network gateways,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/181-2
+00:11:48.015 --> 00:11:53.587
+<v Warren du Toit>we generally have one per availability
+zone and those regional network gateways,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/181-3
+00:11:53.587 --> 00:11:55.514
+<v Warren du Toit>nobody knows where they are.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/185-0
+00:11:55.634 --> 00:11:59.452
+<v Warren du Toit>It was just a week internally,
+they don't even know where they are and</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/185-1
+00:11:59.452 --> 00:12:02.733
+<v Warren du Toit>they actually are separate to the actual
+availability zones.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/185-2
+00:12:02.733 --> 00:12:07.143
+<v Warren du Toit>So you'll find that they're out of those
+availability zones and we've got extreme</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/185-3
+00:12:07.143 --> 00:12:10.908
+<v Warren du Toit>amount of scaling in there.
+So they can go from 100 gig to 200 gig to</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/185-4
+00:12:10.908 --> 00:12:11.554
+<v Warren du Toit>1.6 terabit.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/189-0
+00:12:11.914 --> 00:12:16.729
+<v Warren du Toit>Through any one of those RNGS at any
+given time, the low latency,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/189-1
+00:12:16.729 --> 00:12:21.835
+<v Warren du Toit>anything sub one millisecond,
+super high bandwidth and we have we use</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/189-2
+00:12:21.835 --> 00:12:27.234
+<v Warren du Toit>an we use a protocol called Sonic which
+I'll dig into a little bit later.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/194-0
+00:12:27.514 --> 00:12:32.253
+<v Warren du Toit>And then we have our edge devices where
+Internet peers will connect to.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/194-1
+00:12:32.253 --> 00:12:37.387
+<v Warren du Toit>So this would be maps or any other of the
+sort of like Afrinic or Map Africa.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/194-2
+00:12:37.387 --> 00:12:42.652
+<v Warren du Toit>Those will connect through our edge and
+then you'll have the private side which</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/194-3
+00:12:42.652 --> 00:12:47.194
+<v Warren du Toit>is Expressroute which connects directly
+in the Via service provider.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/199-0
+00:12:47.194 --> 00:12:53.083
+<v Warren du Toit>Into our Azure routers and then that will
+then route into those RNGS and that will</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/199-1
+00:12:53.083 --> 00:12:58.049
+<v Warren du Toit>then go into the Azure region.
+We use software defined networking and</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/199-2
+00:12:58.049 --> 00:13:02.378
+<v Warren du Toit>they're controlled by an SWAN stack which
+is based on Sonic,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/199-3
+00:13:02.378 --> 00:13:05.074
+<v Warren du Toit>which is open networking in the cloud.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/203-0
+00:13:05.514 --> 00:13:10.596
+<v Warren du Toit>And we've developed Sonic and we have a
+whole bunch of partners that help us as</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/203-1
+00:13:10.596 --> 00:13:13.455
+<v Warren du Toit>well.
+And you'll see it supports things like</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/203-2
+00:13:13.455 --> 00:13:16.441
+<v Warren du Toit>IPV 6.
+We're actually supporting more and more</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/203-3
+00:13:16.441 --> 00:13:21.714
+<v Warren du Toit>IPV 6 as we go along and hopefully soon
+it'll start becoming more of the standard.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/207-0
+00:13:21.994 --> 00:13:26.628
+<v Warren du Toit>So we've got a lot of active contributors
+when it comes to Sonic,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/207-1
+00:13:26.628 --> 00:13:31.613
+<v Warren du Toit>and this is the stuff that we use for our
+software defined networking.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/207-2
+00:13:31.613 --> 00:13:36.177
+<v Warren du Toit>So it's basically the Linux switch of
+network operating systems.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/207-3
+00:13:36.177 --> 00:13:38.354
+<v Warren du Toit>How does LGO work specifically?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/212-0
+00:13:38.874 --> 00:13:42.826
+<v Warren du Toit>As I mentioned before,
+you'll see that we've got SA W,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/212-1
+00:13:42.826 --> 00:13:48.574
+<v Warren du Toit>we've got SA N. Inside the Africa Geo,
+you'll see that we've got the RNGs there</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/212-2
+00:13:48.574 --> 00:13:53.172
+<v Warren du Toit>sitting in the middle.
+Round trips between those RNGs and those</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/212-3
+00:13:53.172 --> 00:13:58.274
+<v Warren du Toit>DCs are sitting between one and two
+milliseconds with an average of 1.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/217-0
+00:13:58.554 --> 00:14:00.612
+<v Warren du Toit>1.
+6 petabyte per second of traffic</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/217-1
+00:14:00.612 --> 00:14:03.585
+<v Warren du Toit>available.
+You'll see that 10 kilometer run between</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/217-2
+00:14:03.585 --> 00:14:08.045
+<v Warren du Toit>those and then you'll see that we've got
+redundant DC's in each zone and then</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/217-3
+00:14:08.045 --> 00:14:12.505
+<v Warren du Toit>those are connected up together and then
+they're connected to a ring and then</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/217-4
+00:14:12.505 --> 00:14:16.850
+<v Warren du Toit>those are then fired up to those RNG's
+and then those RNG's then connect to</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/217-5
+00:14:16.850 --> 00:14:17.594
+<v Warren du Toit>Global Azure.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/221-0
+00:14:18.194 --> 00:14:24.086
+<v Warren du Toit>You'll see that, for instance,
+the round trip between South Africa West</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/221-1
+00:14:24.086 --> 00:14:30.715
+<v Warren du Toit>and South Africa N is generally around 36
+milliseconds, 18 milliseconds one way,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/221-2
+00:14:30.715 --> 00:14:32.434
+<v Warren du Toit>reason being physics.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/223-0
+00:14:33.394 --> 00:14:41.312
+<v Warren du Toit>It's just very far away. I mean, you know,
+speed of light over 1000 kilometers</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/223-1
+00:14:41.312 --> 00:14:42.114
+<v Warren du Toit>physics.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/225-0
+00:14:43.114 --> 00:14:46.394
+<v Warren du Toit>Azure networking some of the stuff that's
+available to you.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/230-0
+00:14:48.314 --> 00:14:53.162
+<v Warren du Toit>As part of the Azure networking stack,
+there's a lot. There really,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/230-1
+00:14:53.162 --> 00:14:56.798
+<v Warren du Toit>really is a lot.
+We've got four different pillars.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/230-2
+00:14:56.798 --> 00:15:00.434
+<v Warren du Toit>So the deliver side, bottom right,
+load balancers.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/230-3
+00:15:00.434 --> 00:15:03.714
+<v Warren du Toit>We've done a lot of work with load
+balancers.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/234-0
+00:15:04.554 --> 00:15:08.674
+<v Warren du Toit>Our Azure load balancers as it stands
+right now are zone redundant.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/234-1
+00:15:08.674 --> 00:15:13.340
+<v Warren du Toit>So when you deploy a load balancer,
+you can deploy a load balancer and it'll</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/234-2
+00:15:13.340 --> 00:15:17.703
+<v Warren du Toit>automatically be spanned across three
+zones in a zone supported region.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/234-3
+00:15:17.703 --> 00:15:20.794
+<v Warren du Toit>So like in South African N deploy a load
+balancer.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/239-0
+00:15:21.114 --> 00:15:25.156
+<v Warren du Toit>That load balancer will be spanned across
+all three of those zones,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/239-1
+00:15:25.156 --> 00:15:30.030
+<v Warren du Toit>very similar with an application gateway
+will do the same if you deploy it in the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/239-2
+00:15:30.030 --> 00:15:34.785
+<v Warren du Toit>correct way. We've also got Front Door,
+Traffic Manager, those sorts of things.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/239-3
+00:15:34.785 --> 00:15:38.114
+<v Warren du Toit>So Front Door are globally available WAF
+unfortunately.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/244-0
+00:15:38.394 --> 00:15:42.200
+<v Warren du Toit>Had a bit of, as you say,
+bad publicity in the past couple of weeks.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/244-1
+00:15:42.200 --> 00:15:44.627
+<v Warren du Toit>It's unfortunate,
+but sometimes it happens.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/244-2
+00:15:44.627 --> 00:15:48.598
+<v Warren du Toit>And then Front Door also consists of a
+CDN, a content delivery network,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/244-3
+00:15:48.598 --> 00:15:53.066
+<v Warren du Toit>which is part of the Front Door service
+which is there and then Traffic Manager,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/244-4
+00:15:53.066 --> 00:15:57.314
+<v Warren du Toit>which is just a globally distributed load
+balancer, can work on DNS as well.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/248-0
+00:15:57.514 --> 00:16:01.807
+<v Warren du Toit>And then we've got the protect side of
+things with DDOS protection on Vnets.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/248-1
+00:16:01.807 --> 00:16:06.323
+<v Warren du Toit>We've got our own version of Firewall,
+which integrates a lot with our services.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/248-2
+00:16:06.323 --> 00:16:09.891
+<v Warren du Toit>So what's cool about the Azure Firewall,
+it's things like VWAN,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/248-3
+00:16:09.891 --> 00:16:11.954
+<v Warren du Toit>which I'll get to a little bit later.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/253-0
+00:16:14.194 --> 00:16:20.803
+<v Warren du Toit>Azure Firewall can connect directly into
+VWAN hub and it can protect the hub.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/253-1
+00:16:20.803 --> 00:16:26.904
+<v Warren du Toit>We've got network security groups which
+allow you to protect your Vnet,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/253-2
+00:16:26.904 --> 00:16:33.514
+<v Warren du Toit>restrict incoming and outgoing traffic
+port based as well and then we've got.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/257-0
+00:16:33.514 --> 00:16:37.177
+<v Warren du Toit>WAFs which are also part of the
+Application Gateway and then Vnet</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/257-1
+00:16:37.177 --> 00:16:41.229
+<v Warren du Toit>endpoints which allow you to keep
+everything private which connect up to</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/257-2
+00:16:41.229 --> 00:16:45.170
+<v Warren du Toit>platform as a service services.
+And then we've got your stock standard</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/257-3
+00:16:45.170 --> 00:16:48.445
+<v Warren du Toit>stuff on the left,
+virtual networks which are same as VPCs</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/257-4
+00:16:48.445 --> 00:16:48.834
+<v Warren du Toit>in AWS.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/263-0
+00:16:49.114 --> 00:16:53.362
+<v Warren du Toit>We've got VPN gateways, VPN tunnels,
+we've got DNS, we've got private DNS,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/263-1
+00:16:53.362 --> 00:16:56.988
+<v Warren du Toit>we've got public DNS.
+Our DNS infrastructure is actually pretty</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/263-2
+00:16:56.988 --> 00:17:00.613
+<v Warren du Toit>incredible if you have to dig into the
+architecture around DNS.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/263-3
+00:17:00.613 --> 00:17:05.315
+<v Warren du Toit>So something that happened to a WS couple
+weeks ago would probably never happen to</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/263-4
+00:17:05.315 --> 00:17:08.034
+<v Warren du Toit>us because we learned our lesson the last
+time.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/267-0
+00:17:08.394 --> 00:17:12.990
+<v Warren du Toit>So you'll see that we've actually got two
+sets of redundant DNS resolvers that we</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/267-1
+00:17:12.990 --> 00:17:17.474
+<v Warren du Toit>use globally. They're replicated globally.
+We've actually got a Linux set and a</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/267-2
+00:17:17.474 --> 00:17:21.902
+<v Warren du Toit>window set that are completely redundant
+and is completely replicated with one</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/267-3
+00:17:21.902 --> 00:17:24.705
+<v Warren du Toit>another.
+So the chances of our DNS going down are</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/267-4
+00:17:24.705 --> 00:17:25.994
+<v Warren du Toit>very, very, very small.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/272-0
+00:17:26.074 --> 00:17:29.409
+<v Warren du Toit>Our Express Routes,
+we've got a lot of different options</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/272-1
+00:17:29.409 --> 00:17:32.042
+<v Warren du Toit>there,
+which I'll get to a little bit later.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/272-2
+00:17:32.042 --> 00:17:36.371
+<v Warren du Toit>We've got our VWAN hubs and again,
+what would all of this be if we didn't</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/272-3
+00:17:36.371 --> 00:17:40.467
+<v Warren du Toit>monitor it? So we've got Azure Monitor,
+Network Monitor, KX Monitors,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/272-4
+00:17:40.467 --> 00:17:44.914
+<v Warren du Toit>which I can take you through a little bit
+later and again that GitHub repo.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/276-0
+00:17:45.354 --> 00:17:50.652
+<v Warren du Toit>Advances deployed will help you use that
+to the best of your ability so that you</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/276-1
+00:17:50.652 --> 00:17:54.577
+<v Warren du Toit>can troubleshoot all of the stuff that
+I've just mentioned.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/276-2
+00:17:54.577 --> 00:17:59.744
+<v Warren du Toit>We've made some really cool new updates
+that are in preview which allow you to</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/276-3
+00:17:59.744 --> 00:18:02.034
+<v Warren du Toit>have the single pane of glass view.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/280-0
+00:18:02.474 --> 00:18:06.392
+<v Warren du Toit>Or your networking.
+So we've got the hybrid connectivity pane</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/280-1
+00:18:06.392 --> 00:18:08.667
+<v Warren du Toit>now,
+which allows you to check your</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/280-2
+00:18:08.667 --> 00:18:12.333
+<v Warren du Toit>Expressroute circuits,
+any of your route filters for BGP,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/280-3
+00:18:12.333 --> 00:18:15.999
+<v Warren du Toit>some of your VPN gateways,
+what your VWAN hubs look like,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/280-4
+00:18:15.999 --> 00:18:18.274
+<v Warren du Toit>and if you've got any route servers.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/285-0
+00:18:18.754 --> 00:18:22.161
+<v Warren du Toit>Active inside of your inside of your
+subscription tenant.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/285-1
+00:18:22.161 --> 00:18:24.745
+<v Warren du Toit>We've also got the network foundation
+pane,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/285-2
+00:18:24.745 --> 00:18:28.974
+<v Warren du Toit>which gives you access to all of your
+virtual networks, your DNS zones,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/285-3
+00:18:28.974 --> 00:18:31.852
+<v Warren du Toit>traffic managers,
+any of your private endpoints,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/285-4
+00:18:31.852 --> 00:18:35.377
+<v Warren du Toit>any of your network interfaces attached
+to any of your VMS,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/285-5
+00:18:35.377 --> 00:18:38.314
+<v Warren du Toit>your network security groups,
+public IP business.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/290-0
+00:18:38.474 --> 00:18:42.716
+<v Warren du Toit>All that cool stuff as well.
+We've also got the Network Security Pane,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/290-1
+00:18:42.716 --> 00:18:45.525
+<v Warren du Toit>which you can help admin your Azure
+firewalls,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/290-2
+00:18:45.525 --> 00:18:48.811
+<v Warren du Toit>any of the policies that are in your
+Firewall Manager,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/290-3
+00:18:48.811 --> 00:18:52.994
+<v Warren du Toit>the DDoS protection on your Vnets,
+your virtual hubs and your virtual</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/290-4
+00:18:52.994 --> 00:18:55.862
+<v Warren du Toit>networks.
+So we're creating this single pane of</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/290-5
+00:18:55.862 --> 00:18:57.954
+<v Warren du Toit>glass view so that you can look at.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/294-0
+00:18:58.354 --> 00:19:01.866
+<v Warren du Toit>This from a bird's eye so that we've also
+got something really cool.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/294-1
+00:19:01.866 --> 00:19:04.207
+<v Warren du Toit>It's a little bit later.
+I'll show it to you.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/294-2
+00:19:04.207 --> 00:19:07.413
+<v Warren du Toit>We've got Azure Virtual Network Manager,
+which is really cool.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/294-3
+00:19:07.413 --> 00:19:10.976
+<v Warren du Toit>It allows you to deploy different
+policies down to all of your Vnets.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/294-4
+00:19:10.976 --> 00:19:14.234
+<v Warren du Toit>So if you're making a routing change,
+it's actually quite cool.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/295-0
+00:19:14.234 --> 00:19:14.354
+<v Warren du Toit>Um.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/301-0
+00:19:16.474 --> 00:19:19.833
+<v Warren du Toit>We've got Storage Center now,
+also single pane of glass view.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/301-1
+00:19:19.833 --> 00:19:22.325
+<v Warren du Toit>You'll see that we've also released this
+new,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/301-2
+00:19:22.325 --> 00:19:26.063
+<v Warren du Toit>this new update called Storage Discovery,
+which is also really cool,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/301-3
+00:19:26.063 --> 00:19:30.343
+<v Warren du Toit>which allows you to scan all of your
+storage accounts and understand what your</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/301-4
+00:19:30.343 --> 00:19:31.914
+<v Warren du Toit>storage ecosystem looks like.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/305-0
+00:19:32.234 --> 00:19:36.717
+<v Warren du Toit>We can also manage your private
+connectivity here for all of your storage</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/305-1
+00:19:36.717 --> 00:19:39.868
+<v Warren du Toit>accounts. I am.
+I know I'm going a little bit fast,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/305-2
+00:19:39.868 --> 00:19:43.745
+<v Warren du Toit>but I've got a lot to get to.
+Then we've got our cloud adoption</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/305-3
+00:19:43.745 --> 00:19:44.594
+<v Warren du Toit>framework and.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/310-0
+00:19:46.954 --> 00:19:50.153
+<v Warren du Toit>I know everybody's heard us beat this
+drum,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/310-1
+00:19:50.153 --> 00:19:53.934
+<v Warren du Toit>but the Cloud Adoption Framework is very
+important.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/310-2
+00:19:53.934 --> 00:19:57.788
+<v Warren du Toit>You can see that we've actually updated
+it recently.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/310-3
+00:19:57.788 --> 00:20:03.168
+<v Warren du Toit>There's a couple of new extra blocks.
+You'll see there's this AI Services</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/310-4
+00:20:03.168 --> 00:20:04.114
+<v Warren du Toit>subscription.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/315-0
+00:20:04.394 --> 00:20:09.140
+<v Warren du Toit>Down there at the bottom that we've also
+got this next piece here and you'll see</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/315-1
+00:20:09.140 --> 00:20:12.304
+<v Warren du Toit>sort of in the top.
+I know it's it's it's grayed out,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/315-2
+00:20:12.304 --> 00:20:16.230
+<v Warren du Toit>but you'll see the top left.
+We've got a security subscription now</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/315-3
+00:20:16.230 --> 00:20:20.858
+<v Warren du Toit>which has been made standard and then
+landing zones themselves have been split</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/315-4
+00:20:20.858 --> 00:20:23.554
+<v Warren du Toit>into a platform side and an application
+side.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/319-0
+00:20:23.594 --> 00:20:29.070
+<v Warren du Toit>So that you can delineate between those,
+but they can still become part of those</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/319-1
+00:20:29.070 --> 00:20:34.545
+<v Warren du Toit>landing zone designs that you do up front.
+So we've singled out the connectivity</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/319-2
+00:20:34.545 --> 00:20:39.954
+<v Warren du Toit>subscription here specifically because as
+part of the cloud adoption framework.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/325-0
+00:20:40.314 --> 00:20:43.642
+<v Warren du Toit>In your regions, you can excuse me.
+In your regions,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/325-1
+00:20:43.642 --> 00:20:46.405
+<v Warren du Toit>depending on the design that you've
+chosen,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/325-2
+00:20:46.405 --> 00:20:51.240
+<v Warren du Toit>you can choose to automate this entire
+process using infrastructure as code,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/325-3
+00:20:51.240 --> 00:20:56.139
+<v Warren du Toit>Terraform, Bicep, whatever you choose.
+You can have your expression circuits,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/325-4
+00:20:56.139 --> 00:20:58.274
+<v Warren du Toit>your firewall policies, your NVAS.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/329-0
+00:20:58.554 --> 00:21:03.499
+<v Warren du Toit>Let's say you choose to use Palo Alto,
+Fortinet, whatever the case may be.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/329-1
+00:21:03.499 --> 00:21:07.852
+<v Warren du Toit>You can deploy those inside of this using
+infrastructure as code,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/329-2
+00:21:07.852 --> 00:21:11.940
+<v Warren du Toit>and again you can deploy them redundantly.
+You can make them.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/329-3
+00:21:11.940 --> 00:21:16.754
+<v Warren du Toit>You can do the role based access control
+for all of your network admins.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/334-0
+00:21:17.034 --> 00:21:20.593
+<v Warren du Toit>You can make sure that the monitoring is
+done and everything all via</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/334-1
+00:21:20.593 --> 00:21:23.791
+<v Warren du Toit>infrastructure as code based on the Cloud
+Adoption Framework.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/334-2
+00:21:23.791 --> 00:21:28.073
+<v Warren du Toit>And we give you a lot of these templates
+so that you can deploy these connectivity</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/334-3
+00:21:28.073 --> 00:21:32.045
+<v Warren du Toit>subscriptions relatively easy and the
+policies that lie on top of them which</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/334-4
+00:21:32.045 --> 00:21:33.954
+<v Warren du Toit>would go into your management groups.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/338-0
+00:21:34.274 --> 00:21:38.103
+<v Warren du Toit>And in those management groups,
+you then add your connectivity</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/338-1
+00:21:38.103 --> 00:21:42.358
+<v Warren du Toit>description into that so that all of
+these policies will apply to the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/338-2
+00:21:42.358 --> 00:21:45.580
+<v Warren du Toit>subscription.
+What does secure networking look like?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/338-3
+00:21:45.580 --> 00:21:49.714
+<v Warren du Toit>I added this in because this is quite
+important with today because.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/342-0
+00:21:50.074 --> 00:21:53.747
+<v Warren du Toit>Everything's AI.
+And what would life be without an AI</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/342-1
+00:21:53.747 --> 00:21:57.352
+<v Warren du Toit>landing zone?
+What would life be without a secure AI</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/342-2
+00:21:57.352 --> 00:22:00.412
+<v Warren du Toit>landing zone?
+So in this particular picture,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/342-3
+00:22:00.412 --> 00:22:05.514
+<v Warren du Toit>you'll see we've got our connectivity
+subscription on the right hand side.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/347-0
+00:22:06.394 --> 00:22:11.171
+<v Warren du Toit>We've got our management groups that are
+managing it and let's say we've connected</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/347-1
+00:22:11.171 --> 00:22:13.819
+<v Warren du Toit>up to on-prem.
+We could even connect to a WS,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/347-2
+00:22:13.819 --> 00:22:16.985
+<v Warren du Toit>doesn't matter.
+You'll see that we've then got a peer,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/347-3
+00:22:16.985 --> 00:22:21.705
+<v Warren du Toit>a virtual network and peered to another
+network and inside that network we've got</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/347-4
+00:22:21.705 --> 00:22:25.274
+<v Warren du Toit>a landing zone which has been designed
+for an AI application.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/350-0
+00:22:26.074 --> 00:22:31.871
+<v Warren du Toit>You'll see that there's a whole bunch of
+private endpoints in the middle.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/350-1
+00:22:31.871 --> 00:22:35.554
+<v Warren du Toit>Reason being you'll see that we've got
+whoops.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/355-0
+00:22:38.794 --> 00:22:42.350
+<v Warren du Toit>You'll see that we've got the dump box
+over here.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/355-1
+00:22:42.350 --> 00:22:47.401
+<v Warren du Toit>We've got a storage account which has got
+private endpoint over there.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/355-2
+00:22:47.401 --> 00:22:52.593
+<v Warren du Toit>We've got AI Search with a private
+endpoint, Cosmos DB private endpoint,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/355-3
+00:22:52.593 --> 00:22:54.514
+<v Warren du Toit>Key Vault private endpoint.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/357-0
+00:22:54.994 --> 00:22:58.055
+<v Warren du Toit>AI services.
+So this could be something like Face API</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/357-1
+00:22:58.055 --> 00:23:02.194
+<v Warren du Toit>or whatever the case may be with private
+endoints. We've got our models.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/361-0
+00:23:03.594 --> 00:23:08.958
+<v Warren du Toit>So anything like you could use Grok,
+you could use 534, you could use GPT,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/361-1
+00:23:08.958 --> 00:23:13.106
+<v Warren du Toit>doesn't matter.
+Any of the larger language models that we</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/361-2
+00:23:13.106 --> 00:23:16.754
+<v Warren du Toit>support,
+you could then use on a private endpoint.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/362-0
+00:23:19.194 --> 00:23:19.794
+<v Warren du Toit>It's.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/367-0
+00:23:21.034 --> 00:23:24.704
+<v Warren du Toit>My mouse keeps doing that. OK,
+then you'll see that we they can go into</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/367-1
+00:23:24.704 --> 00:23:27.763
+<v Warren du Toit>different subnets.
+You can manage the routing between those</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/367-2
+00:23:27.763 --> 00:23:30.364
+<v Warren du Toit>subnets via NSGS.
+Then you'll see that we've got a</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/367-3
+00:23:30.364 --> 00:23:33.932
+<v Warren du Toit>container app environment which is
+actually managing the application.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/367-4
+00:23:33.932 --> 00:23:37.603
+<v Warren du Toit>So we'd be running microservices.
+In this case it could be a Kubernetes</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/367-5
+00:23:37.603 --> 00:23:38.674
+<v Warren du Toit>cluster, it could be.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/372-0
+00:23:39.394 --> 00:23:43.184
+<v Warren du Toit>App services choice is yours.
+We've got container registries,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/372-1
+00:23:43.184 --> 00:23:47.402
+<v Warren du Toit>we've got app configurations.
+But the idea behind this is that every</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/372-2
+00:23:47.402 --> 00:23:51.865
+<v Warren du Toit>single one of these services is
+communicating internally to the network.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/372-3
+00:23:51.865 --> 00:23:56.755
+<v Warren du Toit>So you've got this entire AI application
+which is sitting behind an application</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/372-4
+00:23:56.755 --> 00:23:58.834
+<v Warren du Toit>gateway, behind a web application.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/375-0
+00:23:59.114 --> 00:24:02.442
+<v Warren du Toit>Firewall,
+but all of the networking and all of the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/375-1
+00:24:02.442 --> 00:24:07.794
+<v Warren du Toit>private endoints has allowed you to keep
+that entire application inside and safe.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/380-0
+00:24:09.354 --> 00:24:15.029
+<v Warren du Toit>So you can use as much AI as you want,
+but it's never going to leave the network.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/380-1
+00:24:15.029 --> 00:24:20.150
+<v Warren du Toit>Cool thing is as well is you can make
+this entire architecture redundant.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/380-2
+00:24:20.150 --> 00:24:24.926
+<v Warren du Toit>We can even have these foundry models
+sitting behind an API manager,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/380-3
+00:24:24.926 --> 00:24:28.594
+<v Warren du Toit>so APIM API Gateway and those large
+language models.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/384-0
+00:24:29.274 --> 00:24:32.247
+<v Warren du Toit>You could have one in Sweden if you
+wanted to.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/384-1
+00:24:32.247 --> 00:24:36.737
+<v Warren du Toit>You could have your primary large
+language model here in South Africa,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/384-2
+00:24:36.737 --> 00:24:41.165
+<v Warren du Toit>and then you could have a secondary one
+in Sweden. And if, let's say,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/384-3
+00:24:41.165 --> 00:24:44.834
+<v Warren du Toit>the one in South Africa N had to die,
+we could fail over.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/389-0
+00:24:45.034 --> 00:24:48.761
+<v Warren du Toit>Automatically to the ones in three so
+that you wouldn't lose access to the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/389-1
+00:24:48.761 --> 00:24:52.737
+<v Warren du Toit>large language model and your application
+wouldn't break and you could still do</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/389-2
+00:24:52.737 --> 00:24:55.521
+<v Warren du Toit>that privately.
+It would just traverse our backbone via</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/389-3
+00:24:55.521 --> 00:24:58.652
+<v Warren du Toit>the private endpoint.
+So there's a lot of options to make sure</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/389-4
+00:24:58.652 --> 00:24:59.994
+<v Warren du Toit>that this is redundant. OK.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/394-0
+00:25:00.594 --> 00:25:05.064
+<v Warren du Toit>When it comes to routing preference
+inside of Azure,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/394-1
+00:25:05.064 --> 00:25:10.546
+<v Warren du Toit>so you'll see we've got hot potato
+routing, cold potato routing.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/394-2
+00:25:10.546 --> 00:25:16.787
+<v Warren du Toit>So routing via our global network you'll
+see from you it's the local ISP.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/394-3
+00:25:16.787 --> 00:25:18.474
+<v Warren du Toit>So if you route via.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/398-0
+00:25:19.314 --> 00:25:23.659
+<v Warren du Toit>The Microsoft Global Network,
+let's say cold potato routing.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/398-1
+00:25:23.659 --> 00:25:27.861
+<v Warren du Toit>It's going to enter Microsoft network
+closest to the user,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/398-2
+00:25:27.861 --> 00:25:33.559
+<v Warren du Toit>so it's going to stay on our backbone
+until it exits closest to the router. OK,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/398-3
+00:25:33.559 --> 00:25:35.554
+<v Warren du Toit>so you can think of this as.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/399-0
+00:25:36.034 --> 00:25:36.194
+<v Warren du Toit>Um.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/405-0
+00:25:37.994 --> 00:25:42.234
+<v Warren du Toit>Office 365, Office 365,
+it's going to hit us as quickly as it</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/405-1
+00:25:42.234 --> 00:25:46.132
+<v Warren du Toit>possibly can,
+and then it's going to route inside of us,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/405-2
+00:25:46.132 --> 00:25:50.235
+<v Warren du Toit>inside of our network,
+it's going to access the services it</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/405-3
+00:25:50.235 --> 00:25:52.834
+<v Warren du Toit>needs to, and then it's going to exit.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/409-0
+00:25:53.794 --> 00:25:57.862
+<v Warren du Toit>So you'll see it's the default network
+for all of our networking services, right?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/409-1
+00:25:57.862 --> 00:26:00.839
+<v Warren du Toit>Then we've got hot potato routing,
+which is cost optimized.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/409-2
+00:26:00.839 --> 00:26:04.114
+<v Warren du Toit>It's going to route via the Internet,
+which means it's up to you.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/409-3
+00:26:04.114 --> 00:26:08.034
+<v Warren du Toit>It's going to enter the Microsoft region
+closest to the hosted service region.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/412-0
+00:26:08.314 --> 00:26:12.347
+<v Warren du Toit>And then it's going to exit Microsoft in
+the same region the service is hosted.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/412-1
+00:26:12.347 --> 00:26:15.725
+<v Warren du Toit>So even though it's cost optimized,
+it's not exactly the greatest.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/412-2
+00:26:15.725 --> 00:26:19.154
+<v Warren du Toit>So you'll see that there's some
+descriptions around how that works.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/415-0
+00:26:20.514 --> 00:26:25.009
+<v Warren du Toit>Then connecting to Azure,
+we've got the Internet,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/415-1
+00:26:25.009 --> 00:26:29.234
+<v Warren du Toit>so Internet facing stuff,
+public IP addresses.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/420-0
+00:26:30.794 --> 00:26:35.278
+<v Warren du Toit>Stuff that's sitting on the edge of Azure.
+So we would have a public IP address.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/420-1
+00:26:35.278 --> 00:26:39.542
+<v Warren du Toit>You could attach that to a firewall,
+you could attach that to an application</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/420-2
+00:26:39.542 --> 00:26:42.144
+<v Warren du Toit>gateway,
+and then everybody would just use the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/420-3
+00:26:42.144 --> 00:26:46.352
+<v Warren du Toit>Internet wherever they are to hit the
+cloud. Then you've got remote access,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/420-4
+00:26:46.352 --> 00:26:48.954
+<v Warren du Toit>which is point to site where you've got a
+VPN.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/425-0
+00:26:49.354 --> 00:26:53.586
+<v Warren du Toit>So Mac, Linux, Windows Phone,
+you could use AD authentication,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/425-1
+00:26:53.586 --> 00:26:57.415
+<v Warren du Toit>you could use Radius.
+They essentially use a VPN client,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/425-2
+00:26:57.415 --> 00:27:02.185
+<v Warren du Toit>they remote into Azure and they can be on
+the network inside of Azure.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/425-3
+00:27:02.185 --> 00:27:06.148
+<v Warren du Toit>Then you go site to site.
+Site to site is when you've got,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/425-4
+00:27:06.148 --> 00:27:08.634
+<v Warren du Toit>let's say a firewall or a VPN device.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/430-0
+00:27:09.274 --> 00:27:14.280
+<v Warren du Toit>On premises and it establishes an IPsec
+tunnel into Azure. You could use BGP,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/430-1
+00:27:14.280 --> 00:27:18.452
+<v Warren du Toit>you could add active, active,
+you could do transit routing here.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/430-2
+00:27:18.452 --> 00:27:22.945
+<v Warren du Toit>This is high throughput again.
+You could also use something like ECMP</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/430-3
+00:27:22.945 --> 00:27:28.144
+<v Warren du Toit>where it load balances across multiple
+tunnels because you've got limitations on</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/430-4
+00:27:28.144 --> 00:27:28.594
+<v Warren du Toit>the IP.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/433-0
+00:27:28.994 --> 00:27:33.566
+<v Warren du Toit>the protocol, so IKE.
+Then you could load balance across</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/433-1
+00:27:33.566 --> 00:27:39.020
+<v Warren du Toit>multiple VPN tunnels if you wanted to,
+and increase the throughput.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/433-2
+00:27:39.020 --> 00:27:44.394
+<v Warren du Toit>Then finally we've got ExpressRoute.
+In ExpressRoute, you could...</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/438-0
+00:27:44.554 --> 00:27:48.345
+<v Warren du Toit>By default, not encrypted,
+which I'll get to a little bit later.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/438-1
+00:27:48.345 --> 00:27:51.845
+<v Warren du Toit>You could run an IP6 tunnel over that to
+make it encrypted,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/438-2
+00:27:51.845 --> 00:27:56.044
+<v Warren du Toit>but ideally that's private connectivity.
+So you would want to run this.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/438-3
+00:27:56.044 --> 00:28:00.594
+<v Warren du Toit>You've got anything from I think 50 Meg
+all the way up to I think if we take.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/442-0
+00:28:01.034 --> 00:28:06.924
+<v Warren du Toit>Express direct in this country,
+I think goes up to 40 gig per second now.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/442-1
+00:28:06.924 --> 00:28:11.541
+<v Warren du Toit>I think it was just. Oh no, wait,
+it's 100. It's 100 now.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/442-2
+00:28:11.541 --> 00:28:17.114
+<v Warren du Toit>I think it's 100 now. Um, Express,
+Express route will get to 100. Um.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/447-0
+00:28:17.314 --> 00:28:22.745
+<v Warren du Toit>As far as speeds are concerned,
+providing the switching and the service</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/447-1
+00:28:22.745 --> 00:28:27.120
+<v Warren du Toit>provider supports it.
+Then inside of Azure we've got Vnet</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/447-2
+00:28:27.120 --> 00:28:30.967
+<v Warren du Toit>peering,
+you've got Vnet to Vnet gateways and then</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/447-3
+00:28:30.967 --> 00:28:35.116
+<v Warren du Toit>private link.
+Private link is cool because it can also</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/447-4
+00:28:35.116 --> 00:28:36.474
+<v Warren du Toit>work cross region.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/451-0
+00:28:37.034 --> 00:28:42.419
+<v Warren du Toit>Like I said about the AI thing,
+but it can also work cross tenant.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/451-1
+00:28:42.419 --> 00:28:48.768
+<v Warren du Toit>So for instance if you let's say you've
+got a hosted service from someone like</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/451-2
+00:28:48.768 --> 00:28:52.707
+<v Warren du Toit>Mongo DB.
+So Mongo DB has a service called Atlas</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/451-3
+00:28:52.707 --> 00:28:54.234
+<v Warren du Toit>where they spin up.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/456-0
+00:28:54.714 --> 00:28:59.029
+<v Warren du Toit>A database service inside of their tenant
+which they manage,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/456-1
+00:28:59.029 --> 00:29:04.688
+<v Warren du Toit>but then they will give you a private
+link and that private link will be inside</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/456-2
+00:29:04.688 --> 00:29:10.560
+<v Warren du Toit>your subscription inside your tenant and
+you'll have an IP address locally in your</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/456-3
+00:29:10.560 --> 00:29:10.914
+<v Warren du Toit>Vnet.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/460-0
+00:29:11.194 --> 00:29:14.520
+<v Warren du Toit>But then using our software defined
+networking,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/460-1
+00:29:14.520 --> 00:29:19.579
+<v Warren du Toit>you're then connected to their tenant
+privately to the service that they</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/460-2
+00:29:19.579 --> 00:29:24.569
+<v Warren du Toit>provide. We've got Azure VWAN,
+which is our software defined networking</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/460-3
+00:29:24.569 --> 00:29:29.074
+<v Warren du Toit>for WANS, which is branch to Vnet,
+Vnet to branch, Vnet to Vnet.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/465-0
+00:29:29.514 --> 00:29:34.754
+<v Warren du Toit>We can do VPN, we can do Expressroute,
+and then we've got Expressroute Global</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/465-1
+00:29:34.754 --> 00:29:37.911
+<v Warren du Toit>Reach.
+Global Reach is great because what that</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/465-2
+00:29:37.911 --> 00:29:43.352
+<v Warren du Toit>allows us to do is it allows you to have
+DC to DC connectivity via our backbone.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/465-3
+00:29:43.352 --> 00:29:47.047
+<v Warren du Toit>So for instance,
+if you've got an Expressroute circuit</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/465-4
+00:29:47.047 --> 00:29:48.794
+<v Warren du Toit>here in South Africa, you.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/469-0
+00:29:49.274 --> 00:29:53.589
+<v Warren du Toit>Connect to our data centers,
+but then you've got an express route in</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/469-1
+00:29:53.589 --> 00:29:56.341
+<v Warren du Toit>the UK and you connect to our data
+centers.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/469-2
+00:29:56.341 --> 00:29:59.406
+<v Warren du Toit>We can allow you connectivity from South
+Africa,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/469-3
+00:29:59.406 --> 00:30:04.034
+<v Warren du Toit>your South Africa branch or DC to your UK
+branch or DC over our backbone.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/473-0
+00:30:04.234 --> 00:30:08.789
+<v Warren du Toit>So it'll take the Expressroute from this
+side and connect it to the Expressroute</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/473-1
+00:30:08.789 --> 00:30:13.288
+<v Warren du Toit>on that side and you can route over our
+backbone as opposed to paying a service</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/473-2
+00:30:13.288 --> 00:30:17.394
+<v Warren du Toit>provider for a link or for an MPLS link
+that traverses the entire world.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/474-0
+00:30:18.474 --> 00:30:19.874
+<v Warren du Toit>Then it's apologies.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/479-0
+00:30:21.754 --> 00:30:25.050
+<v Warren du Toit>We've got AVM,
+so Azure Virtual Network Manager,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/479-1
+00:30:25.050 --> 00:30:29.222
+<v Warren du Toit>which is like I said,
+it was just recently released where you</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/479-2
+00:30:29.222 --> 00:30:33.999
+<v Warren du Toit>can define certain topologies
+automatically where you can say I've got</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/479-3
+00:30:33.999 --> 00:30:37.834
+<v Warren du Toit>a hub spoke model,
+you can define which one is your hub,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/479-4
+00:30:37.834 --> 00:30:39.314
+<v Warren du Toit>which are your spokes.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/484-0
+00:30:39.354 --> 00:30:43.873
+<v Warren du Toit>Then it will go automatically and create
+those routing definitions for you and</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/484-1
+00:30:43.873 --> 00:30:48.279
+<v Warren du Toit>then make sure that it applies all of
+those policies and effective routes to</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/484-2
+00:30:48.279 --> 00:30:51.998
+<v Warren du Toit>all of those different Vnets inside the
+ones that you've chosen.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/484-3
+00:30:51.998 --> 00:30:56.746
+<v Warren du Toit>Or you could have mesh or you could have
+hubspoke with direct connectivity between</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/484-4
+00:30:56.746 --> 00:30:58.234
+<v Warren du Toit>the spokes. So if there's.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/489-0
+00:30:59.194 --> 00:31:02.085
+<v Warren du Toit>Ever a case where you need two spokes to
+talk to each other,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/489-1
+00:31:02.085 --> 00:31:05.925
+<v Warren du Toit>let's say you're trying to minimize cost
+or you're trying to decrease latency or</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/489-2
+00:31:05.925 --> 00:31:09.006
+<v Warren du Toit>you don't want it to necessarily go
+through the hub or firewall.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/489-3
+00:31:09.006 --> 00:31:12.561
+<v Warren du Toit>Let's say it's a high intensity data
+workload or whatever the case may be,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/489-4
+00:31:12.561 --> 00:31:13.794
+<v Warren du Toit>you could do that as well.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/494-0
+00:31:14.714 --> 00:31:19.922
+<v Warren du Toit>Connecting to some of the Azure services
+when it comes to the IaaS, PaaS,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/494-1
+00:31:19.922 --> 00:31:23.723
+<v Warren du Toit>SaaS workloads.
+So we've got the Expressroute private</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/494-2
+00:31:23.723 --> 00:31:29.284
+<v Warren du Toit>peering where you can connect to IaaS,
+we've got site to site or alternatively</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/494-3
+00:31:29.284 --> 00:31:34.634
+<v Warren du Toit>you can then do Microsoft public peering
+where you can connect to platform.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/499-0
+00:31:34.714 --> 00:31:39.214
+<v Warren du Toit>As a services as well.
+Then you'll see that we've got site to</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/499-1
+00:31:39.214 --> 00:31:45.094
+<v Warren du Toit>site VPN as well connecting to a branch.
+We can also connect via Expressroute to</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/499-2
+00:31:45.094 --> 00:31:48.506
+<v Warren du Toit>IaaS from a branch as well.
+You could do Paas.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/499-3
+00:31:48.506 --> 00:31:53.878
+<v Warren du Toit>I'm gonna just do the rest there.
+So ideally you could connect any one of</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/499-4
+00:31:53.878 --> 00:31:54.314
+<v Warren du Toit>these.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/503-0
+00:31:54.314 --> 00:31:58.678
+<v Warren du Toit>Ways to Azure services and you'll see
+that there's maps there at the end,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/503-1
+00:31:58.678 --> 00:32:03.041
+<v Warren du Toit>which I'll explain towards the end.
+So there's a whole bunch of different</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/503-2
+00:32:03.041 --> 00:32:06.874
+<v Warren du Toit>ways that you can connect to each one of
+the different services,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/503-3
+00:32:06.874 --> 00:32:10.354
+<v Warren du Toit>and ideally there's a more optimal way to
+connect to them.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/507-0
+00:32:10.794 --> 00:32:15.654
+<v Warren du Toit>But at the same token,
+you've got to understand what the costs</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/507-1
+00:32:15.654 --> 00:32:20.977
+<v Warren du Toit>for each one of these are.
+Also performance versus security as well.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/507-2
+00:32:20.977 --> 00:32:26.454
+<v Warren du Toit>So there'll always be trade-offs
+depending on which one it is that you</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/507-3
+00:32:26.454 --> 00:32:26.994
+<v Warren du Toit>choose.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/510-0
+00:32:27.434 --> 00:32:31.227
+<v Warren du Toit>And between performance,
+cost and security. So just be careful,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/510-1
+00:32:31.227 --> 00:32:35.554
+<v Warren du Toit>take that into account whenever you're
+designing network infrastructure.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/515-0
+00:32:37.034 --> 00:32:42.814
+<v Warren du Toit>Expressroute. So like I said before,
+you're creating a private connection</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/515-1
+00:32:42.814 --> 00:32:47.033
+<v Warren du Toit>between our data centers and yours.
+How does it work?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/515-2
+00:32:47.033 --> 00:32:52.189
+<v Warren du Toit>So it supports route filters.
+We've got resiliency because you'll</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/515-3
+00:32:52.189 --> 00:32:56.954
+<v Warren du Toit>always have a primary connection and a
+secondary connection.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/519-0
+00:32:57.034 --> 00:33:01.177
+<v Warren du Toit>Whoops, it's layer 3 connectivity. OK,
+like I said before,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/519-1
+00:33:01.177 --> 00:33:05.953
+<v Warren du Toit>it also allows you to connect not just to
+Microsoft Cloud services,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/519-2
+00:33:05.953 --> 00:33:10.588
+<v Warren du Toit>but you can use Global Reach so that you
+can connect to your DCS.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/519-3
+00:33:10.588 --> 00:33:12.274
+<v Warren du Toit>There's dynamic routing.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/523-0
+00:33:13.034 --> 00:33:16.591
+<v Warren du Toit>Via BGP,
+it also supports quality of service and</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/523-1
+00:33:16.591 --> 00:33:20.076
+<v Warren du Toit>again we do have connection uptime SLS as
+well.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/523-2
+00:33:20.076 --> 00:33:26.029
+<v Warren du Toit>So it'll do private connectivity as well
+as platform as a service connectivity as</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/523-3
+00:33:26.029 --> 00:33:29.514
+<v Warren du Toit>far as Microsoft online services are
+concerned.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/527-0
+00:33:29.634 --> 00:33:34.310
+<v Warren du Toit>This has changed somewhat.
+You can't do things like Office 365</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/527-1
+00:33:34.310 --> 00:33:39.952
+<v Warren du Toit>unless you get special clearance.
+The recommendation is to use maps instead</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/527-2
+00:33:39.952 --> 00:33:45.074
+<v Warren du Toit>when it comes to Express Route Direct.
+Express Route Direct is when.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/531-0
+00:33:45.434 --> 00:33:49.717
+<v Warren du Toit>You in some ways become a provider.
+So for instance,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/531-1
+00:33:49.717 --> 00:33:55.779
+<v Warren du Toit>if you're the IT department and you're
+supplying connectivity to different</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/531-2
+00:33:55.779 --> 00:34:01.114
+<v Warren du Toit>business units inside of the organization,
+what we'd be doing is.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/536-0
+00:34:01.914 --> 00:34:05.883
+<v Warren du Toit>You could have these Express Route Direct
+dedicated ports,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/536-1
+00:34:05.883 --> 00:34:10.660
+<v Warren du Toit>so let's say 10 gig or 100 gig.
+And then what you can do is then carve</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/536-2
+00:34:10.660 --> 00:34:15.975
+<v Warren du Toit>these 10 gig circuits or 100 gig circuits
+up as much as you wanted in specific</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/536-3
+00:34:15.975 --> 00:34:19.474
+<v Warren du Toit>speeds. So you could either, let's say,
+use a 5221.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/541-0
+00:34:19.994 --> 00:34:24.353
+<v Warren du Toit>For the 10 or you could do 222222 or you
+could just do the single 10.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/541-1
+00:34:24.353 --> 00:34:28.962
+<v Warren du Toit>The idea behind this is that you can
+attach each one of these circuits to</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/541-2
+00:34:28.962 --> 00:34:33.944
+<v Warren du Toit>different virtual networks for different
+BU's and then you won't get this noisy</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/541-3
+00:34:33.944 --> 00:34:39.114
+<v Warren du Toit>neighbor type vibe where one is going to
+overtake from the other or alternatively.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/546-0
+00:34:39.834 --> 00:34:43.545
+<v Warren du Toit>We've had it in situations where
+customers have decided they'll take an</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/546-1
+00:34:43.545 --> 00:34:47.669
+<v Warren du Toit>Express Route direct because they want to
+do a large scale migration of virtual</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/546-2
+00:34:47.669 --> 00:34:50.761
+<v Warren du Toit>machines. They'll go,
+they'll get the the 210 gig circuits,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/546-3
+00:34:50.761 --> 00:34:53.442
+<v Warren du Toit>the primary, secondary,
+they'll bond them together.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/546-4
+00:34:53.442 --> 00:34:57.514
+<v Warren du Toit>They'll have 20 gigs of throughput and
+they'll just smash as much as they can.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/547-0
+00:34:57.834 --> 00:34:57.914
+<v Warren du Toit>Um.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/553-0
+00:35:00.874 --> 00:35:03.703
+<v Warren du Toit>Then you've got local,
+Express Route Local,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/553-1
+00:35:03.703 --> 00:35:07.432
+<v Warren du Toit>you've got Express Route Standard,
+Express Route Premium.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/553-2
+00:35:07.432 --> 00:35:11.032
+<v Warren du Toit>There are differences.
+Express Route Local is obviously</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/553-3
+00:35:11.032 --> 00:35:13.990
+<v Warren du Toit>unlimited when it comes to egress,
+but again,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/553-4
+00:35:13.990 --> 00:35:19.134
+<v Warren du Toit>you'll only be able to contact SA N if
+you're within the SA N Metro and SA W if</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/553-5
+00:35:19.134 --> 00:35:20.034
+<v Warren du Toit>you're in the.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/555-0
+00:35:20.554 --> 00:35:24.454
+<v Warren du Toit>In the in sort of the Cape Town metro,
+then you've got standard,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/555-1
+00:35:24.454 --> 00:35:28.474
+<v Warren du Toit>which is either unlimited or metered,
+and then you've got premium,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/555-2
+00:35:28.474 --> 00:35:31.594
+<v Warren du Toit>which then allows you to do the global
+reach thing.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/560-0
+00:35:32.874 --> 00:35:37.604
+<v Warren du Toit>The connectivity models,
+I'm going to skip that one to go through</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/560-1
+00:35:37.604 --> 00:35:41.904
+<v Warren du Toit>here. Express direct.
+I want to take the Max SEC thing into</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/560-2
+00:35:41.904 --> 00:35:47.637
+<v Warren du Toit>consideration quickly. So with Max SEC,
+you've got layer 2 encryption where you</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/560-3
+00:35:47.637 --> 00:35:50.074
+<v Warren du Toit>as the customer would own the key.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/565-0
+00:35:50.674 --> 00:35:55.559
+<v Warren du Toit>You can oversubscribe slightly by
+creating additional circuits,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/565-1
+00:35:55.559 --> 00:36:00.674
+<v Warren du Toit>and because of the Max Sick,
+it means that anything inside of that</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/565-2
+00:36:00.674 --> 00:36:04.948
+<v Warren du Toit>particular layer two would be encrypted
+from the start,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/565-3
+00:36:04.948 --> 00:36:09.834
+<v Warren du Toit>and as a result you don't actually need
+to apply encryption on.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/566-0
+00:36:09.874 --> 00:36:11.234
+<v Warren du Toit>The the link so.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/572-0
+00:36:13.754 --> 00:36:17.598
+<v Warren du Toit>Certain financial services customers or
+compliant customers don't have to apply</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/572-1
+00:36:17.598 --> 00:36:20.673
+<v Warren du Toit>additional encryption.
+So you'll see that there's a letter that</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/572-2
+00:36:20.673 --> 00:36:23.507
+<v Warren du Toit>you have to sign.
+There's a whole bunch of cool stuff that</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/572-3
+00:36:23.507 --> 00:36:26.102
+<v Warren du Toit>has to happen there for you to get
+Express to Direct.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/572-4
+00:36:26.102 --> 00:36:29.754
+<v Warren du Toit>We've got a couple of customers in South
+Africa that have it, mostly banks.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/576-0
+00:36:30.514 --> 00:36:33.599
+<v Warren du Toit>Then you'll see that we've also got 802.
+1Q,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/576-1
+00:36:33.599 --> 00:36:37.165
+<v Warren du Toit>so you can carry multiple Vlans over a
+single wire.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/576-2
+00:36:37.165 --> 00:36:42.651
+<v Warren du Toit>So you can also do double tagging as well
+where Vlans in the trunk can overlap.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/576-3
+00:36:42.651 --> 00:36:45.394
+<v Warren du Toit>So you can have an outer tag, inner tag.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/579-0
+00:36:45.914 --> 00:36:52.446
+<v Warren du Toit>So private peering and Microsoft peering
+in the different Vlans,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/579-1
+00:36:52.446 --> 00:36:57.874
+<v Warren du Toit>which is also quite cool.
+IPsec over Expressroute is.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/584-0
+00:37:00.234 --> 00:37:04.807
+<v Warren du Toit>The way that certain customers,
+if they can't afford Express Route Direct,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/584-1
+00:37:04.807 --> 00:37:08.892
+<v Warren du Toit>they will encrypt over Express Route so
+that they'll be compliant.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/584-2
+00:37:08.892 --> 00:37:13.709
+<v Warren du Toit>And for links generally smaller than a
+gig, they can do that too site to site,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/584-3
+00:37:13.709 --> 00:37:15.234
+<v Warren du Toit>which I explained before.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/588-0
+00:37:16.314 --> 00:37:22.312
+<v Warren du Toit>Max bandwidth speed is 2.5 at the moment.
+If you use the correct settings for the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/588-1
+00:37:22.312 --> 00:37:26.263
+<v Warren du Toit>IKE protocol,
+generally the limitation is around 1.4,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/588-2
+00:37:26.263 --> 00:37:31.895
+<v Warren du Toit>but we've been able to push it with our
+new gateways so it connects over the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/588-3
+00:37:31.895 --> 00:37:32.554
+<v Warren du Toit>Internet.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/590-0
+00:37:32.954 --> 00:37:40.794
+<v Warren du Toit>Yeah, non-mission critical workloads.
+It uses RKE RP SEC. Then we have VWAN.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/592-0
+00:37:43.074 --> 00:37:43.234
+<v Warren du Toit>Um.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/598-0
+00:37:46.554 --> 00:37:51.493
+<v Warren du Toit>We've got a bunch of partners when it
+comes to the VWAN ecosystem.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/598-1
+00:37:51.493 --> 00:37:55.989
+<v Warren du Toit>This is around security and integration
+into VWAN using NVA,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/598-2
+00:37:55.989 --> 00:38:01.223
+<v Warren du Toit>so network virtual appliances.
+So we've got Fortinet for instance will</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/598-3
+00:38:01.223 --> 00:38:05.130
+<v Warren du Toit>integrate,
+they'll deploy network virtual appliances</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/598-4
+00:38:05.130 --> 00:38:05.794
+<v Warren du Toit>directly.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/602-0
+00:38:06.194 --> 00:38:12.592
+<v Warren du Toit>Directly into the VWAN hub and it will be
+able to then secure all the traffic that</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/602-1
+00:38:12.592 --> 00:38:18.990
+<v Warren du Toit>goes in and out. Things like Palo Alto.
+Unfortunately it's not necessarily an NVA,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/602-2
+00:38:18.990 --> 00:38:20.994
+<v Warren du Toit>it's more a cloud service.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/607-0
+00:38:21.354 --> 00:38:26.151
+<v Warren du Toit>So it's like a software as a service
+firewall which sort of sits outside the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/607-1
+00:38:26.151 --> 00:38:29.391
+<v Warren du Toit>view end,
+but we route the information out the view</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/607-2
+00:38:29.391 --> 00:38:33.379
+<v Warren du Toit>end into their cloud service and and back
+out it. I mean, look,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/607-3
+00:38:33.379 --> 00:38:36.308
+<v Warren du Toit>the latency's not not anything to worry
+about,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/607-4
+00:38:36.308 --> 00:38:40.794
+<v Warren du Toit>it's just it's not an actual virtual
+machine sitting within the tenant.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/611-0
+00:38:41.234 --> 00:38:45.934
+<v Warren du Toit>So it can scale. It's great.
+It's actually a pretty rad service,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/611-1
+00:38:45.934 --> 00:38:51.357
+<v Warren du Toit>but it's how they got around not having
+to custom design a network virtual</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/611-2
+00:38:51.357 --> 00:38:57.286
+<v Warren du Toit>appliance that goes into our into our hub.
+Checkpoint has something inside of the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/611-3
+00:38:57.286 --> 00:38:58.154
+<v Warren du Toit>hub as well.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/615-0
+00:38:58.234 --> 00:39:02.035
+<v Warren du Toit>So you've got you've got options when
+you're deploying a hub.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/615-1
+00:39:02.035 --> 00:39:06.449
+<v Warren du Toit>The great thing about this is that it
+integrates directly into the hub,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/615-2
+00:39:06.449 --> 00:39:11.293
+<v Warren du Toit>so you don't have to worry about all the
+complex routing and all that stuff as</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/615-3
+00:39:11.293 --> 00:39:13.194
+<v Warren du Toit>well when it comes to the Vnet.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/620-0
+00:39:13.674 --> 00:39:17.474
+<v Warren du Toit>VWAN hub in a single region looks
+something like this.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/620-1
+00:39:17.474 --> 00:39:21.757
+<v Warren du Toit>You'll have a VWAN hub in the region like
+South Africa North,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/620-2
+00:39:21.757 --> 00:39:26.110
+<v Warren du Toit>and you'll have a bunch of Vnets
+connecting into the VWAN hub.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/620-3
+00:39:26.110 --> 00:39:30.325
+<v Warren du Toit>You can then have the VPN gateways
+sitting inside that VWAN.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/620-4
+00:39:30.325 --> 00:39:33.434
+<v Warren du Toit>You can then scale those VPN gateways
+using.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/624-0
+00:39:33.514 --> 00:39:36.573
+<v Warren du Toit>Scale units depending on the amount of
+bandwidth you need,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/624-1
+00:39:36.573 --> 00:39:39.165
+<v Warren du Toit>and then they can then do point to site
+to users,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/624-2
+00:39:39.165 --> 00:39:43.365
+<v Warren du Toit>or they can do site to site to branches,
+or you can have an Expressroute gateway</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/624-3
+00:39:43.365 --> 00:39:47.357
+<v Warren du Toit>sitting inside of that vran as well,
+and it'll pretty much manage all of the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/624-4
+00:39:47.357 --> 00:39:49.794
+<v Warren du Toit>routing between all of those different
+pieces.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/629-0
+00:39:50.154 --> 00:39:54.093
+<v Warren du Toit>We've also got multi-region.
+If you're doing multi-region,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/629-1
+00:39:54.093 --> 00:39:57.098
+<v Warren du Toit>you are going to want to deploy 2 VWAN
+hubs.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/629-2
+00:39:57.098 --> 00:40:02.306
+<v Warren du Toit>So you'll have a VWAN hub in South Africa
+North and VWAN hub in let's say UAE</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/629-3
+00:40:02.306 --> 00:40:07.514
+<v Warren du Toit>central or whatever the case may be is
+and then those hub to hub connections.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/633-0
+00:40:08.714 --> 00:40:12.227
+<v Warren du Toit>We'll manage the routing between those
+two regions,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/633-1
+00:40:12.227 --> 00:40:17.497
+<v Warren du Toit>and then the Vnet attached to those
+regions will then be routed the same way,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/633-2
+00:40:17.497 --> 00:40:21.754
+<v Warren du Toit>but we'd manage the connectivity between
+the regions that way.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/633-3
+00:40:21.754 --> 00:40:23.714
+<v Warren du Toit>So how does it actually work?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/638-0
+00:40:24.154 --> 00:40:27.607
+<v Warren du Toit>You'll see that we've got a Virtual Hub
+router.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/638-1
+00:40:27.607 --> 00:40:32.427
+<v Warren du Toit>It controls the routes between all the
+gateways. As I said before,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/638-2
+00:40:32.427 --> 00:40:36.672
+<v Warren du Toit>you'll have an MVA integrated into the
+Virtual Hub router.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/638-3
+00:40:36.672 --> 00:40:42.211
+<v Warren du Toit>You'll see there there's a Fortinet.
+You have the option to have an indirect</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/638-4
+00:40:42.211 --> 00:40:43.794
+<v Warren du Toit>Vnet if you wanted to.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/643-0
+00:40:43.834 --> 00:40:50.593
+<v Warren du Toit>So if let's say there's an NVA that isn't
+supported inside of the Vnet hub or the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/643-1
+00:40:50.593 --> 00:40:54.715
+<v Warren du Toit>VWAN hub,
+you could create an indirect Vnet which</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/643-2
+00:40:54.715 --> 00:40:58.754
+<v Warren du Toit>could let's say handle your north-south
+traffic.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/643-3
+00:40:58.754 --> 00:41:02.794
+<v Warren du Toit>So it could be like an egress firewall
+and then.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/649-0
+00:41:03.434 --> 00:41:08.030
+<v Warren du Toit>You'd have, let's say,
+an Azure firewall on the inside which</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/649-1
+00:41:08.030 --> 00:41:12.702
+<v Warren du Toit>does your east West traffic.
+So you can have a combination of</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/649-2
+00:41:12.702 --> 00:41:18.354
+<v Warren du Toit>different firewalls which we do often see
+in financial services customers.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/653-0
+00:41:18.794 --> 00:41:22.878
+<v Warren du Toit>You'll see down at the bottom there's the
+software as a service for Palo Alto.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/653-1
+00:41:22.878 --> 00:41:25.773
+<v Warren du Toit>So there's a bunch of different ways you
+could do this.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/653-2
+00:41:25.773 --> 00:41:30.013
+<v Warren du Toit>We generally do see two sets of firewalls,
+so you'll have one inside of the VWAN,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/653-3
+00:41:30.013 --> 00:41:33.994
+<v Warren du Toit>and then you'll have one outside of the
+VWAN, which then manages the egress.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/657-0
+00:41:34.234 --> 00:41:38.541
+<v Warren du Toit>So like let's say there's a bunch of IP
+addresses sitting on the outside of the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/657-1
+00:41:38.541 --> 00:41:41.072
+<v Warren du Toit>network,
+they get inspected by the forty gates</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/657-2
+00:41:41.072 --> 00:41:45.218
+<v Warren du Toit>that then sends it into the VWAN hub,
+the VWAN hub will distribute it to the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/657-3
+00:41:45.218 --> 00:41:47.857
+<v Warren du Toit>application service or whatever the case
+may be.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/657-4
+00:41:47.857 --> 00:41:51.895
+<v Warren du Toit>So that's what that would look like there
+when it comes to the resiliency,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/657-5
+00:41:51.895 --> 00:41:52.434
+<v Warren du Toit>excuse me.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/659-0
+00:41:54.234 --> 00:41:56.954
+<v Warren du Toit>Resiliency for Express route.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/663-0
+00:41:58.314 --> 00:42:03.078
+<v Warren du Toit>Currently in South Africa,
+for at least next couple months,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/663-1
+00:42:03.078 --> 00:42:06.889
+<v Warren du Toit>we only have one edge location,
+soon to be two,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/663-2
+00:42:06.889 --> 00:42:13.002
+<v Warren du Toit>but generally in most other locations
+you'll find that we have more than one</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/663-3
+00:42:13.002 --> 00:42:14.114
+<v Warren du Toit>edge location.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/665-0
+00:42:14.514 --> 00:42:16.234
+<v Warren du Toit>And we would then have.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/670-0
+00:42:18.074 --> 00:42:24.058
+<v Warren du Toit>Your Expressroute circuits peering to two
+different edge locations so that you</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/670-1
+00:42:24.058 --> 00:42:29.057
+<v Warren du Toit>would have redundancy.
+So you'd have link one, link two, primary,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/670-2
+00:42:29.057 --> 00:42:33.148
+<v Warren du Toit>secondary, primary,
+secondary going to different edge</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/670-3
+00:42:33.148 --> 00:42:37.314
+<v Warren du Toit>locations so that if that one edge
+location went down.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/675-0
+00:42:37.794 --> 00:42:43.035
+<v Warren du Toit>The other edge location would take over,
+so we don't currently have that now.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/675-1
+00:42:43.035 --> 00:42:46.731
+<v Warren du Toit>We will soon.
+So we've also got the metro model coming</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/675-2
+00:42:46.731 --> 00:42:50.360
+<v Warren du Toit>out as well,
+and the metro model allows distinct edge</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/675-3
+00:42:50.360 --> 00:42:55.669
+<v Warren du Toit>locations with a single physical link,
+which is going to happen soon where you</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/675-4
+00:42:55.669 --> 00:42:56.274
+<v Warren du Toit>can have.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/677-0
+00:42:56.314 --> 00:43:01.041
+<v Warren du Toit>The primary and secondary actually taking
+diverse paths as well,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/677-1
+00:43:01.041 --> 00:43:04.314
+<v Warren du Toit>as opposed to just being like a like a
+pair.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/682-0
+00:43:05.314 --> 00:43:11.262
+<v Warren du Toit>Hopefully that actually comes true and it
+doesn't slip. Jan twenty-six is in off.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/682-1
+00:43:11.262 --> 00:43:16.268
+<v Warren du Toit>Let's hope. Yeah, I hope so.
+When it comes to the single circuit bow</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/682-2
+00:43:16.268 --> 00:43:19.967
+<v Warren du Toit>tie effect,
+we have a bunch of customers inside of</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/682-3
+00:43:19.967 --> 00:43:22.434
+<v Warren du Toit>South Africa that use it this way.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/686-0
+00:43:23.634 --> 00:43:27.294
+<v Warren du Toit>So you would have Uh standard in South
+Africa North,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/686-1
+00:43:27.294 --> 00:43:32.887
+<v Warren du Toit>Uh standard South Africa West and you'll
+see that there's let's say Vnet peering</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/686-2
+00:43:32.887 --> 00:43:38.274
+<v Warren du Toit>or using a VWAN hub and you'll see that
+customers create this bow tie effect.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/688-0
+00:43:39.154 --> 00:43:44.754
+<v Warren du Toit>For now,
+in which case what happens is you'll have</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/688-1
+00:43:44.754 --> 00:43:45.194
+<v Warren du Toit>the.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/693-0
+00:43:46.354 --> 00:43:50.074
+<v Warren du Toit>If one of the links goes down,
+let's say for South Africa N,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/693-1
+00:43:50.074 --> 00:43:54.831
+<v Warren du Toit>you could then route via South Africa
+West. I mean the latency will increase,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/693-2
+00:43:54.831 --> 00:43:57.576
+<v Warren du Toit>but at least you'll still have
+connectivity.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/693-3
+00:43:57.576 --> 00:44:02.455
+<v Warren du Toit>So you'll see this would be the ideal way
+to create redundancy in South Africa.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/693-4
+00:44:02.455 --> 00:44:04.834
+<v Warren du Toit>Plus you could also have local as well.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/698-0
+00:44:05.274 --> 00:44:08.590
+<v Warren du Toit>In this scenario,
+a lot of customers do do that because</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/698-1
+00:44:08.590 --> 00:44:12.439
+<v Warren du Toit>local is also cheaper.
+The idea that you have unlimited traffic,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/698-2
+00:44:12.439 --> 00:44:15.164
+<v Warren du Toit>you'd have that secondary link there as
+well.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/698-3
+00:44:15.164 --> 00:44:17.947
+<v Warren du Toit>I explained global reach a little bit
+earlier.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/698-4
+00:44:17.947 --> 00:44:21.145
+<v Warren du Toit>This is actually what it looks like.
+So for instance,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/698-5
+00:44:21.145 --> 00:44:23.514
+<v Warren du Toit>if you had a DC in Joburg, DC in London.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/702-0
+00:44:24.274 --> 00:44:28.943
+<v Warren du Toit>And you used our backbone to connect it,
+it would be like that.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/702-1
+00:44:28.943 --> 00:44:33.539
+<v Warren du Toit>So that is what Global Reach is
+essentially achieving for you.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/702-2
+00:44:33.539 --> 00:44:38.354
+<v Warren du Toit>So you can route traffic from one DC to
+another DC, but using us.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/703-0
+00:44:39.474 --> 00:44:39.594
+<v Warren du Toit>OK.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/708-0
+00:44:42.274 --> 00:44:48.488
+<v Warren du Toit>Then we've got disaster recovery designs,
+which I explained a little bit earlier,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/708-1
+00:44:48.488 --> 00:44:53.794
+<v Warren du Toit>but this is just using VWAN instead.
+So you could have Virtual Hub A,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/708-2
+00:44:53.794 --> 00:44:59.554
+<v Warren du Toit>Virtual Hub B in two regions and you
+could have two express short circuits.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/711-0
+00:45:00.074 --> 00:45:04.852
+<v Warren du Toit>Both going to on premises and it'd be
+completely redundant.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/711-1
+00:45:04.852 --> 00:45:08.914
+<v Warren du Toit>This would be with VPN as opposed to
+Expressroute.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/715-0
+00:45:10.954 --> 00:45:15.475
+<v Warren du Toit>And this would be Express Route with VPN
+failover. So for instance,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/715-1
+00:45:15.475 --> 00:45:18.998
+<v Warren du Toit>if you wanted Express Route,
+you have Express Route,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/715-2
+00:45:18.998 --> 00:45:23.918
+<v Warren du Toit>but you don't have enough money for two,
+you could use VPN as a failover.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/715-3
+00:45:23.918 --> 00:45:25.514
+<v Warren du Toit>So that's also possible.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/717-0
+00:45:25.834 --> 00:45:31.874
+<v Warren du Toit>I'm gonna touch on this next subject very
+briefly. It can get super complicated.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/719-0
+00:45:33.194 --> 00:45:33.274
+<v Warren du Toit>Um.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/723-0
+00:45:36.074 --> 00:45:40.930
+<v Warren du Toit>VMware services is essentially an island.
+It's a private cloud.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/723-1
+00:45:40.930 --> 00:45:46.317
+<v Warren du Toit>It has no connectivity to anything,
+so ideally you need to connect it.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/723-2
+00:45:46.317 --> 00:45:50.414
+<v Warren du Toit>So excuse me,
+there's a bunch of different ways to do</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/723-3
+00:45:50.414 --> 00:45:50.794
+<v Warren du Toit>this.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/727-0
+00:45:51.434 --> 00:45:57.091
+<v Warren du Toit>One is Expressroute,
+so you could deploy an Uh gateway and</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/727-1
+00:45:57.091 --> 00:46:04.954
+<v Warren du Toit>then you could then connect it up like
+you would deploy the ADS resource like so.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/732-0
+00:46:05.914 --> 00:46:11.553
+<v Warren du Toit>And you can use Expressroute Global Reach
+and you'll see that it'll connect up the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/732-1
+00:46:11.553 --> 00:46:16.989
+<v Warren du Toit>AVS network to your Azure Vnet and then
+to your DC if you wanted to connect any</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/732-2
+00:46:16.989 --> 00:46:21.474
+<v Warren du Toit>platform as a service services or
+software as a service services.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/735-0
+00:46:21.874 --> 00:46:26.376
+<v Warren du Toit>It would then do that.
+So you would connect up to the Uh gateway</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/735-1
+00:46:26.376 --> 00:46:31.294
+<v Warren du Toit>inside of Azure on the Vnet.
+If you were going to be using a VWAN hub,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/735-2
+00:46:31.294 --> 00:46:33.234
+<v Warren du Toit>you'd be doing it like that.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/740-0
+00:46:37.434 --> 00:46:42.502
+<v Warren du Toit>So essentially what you're doing is
+you're just replacing the connectivity</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/740-1
+00:46:42.502 --> 00:46:47.030
+<v Warren du Toit>with the Vnet hub with a VWAN hub.
+So that's only real difference.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/740-2
+00:46:47.030 --> 00:46:52.234
+<v Warren du Toit>Then there's IP SEC instead of an
+Expressroute gateway. You'd be doing that.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/746-0
+00:46:54.354 --> 00:46:58.359
+<v Warren du Toit>So you'd have VPN on the one side,
+and then you'd have the Express Route</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/746-1
+00:46:58.359 --> 00:47:00.937
+<v Warren du Toit>gateway specifically just for the AVS
+network.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/746-2
+00:47:00.937 --> 00:47:03.625
+<v Warren du Toit>So there's a bunch of different ways to
+do this,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/746-3
+00:47:03.625 --> 00:47:07.849
+<v Warren du Toit>but you'd also have to have the root
+server for this particular way of doing</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/746-4
+00:47:07.849 --> 00:47:10.428
+<v Warren du Toit>things.
+So just remembering when you deploy an</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/746-5
+00:47:10.428 --> 00:47:12.897
+<v Warren du Toit>AVS network,
+this would be the way to do it.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/746-6
+00:47:12.897 --> 00:47:13.994
+<v Warren du Toit>This is changing in.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/749-0
+00:47:14.074 --> 00:47:18.819
+<v Warren du Toit>In ABS Gen. 2, in ABS Gen. 2,
+we're making it a little bit more simple.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/749-1
+00:47:18.819 --> 00:47:23.170
+<v Warren du Toit>We're going to be using Vnets to attach
+the ABS clusters instead,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/749-2
+00:47:23.170 --> 00:47:28.047
+<v Warren du Toit>so that it'll be a little bit less
+complicated for you to connect up your</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/749-3
+00:47:28.047 --> 00:47:29.234
+<v Warren du Toit>private cloud, so.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/753-0
+00:47:29.434 --> 00:47:35.329
+<v Warren du Toit>Looking forward to that next year when it
+goes GA. Finally, we're looking at Maps,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/753-1
+00:47:35.329 --> 00:47:39.165
+<v Warren du Toit>which is Microsoft's Microsoft Azure
+Peering service,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/753-2
+00:47:39.165 --> 00:47:44.634
+<v Warren du Toit>which what we're trying to do here is we
+are essentially trying to give you.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/754-0
+00:47:45.234 --> 00:47:46.434
+<v Warren du Toit>The closest.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/760-0
+00:47:47.274 --> 00:47:52.238
+<v Warren du Toit>Way to get to Azure.
+So ideally what we're doing is we're</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/760-1
+00:47:52.238 --> 00:47:59.085
+<v Warren du Toit>allowing you to then peer over a service
+provider with us so that you could get</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/760-2
+00:47:59.085 --> 00:48:06.274
+<v Warren du Toit>the quickest entry point into our network.
+So let's say before maps you would have.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/764-0
+00:48:06.554 --> 00:48:09.871
+<v Warren du Toit>3456 hops before you eventually hit our
+edge with us.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/764-1
+00:48:09.871 --> 00:48:14.540
+<v Warren du Toit>What we're doing is with with maps,
+what you're doing is you're essentially</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/764-2
+00:48:14.540 --> 00:48:18.103
+<v Warren du Toit>shortcutting that.
+So you'll see straight down the middle</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/764-3
+00:48:18.103 --> 00:48:20.991
+<v Warren du Toit>there.
+What we're doing is we're saying you're</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/764-4
+00:48:20.991 --> 00:48:22.834
+<v Warren du Toit>going to go straight from you.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/769-0
+00:48:23.194 --> 00:48:28.927
+<v Warren du Toit>With maps you can essentially one hop,
+2 hops. So as opposed to it being 1234,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/769-1
+00:48:28.927 --> 00:48:33.354
+<v Warren du Toit>you're going to be just going 1-2 and
+you're in the network.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/769-2
+00:48:33.354 --> 00:48:39.306
+<v Warren du Toit>So ideally this is the best way for you
+to get the best performance for something</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/769-3
+00:48:39.306 --> 00:48:42.354
+<v Warren du Toit>like Office 365 with Teams and SharePoint.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/773-0
+00:48:42.794 --> 00:48:46.497
+<v Warren du Toit>And those sorts of things,
+as opposed to using it the old way where</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/773-1
+00:48:46.497 --> 00:48:50.581
+<v Warren du Toit>we used to do it over Expressroutes,
+which was a disaster because you peer</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/773-2
+00:48:50.581 --> 00:48:54.720
+<v Warren du Toit>your Office 365 services and then
+sometimes your Windows Update would break</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/773-3
+00:48:54.720 --> 00:48:58.314
+<v Warren du Toit>because you get asynchronous routing or
+whatever the case may be.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/777-0
+00:48:58.394 --> 00:49:03.486
+<v Warren du Toit>So this would be the best way to do it.
+So you'd have the shortest path to get</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/777-1
+00:49:03.486 --> 00:49:07.740
+<v Warren du Toit>straight through to us as opposed to
+going around. And with that,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/777-2
+00:49:07.740 --> 00:49:11.027
+<v Warren du Toit>if you've got any questions,
+I know that was fast,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/777-3
+00:49:11.027 --> 00:49:13.154
+<v Warren du Toit>but I think I did it in what, 45?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/778-0
+00:49:11.914 --> 00:49:15.314
+<v Nicolas Blank>You did it right on the money.
+That was amazing.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/780-0
+00:49:16.074 --> 00:49:20.754
+<v Warren du Toit>Right. I know it was. I was speaking fast.
+I'm sorry.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/784-0
+00:49:19.954 --> 00:49:23.153
+<v Nicolas Blank>No, it was great. It was great.
+I did give a time constraint.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/783-0
+00:49:22.114 --> 00:49:22.194
+<v Warren du Toit>Huh.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/784-1
+00:49:23.153 --> 00:49:25.114
+<v Nicolas Blank>You stuck exactly to it, so thank you.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/790-0
+00:49:26.154 --> 00:49:31.226
+<v Nicolas Blank>So I'd like if whoever is not completely
+overwhelmed, actually,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/790-1
+00:49:31.226 --> 00:49:34.793
+<v Nicolas Blank>let's just do cameras on and no,
+not at all.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/787-0
+00:49:32.594 --> 00:49:33.874
+<v Warren du Toit>Sorry, sorry.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/790-2
+00:49:34.793 --> 00:49:40.737
+<v Nicolas Blank>Cameras on and and and microphones.
+And let's take the opportunity for the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/790-3
+00:49:40.737 --> 00:49:43.274
+<v Nicolas Blank>next 4 minutes to ask questions.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/799-0
+00:49:43.834 --> 00:49:46.805
+<v Neil Knapp | Cyberlogic>Yep. So first of all,
+just want to know if that presentation is</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/799-1
+00:49:46.805 --> 00:49:50.427
+<v Neil Knapp | Cyberlogic>going to be available because as you say,
+there's like I thought I had a fair</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/799-2
+00:49:50.427 --> 00:49:52.517
+<v Neil Knapp | Cyberlogic>understanding of Microsoft Azure
+networking,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/799-3
+00:49:52.517 --> 00:49:56.417
+<v Neil Knapp | Cyberlogic>but that's just it's interesting to get a
+peek behind the curtain and to go and see</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/799-4
+00:49:56.417 --> 00:49:59.482
+<v Neil Knapp | Cyberlogic>exactly what it looks like to know that
+you're in your own fibre.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/793-0
+00:49:56.434 --> 00:49:56.674
+<v Warren du Toit>Hmm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/799-5
+00:49:59.482 --> 00:50:02.036
+<v Neil Knapp | Cyberlogic>There's things that I'd have a vague
+understanding of,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/795-0
+00:50:00.594 --> 00:50:00.914
+<v Warren du Toit>Mm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/799-6
+00:50:02.036 --> 00:50:03.754
+<v Neil Knapp | Cyberlogic>but never really lost track of about.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/797-0
+00:50:03.594 --> 00:50:04.154
+<v Nicolas Blank>Mm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/810-0
+00:50:03.834 --> 00:50:07.228
+<v Neil Knapp | Cyberlogic>Things like using Express Route,
+global peering and things like with the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/810-1
+00:50:07.228 --> 00:50:10.948
+<v Neil Knapp | Cyberlogic>map stuff that you brought up at the end.
+Now I'm already curious about who the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/798-0
+00:50:07.794 --> 00:50:07.954
+<v Warren du Toit>Hm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/801-0
+00:50:09.794 --> 00:50:10.034
+<v Warren du Toit>Hmm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/810-2
+00:50:10.948 --> 00:50:14.668
+<v Neil Knapp | Cyberlogic>peering partners are in South Africa and
+how you know who we can use because we</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/810-3
+00:50:14.668 --> 00:50:17.412
+<v Neil Knapp | Cyberlogic>have an ISP that we work with who are
+using Express Route.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/804-0
+00:50:15.314 --> 00:50:15.634
+<v Warren du Toit>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/810-4
+00:50:17.412 --> 00:50:21.178
+<v Neil Knapp | Cyberlogic>So they would either like to consume the
+service or maybe even become a partner.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/805-0
+00:50:17.754 --> 00:50:18.914
+<v Warren du Toit>Mm-hmm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/807-0
+00:50:20.234 --> 00:50:20.514
+<v Warren du Toit>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/810-5
+00:50:21.178 --> 00:50:22.434
+<v Neil Knapp | Cyberlogic>So those kind of questions.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/819-0
+00:50:22.634 --> 00:50:26.700
+<v Neil Knapp | Cyberlogic>So there's a lot. And then you didn't.
+I was waiting for you to get into things</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/809-0
+00:50:24.834 --> 00:50:25.074
+<v Warren du Toit>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/819-1
+00:50:26.700 --> 00:50:30.462
+<v Neil Knapp | Cyberlogic>on a deep dive onto Azure Firewall
+because that's probably the bit that I</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/819-2
+00:50:30.462 --> 00:50:34.275
+<v Neil Knapp | Cyberlogic>have in my Azure calculator list more
+often than not is that I tend to use</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/819-3
+00:50:34.275 --> 00:50:37.630
+<v Neil Knapp | Cyberlogic>virtual machines and go and put down
+infrastructure as a service.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/813-0
+00:50:34.954 --> 00:50:35.194
+<v Warren du Toit>Hmm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/814-0
+00:50:37.194 --> 00:50:37.474
+<v Warren du Toit>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/819-4
+00:50:37.630 --> 00:50:41.493
+<v Neil Knapp | Cyberlogic>So would love to go and get in some
+detail on that and the pros and cons of</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/816-0
+00:50:41.234 --> 00:50:41.834
+<v Warren du Toit>For sure.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/819-5
+00:50:41.493 --> 00:50:42.154
+<v Neil Knapp | Cyberlogic>that, but so.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/821-0
+00:50:42.634 --> 00:50:44.854
+<v Neil Knapp | Cyberlogic>There's a lot.
+So rather than just is there,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/817-0
+00:50:43.554 --> 00:50:44.194
+<v Warren du Toit>There is.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/821-1
+00:50:44.854 --> 00:50:48.652
+<v Neil Knapp | Cyberlogic>obviously we've got the recording.
+Is that presentation that you've prepared</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/821-2
+00:50:48.652 --> 00:50:50.034
+<v Neil Knapp | Cyberlogic>going to be shared publicly?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/828-0
+00:50:50.594 --> 00:50:53.588
+<v Warren du Toit>So what I can do is I can share it with
+you directly.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/828-1
+00:50:53.588 --> 00:50:57.913
+<v Warren du Toit>So what I'll do is I'll get the details
+from Nick and I'll share it with you.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/823-0
+00:50:54.954 --> 00:50:55.314
+<v Nicolas Blank>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/828-2
+00:50:57.913 --> 00:51:02.072
+<v Warren du Toit>And then when it comes to Maps itself,
+just search Microsoft Azure Peering</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/828-3
+00:51:02.072 --> 00:51:05.842
+<v Warren du Toit>Service on Google or Bing or whatever.
+And when you go to the link,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/825-0
+00:51:04.314 --> 00:51:04.914
+<v Neil Knapp | Cyberlogic>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/828-4
+00:51:05.842 --> 00:51:09.114
+<v Warren du Toit>you'll see in our documentation you'll
+see there's a very.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/831-0
+00:51:09.834 --> 00:51:15.629
+<v Warren du Toit>Clear defined list of the partners that
+support maps and exactly how to activate</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/831-1
+00:51:15.629 --> 00:51:18.777
+<v Warren du Toit>it,
+because you'll activate it in a tenant,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/831-2
+00:51:18.777 --> 00:51:19.994
+<v Warren du Toit>I think it costs.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/836-0
+00:51:21.834 --> 00:51:25.852
+<v Warren du Toit>I think it's like 10 or $20 a month or
+something dumb. I mean,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/836-1
+00:51:25.852 --> 00:51:29.742
+<v Warren du Toit>it's like it could even be $5 a month.
+It's something silly.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/836-2
+00:51:29.742 --> 00:51:34.590
+<v Warren du Toit>You turn it on and then you just do the
+peering on your side and it's done.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/836-3
+00:51:34.590 --> 00:51:37.651
+<v Warren du Toit>That's it.
+And then you just start learning the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/835-0
+00:51:36.954 --> 00:51:37.394
+<v Neil Knapp | Cyberlogic>OK.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/836-4
+00:51:37.651 --> 00:51:38.034
+<v Warren du Toit>roots.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/841-0
+00:51:38.434 --> 00:51:43.620
+<v Warren du Toit>Then as far as Azure Firewall's concerned,
+maybe Nick, we do, I mean,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/838-0
+00:51:43.354 --> 00:51:44.114
+<v Nicolas Blank>A whole session.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/841-1
+00:51:43.620 --> 00:51:48.658
+<v Warren du Toit>maybe we do a session. Yeah,
+maybe we do a session on like network,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/841-2
+00:51:48.658 --> 00:51:53.918
+<v Warren du Toit>on like network security and turning all
+of those features on and off.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/841-3
+00:51:53.918 --> 00:51:57.474
+<v Warren du Toit>And maybe we do like a deep dive in the
+portal.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/840-0
+00:51:55.194 --> 00:51:55.794
+<v Neil Knapp | Cyberlogic>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/843-0
+00:51:58.154 --> 00:52:02.433
+<v Warren du Toit>You know how to deploy it, what to deploy,
+where to deploy,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/843-1
+00:52:02.433 --> 00:52:06.070
+<v Warren du Toit>how firewall manager works,
+all that lovely stuff.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/842-0
+00:52:02.594 --> 00:52:02.754
+<v Nicolas Blank>Mm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/843-2
+00:52:06.070 --> 00:52:10.564
+<v Warren du Toit>I did say I'd share that repo with you as
+well, which is here.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/843-3
+00:52:10.564 --> 00:52:13.274
+<v Warren du Toit>I'm gonna put it in the chat. This is.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/844-0
+00:52:13.354 --> 00:52:16.046
+<v Warren du Toit>Vince's repo.
+You can go have a look there.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/844-1
+00:52:16.046 --> 00:52:19.351
+<v Warren du Toit>What that'll do is that'll run a a
+PowerShell script.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/844-2
+00:52:19.351 --> 00:52:23.452
+<v Warren du Toit>It'll deploy a bunch of VPN gateways.
+It'll connect everything up.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/844-3
+00:52:23.452 --> 00:52:27.797
+<v Warren du Toit>It'll basically sort of emulate an
+on-premises environment and a cloud</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/844-4
+00:52:27.797 --> 00:52:32.754
+<v Warren du Toit>environment to connect the two together
+with two Ubuntu machines on either side.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/845-0
+00:52:32.954 --> 00:52:37.720
+<v Warren du Toit>And it's going to teach you about
+troubleshooting the routing, the routes,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/845-1
+00:52:37.720 --> 00:52:41.216
+<v Warren du Toit>which tools to use, what to install,
+what to look for,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/845-2
+00:52:41.216 --> 00:52:46.236
+<v Warren du Toit>how to ping this one to there and you
+know, not to use just ICMP all the time,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/845-3
+00:52:46.236 --> 00:52:50.812
+<v Warren du Toit>rather use a TCP ping as well.
+So there's a lot of cool stuff that's in</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/845-4
+00:52:50.812 --> 00:52:52.274
+<v Warren du Toit>there as well and also.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/846-0
+00:52:52.834 --> 00:52:57.744
+<v Warren du Toit>There is an Azure firewall that actually
+gets deployed in that environment,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/846-1
+00:52:57.744 --> 00:53:02.847
+<v Warren du Toit>so it kind of trips you up a little bit.
+There's kind of some cool tricks that</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/846-2
+00:53:02.847 --> 00:53:07.757
+<v Warren du Toit>Vince has gone and done where he
+configures a firewall rule that hurts you.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/846-3
+00:53:07.757 --> 00:53:09.954
+<v Warren du Toit>So it's actually quite cool, yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/850-0
+00:53:09.754 --> 00:53:12.447
+<v Neil Knapp | Cyberlogic>OK, excellent. Thank you.
+I'll take a look because I've been</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/850-1
+00:53:12.447 --> 00:53:15.979
+<v Neil Knapp | Cyberlogic>because that's the one that we have most
+with our customer facing items is that</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/847-0
+00:53:12.474 --> 00:53:13.154
+<v Warren du Toit>Hmm. Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/850-2
+00:53:15.979 --> 00:53:19.423
+<v Neil Knapp | Cyberlogic>obviously you want to go and have a
+firewall and have good security in place.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/848-0
+00:53:16.394 --> 00:53:16.634
+<v Warren du Toit>Hmm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/850-3
+00:53:19.423 --> 00:53:22.735
+<v Neil Knapp | Cyberlogic>And then at the moment I'm still putting
+down infrastructure as a service,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/850-4
+00:53:22.735 --> 00:53:26.002
+<v Neil Knapp | Cyberlogic>putting a virtual appliance on top of it.
+But then you lose the benefits,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/850-5
+00:53:26.002 --> 00:53:29.314
+<v Neil Knapp | Cyberlogic>the advantages of the automatic
+redundancy that comes with Azure Firewall.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/854-0
+00:53:29.514 --> 00:53:33.092
+<v Neil Knapp | Cyberlogic>They're really closely integrated
+networking and all those kind of things.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/849-0
+00:53:29.754 --> 00:53:30.194
+<v Warren du Toit>Yep.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/854-1
+00:53:33.092 --> 00:53:36.813
+<v Neil Knapp | Cyberlogic>So then it's and it's it always comes
+down to a costing discussion that a few</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/851-0
+00:53:33.794 --> 00:53:33.834
+<v Warren du Toit>100%.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/854-2
+00:53:36.813 --> 00:53:40.582
+<v Neil Knapp | Cyberlogic>things I have to fail over and then so
+that'd be good to go and dive into some</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/854-3
+00:53:40.582 --> 00:53:43.874
+<v Neil Knapp | Cyberlogic>of those and so thank you for sharing the
+link. I shall take a look.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/852-0
+00:53:42.314 --> 00:53:42.834
+<v Warren du Toit>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/853-0
+00:53:44.834 --> 00:53:45.674
+<v Warren du Toit>Pleasure.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/856-0
+00:53:46.634 --> 00:53:50.444
+<v Warren du Toit>Yeah. Any other questions, just hit me up.
+I mean, Nick's got all my details. Yeah,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/855-0
+00:53:46.674 --> 00:53:47.874
+<v Neil Knapp | Cyberlogic>OK, cool.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/856-1
+00:53:50.444 --> 00:53:51.714
+<v Warren du Toit>I'm more than happy to help.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/859-0
+00:53:57.914 --> 00:54:01.221
+<v Blessing Bowora | Cyberlogic>Thanks, Warren. I'm I'm just,
+I'm just overwhelmed,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/857-0
+00:53:58.314 --> 00:53:59.154
+<v Nicolas Blank>It look oh.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/861-0
+00:54:01.194 --> 00:54:05.524
+<v Warren du Toit>Yeah, you can see,
+you can hear my voice is already.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/859-1
+00:54:01.221 --> 00:54:04.274
+<v Blessing Bowora | Cyberlogic>but I'll definitely go through the
+information.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/858-0
+00:54:02.074 --> 00:54:04.034
+<v Schalk van Wyk>Mind blowing.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/861-1
+00:54:05.524 --> 00:54:10.100
+<v Warren du Toit>My voice is a little hoarse from talking
+so fast. Yeah,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/860-0
+00:54:09.714 --> 00:54:10.114
+<v Blessing Bowora | Cyberlogic>OK.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/861-2
+00:54:10.100 --> 00:54:14.512
+<v Warren du Toit>there's there's there's a lot.
+But the cool thing is,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/861-3
+00:54:14.512 --> 00:54:18.434
+<v Warren du Toit>is there's so many different things to
+achieve.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/864-0
+00:54:18.914 --> 00:54:22.163
+<v Warren du Toit>So many different ways to achieve the
+same thing.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/862-0
+00:54:19.674 --> 00:54:21.474
+<v Blessing Bowora | Cyberlogic>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/864-1
+00:54:22.163 --> 00:54:27.167
+<v Warren du Toit>So depending on the organization and
+depending what it is that you're trying</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/864-2
+00:54:27.167 --> 00:54:31.131
+<v Warren du Toit>to achieve. So like I said,
+financial services and compliant</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/864-3
+00:54:31.131 --> 00:54:35.549
+<v Warren du Toit>customers, they use everything.
+Like everything that I spoke about,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/863-0
+00:54:33.434 --> 00:54:33.594
+<v Nicolas Blank>Mm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/864-4
+00:54:35.549 --> 00:54:38.474
+<v Warren du Toit>they turn on like doesn't matter what it
+is.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/867-0
+00:54:38.714 --> 00:54:43.354
+<v Warren du Toit>It doesn't matter what it costs,
+they just turn it on and then the</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/867-1
+00:54:43.354 --> 00:54:47.441
+<v Warren du Toit>complexity triples.
+Then there's some customers that are a</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/865-0
+00:54:45.314 --> 00:54:45.674
+<v Schalk van Wyk>Mm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/866-0
+00:54:46.834 --> 00:54:47.074
+<v Blessing Bowora | Cyberlogic>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/867-2
+00:54:47.441 --> 00:54:51.043
+<v Warren du Toit>little bit more forward thinking where
+they say no,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/867-3
+00:54:51.043 --> 00:54:56.168
+<v Warren du Toit>we don't want a single virtual network
+and we don't want a single private</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/867-4
+00:54:56.168 --> 00:54:57.554
+<v Warren du Toit>endpoint. We'll use.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/868-0
+00:54:58.354 --> 00:55:02.001
+<v Warren du Toit>Your platform as a service firewall,
+we'll use the public endpoints,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/868-1
+00:55:02.001 --> 00:55:05.544
+<v Warren du Toit>we'll just turn everything off,
+we'll use identity as the barrier,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/868-2
+00:55:05.544 --> 00:55:08.240
+<v Warren du Toit>and then they're cool.
+And then they'll just like,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/868-3
+00:55:08.240 --> 00:55:11.782
+<v Warren du Toit>that's the way they'll do stuff.
+And it's actually, it works very,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/868-4
+00:55:11.782 --> 00:55:14.214
+<v Warren du Toit>very well.
+So they'll use conditional access,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/868-5
+00:55:14.214 --> 00:55:14.954
+<v Warren du Toit>as Nick knows.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/869-0
+00:55:14.954 --> 00:55:18.331
+<v Warren du Toit>Additional access,
+multi factor authentication,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/869-1
+00:55:18.331 --> 00:55:22.554
+<v Warren du Toit>all that stuff and that's how they'll do
+it. So there's no.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/869-2
+00:55:22.554 --> 00:55:28.113
+<v Warren du Toit>So the more old school you are as a
+company, the more of the stuff you'll use.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/869-3
+00:55:28.113 --> 00:55:32.969
+<v Warren du Toit>The more new school you are,
+the less you are because the more cloud</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/869-4
+00:55:32.969 --> 00:55:33.954
+<v Warren du Toit>native you go.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/870-0
+00:55:33.994 --> 00:55:37.806
+<v Warren du Toit>You go,
+the less you actually have to worry about</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/870-1
+00:55:37.806 --> 00:55:43.372
+<v Warren du Toit>all the networking. But again,
+we have private endpoints for most of our</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/870-2
+00:55:43.372 --> 00:55:47.414
+<v Warren du Toit>services now.
+So like that AI thing that I discussed</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/870-3
+00:55:47.414 --> 00:55:50.997
+<v Warren du Toit>earlier,
+all of the cloud native applications,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/870-4
+00:55:50.997 --> 00:55:53.514
+<v Warren du Toit>Kubernetes, Azure Container apps.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/872-0
+00:55:54.314 --> 00:55:59.989
+<v Warren du Toit>App Services, Cognos VB, SQL DB,
+all that stuff is available privately,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/872-1
+00:55:59.989 --> 00:56:05.190
+<v Warren du Toit>so you can route to all of it and the
+minute you can route to it,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/872-2
+00:56:05.190 --> 00:56:07.634
+<v Warren du Toit>it just becomes so much easier.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/875-0
+00:56:09.114 --> 00:56:15.163
+<v Nicolas Blank>I'm quietly well,
+I've been rather vocal over the years.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/871-0
+00:56:10.154 --> 00:56:10.274
+<v Blessing Bowora | Cyberlogic>OK.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/875-1
+00:56:15.163 --> 00:56:23.548
+<v Nicolas Blank>I'm a massive fan of Azure Global WAN
+because I like to call it poor man's WAN</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/874-0
+00:56:20.194 --> 00:56:20.434
+<v Warren du Toit>Hmm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/875-2
+00:56:23.548 --> 00:56:25.034
+<v Nicolas Blank>because it is.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/881-0
+00:56:25.034 --> 00:56:30.041
+<v Nicolas Blank>So amazing and so cheap compared to what
+you can do for yourself.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/876-0
+00:56:26.914 --> 00:56:27.394
+<v Blessing Bowora | Cyberlogic>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/878-0
+00:56:28.874 --> 00:56:29.234
+<v Blessing Bowora | Cyberlogic>OK.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/877-0
+00:56:29.554 --> 00:56:29.714
+<v Warren du Toit>E.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/881-1
+00:56:30.041 --> 00:56:36.261
+<v Nicolas Blank>And the fact that you can do an endpoint
+in in Cape Town and pop up in Brazil and</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/879-0
+00:56:32.954 --> 00:56:33.434
+<v Warren du Toit>Mhm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/881-2
+00:56:36.261 --> 00:56:42.482
+<v Nicolas Blank>your routing is just done for you via a
+backbone that you just couldn't afford to</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/880-0
+00:56:40.194 --> 00:56:40.354
+<v Warren du Toit>Mm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/881-3
+00:56:42.482 --> 00:56:44.834
+<v Nicolas Blank>assemble. It's just astounding.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/883-0
+00:56:43.834 --> 00:56:48.368
+<v Warren du Toit>Yeah,
+I've actually got a lab at Liquid where</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/883-1
+00:56:48.368 --> 00:56:56.156
+<v Warren du Toit>I've got a 200 Meg Express routes that
+they've graciously given me for testing</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/883-2
+00:56:56.156 --> 00:56:59.114
+<v Warren du Toit>purposes. I've got a Microtek.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/885-0
+00:56:59.514 --> 00:57:06.367
+<v Warren du Toit>Device that's terminating it.
+I mean it's like 2000 Rand switch and</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/885-1
+00:57:06.367 --> 00:57:12.314
+<v Warren du Toit>it's terminating the Expressroute
+connection and I've got.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/884-0
+00:57:06.954 --> 00:57:07.394
+<v Blessing Bowora | Cyberlogic>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/887-0
+00:57:13.914 --> 00:57:20.073
+<v Warren du Toit>AI stuff running in the DC in that rack,
+connecting to the large language model in</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/887-1
+00:57:20.073 --> 00:57:24.675
+<v Warren du Toit>Sweden and East US,
+but connecting to a virtual network here.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/886-0
+00:57:22.474 --> 00:57:23.074
+<v Nicolas Blank>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/887-2
+00:57:24.675 --> 00:57:30.241
+<v Warren du Toit>So all my large language models,
+because all the latest models happen that</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/887-3
+00:57:30.241 --> 00:57:31.354
+<v Warren du Toit>side in Sweden.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/888-0
+00:57:31.354 --> 00:57:37.735
+<v Warren du Toit>But I usually hear in a DC over a private
+network and it's just it's the greatest</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/888-1
+00:57:37.735 --> 00:57:38.514
+<v Warren du Toit>demo ever.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/889-0
+00:57:39.834 --> 00:57:43.674
+<v Nicolas Blank>Why in Sweden? Why?
+Why does Sweden get things first?</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/891-0
+00:57:43.434 --> 00:57:48.092
+<v Warren du Toit>Sweden gets all the latest models first,
+and to be honest with you,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/891-1
+00:57:48.092 --> 00:57:53.777
+<v Warren du Toit>I think it's just the data center where
+we've got the most capacity at the moment.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/891-2
+00:57:53.777 --> 00:57:59.394
+<v Warren du Toit>We're deploying GPUs there like nobody's
+business. It's efficient, cheap cooling.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/890-0
+00:57:58.954 --> 00:57:59.154
+<v Nicolas Blank>Mm.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/893-0
+00:57:59.674 --> 00:58:03.601
+<v Warren du Toit>Because of the environment,
+it's nice and cold there,</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/892-0
+00:58:02.314 --> 00:58:03.474
+<v Nicolas Blank>Yeah, yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/893-1
+00:58:03.601 --> 00:58:06.874
+<v Warren du Toit>so we've got a lot of capacity in in
+Sweden.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/897-0
+00:58:07.834 --> 00:58:12.581
+<v Nicolas Blank>I can see that people are dropping like
+flies and we've hit that time boundary.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/894-0
+00:58:11.954 --> 00:58:13.234
+<v Warren du Toit>Hmm. Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/897-1
+00:58:12.581 --> 00:58:15.726
+<v Nicolas Blank>Warren, thank you so much.
+This has been astounding.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/895-0
+00:58:15.714 --> 00:58:16.114
+<v Warren du Toit>Hey there.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/897-2
+00:58:15.726 --> 00:58:20.474
+<v Nicolas Blank>You've been amazing as usual and I am
+going to lean on you for another session.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/896-0
+00:58:19.634 --> 00:58:19.994
+<v Blessing Bowora | Cyberlogic>Yeah.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/907-0
+00:58:20.634 --> 00:58:26.034
+<v Warren du Toit>Sounds good. Have a good one. That's it.
+See you later. Ta ta. Bye.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/898-0
+00:58:22.674 --> 00:58:24.274
+<v Nicolas Blank>Thank you so much. Thanks everyone.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/902-0
+00:58:23.714 --> 00:58:25.874
+<v Blessing Bowora | Cyberlogic>Thanks. Thanks everybody. Yes.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/900-0
+00:58:25.314 --> 00:58:25.554
+<v Schalk van Wyk>Thank you.</v>
+
+52c78d83-6306-4ac9-ae6b-1ce84cfc632a/906-0
+00:58:26.194 --> 00:58:26.514
+<v Nicolas Blank>Bye, bye.</v>
